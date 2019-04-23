@@ -28,6 +28,7 @@
     "rules": {
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
         "no-tabs": "off",
-        "indent": "off"
+        "indent": "off",
+        "no-console": "off"
     }
   }

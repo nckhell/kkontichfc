@@ -7,7 +7,9 @@
     "flow": "flow",
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "export": "next export",
+    "start": "next start",
+    "deploy": "APP_ENV=gh-pages next build && APP_ENV=gh-pages next export && git add out/ && git commit -m \"Deploy to gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
   "repository": {
     "type": "git",
@@ -23,10 +25,12 @@
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "axios": "^0.18.0",
+    "lodash": "^4.17.11",
     "next": "^8.1.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "recursive-copy": "^2.0.10"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
