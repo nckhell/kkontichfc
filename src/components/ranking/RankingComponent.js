@@ -10,11 +10,14 @@ class RankingComponent extends Component {
 
   render() {
     const { rankings } = this.props;
-    console.log(rankings);
 
     if (rankings && !_.isEmpty(rankings) && _.isArray(rankings)) {
       return (
-        <Tabs>
+        <Tabs
+          wrapperClassName="ranking-wrapper"
+          tabListClassName="choose-ranking-type"
+          tabContentClassName="ranking-table"
+        >
           {rankings.map(ranking => {
             return (
               <div

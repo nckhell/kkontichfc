@@ -5,7 +5,10 @@ import Tab from "./Tab";
 
 class Tabs extends Component {
   static propTypes = {
-    children: PropTypes.instanceOf(Array).isRequired
+    children: PropTypes.instanceOf(Array).isRequired,
+    wrapperClassName: PropTypes.string,
+    tabListClassName: PropTypes.string,
+    tabContentClassName: PropTypes.string
   };
 
   constructor(props) {
@@ -24,13 +27,18 @@ class Tabs extends Component {
   render() {
     const {
       onClickTabItem,
-      props: { children },
+      props: {
+        children,
+        wrapperClassName,
+        tabListClassName,
+        tabContentClassName
+      },
       state: { activeTab }
     } = this;
 
     return (
-      <div className="tabs">
-        <ol className="tab-list">
+      <div className={`tabs ${wrapperClassName}`}>
+        <ol className={`tab-list ${tabListClassName}`}>
           {children.map(child => {
             const { label } = child.props;
 
@@ -44,7 +52,7 @@ class Tabs extends Component {
             );
           })}
         </ol>
-        <div className="tab-content">
+        <div className={`tab-content ${tabContentClassName}`}>
           {children.map(child => {
             if (child.props.label !== activeTab) return undefined;
             return child.props.children;
@@ -54,5 +62,11 @@ class Tabs extends Component {
     );
   }
 }
+
+Tabs.defaultProps = {
+  wrapperClassName: "",
+  tabListClassName: "",
+  tabContentClassName: ""
+};
 
 export default Tabs;

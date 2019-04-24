@@ -40,6 +40,24 @@ const obj = {
       url:
         "https://datalake-prod2018.rbfa.be/graphql?operationName=GetUpcomingMatch&variables=%7B%22teamId%22%3A%22128031%22%2C%22language%22%3A%22nl%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22f14c473111a1051bdc6d08827231c18d2446044cdcb1202b2ccb5f890113d74d%22%7D%7D"
     }
+  },
+  damesNat: {
+    staticRoutingInfo: {
+      url: "/dames/1e-nationale"
+    },
+    ranking: {
+      url:
+        "https://datalake-prod2018.rbfa.be/graphql?operationName=GetSeriesRankings&variables=%7B%22seriesId%22%3A%22CHP_76310%22%2C%22language%22%3A%22nl%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22c4d908193e39b4f896426a22afb5d4de51b7c2da555c82b77bc53d24e5b282c5%22%7D%7D"
+    },
+    calendar: {
+      url: ""
+    },
+    latestGame: {
+      url: ""
+    },
+    nextGame: {
+      url: ""
+    }
   }
 };
 
