@@ -3,6 +3,7 @@ const recursiveCopy = require("recursive-copy");
 const withCSS = require("@zeit/next-css");
 const calendarRoutes = require("./src/routes/calendars");
 const rankingRoutes = require("./src/routes/rankings");
+const pagesRoutes = require("./src/routes/pages");
 
 const ghPages = process.env.APP_ENV === "gh-pages";
 const assetPrefix = ghPages ? "/kkontichfc/" : "";
@@ -25,7 +26,8 @@ module.exports = withCSS({
         "/": { page: "/" }
       },
       calendarRoutes,
-      rankingRoutes
+      rankingRoutes,
+      pagesRoutes
     );
   }
 });
