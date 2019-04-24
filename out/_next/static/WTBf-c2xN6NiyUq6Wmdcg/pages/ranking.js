@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["471c"],{"7RYO":function(n,w,o){(window.__NEXT_P=window.__NEXT_P||[]).push(["/ranking",function(){var n=o("clfY");return{page:n.default||n}}])},clfY:function(n,w){}},[["7RYO","5d41"]]]);
