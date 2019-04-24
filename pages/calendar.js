@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import fetchCalendar from "../src/services/api/calendar";
-import kbvApiUrls from "../src/config/api/kbvb_graphql";
+import fetch from "../src/services/api/fetch";
+import kbvbApiUrls from "../src/config/api/kbvb_graphql";
 import CalendarTableComponent from "../src/components/calendar/CalendarTableComponent";
 
-class calenderPage extends Component {
+class CalendarPage extends Component {
   state = {
     isLoading: true,
     calendar: {},
@@ -18,7 +18,7 @@ class calenderPage extends Component {
   fetchCalendar() {
     const { teamID } = this.props;
 
-    fetchCalendar(kbvApiUrls[teamID].calendar.url)
+    fetch(kbvbApiUrls[teamID].calendar.url)
       .then(data =>
         this.setState({
           calendar: data.data.teamCalendar,
@@ -46,13 +46,13 @@ class calenderPage extends Component {
   }
 }
 
-calenderPage.propTypes = {
+CalendarPage.propTypes = {
   teamID: PropTypes.string.isRequired
 };
 
-calenderPage.getInitialProps = ({ query }) => {
+CalendarPage.getInitialProps = ({ query }) => {
   const { teamID } = query;
   return { teamID };
 };
 
-export default calenderPage;
+export default CalendarPage;

@@ -12,6 +12,7 @@ const CalendarTableComponent = props => {
           <tr>
             <th>Datum</th>
             <th>Aanvang</th>
+            <th>Type</th>
             <th>Thuisploeg</th>
             <th>Uitploeg</th>
             <th>Score</th>
@@ -24,6 +25,7 @@ const CalendarTableComponent = props => {
                 <tr key={calendarEntry.id}>
                   <td>{formatDate(calendarEntry.startDate)}</td>
                   <td>{formatTime(calendarEntry.startDate)}</td>
+                  <td>{calendarEntry.series.name}</td>
                   <td>{calendarEntry.homeTeam.name}</td>
                   <td>{calendarEntry.awayTeam.name}</td>
                   <td>

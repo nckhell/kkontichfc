@@ -1,6 +1,8 @@
 const { join } = require("path");
 const recursiveCopy = require("recursive-copy");
 const withCSS = require("@zeit/next-css");
+const calendarRoutes = require("./src/routes/calendars");
+const rankingRoutes = require("./src/routes/rankings");
 
 const ghPages = process.env.APP_ENV === "gh-pages";
 const assetPrefix = ghPages ? "/kkontichfc/" : "";
@@ -17,16 +19,13 @@ module.exports = withCSS({
       await recursiveCopy(join(dir, "src/htdocs/"), outDir, { dot: true });
     }
 
-    return {
-      "/": { page: "/" },
-      "/heren/1e-provinciale/kalender": {
-        page: "/calendar",
-        query: { teamID: "heren1eProv" }
+    return Object.assign(
+      {},
+      {
+        "/": { page: "/" }
       },
-      "/heren/4e-provinciale/kalender": {
-        page: "/calendar",
-        query: { teamID: "heren4eProv" }
-      }
-    };
+      calendarRoutes,
+      rankingRoutes
+    );
   }
 });
