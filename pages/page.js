@@ -1,5 +1,6 @@
 /* eslint-disable global-require */
 import React, { Component } from "react";
+import Layout from "../src/components/layout/Layout";
 
 class Page extends Component {
   state = {};
@@ -11,11 +12,11 @@ class Page extends Component {
     const { pageJson } = this.props;
 
     return (
-      <div>
+      <Layout>
         <h1>{pageJson.title}</h1>
         {/* eslint-disable-next-line react/no-danger */}
         <div dangerouslySetInnerHTML={{ __html: pageJson.bodyHtml }} />
-      </div>
+      </Layout>
     );
   }
 }

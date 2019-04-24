@@ -1,10 +1,8 @@
 import React from "react";
+import Layout from "../src/components/layout/Layout";
 
 function Home() {
-  // calendar(heren1eProv.ranking.url).then(data => {
-  //   console.log(data);
-  // });
-  return <div>Welcome to Next.js!</div>;
+  return <Layout>home page</Layout>;
 }
 
 export default Home;

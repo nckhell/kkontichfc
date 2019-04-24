@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import fetch from "../src/services/api/fetch";
 import kbvbApiUrls from "../src/config/api/kbvb_graphql";
 import RankingComponent from "../src/components/ranking/RankingComponent";
+import Layout from "../src/components/layout/Layout";
 
 class RankingPage extends Component {
   state = {
@@ -32,7 +33,7 @@ class RankingPage extends Component {
     const { isLoading, rankings, error } = this.state;
 
     return (
-      <React.Fragment>
+      <Layout>
         <h1>Calendar</h1>
         {error ? <p>{error.message}</p> : null}
         {!isLoading ? (
@@ -41,7 +42,7 @@ class RankingPage extends Component {
           // If there is a delay in data, let's let the user know it's loading
           <h3>Loading...</h3>
         )}
-      </React.Fragment>
+      </Layout>
     );
   }
 }

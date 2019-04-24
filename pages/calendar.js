@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import fetch from "../src/services/api/fetch";
 import kbvbApiUrls from "../src/config/api/kbvb_graphql";
 import CalendarTableComponent from "../src/components/calendar/CalendarTableComponent";
+import Layout from "../src/components/layout/Layout";
 
 class CalendarPage extends Component {
   state = {
@@ -32,7 +33,7 @@ class CalendarPage extends Component {
     const { isLoading, calendar, error } = this.state;
 
     return (
-      <React.Fragment>
+      <Layout>
         <h1>Calendar</h1>
         {error ? <p>{error.message}</p> : null}
         {!isLoading ? (
@@ -41,7 +42,7 @@ class CalendarPage extends Component {
           // If there is a delay in data, let's let the user know it's loading
           <h3>Loading...</h3>
         )}
-      </React.Fragment>
+      </Layout>
     );
   }
 }
