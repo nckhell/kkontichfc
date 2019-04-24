@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["1d16"],{Ftlg:function(n,o){},TgsM:function(n,o,w){(window.__NEXT_P=window.__NEXT_P||[]).push(["/downloads",function(){var n=w("Ftlg");return{page:n.default||n}}])}},[["TgsM","5d41"]]]);
