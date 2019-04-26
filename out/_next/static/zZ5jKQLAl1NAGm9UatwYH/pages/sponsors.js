@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["0210"],{aRIj:function(n,a,o){(window.__NEXT_P=window.__NEXT_P||[]).push(["/sponsors",function(){var n=o("nL9s");return{page:n.default||n}}])},nL9s:function(n,a,o){"use strict";o.r(a);var e=o("q1tI"),s=o.n(e),t=o("Sv8q");a.default=function(){return s.a.createElement(t.a,null,"Sponsors page")}}},[["aRIj","5d41","9da1"]]]);

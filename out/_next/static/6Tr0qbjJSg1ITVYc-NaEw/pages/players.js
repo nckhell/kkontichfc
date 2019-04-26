@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["d7e8"],{"6j+B":function(n,w){},Wa6z:function(n,w,o){(window.__NEXT_P=window.__NEXT_P||[]).push(["/players",function(){var n=o("6j+B");return{page:n.default||n}}])}},[["Wa6z","5d41"]]]);

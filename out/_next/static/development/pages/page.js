@@ -10816,6 +10816,7 @@ Page.getInitialProps = function (_ref) {
   var query = _ref.query;
 
   /* eslint-disable import/no-dynamic-require */
+  // Without .json require is not working, so exclude it first
   var pageJson = __webpack_require__("./content sync recursive ^\\.\\/pages.*\\.json$")("./pages".concat(query.fullUrl, ".json"));
 
   return {
@@ -10951,22 +10952,22 @@ var Layout = function Layout(props) {
     },
     __self: this
   }, "Home")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
-    href: "/heren/1e-provinciale/klassement/",
+    href: "/nieuws/overzicht/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 43
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
-    title: "Home",
+    title: "Nieuws",
     className: "".concat(activePath === "home" ? "underline " : "no-underline ", "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44
     },
     __self: this
-  }, "Klassement")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
-    href: "/info/bestuur/",
+  }, "Nieuws")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
+    href: "/heren/1e-provinciale/klassement/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 53
@@ -10980,8 +10981,8 @@ var Layout = function Layout(props) {
       lineNumber: 54
     },
     __self: this
-  }, "Bestuur")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
-    href: "/jeugd/trainers/",
+  }, "Klassement")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
+    href: "/info/bestuur/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 63
@@ -10995,6 +10996,21 @@ var Layout = function Layout(props) {
       lineNumber: 64
     },
     __self: this
+  }, "Bestuur")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
+    href: "/jeugd/trainers/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+    title: "Home",
+    className: "".concat(activePath === "home" ? "underline " : "no-underline ", "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74
+    },
+    __self: this
   }, "Trainers"))))), children);
 };
 
@@ -11002,7 +11018,7 @@ var Layout = function Layout(props) {
 
 /***/ }),
 
-/***/ 1:
+/***/ 3:
 /*!****************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fpage&absolutePagePath=%2FUsers%2Fnick%2FDocuments%2FGithub%2Fkkontichfc%2Fpages%2Fpage.js ***!
   \****************************************************************************************************************************************/
@@ -11025,5 +11041,5 @@ module.exports = dll_829b10deddf10e1653a8;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=page.js.map

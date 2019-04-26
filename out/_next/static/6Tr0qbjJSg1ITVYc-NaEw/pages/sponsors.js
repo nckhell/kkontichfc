@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["0210"],{aRIj:function(n,o,w){(window.__NEXT_P=window.__NEXT_P||[]).push(["/sponsors",function(){var n=w("nL9s");return{page:n.default||n}}])},nL9s:function(n,o){}},[["aRIj","5d41"]]]);
