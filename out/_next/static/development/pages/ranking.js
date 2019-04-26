@@ -30569,26 +30569,11 @@ var Layout = function Layout(props) {
       lineNumber: 32
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
-    src: Object(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["prefixURL"])("/static/img/full_logo.svg"),
-    className: "h-32 md:h-48",
-    alt: "Kevin Bal Kinesitherapie",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 33
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
@@ -30596,14 +30581,14 @@ var Layout = function Layout(props) {
     className: "".concat(activePath === "home" ? "underline " : "no-underline ", "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 34
     },
     __self: this
   }, "Home")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/heren/1e-provinciale/klassement/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 43
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
@@ -30611,14 +30596,14 @@ var Layout = function Layout(props) {
     className: "".concat(activePath === "home" ? "underline " : "no-underline ", "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 44
     },
     __self: this
   }, "Klassement")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/info/bestuur/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 53
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
@@ -30626,14 +30611,14 @@ var Layout = function Layout(props) {
     className: "".concat(activePath === "home" ? "underline " : "no-underline ", "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 54
     },
     __self: this
   }, "Bestuur")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/jeugd/trainers/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 63
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
@@ -30641,7 +30626,7 @@ var Layout = function Layout(props) {
     className: "".concat(activePath === "home" ? "underline " : "no-underline ", "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 64
     },
     __self: this
   }, "Trainers"))))), children);
@@ -31305,7 +31290,7 @@ var anotherFunction = function anotherFunction() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 0:
 /*!**********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Franking&absolutePagePath=%2FUsers%2Fnick%2FDocuments%2FGithub%2Fkkontichfc%2Fpages%2Franking.js ***!
   \**********************************************************************************************************************************************/
@@ -31328,5 +31313,5 @@ module.exports = dll_829b10deddf10e1653a8;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=ranking.js.map

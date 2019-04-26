@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["86d3"],{DmrZ:function(n,w,o){(window.__NEXT_P=window.__NEXT_P||[]).push(["/newspost",function(){var n=o("yfki");return{page:n.default||n}}])},yfki:function(n,w){}},[["DmrZ","5d41"]]]);
