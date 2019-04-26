@@ -1,9 +1,9 @@
 {
   "title": "First post",
   "date": "2017-06-01T00:00:00.000Z",
-  "bodyContent": "First post!\n\nCheckout [github to see my other projects](github.com/tscanlin)\n\n[another page](/custom-post)",
-  "bodyHtml": "<p>First post!</p>\n<p>Checkout <a href=\"github.com/tscanlin\">github to see my other projects</a></p>\n<p><a href=\"/custom-post\">another page</a></p>\n",
-  "preview": "First post!\n\nCheckout github to see my other projects\n\nanother page",
+  "bodyContent": "<table><tr><td>\n<pre>\n**Hello**,\n\n_world_.\n</pre>\n</td></tr></table>",
+  "bodyHtml": "<table><tr><td>\n<pre>\n**Hello**,\n<p><em>world</em>.\n</pre></p>\n</td></tr></table>",
+  "preview": "Hello,\n\nworld.",
   "dir": "content/nieuws/build/2018-2019/algemeen",
   "base": "eerste-post-18-19.json",
   "ext": ".json",

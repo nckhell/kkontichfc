@@ -2,9 +2,10 @@
 title: First post
 date: 2017-06-01
 ---
+<table><tr><td>
+<pre>
+**Hello**,
 
-First post!
-
-Checkout [github to see my other projects](github.com/tscanlin)
-
-[another page](/custom-post)
+_world_.
+</pre>
+</td></tr></table>
