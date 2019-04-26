@@ -7,12 +7,12 @@
     "flow": "flow",
     "dev": "next",
     "build": "next build",
-    "build:content:news": "processmd content/nieuws/2019-2020/**/*.md --outputDir content/nieuws/2019-2020 --preview 110 --summaryOutput content/nieuws/2019-2020/summary.json",
+    "build:content:news": "processmd content/nieuws/**/**/*.md --outputDir content/nieuws/build --preview 110 --summaryOutput content/nieuws/build/summary.json",
     "build:content:pages": "processmd content/pages/**/*.md --outputDir content/pages --preview 110 --summaryOutput content/pages/summary.json",
     "build:content": "npm run build:content:news && npm run build:content:pages",
     "export": "next export",
     "start": "next start",
-    "deploy": "npm run build:content && APP_ENV=gh-pages next build && APP_ENV=gh-pages next export && git add out/ && git commit -m \"Deploy to gh-pages\" && git subtree push --prefix out origin gh-pages"
+    "deploy": "rm -rf .next out && npm run build:content && APP_ENV=gh-pages next build && APP_ENV=gh-pages next export && git add out/ && git commit -m \"Deploy to gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
   "repository": {
     "type": "git",

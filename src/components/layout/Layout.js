@@ -30,13 +30,6 @@ const Layout = props => {
       <header>
         <nav>
           <div>
-            <img
-              src={prefixURL("/static/img/full_logo.svg")}
-              className="h-32 md:h-48"
-              alt="Kevin Bal Kinesitherapie"
-            />
-          </div>
-          <div>
             <Link href="/">
               <a
                 title="Home"
@@ -45,6 +38,16 @@ const Layout = props => {
                 }block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12`}
               >
                 Home
+              </a>
+            </Link>
+            <Link href="/nieuws/overzicht/">
+              <a
+                title="Nieuws"
+                className={`${
+                  activePath === "home" ? "underline " : "no-underline "
+                }block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12`}
+              >
+                Nieuws
               </a>
             </Link>
             <Link href="/heren/1e-provinciale/klassement/">

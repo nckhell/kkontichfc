@@ -1,6 +1,5 @@
 /* eslint-disable no-unused-expressions */
-// const _ = require("lodash");
-const SUMMARY = require("../../content/pages/summary.json");
+const SUMMARY = require("../../../content/pages/summary.json");
 
 function getPagesRoutes() {
   const pages = {};

@@ -1,5 +1,5 @@
 const _ = require("lodash");
-const kbvbApiUrls = require("../config/api/kbvb_graphql");
+const kbvbApiUrls = require("../../config/api/kbvb_graphql");
 
 function getCalendarRoutes() {
   const calendarRoutes = {};

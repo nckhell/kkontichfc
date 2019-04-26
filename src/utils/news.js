@@ -1,4 +1,47 @@
-export const sortNewsSummaryJsonOnDate = summaryJson => {
+/* eslint-disable no-nested-ternary */
+/* eslint-disable no-unused-expressions */
+import SUMMARY from "../../content/nieuws/build/summary.json";
+
+export const getAllNewsCategories = () => {
+  const newsCategories = [];
+
+  SUMMARY.fileMap &&
+    Object.keys(SUMMARY.fileMap).forEach(file => {
+      // Handle pages
+      const newsCategory = file.split("/").slice(-2)[0];
+
+      if (newsCategories.indexOf(newsCategory) === -1) {
+        newsCategories.push(newsCategory);
+      }
+    });
+
+  return newsCategories;
+};
+
+export const getAllSeasonsWithNews = () => {
+  const seasons = [];
+
+  SUMMARY.fileMap &&
+    Object.keys(SUMMARY.fileMap).forEach(file => {
+      const season = file.split("/").slice(-3)[0];
+
+      if (seasons.indexOf(season) === -1) {
+        seasons.push(season);
+      }
+    });
+
+  return seasons;
+};
+
+export const getCategoryFromNewsPost = newsPostDir => {
+  return newsPostDir.file.split("/").slice(-1)[0];
+};
+
+export const getSeasonFromNewsPost = newsPostDir => {
+  return newsPostDir.file.split("/").slice(-2)[0];
+};
+
+export const sortNewsSummaryJsonOnDate = (summaryJson, order = "desc") => {
   return (
     summaryJson &&
     summaryJson.fileMap &&
@@ -15,7 +58,10 @@ export const sortNewsSummaryJsonOnDate = summaryJson => {
       .sort((a, b) => {
         const aDate = Date.parse(a.date);
         const bDate = Date.parse(b.date);
-        // eslint-disable-next-line no-nested-ternary
+
+        if (order === "asc") {
+          return bDate < aDate ? 1 : bDate > aDate ? -1 : 0;
+        }
         return bDate > aDate ? 1 : bDate < aDate ? -1 : 0;
       })
   );
@@ -26,7 +72,7 @@ export const limit = (summaryJson, amountOfArticles) => {
 };
 
 export const makeUrl = article => {
-  return `${article.dir.split("content").join("")}/${article.base
-    .split(".json")
-    .join("")}`;
+  return `${article.dir
+    .split("content/nieuws/build/")
+    .join("nieuws/")}/${article.base.split(".json").join("/")}`;
 };

@@ -1,0 +1,12 @@
+{
+  "title": "Paastornooi",
+  "date": "2017-06-01T00:00:00.000Z",
+  "bodyContent": "Paastornooi nieuws",
+  "bodyHtml": "<p>Paastornooi nieuws</p>\n",
+  "preview": "Paastornooi nieuws",
+  "dir": "content/nieuws/build/2019-2020/evenementen",
+  "base": "kkfc-paastornooi-19-20.json",
+  "ext": ".json",
+  "sourceBase": "kkfc-paastornooi-19-20.md",
+  "sourceExt": ".md"
+}

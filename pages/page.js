@@ -23,6 +23,7 @@ class Page extends Component {
 
 Page.getInitialProps = ({ query }) => {
   /* eslint-disable import/no-dynamic-require */
+  // Without .json require is not working, so exclude it first
   const pageJson = require(`../content/pages${query.fullUrl}.json`);
   return { pageJson };
 };

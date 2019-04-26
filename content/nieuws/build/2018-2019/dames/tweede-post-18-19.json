@@ -1,0 +1,12 @@
+{
+  "title": "Second post",
+  "date": "2019-06-01T00:00:00.000Z",
+  "bodyContent": "Second post post!\n\nCheckout [github to see my other projects](github.com/tscanlin)\n\n[another page](/custom-post)",
+  "bodyHtml": "<p>Second post post!</p>\n<p>Checkout <a href=\"github.com/tscanlin\">github to see my other projects</a></p>\n<p><a href=\"/custom-post\">another page</a></p>\n",
+  "preview": "Second post post!\n\nCheckout github to see my other projects\n\nanother page",
+  "dir": "content/nieuws/build/2018-2019/dames",
+  "base": "tweede-post-18-19.json",
+  "ext": ".json",
+  "sourceBase": "tweede-post-18-19.md",
+  "sourceExt": ".md"
+}
