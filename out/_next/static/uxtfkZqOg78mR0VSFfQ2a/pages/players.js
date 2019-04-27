@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["d7e8"],{"6j+B":function(n,a,e){"use strict";e.r(a);var t=e("q1tI"),u=e.n(t),r=e("Sv8q");a.default=function(){return u.a.createElement(r.a,null,"Players page")}},Wa6z:function(n,a,e){(window.__NEXT_P=window.__NEXT_P||[]).push(["/players",function(){var n=e("6j+B");return{page:n.default||n}}])}},[["Wa6z","5d41","9da1"]]]);

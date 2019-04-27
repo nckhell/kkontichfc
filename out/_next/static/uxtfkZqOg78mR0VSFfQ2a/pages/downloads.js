@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["1d16"],{Ftlg:function(n,t,o){"use strict";o.r(t);var a=o("q1tI"),d=o.n(a),e=o("Sv8q");t.default=function(){return d.a.createElement(e.a,null,"Downloads")}},TgsM:function(n,t,o){(window.__NEXT_P=window.__NEXT_P||[]).push(["/downloads",function(){var n=o("Ftlg");return{page:n.default||n}}])}},[["TgsM","5d41","9da1"]]]);

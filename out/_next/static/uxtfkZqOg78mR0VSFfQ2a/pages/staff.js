@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["c691"],{LoPj:function(n,t,a){"use strict";a.r(t);var e=a("q1tI"),o=a.n(e),u=a("Sv8q");t.default=function(){return o.a.createElement(u.a,null,"Staff page")}},XXSZ:function(n,t,a){(window.__NEXT_P=window.__NEXT_P||[]).push(["/staff",function(){var n=a("LoPj");return{page:n.default||n}}])}},[["XXSZ","5d41","9da1"]]]);
