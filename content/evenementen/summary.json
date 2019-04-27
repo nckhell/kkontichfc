@@ -1,15 +1,5 @@
 {
   "fileMap": {
-    "content/evenementen/paastornooi-2019.json": {
-      "title": "Evenement paastornooi",
-      "date": "2017-06-01T00:00:00.000Z",
-      "preview": "Paastornooi",
-      "dir": "content/evenementen",
-      "base": "paastornooi-2019.json",
-      "ext": ".json",
-      "sourceBase": "paastornooi-2019.md",
-      "sourceExt": ".md"
-    },
     "content/evenementen/1-example.json": {
       "title": "Diner wavria kkfc",
       "date": "2017-06-01T00:00:00.000Z",
@@ -19,6 +9,16 @@
       "base": "1-example.json",
       "ext": ".json",
       "sourceBase": "1-example.md",
+      "sourceExt": ".md"
+    },
+    "content/evenementen/paastornooi-2019.json": {
+      "title": "Evenement paastornooi",
+      "date": "2017-06-01T00:00:00.000Z",
+      "preview": "Paastornooi",
+      "dir": "content/evenementen",
+      "base": "paastornooi-2019.json",
+      "ext": ".json",
+      "sourceBase": "paastornooi-2019.md",
       "sourceExt": ".md"
     },
     "content/evenementen/diner-kkfc-wavria.json": {

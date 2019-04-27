@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "flow": "flow",
-    "dev": "next",
-    "build": "next build",
+    "dev": "npm run build:content && next",
+    "build": "npm run build:content && next build",
     "build:content:news": "processmd content/nieuws/**/**/*.md --outputDir content/nieuws/build --preview 110 --summaryOutput content/nieuws/build/summary.json --markdownOptions.html true",
     "build:content:events": "processmd content/evenementen/*.md --outputDir content/evenementen --preview 110 --summaryOutput content/evenementen/summary.json --markdownOptions.html true",
     "build:content:pages": "processmd content/pages/**/*.md --outputDir content/pages --preview 110 --summaryOutput content/pages/summary.json --markdownOptions.html true",

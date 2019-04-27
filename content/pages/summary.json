@@ -1,0 +1,26 @@
+{
+  "fileMap": {
+    "content/pages/jeugd/trainers.json": {
+      "title": "Trainers",
+      "preview": "Trainers pagina",
+      "dir": "content/pages/jeugd",
+      "base": "trainers.json",
+      "ext": ".json",
+      "sourceBase": "trainers.md",
+      "sourceExt": ".md"
+    },
+    "content/pages/info/bestuur.json": {
+      "title": "Trainers",
+      "preview": "Advertisement :)\n\npica - high quality and fast image\n  resize in browser.\nbabelfish - developer friendly",
+      "dir": "content/pages/info",
+      "base": "bestuur.json",
+      "ext": ".json",
+      "sourceBase": "bestuur.md",
+      "sourceExt": ".md"
+    }
+  },
+  "sourceFileArray": [
+    "content/pages/info/bestuur.md",
+    "content/pages/jeugd/trainers.md"
+  ]
+}

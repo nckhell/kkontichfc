@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { Link, prefixURL } from "next-prefixed";
-import Head from "next/head";
-
 import React from "react";
+import Head from "next/head";
+import { prefixURL } from "next-prefixed";
+import Menu from "./Menu";
 
 const Layout = props => {
   const {
@@ -28,70 +28,7 @@ const Layout = props => {
         />
       </Head>
       <header>
-        <nav>
-          <div>
-            <Link href="/">
-              <a
-                title="Home"
-                className={`${
-                  activePath === "home" ? "underline " : "no-underline "
-                }block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12`}
-              >
-                Home
-              </a>
-            </Link>
-            <Link href="/nieuws/overzicht/">
-              <a
-                title="Nieuws"
-                className={`${
-                  activePath === "home" ? "underline " : "no-underline "
-                }block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12`}
-              >
-                Nieuws
-              </a>
-            </Link>
-            <Link href="/evenementen/overzicht/">
-              <a
-                title="Evenementen"
-                className={`${
-                  activePath === "home" ? "underline " : "no-underline "
-                }block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12`}
-              >
-                Evenementen
-              </a>
-            </Link>
-            <Link href="/heren/1e-provinciale/klassement/">
-              <a
-                title="Home"
-                className={`${
-                  activePath === "home" ? "underline " : "no-underline "
-                }block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12`}
-              >
-                Klassement
-              </a>
-            </Link>
-            <Link href="/info/bestuur/">
-              <a
-                title="Home"
-                className={`${
-                  activePath === "home" ? "underline " : "no-underline "
-                }block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12`}
-              >
-                Bestuur
-              </a>
-            </Link>
-            <Link href="/jeugd/trainers/">
-              <a
-                title="Home"
-                className={`${
-                  activePath === "home" ? "underline " : "no-underline "
-                }block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12`}
-              >
-                Trainers
-              </a>
-            </Link>
-          </div>
-        </nav>
+        <Menu />
       </header>
       {children}
     </div>
