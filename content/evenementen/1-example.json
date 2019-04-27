@@ -1,0 +1,13 @@
+{
+  "title": "Diner wavria kkfc",
+  "date": "2017-06-01T00:00:00.000Z",
+  "time": 960,
+  "bodyContent": "Diner content",
+  "bodyHtml": "<p>Diner content</p>\n",
+  "preview": "Diner content",
+  "dir": "content/evenementen",
+  "base": "1-example.json",
+  "ext": ".json",
+  "sourceBase": "1-example.md",
+  "sourceExt": ".md"
+}
