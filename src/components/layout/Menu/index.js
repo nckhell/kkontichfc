@@ -22,11 +22,40 @@ const Menu = () => {
           <Link href="#">
             <a>Heren</a>
           </Link>
+          <ul>
+            <li>
+              <Link href="/heren/1e-provinciale">
+                <a>1e Provinciale</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/heren/4e-provinciale">
+                <a>4e Provinciale</a>
+              </Link>
+            </li>
+          </ul>
         </li>
         <li>
           <Link href="#">
             <a>Dames</a>
           </Link>
+          <ul>
+            <li>
+              <Link href="/dames/1e-nationale">
+                <a>1e Nationale</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/dames/1e-provinciale">
+                <a>1e Provinciale</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/dames/4e-provinciale">
+                <a>4e Provinciale</a>
+              </Link>
+            </li>
+          </ul>
         </li>
         <li>
           <Link href="#">
@@ -61,11 +90,6 @@ const Menu = () => {
             <li>
               <Link href="/jeugd/Lidgeld/">
                 <a>Lidgeld</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/jeugd/paastornooi/">
-                <a>Home</a>
               </Link>
             </li>
             <li>
