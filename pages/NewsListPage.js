@@ -1,8 +1,8 @@
 /* eslint-disable global-require */
 import React, { Component } from "react";
+import { Link } from "next-prefixed";
 import Layout from "../src/components/layout/Layout";
 import SUMMARY_JSON from "../content/nieuws/build/summary.json";
-import { Link } from "next-prefixed";
 import {
   getAllNewsCategories,
   getAllSeasonsWithNews,
@@ -11,7 +11,7 @@ import {
 } from "../src/utils/news";
 import { formatDate } from "../src/utils/dateTimeFormat";
 
-class NewsOverviewPage extends Component {
+class NewsListPage extends Component {
   state = {
     newsCategories: getAllNewsCategories(),
     seasons: getAllSeasonsWithNews(),
@@ -30,13 +30,11 @@ class NewsOverviewPage extends Component {
             const href = makeUrl(newsArticle);
             const date = formatDate(newsArticle.date);
             return (
-              <div key={newsArticle.dir}>
+              <div key={newsArticle.base}>
                 <p>{newsArticle.title}</p>
                 <p>{newsArticle.preview}</p>
                 <p>{date}</p>
-                <Link href={href}>
-                  <a>Meer lezen..</a>
-                </Link>
+                <Link href={href}>Meer lezen..</Link>
                 <br />
                 <br />
                 <br />
@@ -49,4 +47,4 @@ class NewsOverviewPage extends Component {
   }
 }
 
-export default NewsOverviewPage;
+export default NewsListPage;

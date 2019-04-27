@@ -50,6 +50,16 @@ const Layout = props => {
                 Nieuws
               </a>
             </Link>
+            <Link href="/evenementen/overzicht/">
+              <a
+                title="Evenementen"
+                className={`${
+                  activePath === "home" ? "underline " : "no-underline "
+                }block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12`}
+              >
+                Evenementen
+              </a>
+            </Link>
             <Link href="/heren/1e-provinciale/klassement/">
               <a
                 title="Home"

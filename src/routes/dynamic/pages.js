@@ -3,7 +3,7 @@ const SUMMARY = require("../../../content/pages/summary.json");
 
 function getPagesRoutes() {
   const pages = {};
-  const pageComponent = "/page";
+  const pageComponent = "/TextPage";
 
   SUMMARY.fileMap &&
     Object.keys(SUMMARY.fileMap).forEach(file => {

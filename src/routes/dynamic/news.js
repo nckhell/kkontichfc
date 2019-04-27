@@ -3,7 +3,7 @@ const SUMMARY = require("../../../content/nieuws/build/summary.json");
 
 function getNewsRoutes() {
   const news = {};
-  const newsPostComponent = "/newspost";
+  const newsPostComponent = "/NewsPostPage";
 
   SUMMARY.fileMap &&
     Object.keys(SUMMARY.fileMap).forEach(file => {

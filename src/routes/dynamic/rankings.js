@@ -3,7 +3,7 @@ const kbvbApiUrls = require("../../config/api/kbvb_graphql");
 
 function getRankingRoutes() {
   const rankingRoutes = {};
-  const rankingPage = "/ranking";
+  const rankingPage = "/RankingPage";
   const rankingUrlAppendix = "/klassement";
 
   _.each(kbvbApiUrls, (value, key) => {

@@ -2,30 +2,32 @@
 import React, { Component } from "react";
 import Layout from "../src/components/layout/Layout";
 
-class Page extends Component {
+class EventPage extends Component {
   state = {};
 
   componentDidMount() {}
 
   render() {
     /* eslint-disable react/prop-types */
-    const { pageJson } = this.props;
+    const { EventJson } = this.props;
 
     return (
       <Layout>
-        <h1>{pageJson.title}</h1>
+        <h1>{EventJson.title}</h1>
         {/* eslint-disable-next-line react/no-danger */}
-        <div dangerouslySetInnerHTML={{ __html: pageJson.bodyHtml }} />
+        <div dangerouslySetInnerHTML={{ __html: EventJson.bodyHtml }} />
       </Layout>
     );
   }
 }
 
-Page.getInitialProps = ({ query }) => {
+EventPage.getInitialProps = ({ query }) => {
   /* eslint-disable import/no-dynamic-require */
+  const fileName = query.path.split(".json").join("");
+
   // Without .json require is not working, so exclude it first
-  const pageJson = require(`../content/pages${query.fullUrl}.json`);
-  return { pageJson };
+  const EventJson = require(`../${fileName}.json`);
+  return { EventJson };
 };
 
-export default Page;
+export default EventPage;

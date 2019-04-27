@@ -3,7 +3,7 @@ const kbvbApiUrls = require("../../config/api/kbvb_graphql");
 
 function getCalendarRoutes() {
   const calendarRoutes = {};
-  const calendarPage = "/calendar";
+  const calendarPage = "/CalendarPage";
   const calenderUrlAppendix = "/kalender";
 
   _.each(kbvbApiUrls, (value, key) => {

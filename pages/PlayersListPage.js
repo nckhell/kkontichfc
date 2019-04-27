@@ -1,8 +1,8 @@
 import React from "react";
 import Layout from "../src/components/layout/Layout";
 
-function PlayersPage() {
+function PlayersListPage() {
   return <Layout>Players page</Layout>;
 }
 
-export default PlayersPage;
+export default PlayersListPage;

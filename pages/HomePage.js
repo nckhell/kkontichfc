@@ -1,8 +1,8 @@
 import React from "react";
 import Layout from "../src/components/layout/Layout";
 
-function Home() {
+function HomePage() {
   return <Layout>home page</Layout>;
 }
 
-export default Home;
+export default HomePage;
