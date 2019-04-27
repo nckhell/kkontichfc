@@ -15,7 +15,7 @@ const Menu = () => {
         </li>
         <li>
           <Link href="/nieuws/overzicht/">
-            <a>Home</a>
+            <a>Nieuws</a>
           </Link>
         </li>
         <li>
@@ -46,6 +46,11 @@ const Menu = () => {
             <li>
               <Link href="/jeugd/ploegen/">
                 <a>Ploegen</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/jeugd/trainers/">
+                <a>Trainers</a>
               </Link>
             </li>
             <li>
