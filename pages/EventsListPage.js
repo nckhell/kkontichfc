@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 import { Link } from "next-prefixed";
 import Layout from "../src/components/layout/Layout";
-import SUMMARY_JSON from "../content/evenementen/summary.json";
+import SUMMARY_JSON from "../content/build/evenementen/summary.json";
 import { sortEventsSummaryJsonOnDate, makeUrl } from "../src/utils/events";
 import { formatDate } from "../src/utils/dateTimeFormat";
 

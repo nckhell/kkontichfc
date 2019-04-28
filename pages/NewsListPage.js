@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 import { Link } from "next-prefixed";
 import Layout from "../src/components/layout/Layout";
-import SUMMARY_JSON from "../content/nieuws/build/summary.json";
+import SUMMARY_JSON from "../content/build/nieuws/summary.json";
 import {
   getAllNewsCategories,
   getAllSeasonsWithNews,
@@ -13,8 +13,8 @@ import { formatDate } from "../src/utils/dateTimeFormat";
 
 class NewsListPage extends Component {
   state = {
-    newsCategories: getAllNewsCategories(),
-    seasons: getAllSeasonsWithNews(),
+    newsCategories: getAllNewsCategories(SUMMARY_JSON),
+    seasons: getAllSeasonsWithNews(SUMMARY_JSON),
     newsList: sortNewsSummaryJsonOnDate(SUMMARY_JSON)
   };
 

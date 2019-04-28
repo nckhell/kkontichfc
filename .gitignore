@@ -3,6 +3,10 @@ logs
 *.log
 npm-debug.log*
 
+# Build files of content
+# run "npm run dev", "npm run build" to create build directory
+content/build
+
 # Runtime data
 pids
 *.pid

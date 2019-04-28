@@ -9,7 +9,7 @@ module.exports = Object.assign(
   {
     "/": { page: "/HomePage" },
     "/nieuws/overzicht": { page: "/NewsListPage" },
-    "/evenementen/overzicht": { page: "/EventsListPage" },
+    "/commercieel/evenementen": { page: "/EventsListPage" },
     "/commercieel/sponsors": { page: "/SponsorsPage" }
   },
   newsRoutes,

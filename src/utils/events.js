@@ -5,12 +5,6 @@ export const sortEventsSummaryJsonOnDate = (summaryJson, order = "desc") => {
     summaryJson &&
     summaryJson.fileMap &&
     Object.keys(summaryJson.fileMap)
-      .filter(file => {
-        if (file.indexOf("content/evenementen") === 0) {
-          return true;
-        }
-        return false;
-      })
       .map(file => {
         return summaryJson.fileMap[file];
       })
@@ -27,7 +21,7 @@ export const sortEventsSummaryJsonOnDate = (summaryJson, order = "desc") => {
 };
 
 export const makeUrl = event => {
-  return `${event.dir.split("content").join("")}/${event.base
+  return `${event.dir.split("content/build").join("")}/${event.base
     .split(".json")
     .join("/")}`;
 };

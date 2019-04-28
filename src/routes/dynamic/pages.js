@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-expressions */
-const SUMMARY = require("../../../content/pages/summary.json");
+const SUMMARY = require("../../../content/build/pages/summary.json");
 
 function getPagesRoutes() {
   const pages = {};
@@ -9,7 +9,7 @@ function getPagesRoutes() {
     Object.keys(SUMMARY.fileMap).forEach(file => {
       // Handle pages
       const page = file
-        .split("content/pages")
+        .split("content/build/pages")
         .join("")
         .split(".json")
         .join("");

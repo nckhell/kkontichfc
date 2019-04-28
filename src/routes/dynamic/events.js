@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-expressions */
-const SUMMARY = require("../../../content/evenementen/summary.json");
+const SUMMARY = require("../../../content/build/evenementen/summary.json");
 
 function getEventRoutes() {
   const events = {};
@@ -9,7 +9,7 @@ function getEventRoutes() {
     Object.keys(SUMMARY.fileMap).forEach(file => {
       // Handle pages
       const event = file
-        .split("content")
+        .split("content/build")
         .join("")
         .split(".json")
         .join("");

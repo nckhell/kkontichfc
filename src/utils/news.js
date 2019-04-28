@@ -1,8 +1,7 @@
 /* eslint-disable no-nested-ternary */
 /* eslint-disable no-unused-expressions */
-import SUMMARY from "../../content/nieuws/build/summary.json";
 
-export const getAllNewsCategories = () => {
+export const getAllNewsCategories = SUMMARY => {
   const newsCategories = [];
 
   SUMMARY.fileMap &&
@@ -18,7 +17,7 @@ export const getAllNewsCategories = () => {
   return newsCategories;
 };
 
-export const getAllSeasonsWithNews = () => {
+export const getAllSeasonsWithNews = SUMMARY => {
   const seasons = [];
 
   SUMMARY.fileMap &&
@@ -46,12 +45,6 @@ export const sortNewsSummaryJsonOnDate = (summaryJson, order = "desc") => {
     summaryJson &&
     summaryJson.fileMap &&
     Object.keys(summaryJson.fileMap)
-      .filter(file => {
-        if (file.indexOf("content/nieuws") === 0) {
-          return true;
-        }
-        return false;
-      })
       .map(file => {
         return summaryJson.fileMap[file];
       })
@@ -73,6 +66,6 @@ export const limit = (summaryJson, amountOfArticles) => {
 
 export const makeUrl = article => {
   return `${article.dir
-    .split("content/nieuws/build/")
+    .split("content/build/nieuws/")
     .join("nieuws/")}/${article.base.split(".json").join("/")}`;
 };

@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-expressions */
-const SUMMARY = require("../../../content/nieuws/build/summary.json");
+const SUMMARY = require("../../../content/build/nieuws/summary.json");
 
 function getNewsRoutes() {
   const news = {};
@@ -9,8 +9,8 @@ function getNewsRoutes() {
     Object.keys(SUMMARY.fileMap).forEach(file => {
       // Handle pages
       const newsPost = file
-        .split("content/nieuws/build/")
-        .join("/nieuws/")
+        .split("content/build")
+        .join("")
         .split(".json")
         .join("");
       news[newsPost] = {
