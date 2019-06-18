@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["307d"],{"7uG/":function(n,e,u){"use strict";u.r(e);var a=u("q1tI"),t=u.n(a),o=u("Sv8q");e.default=function(){return t.a.createElement(o.a,null,"home page")}},KWEF:function(n,e,u){(window.__NEXT_P=window.__NEXT_P||[]).push(["/HomePage",function(){var n=u("7uG/");return{page:n.default||n}}])}},[["KWEF","5d41","9da1"]]]);
