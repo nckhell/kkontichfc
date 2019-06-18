@@ -1,0 +1,19 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+/* Custom components */
+@import "./components/nav/Hamburger.css";
+@import "./components/nav/MobileNav.css";
+
+body, html {
+    @apply font-kkfc;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); 
+}

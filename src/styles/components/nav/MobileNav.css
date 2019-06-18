@@ -1,0 +1,7 @@
+#navigation.open {
+    display: block;
+}
+
+#navigation.closed {
+    display: none;
+}

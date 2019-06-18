@@ -3,7 +3,8 @@
 import React from "react";
 import Head from "next/head";
 import { prefixURL } from "next-prefixed";
-import Menu from "./Menu";
+import Header from "./Header";
+import '../../styles/tailwind.css';
 
 const Layout = props => {
   const {
@@ -21,15 +22,14 @@ const Layout = props => {
         <meta charSet="utf-8" />
         <meta name="robots" content="index, follow" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,600,600i,700,700i&display=swap" rel="stylesheet" />
         <link
           rel="shortcut icon"
           type="image/x-icon"
           href={prefixURL("/static/img/favicon.ico")}
         />
       </Head>
-      <header>
-        <Menu />
-      </header>
+      <Header />
       {children}
     </div>
   );
