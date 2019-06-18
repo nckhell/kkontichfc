@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link } from "next-prefixed";
+import { Link, prefixURL } from "next-prefixed";
 import Menu from "./Menu";
 
 class Header extends Component {
@@ -24,7 +24,7 @@ class Header extends Component {
 
     return (
         <nav>
-            <div className="flex flex-row justify-between items-center px-2 py-16 border-b border-gray-200 sm:px-4 md:px-8 lg:px-16">
+            <div className="flex flex-row justify-between items-center px-4 py-6 border-b border-gray-200 sm:px-6 md:py-16 md:px-8 xl:px-16">
                 <div>
                     <button 
                         onClick={this.toggleMenu} 
@@ -43,7 +43,7 @@ class Header extends Component {
                 <div class="logo">
                     <Link href="/">
                         <a>
-                            <img className="w-20" src="/static/img/kkontichfc.svg" alt="K. Kontich F.C." />
+                            <img className="w-8 md:w-16 lg:w-20" src={prefixURL("/static/img/kkontichfc.svg")} alt="K. Kontich F.C." />
                         </a>
                     </Link>
                 </div>
