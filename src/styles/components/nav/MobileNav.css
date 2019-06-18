@@ -5,3 +5,40 @@
 #navigation.closed {
     display: none;
 }
+
+#menu ul {
+    box-shadow: 0 15px 25px 2px rgba(0,0,0,0.15), 0 5px 30px 5px rgba(0,0,0,0.1), 0 8px 10px -5px rgba(0,0,0,0.25);
+} 
+
+#menu ul li {
+    padding: 18px 25px;
+    width: 220px;
+    box-shadow: 0 1px 0 #ECEFF3 inset;
+}
+
+#menu ul li a {
+    display: inline-block;
+}
+
+.submenu {
+    display: none;
+}
+
+#menu ul li:after {
+    content: '>';
+    top: 0;
+    position: absolute;
+    right: 0;
+    font-family: 'Material Icons';
+    @apply text-gray-500;
+    font-size: 12px;
+    font-weight: 600;
+    top: 22px;
+    right: 18px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+    opacity: 0.5;
+}

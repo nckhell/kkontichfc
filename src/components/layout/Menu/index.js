@@ -6,7 +6,7 @@ import React from "react";
 
 const Menu = () => {
   return (
-    <nav>
+    <div id="menu" className="bg-white absolute text-gray-500">
       <ul>
         <li>
           <Link href="/">
@@ -22,7 +22,7 @@ const Menu = () => {
           <Link href="#">
             <a>Heren</a>
           </Link>
-          <ul>
+          <ul className="submenu">
             <li>
               <Link href="/heren/1e-provinciale">
                 <a>1e Provinciale</a>
@@ -39,7 +39,7 @@ const Menu = () => {
           <Link href="#">
             <a>Dames</a>
           </Link>
-          <ul>
+          <ul className="submenu">
             <li>
               <Link href="/dames/1e-nationale">
                 <a>1e Nationale</a>
@@ -61,7 +61,7 @@ const Menu = () => {
           <Link href="#">
             <a>Jeugd</a>
           </Link>
-          <ul>
+          <ul className="submenu">
             <li>
               <Link href="/jeugd/paastornooi/">
                 <a>Paastornooi</a>
@@ -113,7 +113,7 @@ const Menu = () => {
           <Link href="#">
             <a>Info</a>
           </Link>
-          <ul>
+          <ul className="submenu">
             <li>
               <Link href="/info/geschiedenis/">
                 <a>Geschiedenis</a>
@@ -155,7 +155,7 @@ const Menu = () => {
           <Link href="#">
             <a>Commercieel</a>
           </Link>
-          <ul>
+          <ul className="submenu">
             <li>
               <Link href="/commercieel/sponsors/">
                 <a>Sponsors</a>
@@ -179,7 +179,7 @@ const Menu = () => {
           </ul>
         </li>
       </ul>
-    </nav>
+    </div>
   );
 };
 
