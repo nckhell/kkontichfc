@@ -7,7 +7,7 @@ import React from "react";
 const Menu = () => {
   return (
     <div id="menu" className="bg-white absolute text-gray-500">
-      <ul>
+      <ul className="main-menu">
         <li>
           <Link href="/">
             <a>Home</a>
@@ -18,7 +18,7 @@ const Menu = () => {
             <a>Nieuws</a>
           </Link>
         </li>
-        <li>
+        <li className="has-submenu">
           <Link href="#">
             <a>Heren</a>
           </Link>
@@ -35,7 +35,7 @@ const Menu = () => {
             </li>
           </ul>
         </li>
-        <li>
+        <li className="has-submenu">
           <Link href="#">
             <a>Dames</a>
           </Link>
@@ -57,7 +57,7 @@ const Menu = () => {
             </li>
           </ul>
         </li>
-        <li>
+        <li className="has-submenu">
           <Link href="#">
             <a>Jeugd</a>
           </Link>
@@ -109,7 +109,7 @@ const Menu = () => {
             </li>
           </ul>
         </li>
-        <li>
+        <li className="has-submenu">
           <Link href="#">
             <a>Info</a>
           </Link>
@@ -151,7 +151,7 @@ const Menu = () => {
             </li>
           </ul>
         </li>
-        <li>
+        <li className="has-submenu">
           <Link href="#">
             <a>Commercieel</a>
           </Link>
