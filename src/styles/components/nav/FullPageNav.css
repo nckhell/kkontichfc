@@ -1,0 +1,22 @@
+#quote {
+    position: relative;
+    display: inline-block;
+}
+
+#quote:before, #quote:after {
+    @apply text-yellow-400;
+    @apply text-6xl;
+    font-weight: 600;
+    position: absolute;
+}
+
+#quote:before {
+    content: open-quote;
+    left: -25px;
+    top: 5px;
+}
+#quote:after {
+    content: close-quote;
+    right: -30px;
+    top: 50px;
+}

@@ -28,12 +28,12 @@ class Header extends Component {
             <button
               onClick={this.toggleMenu}
               className={`hamburger hamburger--squeeze ${
-                this.state.menuIsOpen ? "is-active" : ""
+                menuIsOpen ? "is-active" : ""
               }`}
               type="button"
               aria-label="Menu"
               aria-controls="navigation"
-              aria-expanded={this.state.menuIsOpen}
+              aria-expanded={menuIsOpen}
             >
               <span className="hamburger-box">
                 <span className="hamburger-inner"></span>
@@ -74,10 +74,7 @@ class Header extends Component {
             </ul>
           </div>
         </div>
-        <div
-          id="navigation"
-          className={`${this.state.menuIsOpen ? "open" : "closed"}`}
-        >
+        <div id="navigation" className={`${menuIsOpen ? "open" : "closed"}`}>
           <Menu />
         </div>
       </nav>
