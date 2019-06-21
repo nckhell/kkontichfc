@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["dd88"],{"91+2":function(n,e,a){(window.__NEXT_P=window.__NEXT_P||[]).push(["/StaffPage",function(){var n=a("oeiu");return{page:n.default||n}}])},oeiu:function(n,e,a){"use strict";a.r(e);var t=a("q1tI"),u=a.n(t),o=a("Sv8q");e.default=function(){return u.a.createElement(o.a,null,"Staff page")}}},[["91+2","5d41","9da1"]]]);
