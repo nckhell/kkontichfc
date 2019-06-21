@@ -11948,515 +11948,530 @@ var Menu = function Menu() {
       lineNumber: 35
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "#",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+  }, "Heren"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
+    className: "submenu",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37
     },
     __self: this
-  }, "Heren")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
-    className: "submenu",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 38
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/heren/1e-provinciale",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 39
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 40
     },
     __self: this
   }, "1e Provinciale"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 43
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/heren/4e-provinciale",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 44
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 45
     },
     __self: this
   }, "4e Provinciale"))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     className: "has-submenu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
-    href: "#",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 50
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    href: "#",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 51
     },
     __self: this
-  }, "Dames")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
+  }, "Dames"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
     className: "submenu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 52
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 53
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/dames/1e-nationale",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 54
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 55
     },
     __self: this
   }, "1e Nationale"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 58
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/dames/1e-provinciale",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 59
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 60
     },
     __self: this
   }, "1e Provinciale"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 63
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/dames/4e-provinciale",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 64
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 65
     },
     __self: this
   }, "4e Provinciale"))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     className: "has-submenu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
-    href: "#",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 70
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    href: "#",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 71
     },
     __self: this
-  }, "Jeugd")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
+  }, "Jeugd"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
     className: "submenu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 72
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 73
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/jeugd/paastornooi/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 74
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 75
     },
     __self: this
   }, "Paastornooi"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 78
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/jeugd/trainingen/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 79
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 80
     },
     __self: this
   }, "Trainingen"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89
+      lineNumber: 83
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/jeugd/ploegen/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90
+      lineNumber: 84
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 85
     },
     __self: this
   }, "Ploegen"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 88
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/jeugd/trainers/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 89
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 90
     },
     __self: this
   }, "Trainers"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 93
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/jeugd/kalenders/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100
+      lineNumber: 94
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 95
     },
     __self: this
   }, "Kalenders"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104
+      lineNumber: 98
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/jeugd/Lidgeld/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105
+      lineNumber: 99
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106
+      lineNumber: 100
     },
     __self: this
   }, "Lidgeld"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109
+      lineNumber: 103
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/jeugd/online-registratie/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110
+      lineNumber: 104
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111
+      lineNumber: 105
     },
     __self: this
   }, "Online registratie"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114
+      lineNumber: 108
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/jeugd/mutualiteiten/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115
+      lineNumber: 109
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116
+      lineNumber: 110
     },
     __self: this
   }, "Mutualiteiten"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119
+      lineNumber: 113
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/jeugd/ongevallen/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120
+      lineNumber: 114
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121
+      lineNumber: 115
     },
     __self: this
   }, "Ongevallen"))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     className: "has-submenu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
-    href: "#",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 127
+      lineNumber: 120
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    href: "#",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128
+      lineNumber: 121
     },
     __self: this
-  }, "Info")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
+  }, "Info"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
     className: "submenu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130
+      lineNumber: 122
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131
+      lineNumber: 123
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/info/geschiedenis/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 132
+      lineNumber: 124
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133
+      lineNumber: 125
     },
     __self: this
   }, "Geschiedenis"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136
+      lineNumber: 128
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/info/bestuur/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 137
+      lineNumber: 129
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138
+      lineNumber: 130
     },
     __self: this
   }, "Bestuur"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141
+      lineNumber: 133
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/info/secretariaat/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 142
+      lineNumber: 134
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 143
+      lineNumber: 135
     },
     __self: this
   }, "Secretariaat"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 146
+      lineNumber: 138
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/info/weerbericht/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 147
+      lineNumber: 139
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148
+      lineNumber: 140
     },
     __self: this
   }, "Weerbericht"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151
+      lineNumber: 143
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/info/contact/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 152
+      lineNumber: 144
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 153
+      lineNumber: 145
     },
     __self: this
   }, "Contact"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 156
+      lineNumber: 148
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/info/downloads/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 157
+      lineNumber: 149
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 158
+      lineNumber: 150
     },
     __self: this
   }, "Downloads"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 161
+      lineNumber: 153
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/info/organigrammen/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 162
+      lineNumber: 154
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 163
+      lineNumber: 155
     },
     __self: this
   }, "Organigrammen"))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     className: "has-submenu",
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 160
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    href: "#",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 161
+    },
+    __self: this
+  }, "Commercieel"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
+    className: "submenu",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 162
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 163
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
+    href: "/commercieel/sponsors/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 164
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 165
+    },
+    __self: this
+  }, "Sponsors"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 168
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
-    href: "#",
+    href: "/commercieel/huur-kantine/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 169
@@ -12468,21 +12483,14 @@ var Menu = function Menu() {
       lineNumber: 170
     },
     __self: this
-  }, "Commercieel")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
-    className: "submenu",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 172
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+  }, "Huur kantine"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 173
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
-    href: "/commercieel/sponsors/",
+    href: "/commercieel/evenementen/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 174
@@ -12494,62 +12502,24 @@ var Menu = function Menu() {
       lineNumber: 175
     },
     __self: this
-  }, "Sponsors"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+  }, "Evenementen"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 178
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
-    href: "/commercieel/huur-kantine/",
+    href: "https://kontich.clubwereld.nl/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 179
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 180
-    },
-    __self: this
-  }, "Huur kantine"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 183
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
-    href: "/commercieel/evenementen/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 184
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 185
-    },
-    __self: this
-  }, "Evenementen"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 188
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
-    href: "https://kontich.clubwereld.nl/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 189
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 190
+      lineNumber: 180
     },
     __self: this
   }, "KKFC Webshop")))))));

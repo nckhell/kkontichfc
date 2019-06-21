@@ -6559,7 +6559,7 @@ video {
 }
 
 #full-page-nav-wrapper {
-  transition: all 0.2s ease-out;
+  transition: all 0.3s ease-in;
   background-color: #fff;
   position: absolute;
   color: #616E7C;
@@ -6581,12 +6581,12 @@ video {
 }
 
 #full-page-nav-wrapper.closed {
-  /* transform: translateX(-300px); */
+  /* transform: translateY(-50px); */
   opacity: 0;
 }
 
 #full-page-nav-wrapper.open {
-  /* transform: translateX(0); */
+  /* transform: translateY(0); */
   opacity: 1;
 }
 
