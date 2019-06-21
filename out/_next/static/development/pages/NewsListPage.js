@@ -7,7 +7,7 @@
 /*! exports provided: fileMap, sourceFileArray, default */
 /***/ (function(module) {
 
-module.exports = {"fileMap":{"content/build/nieuws/2018-2019/algemeen/eerste-post-18-19.json":{"title":"First post","date":"2017-06-01T00:00:00.000Z","preview":"Hello,\n\nworld.","dir":"content/build/nieuws/2018-2019/algemeen","base":"eerste-post-18-19.json","ext":".json","sourceBase":"eerste-post-18-19.md","sourceExt":".md"},"content/build/nieuws/2018-2019/algemeen/volvo-vermant-18-19.json":{"title":"Volvo Vermant","date":"2018-06-01T00:00:00.000Z","preview":"Second post post!\n\nCheckout github to see my other projects\n\nanother page","dir":"content/build/nieuws/2018-2019/algemeen","base":"volvo-vermant-18-19.json","ext":".json","sourceBase":"volvo-vermant-18-19.md","sourceExt":".md"},"content/build/nieuws/2018-2019/dames/tweede-post-18-19.json":{"title":"Second post","date":"2019-06-01T00:00:00.000Z","preview":"Second post post!\n\nCheckout github to see my other projects\n\nanother page","dir":"content/build/nieuws/2018-2019/dames","base":"tweede-post-18-19.json","ext":".json","sourceBase":"tweede-post-18-19.md","sourceExt":".md"},"content/build/nieuws/2018-2019/evenementen/kkfc-paastornooi-18-19.json":{"title":"Paastornooi","date":"2017-06-01T00:00:00.000Z","preview":"Paastornooi nieuws","dir":"content/build/nieuws/2018-2019/evenementen","base":"kkfc-paastornooi-18-19.json","ext":".json","sourceBase":"kkfc-paastornooi-18-19.md","sourceExt":".md"},"content/build/nieuws/2019-2020/dames/tweede-post-19-20.json":{"title":"Second post","date":"2019-06-01T00:00:00.000Z","preview":"Second post post!\n\nCheckout github to see my other projects\n\nanother page","dir":"content/build/nieuws/2019-2020/dames","base":"tweede-post-19-20.json","ext":".json","sourceBase":"tweede-post-19-20.md","sourceExt":".md"},"content/build/nieuws/2019-2020/algemeen/volvo-vermant-19-20.json":{"title":"Volvo Vermant","date":"2018-06-01T00:00:00.000Z","preview":"Second post post!\n\nCheckout github to see my other projects\n\nanother page","dir":"content/build/nieuws/2019-2020/algemeen","base":"volvo-vermant-19-20.json","ext":".json","sourceBase":"volvo-vermant-19-20.md","sourceExt":".md"},"content/build/nieuws/2019-2020/evenementen/kkfc-paastornooi-19-20.json":{"title":"Paastornooi","date":"2017-06-01T00:00:00.000Z","preview":"Paastornooi nieuws","dir":"content/build/nieuws/2019-2020/evenementen","base":"kkfc-paastornooi-19-20.json","ext":".json","sourceBase":"kkfc-paastornooi-19-20.md","sourceExt":".md"},"content/build/nieuws/2018-2019/jeugd/jeugdtrainers-gezocht-18-19.json":{"title":"Jeugdtrainers gezocht","date":"2019-05-01T00:00:00.000Z","preview":"jeugdtrainers gezocht","dir":"content/build/nieuws/2018-2019/jeugd","base":"jeugdtrainers-gezocht-18-19.json","ext":".json","sourceBase":"jeugdtrainers-gezocht-18-19.md","sourceExt":".md"}},"sourceFileArray":["content/nieuws/2018-2019/algemeen/eerste-post-18-19.md","content/nieuws/2018-2019/algemeen/volvo-vermant-18-19.md","content/nieuws/2018-2019/dames/tweede-post-18-19.md","content/nieuws/2018-2019/evenementen/kkfc-paastornooi-18-19.md","content/nieuws/2018-2019/jeugd/jeugdtrainers-gezocht-18-19.md","content/nieuws/2019-2020/algemeen/volvo-vermant-19-20.md","content/nieuws/2019-2020/dames/tweede-post-19-20.md","content/nieuws/2019-2020/evenementen/kkfc-paastornooi-19-20.md"]};
+module.exports = {"fileMap":{"content/build/nieuws/2018-2019/algemeen/eerste-post-18-19.json":{"title":"First post","date":"2017-06-01T00:00:00.000Z","preview":"Hello,\n\nworld.","dir":"content/build/nieuws/2018-2019/algemeen","base":"eerste-post-18-19.json","ext":".json","sourceBase":"eerste-post-18-19.md","sourceExt":".md"},"content/build/nieuws/2018-2019/dames/tweede-post-18-19.json":{"title":"Second post","date":"2019-06-01T00:00:00.000Z","preview":"Second post post!\n\nCheckout github to see my other projects\n\nanother page","dir":"content/build/nieuws/2018-2019/dames","base":"tweede-post-18-19.json","ext":".json","sourceBase":"tweede-post-18-19.md","sourceExt":".md"},"content/build/nieuws/2018-2019/evenementen/kkfc-paastornooi-18-19.json":{"title":"Paastornooi","date":"2017-06-01T00:00:00.000Z","preview":"Paastornooi nieuws","dir":"content/build/nieuws/2018-2019/evenementen","base":"kkfc-paastornooi-18-19.json","ext":".json","sourceBase":"kkfc-paastornooi-18-19.md","sourceExt":".md"},"content/build/nieuws/2018-2019/jeugd/jeugdtrainers-gezocht-18-19.json":{"title":"Jeugdtrainers gezocht","date":"2019-05-01T00:00:00.000Z","preview":"jeugdtrainers gezocht","dir":"content/build/nieuws/2018-2019/jeugd","base":"jeugdtrainers-gezocht-18-19.json","ext":".json","sourceBase":"jeugdtrainers-gezocht-18-19.md","sourceExt":".md"},"content/build/nieuws/2018-2019/algemeen/volvo-vermant-18-19.json":{"title":"Volvo Vermant","date":"2018-06-01T00:00:00.000Z","preview":"Second post post!\n\nCheckout github to see my other projects\n\nanother page","dir":"content/build/nieuws/2018-2019/algemeen","base":"volvo-vermant-18-19.json","ext":".json","sourceBase":"volvo-vermant-18-19.md","sourceExt":".md"},"content/build/nieuws/2019-2020/algemeen/volvo-vermant-19-20.json":{"title":"Volvo Vermant","date":"2018-06-01T00:00:00.000Z","preview":"Second post post!\n\nCheckout github to see my other projects\n\nanother page","dir":"content/build/nieuws/2019-2020/algemeen","base":"volvo-vermant-19-20.json","ext":".json","sourceBase":"volvo-vermant-19-20.md","sourceExt":".md"},"content/build/nieuws/2019-2020/dames/tweede-post-19-20.json":{"title":"Second post","date":"2019-06-01T00:00:00.000Z","preview":"Second post post!\n\nCheckout github to see my other projects\n\nanother page","dir":"content/build/nieuws/2019-2020/dames","base":"tweede-post-19-20.json","ext":".json","sourceBase":"tweede-post-19-20.md","sourceExt":".md"},"content/build/nieuws/2019-2020/evenementen/kkfc-paastornooi-19-20.json":{"title":"Paastornooi","date":"2017-06-01T00:00:00.000Z","preview":"Paastornooi nieuws","dir":"content/build/nieuws/2019-2020/evenementen","base":"kkfc-paastornooi-19-20.json","ext":".json","sourceBase":"kkfc-paastornooi-19-20.md","sourceExt":".md"}},"sourceFileArray":["content/nieuws/2018-2019/algemeen/eerste-post-18-19.md","content/nieuws/2018-2019/algemeen/volvo-vermant-18-19.md","content/nieuws/2018-2019/dames/tweede-post-18-19.md","content/nieuws/2018-2019/evenementen/kkfc-paastornooi-18-19.md","content/nieuws/2018-2019/jeugd/jeugdtrainers-gezocht-18-19.md","content/nieuws/2019-2020/algemeen/volvo-vermant-19-20.md","content/nieuws/2019-2020/dames/tweede-post-19-20.md","content/nieuws/2019-2020/evenementen/kkfc-paastornooi-19-20.md"]};
 
 /***/ }),
 
@@ -11553,7 +11553,7 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "relative z-10",
+        className: "relative z-500",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 28
@@ -11621,78 +11621,85 @@ function (_Component) {
           lineNumber: 48
         },
         __self: this
-      })))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h1", {
+        className: "hidden",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53
+        },
+        __self: this
+      }, "K. Kontich F.C.")))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "hidden md:block",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 57
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("ul", {
         className: "font-semibold text-gray-900 uppercase",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 58
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         className: "inline-block pr-12",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 59
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_8__["Link"], {
         href: "/nieuws/overzicht/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 60
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 61
         },
         __self: this
       }, "Match center"))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         className: "inline-block pr-12",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63
+          lineNumber: 64
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_8__["Link"], {
         href: "/nieuws/overzicht/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 65
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 66
         },
         __self: this
       }, "Webshop"))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         className: "inline-block",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 69
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_8__["Link"], {
         href: "/nieuws/overzicht/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 70
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 71
         },
         __self: this
       }, "Sponsors")))))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
@@ -11700,20 +11707,20 @@ function (_Component) {
         className: "xl:hidden ".concat(menuIsOpen ? "open" : "closed"),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 77
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_Menu_MenuContent__WEBPACK_IMPORTED_MODULE_9__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 80
+          lineNumber: 81
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_Menu_DesktopMenu__WEBPACK_IMPORTED_MODULE_10__["default"], {
         isOpen: menuIsOpen,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 82
+          lineNumber: 83
         },
         __self: this
       }));
