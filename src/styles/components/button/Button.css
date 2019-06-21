@@ -1,7 +1,7 @@
 .huh {}
 
 .btn {
-    @apply text-sm font-bold py-4 px-6 inline-block bg-gray-500 shadow-md uppercase text-white font-semibold;
+    @apply font-bold py-4 px-6 inline-block bg-gray-500 shadow-md uppercase text-white font-semibold;
 }
 
 .button-w-full .btn {
