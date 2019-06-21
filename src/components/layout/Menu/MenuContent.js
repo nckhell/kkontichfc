@@ -1,13 +1,27 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable no-undef */
-import { Link } from "next-prefixed";
-
+import { Link, prefixURL } from "next-prefixed";
 import React from "react";
 
 const Menu = () => {
   return (
-    <div id="menu" className="bg-white absolute text-gray-500">
+    <div id="menu">
       <ul className="main-menu">
+        <li className="facebook-link xl:hidden">
+          <a
+            href="https://www.facebook.com/kkontichfc/"
+            rel="noopener noreferrer"
+            className="text-blue-700 font-semibold"
+            target="_blank"
+          >
+            Volg ons
+          </a>
+          <img
+            src={prefixURL("/static/img/facebook.svg")}
+            className="w-6"
+            alt="K. Kontich F.C."
+          />
+        </li>
         <li>
           <Link href="/">
             <a>Home</a>

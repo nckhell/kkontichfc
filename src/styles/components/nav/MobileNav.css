@@ -1,5 +1,8 @@
-#menu {
+#navigation #menu {
     transition: all 0.2s ease-out;
+    @apply bg-white;
+    @apply absolute;
+    @apply text-gray-500;
 }
 
 #navigation.closed #menu {
@@ -7,44 +10,54 @@
     opacity: 0;
 }
 
-#navigation.open #menu {
+#navigation #navigation.open #menu {
     transform: translateX(0);
     opacity: 1;
 }
 
-#menu ul.main-menu {
+#navigation #menu ul.main-menu {
     box-shadow: 0 15px 25px 2px rgba(0,0,0,0.10), 0 5px 30px 5px rgba(0,0,0,0.1), 0 8px 10px -5px rgba(0,0,0,0.2);
     position: relative;
     z-index: 2;
 } 
 
-#menu ul li {
+#navigation #menu ul li {
     background: #fff;
     position: relative;
 }
 
-#menu ul li a {
+#navigation #menu ul li a {
     padding: 18px 25px;
     width: 200px;
     display: inline-block;
     box-shadow: 0 1px 0 #ECEFF3 inset;
 }
 
-#menu ul li:hover > a {
+#navigation #menu ul li:hover > a {
     color: #3260B1;
     background: rgba(50,96,177,0.05);
 }
 
-#menu ul li:hover > .submenu {
+#navigation #menu ul li:hover > .submenu {
     display: block;
     opacity: 1;
 }
 
-.submenu {
+#navigation .submenu {
     display: none;
 }
 
-#menu ul li.has-submenu:after {
+#navigation .facebook-link {
+    position: relative;
+}
+
+#navigation .facebook-link img {
+    position: absolute;
+    right: 18px;
+    top: 18px;
+}
+
+#navigation #menu ul li.has-submenu:after {
     content: '>';
     top: 0;
     position: absolute;
@@ -60,7 +73,7 @@
     opacity: 0.5;
 }
 
-.submenu {
+#navigation .submenu {
     display: none;
     position: absolute;
     top: 0;
@@ -71,7 +84,7 @@
     transform-origin: top left;
 }
 
-.submenu li {
+#navigation .submenu li {
     box-shadow: 1px 0 0px #e4e4e4 inset, 1px 0 0px #d3d3d3;
 }
 

@@ -1,3 +1,39 @@
+#full-page-nav-wrapper {
+    transition: all 0.2s ease-out;
+    @apply bg-white;
+    @apply absolute;
+    @apply text-gray-500;
+}
+
+.facebook-desktop {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    max-width: 85%;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#desktop-menu ul.main-menu > li.facebook-link {
+    display: none;
+}
+
+#full-page-nav-wrapper.closed {
+    /* transform: translateX(-300px); */
+    opacity: 0;
+}
+
+#full-page-nav-wrapper.open {
+    /* transform: translateX(0); */
+    opacity: 1;
+}
+
+#full-page-nav-wrapper {
+    z-index: 4;
+}
+
 #quote {
     position: relative;
     display: inline-block;
@@ -19,4 +55,62 @@
     content: close-quote;
     right: -30px;
     top: 50px;
+}
+
+#desktop-menu #menu {
+    @apply flex;
+    width: 100%;
+}
+
+#desktop-menu ul.main-menu {
+    @apply flex;
+    max-width: 85%;
+    width: auto;
+    flex-wrap: wrap;
+    margin:0 auto;
+}
+
+#desktop-menu ul.main-menu > li {
+    @apply flex;
+    @apply flex-col;
+    width: 45%;
+    @apply mb-8;
+}
+
+#desktop-menu ul.main-menu > li:nth-child(odd) {
+    margin-left: 10%;
+}
+
+
+#desktop-menu ul.main-menu > li > a {
+    @apply text-xl;
+    @apply border-b;
+    @apply border-gray-200;
+    display: block;
+    @apply uppercase;
+    @apply text-gray-500;
+    @apply font-semibold;
+    @apply mb-2;
+}
+
+#desktop-menu ul.main-menu > li:not(.has-submenu) > a:hover {
+    @apply text-red-500;
+    @apply border-red-200;
+}
+
+#desktop-menu ul.submenu > li {
+    @apply leading-loose;
+}
+
+#desktop-menu ul.submenu {
+    columns: 2;
+}
+
+#desktop-menu ul.submenu > li > a {
+    @apply text-lg;
+    @apply text-gray-500;
+}
+
+#desktop-menu ul.submenu > li > a:hover {
+    @apply text-yellow-400;
 }

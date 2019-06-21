@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link, prefixURL } from "next-prefixed";
-import Menu from "./Menu";
+import Menu from "./Menu/MenuContent";
+import DesktopMenu from "./Menu/DesktopMenu";
 
 class Header extends Component {
   state = {
@@ -24,7 +25,7 @@ class Header extends Component {
     return (
       <nav>
         <div className="flex flex-row justify-between items-center px-4 py-6 border-b border-gray-200 sm:px-6 md:py-16 md:px-8 xl:px-16">
-          <div>
+          <div className="relative z-10">
             <button
               onClick={this.toggleMenu}
               className={`hamburger hamburger--squeeze ${
@@ -38,9 +39,7 @@ class Header extends Component {
               <span className="hamburger-box">
                 <span className="hamburger-inner"></span>
               </span>
-              <span className="hamburger-label font-semibold text-gray-900">
-                Menu
-              </span>
+              <span className="hamburger-label">Menu</span>
             </button>
           </div>
           <div className="logo">
@@ -74,9 +73,13 @@ class Header extends Component {
             </ul>
           </div>
         </div>
-        <div id="navigation" className={`${menuIsOpen ? "open" : "closed"}`}>
+        <div
+          id="navigation"
+          className={`xl:hidden ${menuIsOpen ? "open" : "closed"}`}
+        >
           <Menu />
         </div>
+        <DesktopMenu isOpen={menuIsOpen} />
       </nav>
     );
   }
