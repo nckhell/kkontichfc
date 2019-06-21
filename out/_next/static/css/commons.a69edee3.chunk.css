@@ -6868,7 +6868,7 @@ video {
   margin:0;
   position:relative;
   text-align:center;
-  height: 50vh;
+  height: 53vh;
 }
 
 .carousel .slide img{
@@ -6884,15 +6884,15 @@ video {
   border:0
 }
 
-.carousel .slide .legend{
+.gradient-wrapper{
   position:absolute;
   z-index: 50;
   left: 0;
   top: 0;
   right: 0;
   bottom: 0;
-  background: rgba(255,255,255,0);
-  background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(47,54,64,0.8) 100%);
+  background: rgba(47,54,64,0.65)
+  /* background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(47,54,64,0.8) 100%); */
 }
 
 .carousel .control-dots{
@@ -6937,7 +6937,6 @@ video {
 
 .news-category {
   font-weight: 700;
-  color: #fff;
   font-size: 0.875rem;
   text-transform: uppercase;
 }
@@ -6949,12 +6948,75 @@ video {
   margin-right: 12px;
   width: 25px;
   height: 9px;
-  background: black;
 }
 
 .news-category.akern:before {
-  background-color: #F0B429
-};
+  background-color: #F0B429;
+}
+
+.news-category.algemeen:before {
+  background-color: #E12D39;
+}
+
+.news-category.jeugd:before {
+  background-color: #4299e1;
+}
+
+.news-category.dames:before {
+  background-color: #ed8936;
+}
+
+.news-category.evenementen:before {
+  background-color: #48bb78;
+}
+
+.huh {
+}
+
+.btn {
+  font-weight: 700;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  display: inline-block;
+  background-color: #616E7C;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+}
+
+.button-w-full .btn {
+  z-index: 3000;
+  position: relative;
+}
+
+.button-w-full:after {
+  content:'';
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 2;
+  left: 0;
+  background-color: #616E7C;
+}
+
+.btn:hover {
+  background-color: #3E4C59;
+}
+
+.btn-yellow {
+  background-color: #F7C948;
+  color: #3E4C59;
+}
+
+.btn-yellow:hover {
+  background-color: #CBD2D9;
+}
 
 body, html {
   font-family: Poppins, sans-serif;
@@ -6965,6 +7027,13 @@ body, html {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2.25rem;
+  color: #1F2933;
+  font-weight: 600;
 }
 
 @media (min-width: 640px) {
