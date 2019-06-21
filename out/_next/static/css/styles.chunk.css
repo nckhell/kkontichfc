@@ -6361,6 +6361,8 @@ video {
   margin-left: 12px;
   vertical-align: middle;
   text-transform: uppercase;
+  font-weight: 600;
+  color: #1F2933;
 }
 
 .hamburger-inner {
@@ -6435,8 +6437,21 @@ video {
   transition: bottom 0.075s ease, transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
-#menu {
+@media (min-width: 1280px) {
+  .hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner::before, .hamburger.is-active .hamburger-inner::after {
+    background-color: #fff;
+  }
+
+  .hamburger.is-active .hamburger-label {
+    color: #fff;
+  }
+}
+
+#navigation #menu {
   transition: all 0.2s ease-out;
+  background-color: #fff;
+  position: absolute;
+  color: #616E7C;
 }
 
 #navigation.closed #menu {
@@ -6445,45 +6460,55 @@ video {
   opacity: 0;
 }
 
-#navigation.open #menu {
+#navigation #navigation.open #menu {
   -webkit-transform: translateX(0);
           transform: translateX(0);
   opacity: 1;
 }
 
-#menu ul.main-menu {
+#navigation #menu ul.main-menu {
   box-shadow: 0 15px 25px 2px rgba(0,0,0,0.10), 0 5px 30px 5px rgba(0,0,0,0.1), 0 8px 10px -5px rgba(0,0,0,0.2);
   position: relative;
   z-index: 2;
 }
 
-#menu ul li {
+#navigation #menu ul li {
   background: #fff;
   position: relative;
 }
 
-#menu ul li a {
+#navigation #menu ul li a {
   padding: 18px 25px;
   width: 200px;
   display: inline-block;
   box-shadow: 0 1px 0 #ECEFF3 inset;
 }
 
-#menu ul li:hover > a {
+#navigation #menu ul li:hover > a {
   color: #3260B1;
   background: rgba(50,96,177,0.05);
 }
 
-#menu ul li:hover > .submenu {
+#navigation #menu ul li:hover > .submenu {
   display: block;
   opacity: 1;
 }
 
-.submenu {
+#navigation .submenu {
   display: none;
 }
 
-#menu ul li.has-submenu:after {
+#navigation .facebook-link {
+  position: relative;
+}
+
+#navigation .facebook-link img {
+  position: absolute;
+  right: 18px;
+  top: 18px;
+}
+
+#navigation #menu ul li.has-submenu:after {
   content: '>';
   top: 0;
   position: absolute;
@@ -6500,7 +6525,7 @@ video {
   opacity: 0.5;
 }
 
-.submenu {
+#navigation .submenu {
   display: none;
   position: absolute;
   top: 0;
@@ -6513,7 +6538,7 @@ video {
           transform-origin: top left;
 }
 
-.submenu li {
+#navigation .submenu li {
   box-shadow: 1px 0 0px #e4e4e4 inset, 1px 0 0px #d3d3d3;
 }
 
@@ -6531,6 +6556,42 @@ video {
     transform: scale(0.9) translateY(-20px);
     opacity: 0
   }
+}
+
+#full-page-nav-wrapper {
+  transition: all 0.2s ease-out;
+  background-color: #fff;
+  position: absolute;
+  color: #616E7C;
+}
+
+.facebook-desktop {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  max-width: 85%;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#desktop-menu ul.main-menu > li.facebook-link {
+  display: none;
+}
+
+#full-page-nav-wrapper.closed {
+  /* transform: translateX(-300px); */
+  opacity: 0;
+}
+
+#full-page-nav-wrapper.open {
+  /* transform: translateX(0); */
+  opacity: 1;
+}
+
+#full-page-nav-wrapper {
+  z-index: 4;
 }
 
 #quote {
@@ -6555,6 +6616,69 @@ video {
   content: close-quote;
   right: -30px;
   top: 50px;
+}
+
+#desktop-menu #menu {
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+}
+
+#desktop-menu ul.main-menu {
+  display: -webkit-flex;
+  display: flex;
+  max-width: 85%;
+  width: auto;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin:0 auto;
+}
+
+#desktop-menu ul.main-menu > li {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  width: 45%;
+  margin-bottom: 2rem;
+}
+
+#desktop-menu ul.main-menu > li:nth-child(odd) {
+  margin-left: 10%;
+}
+
+#desktop-menu ul.main-menu > li > a {
+  font-size: 1.25rem;
+  border-bottom-width: 1px;
+  border-color: #CBD2D9;
+  display: block;
+  text-transform: uppercase;
+  color: #616E7C;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+#desktop-menu ul.main-menu > li:not(.has-submenu) > a:hover {
+  color: #E12D39;
+  border-color: #FF9B9B;
+}
+
+#desktop-menu ul.submenu > li {
+  line-height: 2;
+}
+
+#desktop-menu ul.submenu {
+  -webkit-columns: 2;
+          columns: 2;
+}
+
+#desktop-menu ul.submenu > li > a {
+  font-size: 1.125rem;
+  color: #616E7C;
+}
+
+#desktop-menu ul.submenu > li > a:hover {
+  color: #F7C948;
 }
 
 body, html {
@@ -29352,3 +29476,5 @@ body, html {
   }
 }
 
+
+/*# sourceMappingURL=styles.chunk.css.map*/
