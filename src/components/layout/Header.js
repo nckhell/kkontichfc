@@ -41,7 +41,7 @@ class Header extends Component {
             <Link href="/">
               <a>
                 <img
-                  className="w-8 md:w-16 lg:w-20"
+                  className="w-8 md:w-16 lg:w-18"
                   src={prefixURL("/static/img/kkontichfc.svg")}
                   alt="K. Kontich F.C."
                 />

@@ -10,6 +10,7 @@
 @import "./components/nav/FullPageNav.css";
 @import "./components/carousel/Carousel.css";
 @import "./components/news/CategoryBadge.css";
+@import "./components/button/Button.css";
 
 body, html {
     @apply font-kkfc;
@@ -19,4 +20,8 @@ body, html {
     position: absolute;
     left: 50%;
     transform: translateX(-50%); 
+}
+
+h1 {
+    @apply uppercase text-4xl text-gray-900 font-semibold;
 }

@@ -182,7 +182,7 @@
     margin:0;
     position:relative;
     text-align:center;
-    height: 50vh;
+    height: 53vh;
   }
   
   .carousel .slide img{
@@ -198,15 +198,15 @@
     border:0
   }
   
-  .carousel .slide .legend{
+  .gradient-wrapper{
     position:absolute;
     z-index: 50;
     left: 0;
     top: 0;
     right: 0;
     bottom: 0;
-    background: rgba(255,255,255,0);
-    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(47,54,64,0.8) 100%);
+    background: rgba(47,54,64,0.65)
+    /* background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(47,54,64,0.8) 100%); */
   }
   
   .carousel .control-dots{
