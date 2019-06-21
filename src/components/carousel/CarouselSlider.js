@@ -24,10 +24,10 @@ const CarouselSlider = () => {
         }}
       >
         <div className="gradient-wrapper flex items-center">
-          <div className="w-5/6 mx-auto text-left">
+          <div className="px-4 container mx-auto text-left md:px-0">
             <div className="news-category text-white akern">A-kern</div>
             <a href="#" className="block">
-              <div className="text-2xl py-4 font-semibold text-white md:text-3xl lg:w-4/6 xl:block xl:max-w-6xl xl:text-5xl">
+              <div className="text-2xl py-4 font-semibold text-white md:text-3xl lg:w-4/6 xl:block xl:max-w-6xl xl:text-4xl">
                 <span className="text-yellow-400">Andreas Tindemans:</span>{" "}
                 “opnieuw fit na 9 maanden revalidatie, ik heb het voetbal
                 gemist.”
