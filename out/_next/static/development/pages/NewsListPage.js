@@ -7,7 +7,7 @@
 /*! exports provided: fileMap, sourceFileArray, default */
 /***/ (function(module) {
 
-module.exports = {"fileMap":{"content/build/nieuws/2018-2019/algemeen/volvo-vermant-18-19.json":{"title":"Volvo Vermant","date":"2018-06-01T00:00:00.000Z","preview":"Second post post!\n\nCheckout github to see my other projects\n\nanother page","dir":"content/build/nieuws/2018-2019/algemeen","base":"volvo-vermant-18-19.json","ext":".json","sourceBase":"volvo-vermant-18-19.md","sourceExt":".md"},"content/build/nieuws/2019-2020/dames/tweede-post-19-20.json":{"title":"Second post","date":"2019-06-01T00:00:00.000Z","preview":"Second post post!\n\nCheckout github to see my other projects\n\nanother page","dir":"content/build/nieuws/2019-2020/dames","base":"tweede-post-19-20.json","ext":".json","sourceBase":"tweede-post-19-20.md","sourceExt":".md"},"content/build/nieuws/2018-2019/evenementen/kkfc-paastornooi-18-19.json":{"title":"Paastornooi","date":"2017-06-01T00:00:00.000Z","preview":"Paastornooi nieuws","dir":"content/build/nieuws/2018-2019/evenementen","base":"kkfc-paastornooi-18-19.json","ext":".json","sourceBase":"kkfc-paastornooi-18-19.md","sourceExt":".md"},"content/build/nieuws/2018-2019/jeugd/jeugdtrainers-gezocht-18-19.json":{"title":"Jeugdtrainers gezocht","date":"2019-05-01T00:00:00.000Z","preview":"jeugdtrainers gezocht","dir":"content/build/nieuws/2018-2019/jeugd","base":"jeugdtrainers-gezocht-18-19.json","ext":".json","sourceBase":"jeugdtrainers-gezocht-18-19.md","sourceExt":".md"},"content/build/nieuws/2019-2020/evenementen/kkfc-paastornooi-19-20.json":{"title":"Paastornooi","date":"2017-06-01T00:00:00.000Z","preview":"Paastornooi nieuws","dir":"content/build/nieuws/2019-2020/evenementen","base":"kkfc-paastornooi-19-20.json","ext":".json","sourceBase":"kkfc-paastornooi-19-20.md","sourceExt":".md"},"content/build/nieuws/2018-2019/dames/tweede-post-18-19.json":{"title":"Second post","date":"2019-06-01T00:00:00.000Z","preview":"Second post post!\n\nCheckout github to see my other projects\n\nanother page","dir":"content/build/nieuws/2018-2019/dames","base":"tweede-post-18-19.json","ext":".json","sourceBase":"tweede-post-18-19.md","sourceExt":".md"},"content/build/nieuws/2019-2020/algemeen/volvo-vermant-19-20.json":{"title":"Volvo Vermant","date":"2018-06-01T00:00:00.000Z","preview":"Second post post!\n\nCheckout github to see my other projects\n\nanother page","dir":"content/build/nieuws/2019-2020/algemeen","base":"volvo-vermant-19-20.json","ext":".json","sourceBase":"volvo-vermant-19-20.md","sourceExt":".md"},"content/build/nieuws/2018-2019/algemeen/eerste-post-18-19.json":{"title":"First post","date":"2017-06-01T00:00:00.000Z","preview":"Hello,\n\nworld.","dir":"content/build/nieuws/2018-2019/algemeen","base":"eerste-post-18-19.json","ext":".json","sourceBase":"eerste-post-18-19.md","sourceExt":".md"}},"sourceFileArray":["content/nieuws/2018-2019/algemeen/eerste-post-18-19.md","content/nieuws/2018-2019/algemeen/volvo-vermant-18-19.md","content/nieuws/2018-2019/dames/tweede-post-18-19.md","content/nieuws/2018-2019/evenementen/kkfc-paastornooi-18-19.md","content/nieuws/2018-2019/jeugd/jeugdtrainers-gezocht-18-19.md","content/nieuws/2019-2020/algemeen/volvo-vermant-19-20.md","content/nieuws/2019-2020/dames/tweede-post-19-20.md","content/nieuws/2019-2020/evenementen/kkfc-paastornooi-19-20.md"]};
+module.exports = {"fileMap":{"content/build/nieuws/2018-2019/algemeen/eerste-post-18-19.json":{"title":"First post","date":"2017-06-01T00:00:00.000Z","preview":"Hello,\n\nworld.","dir":"content/build/nieuws/2018-2019/algemeen","base":"eerste-post-18-19.json","ext":".json","sourceBase":"eerste-post-18-19.md","sourceExt":".md"},"content/build/nieuws/2018-2019/algemeen/volvo-vermant-18-19.json":{"title":"Volvo Vermant","date":"2018-06-01T00:00:00.000Z","preview":"Second post post!\n\nCheckout github to see my other projects\n\nanother page","dir":"content/build/nieuws/2018-2019/algemeen","base":"volvo-vermant-18-19.json","ext":".json","sourceBase":"volvo-vermant-18-19.md","sourceExt":".md"},"content/build/nieuws/2018-2019/dames/tweede-post-18-19.json":{"title":"Second post","date":"2019-06-01T00:00:00.000Z","preview":"Second post post!\n\nCheckout github to see my other projects\n\nanother page","dir":"content/build/nieuws/2018-2019/dames","base":"tweede-post-18-19.json","ext":".json","sourceBase":"tweede-post-18-19.md","sourceExt":".md"},"content/build/nieuws/2018-2019/evenementen/kkfc-paastornooi-18-19.json":{"title":"Paastornooi","date":"2017-06-01T00:00:00.000Z","preview":"Paastornooi nieuws","dir":"content/build/nieuws/2018-2019/evenementen","base":"kkfc-paastornooi-18-19.json","ext":".json","sourceBase":"kkfc-paastornooi-18-19.md","sourceExt":".md"},"content/build/nieuws/2019-2020/dames/tweede-post-19-20.json":{"title":"Second post","date":"2019-06-01T00:00:00.000Z","preview":"Second post post!\n\nCheckout github to see my other projects\n\nanother page","dir":"content/build/nieuws/2019-2020/dames","base":"tweede-post-19-20.json","ext":".json","sourceBase":"tweede-post-19-20.md","sourceExt":".md"},"content/build/nieuws/2019-2020/algemeen/volvo-vermant-19-20.json":{"title":"Volvo Vermant","date":"2018-06-01T00:00:00.000Z","preview":"Second post post!\n\nCheckout github to see my other projects\n\nanother page","dir":"content/build/nieuws/2019-2020/algemeen","base":"volvo-vermant-19-20.json","ext":".json","sourceBase":"volvo-vermant-19-20.md","sourceExt":".md"},"content/build/nieuws/2019-2020/evenementen/kkfc-paastornooi-19-20.json":{"title":"Paastornooi","date":"2017-06-01T00:00:00.000Z","preview":"Paastornooi nieuws","dir":"content/build/nieuws/2019-2020/evenementen","base":"kkfc-paastornooi-19-20.json","ext":".json","sourceBase":"kkfc-paastornooi-19-20.md","sourceExt":".md"},"content/build/nieuws/2018-2019/jeugd/jeugdtrainers-gezocht-18-19.json":{"title":"Jeugdtrainers gezocht","date":"2019-05-01T00:00:00.000Z","preview":"jeugdtrainers gezocht","dir":"content/build/nieuws/2018-2019/jeugd","base":"jeugdtrainers-gezocht-18-19.json","ext":".json","sourceBase":"jeugdtrainers-gezocht-18-19.md","sourceExt":".md"}},"sourceFileArray":["content/nieuws/2018-2019/algemeen/eerste-post-18-19.md","content/nieuws/2018-2019/algemeen/volvo-vermant-18-19.md","content/nieuws/2018-2019/dames/tweede-post-18-19.md","content/nieuws/2018-2019/evenementen/kkfc-paastornooi-18-19.md","content/nieuws/2018-2019/jeugd/jeugdtrainers-gezocht-18-19.md","content/nieuws/2019-2020/algemeen/volvo-vermant-19-20.md","content/nieuws/2019-2020/dames/tweede-post-19-20.md","content/nieuws/2019-2020/evenementen/kkfc-paastornooi-19-20.md"]};
 
 /***/ }),
 
@@ -11868,25 +11868,32 @@ var _jsxFileName = "/Users/nick/Documents/Github/kkontichfc/src/components/layou
 var DesktopMenu = function DesktopMenu(props) {
   var isOpen = props.isOpen;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    id: "full-page-nav-wrapper",
-    className: "absolute h-full w-fill inset-0 hidden xl:flex ".concat(isOpen ? "open" : "closed"),
+    className: "animation-wrapper hidden xl:flex ".concat(isOpen ? "open" : "closed"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "full-page-nav-wrapper",
+    className: "absolute h-full w-fill inset-0 hidden xl:flex ".concat(isOpen ? "open" : "closed"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex items-center justify-center bg-red-500 w-5/12 border-r-8 border-yellow-400",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 20
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "w-full text-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 21
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -11895,7 +11902,7 @@ var DesktopMenu = function DesktopMenu(props) {
     alt: "K. Kontich F.C.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 22
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
@@ -11903,34 +11910,34 @@ var DesktopMenu = function DesktopMenu(props) {
     className: "pt-4 leading-tight font-semibold text-2xl text-red-800",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 27
     },
     __self: this
   }, " ", "Quam parva nulli cedo ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 32
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "font-normal italic text-xl",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 33
     },
     __self: this
   }, "Al ben ik klein, ik wijk voor niets")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "bg-white w-7/12 flex justify-center items-center relative",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 39
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "facebook-desktop",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 40
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -11940,7 +11947,7 @@ var DesktopMenu = function DesktopMenu(props) {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 41
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -11949,7 +11956,7 @@ var DesktopMenu = function DesktopMenu(props) {
     alt: "K. Kontich F.C.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 47
     },
     __self: this
   }), "Volg ons op facebook")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -11957,16 +11964,16 @@ var DesktopMenu = function DesktopMenu(props) {
     className: "w-full flex justify-center items-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 55
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_MenuContent__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 59
     },
     __self: this
-  }))));
+  })))));
 };
 
 DesktopMenu.propTypes = {
@@ -12085,6 +12092,9 @@ var Menu = function Menu() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "#",
+    onClick: function onClick(e) {
+      e.preventDefault();
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36
@@ -12094,567 +12104,579 @@ var Menu = function Menu() {
     className: "submenu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 44
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 45
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/heren/1e-provinciale",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 46
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 47
     },
     __self: this
   }, "1e Provinciale"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 50
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/heren/4e-provinciale",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 51
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 52
     },
     __self: this
   }, "4e Provinciale"))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     className: "has-submenu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 57
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "#",
+    onClick: function onClick(e) {
+      e.preventDefault();
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 58
     },
     __self: this
   }, "Dames"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
     className: "submenu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 66
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 67
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/dames/1e-nationale",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 68
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 69
     },
     __self: this
   }, "1e Nationale"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 72
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/dames/1e-provinciale",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 73
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 74
     },
     __self: this
   }, "1e Provinciale"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 77
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/dames/4e-provinciale",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 78
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 79
     },
     __self: this
   }, "4e Provinciale"))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     className: "has-submenu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 84
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "#",
+    onClick: function onClick(e) {
+      e.preventDefault();
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 85
     },
     __self: this
   }, "Jeugd"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
     className: "submenu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 93
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 94
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/jeugd/paastornooi/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 95
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 96
     },
     __self: this
   }, "Paastornooi"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 99
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/jeugd/trainingen/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 100
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 101
     },
     __self: this
   }, "Trainingen"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 104
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/jeugd/ploegen/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 105
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 106
     },
     __self: this
   }, "Ploegen"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 109
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/jeugd/trainers/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89
+      lineNumber: 110
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90
+      lineNumber: 111
     },
     __self: this
   }, "Trainers"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 114
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/jeugd/kalenders/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 115
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 116
     },
     __self: this
   }, "Kalenders"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 119
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/jeugd/Lidgeld/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 120
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100
+      lineNumber: 121
     },
     __self: this
   }, "Lidgeld"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103
+      lineNumber: 124
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/jeugd/online-registratie/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104
+      lineNumber: 125
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105
+      lineNumber: 126
     },
     __self: this
   }, "Online registratie"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108
+      lineNumber: 129
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/jeugd/mutualiteiten/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109
+      lineNumber: 130
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110
+      lineNumber: 131
     },
     __self: this
   }, "Mutualiteiten"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113
+      lineNumber: 134
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/jeugd/ongevallen/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114
+      lineNumber: 135
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115
+      lineNumber: 136
     },
     __self: this
   }, "Ongevallen"))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     className: "has-submenu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120
+      lineNumber: 141
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "#",
+    onClick: function onClick(e) {
+      e.preventDefault();
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121
+      lineNumber: 142
     },
     __self: this
   }, "Info"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
     className: "submenu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122
+      lineNumber: 150
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123
+      lineNumber: 151
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/info/geschiedenis/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124
+      lineNumber: 152
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125
+      lineNumber: 153
     },
     __self: this
   }, "Geschiedenis"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128
+      lineNumber: 156
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/info/bestuur/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129
+      lineNumber: 157
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130
+      lineNumber: 158
     },
     __self: this
   }, "Bestuur"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133
+      lineNumber: 161
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/info/secretariaat/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134
+      lineNumber: 162
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135
+      lineNumber: 163
     },
     __self: this
   }, "Secretariaat"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138
+      lineNumber: 166
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/info/weerbericht/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139
+      lineNumber: 167
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140
+      lineNumber: 168
     },
     __self: this
   }, "Weerbericht"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 143
+      lineNumber: 171
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/info/contact/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 144
+      lineNumber: 172
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145
+      lineNumber: 173
     },
     __self: this
   }, "Contact"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148
+      lineNumber: 176
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/info/downloads/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149
+      lineNumber: 177
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 150
+      lineNumber: 178
     },
     __self: this
   }, "Downloads"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 153
+      lineNumber: 181
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/info/organigrammen/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 154
+      lineNumber: 182
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 155
+      lineNumber: 183
     },
     __self: this
   }, "Organigrammen"))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     className: "has-submenu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 160
+      lineNumber: 188
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "#",
+    onClick: function onClick(e) {
+      e.preventDefault();
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 161
+      lineNumber: 189
     },
     __self: this
   }, "Commercieel"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
     className: "submenu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 162
+      lineNumber: 197
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 163
+      lineNumber: 198
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/commercieel/sponsors/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 164
+      lineNumber: 199
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 165
+      lineNumber: 200
     },
     __self: this
   }, "Sponsors"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 168
+      lineNumber: 203
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/commercieel/huur-kantine/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 169
+      lineNumber: 204
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 170
+      lineNumber: 205
     },
     __self: this
   }, "Huur kantine"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 173
+      lineNumber: 208
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "/commercieel/evenementen/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 174
+      lineNumber: 209
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 175
+      lineNumber: 210
     },
     __self: this
   }, "Evenementen"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 178
+      lineNumber: 213
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_0__["Link"], {
     href: "https://kontich.clubwereld.nl/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 179
+      lineNumber: 214
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 180
+      lineNumber: 215
     },
     __self: this
   }, "KKFC Webshop")))))));

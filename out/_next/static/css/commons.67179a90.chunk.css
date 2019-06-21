@@ -6558,11 +6558,32 @@ video {
   }
 }
 
-#full-page-nav-wrapper {
-  transition: opacity 0.3s ease-in;
+.animation-wrapper, .animation-wrapper.close {
+  opacity: 0;
+  transition: opacity 0.2s ease-in;
+}
+
+.animation-wrapper.open {
+  opacity: 1;
+}
+
+.animation-wrapper #full-page-nav-wrapper {
   background-color: #fff;
   position: absolute;
   color: #616E7C;
+  z-index: -1;
+}
+
+.animation-wrapper #full-page-nav-wrapper.closed {
+  display: none;
+  /* opacity: 0; */
+}
+
+.animation-wrapper #full-page-nav-wrapper.open {
+  /* opacity: 1; */
+  z-index: 4;
+  display: -webkit-flex;
+  display: flex;
 }
 
 .facebook-desktop {
@@ -6578,20 +6599,6 @@ video {
 
 #desktop-menu ul.main-menu > li.facebook-link {
   display: none;
-}
-
-#full-page-nav-wrapper.closed {
-  opacity: 0;
-}
-
-#full-page-nav-wrapper.open {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
-  opacity: 1;
-}
-
-#full-page-nav-wrapper {
-  z-index: 4;
 }
 
 #quote {
