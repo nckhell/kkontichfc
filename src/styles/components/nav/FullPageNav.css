@@ -1,31 +1,20 @@
-.animation-wrapper, .animation-wrapper.close {
+#full-page-nav-wrapper, #full-page-nav-wrapper.close {
     opacity: 0;
-    /* transition: all 0.2s ease-in; */
-    z-index: 100;
+    transition: all 0.2s ease-in;
+    visibility: hidden;
+    z-index: 300;
 }
 
-.animation-wrapper.open {
+#full-page-nav-wrapper.open {
     opacity: 1;
     z-index: 400;
+    visibility: visible;
 }
 
-.animation-wrapper #full-page-nav-wrapper {
+#full-page-nav-wrapper {
     @apply bg-white;
     @apply absolute;
     @apply text-gray-500;
-    z-index: 400;
-}
-
-.animation-wrapper #full-page-nav-wrapper.closed {
-    display: none;
-    /* opacity: 0; */
-}
-
-.animation-wrapper #full-page-nav-wrapper.open {
-    /* opacity: 1; */
-    /* transition: all 0.2s ease-in; */
-    z-index: 400;
-    display: flex;
 }
 
 .facebook-desktop {

@@ -1,40 +1,35 @@
 import React, { Component } from "react";
 import { Link, prefixURL } from "next-prefixed";
-import Menu from "./Menu/MenuContent";
-import DesktopMenu from "./Menu/DesktopMenu";
+import PropTypes from "prop-types";
 
 class Header extends Component {
-  state = {
-    menuIsOpen: false
-  };
-
   constructor() {
     super();
-    this.toggleMenu = this.toggleMenu.bind(this);
+    this.onHamburgerClick = this.onHamburgerClick.bind(this);
   }
 
-  toggleMenu() {
-    this.setState(prevState => ({
-      menuIsOpen: !prevState.menuIsOpen
-    }));
+  onHamburgerClick(e) {
+    e.preventDefault();
+    const { toggleMenu } = this.props;
+    toggleMenu();
   }
 
   render() {
-    const { menuIsOpen } = this.state;
+    const { isMenuOpen } = this.props;
 
     return (
-      <nav>
+      <header className="z-20">
         <div className="flex flex-row justify-between items-center px-4 py-6 border-b border-gray-200 sm:px-6 md:py-16 md:px-8 xl:px-16">
           <div className="relative z-500">
             <button
-              onClick={this.toggleMenu}
+              onClick={this.onHamburgerClick}
               className={`hamburger hamburger--squeeze ${
-                menuIsOpen ? "is-active" : ""
+                isMenuOpen ? "is-active" : ""
               }`}
               type="button"
               aria-label="Menu"
               aria-controls="navigation"
-              aria-expanded={menuIsOpen}
+              aria-expanded={isMenuOpen}
             >
               <span className="hamburger-box">
                 <span className="hamburger-inner"></span>
@@ -74,16 +69,14 @@ class Header extends Component {
             </ul>
           </div>
         </div>
-        <div
-          id="navigation"
-          className={`xl:hidden ${menuIsOpen ? "open" : "closed"}`}
-        >
-          <Menu />
-        </div>
-        <DesktopMenu isOpen={menuIsOpen} />
-      </nav>
+      </header>
     );
   }
 }
+
+Header.propTypes = {
+  isMenuOpen: PropTypes.bool.isRequired,
+  toggleMenu: PropTypes.func.isRequired
+};
 
 export default Header;
