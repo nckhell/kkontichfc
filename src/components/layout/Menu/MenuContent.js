@@ -33,7 +33,14 @@ const Menu = () => {
           </Link>
         </li>
         <li className="has-submenu">
-          <a href="#">Heren</a>
+          <a
+            href="#"
+            onClick={e => {
+              e.preventDefault();
+            }}
+          >
+            Heren
+          </a>
           <ul className="submenu">
             <li>
               <Link href="/heren/1e-provinciale">
@@ -48,7 +55,14 @@ const Menu = () => {
           </ul>
         </li>
         <li className="has-submenu">
-          <a href="#">Dames</a>
+          <a
+            href="#"
+            onClick={e => {
+              e.preventDefault();
+            }}
+          >
+            Dames
+          </a>
           <ul className="submenu">
             <li>
               <Link href="/dames/1e-nationale">
@@ -68,7 +82,14 @@ const Menu = () => {
           </ul>
         </li>
         <li className="has-submenu">
-          <a href="#">Jeugd</a>
+          <a
+            href="#"
+            onClick={e => {
+              e.preventDefault();
+            }}
+          >
+            Jeugd
+          </a>
           <ul className="submenu">
             <li>
               <Link href="/jeugd/paastornooi/">
@@ -118,7 +139,14 @@ const Menu = () => {
           </ul>
         </li>
         <li className="has-submenu">
-          <a href="#">Info</a>
+          <a
+            href="#"
+            onClick={e => {
+              e.preventDefault();
+            }}
+          >
+            Info
+          </a>
           <ul className="submenu">
             <li>
               <Link href="/info/geschiedenis/">
@@ -158,7 +186,14 @@ const Menu = () => {
           </ul>
         </li>
         <li className="has-submenu">
-          <a href="#">Commercieel</a>
+          <a
+            href="#"
+            onClick={e => {
+              e.preventDefault();
+            }}
+          >
+            Commercieel
+          </a>
           <ul className="submenu">
             <li>
               <Link href="/commercieel/sponsors/">

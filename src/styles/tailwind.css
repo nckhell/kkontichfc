@@ -8,6 +8,8 @@
 @import "./components/nav/Hamburger.css";
 @import "./components/nav/MobileNav.css";
 @import "./components/nav/FullPageNav.css";
+@import "./components/carousel/Carousel.css";
+@import "./components/news/CategoryBadge.css";
 
 body, html {
     @apply font-kkfc;

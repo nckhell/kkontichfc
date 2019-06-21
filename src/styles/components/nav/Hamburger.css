@@ -20,6 +20,10 @@
   .hamburger.is-active .hamburger-inner::after {
     background-color: #000; }
 
+  .z-500 {
+    z-index: 500;
+  }
+
 .hamburger-box {
   width: 32px;
   height: 24px;

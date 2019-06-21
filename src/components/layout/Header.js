@@ -25,7 +25,7 @@ class Header extends Component {
     return (
       <nav>
         <div className="flex flex-row justify-between items-center px-4 py-6 border-b border-gray-200 sm:px-6 md:py-16 md:px-8 xl:px-16">
-          <div className="relative z-10">
+          <div className="relative z-500">
             <button
               onClick={this.toggleMenu}
               className={`hamburger hamburger--squeeze ${
@@ -50,6 +50,7 @@ class Header extends Component {
                   src={prefixURL("/static/img/kkontichfc.svg")}
                   alt="K. Kontich F.C."
                 />
+                <h1 className="hidden">K. Kontich F.C.</h1>
               </a>
             </Link>
           </div>

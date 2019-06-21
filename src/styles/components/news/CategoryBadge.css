@@ -1,0 +1,18 @@
+.news-category {
+    @apply font-bold;
+    @apply text-white;
+    @apply text-sm;
+    @apply uppercase;
+}
+
+.news-category:before {
+    content: '';
+    position: relative;
+    display: inline-block;
+    margin-right: 12px;
+    width: 25px;
+    height: 9px;
+    background: black;
+}
+
+.news-category.akern:before {@apply bg-yellow-500};
