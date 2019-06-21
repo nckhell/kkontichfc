@@ -31,5 +31,5 @@ body, html {
 }
 
 h1 {
-    @apply uppercase text-4xl text-gray-900 font-semibold;
+    @apply uppercase text-3xl text-gray-900 font-semibold;
 }

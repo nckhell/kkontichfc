@@ -1,147 +1,57 @@
 import React from "react";
 import { Link, prefixURL } from "next-prefixed";
+import { CloudinaryContext, Image, Transformation } from "cloudinary-react";
+import _ from "lodash";
 import ReactSVG from "react-svg";
 import CarouselSlider from "../src/components/carousel/CarouselSlider";
 import Layout from "../src/components/layout/Layout";
+import LatestNews from "../src/components/news/LatestNews";
+import ButtonWithLine from "../src/components/buttons/ButtonWithLine";
+import sponsors from "../content/sponsors";
 
 function HomePage() {
+  const headSponsors = _.filter(sponsors, sponsor => {
+    return sponsor.headsponsor === "YES";
+  });
+
   return (
     <Layout>
       <CarouselSlider />
       <main>
-        <section className="container mx-auto my-20 px-4 md:px-0">
+        <section className="container my-10 mx-auto px-4 md:px-0 lg:my-16">
           <h1>Laatste nieuws</h1>
-          <div className="mt-6 lg:flex lg:-mx-2">
-            <div className="border mb-4 border-gray-200 border-b-4 w-full lg:w-1/3 lg:mx-2">
-              <a href="#">
-                <div
-                  className="w-full h-48 lg:h-56 bg-cover"
-                  style={{
-                    backgroundImage:
-                      "url('https://kkontichfc.be/uploads/img/nieuws/182.jpg')",
-                    backgroundPosition: "center"
-                  }}
-                ></div>
-                <div className="news-category akern text-gray-300 pt-8 px-6">
-                  A-kern
-                </div>
-                <div className="text-xl leading-relaxed pt-6 px-6 h-40">
-                  Verdediger Jente Hermans speelt volgend seizoen voor KKFC!
-                </div>
-                <div className="pb-4 px-6 flex text-xs text-gray-600 justify-between">
-                  <div>
-                    <ReactSVG
-                      className="inline-block align-middle pr-2"
-                      beforeInjection={svg => {
-                        svg.setAttribute("style", "fill: #52606D");
-                      }}
-                      src={prefixURL("/static/img/clock.svg")}
-                    />
-                    maandag 21 juli 2019, 15:03
-                  </div>
-                  <div>
-                    <ReactSVG
-                      className="inline-block align-middle pr-2"
-                      beforeInjection={svg => {
-                        svg.setAttribute("style", "fill: #52606D");
-                        svg.setAttribute("style", "height: 24px");
-                        svg.setAttribute("style", "width: 24px");
-                      }}
-                      src={prefixURL("/static/img/eye.svg")}
-                    />
-                    2042x
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div className="border mb-4 border-gray-200 border-b-4 w-full lg:w-1/3 lg:mx-2">
-              <a href="#">
-                <div
-                  className="w-full h-48 lg:h-56 bg-cover"
-                  style={{
-                    backgroundImage:
-                      "url('https://kkontichfc.be/uploads/img/nieuws/182.jpg')",
-                    backgroundPosition: "center"
-                  }}
-                ></div>
-                <div className="news-category akern text-gray-300 pt-8 px-6">
-                  A-kern
-                </div>
-                <div className="text-xl leading-relaxed pt-6 px-6 h-40">
-                  Verdediger Jente Hermans speelt volgend seizoen voor KKFC!
-                </div>
-                <div className="pb-4 px-6 flex text-xs text-gray-600 justify-between">
-                  <div>
-                    <ReactSVG
-                      className="inline-block align-middle pr-2"
-                      beforeInjection={svg => {
-                        svg.setAttribute("style", "fill: #52606D");
-                      }}
-                      src={prefixURL("/static/img/clock.svg")}
-                    />
-                    maandag 21 juli 2019, 15:03
-                  </div>
-                  <div>
-                    <ReactSVG
-                      className="inline-block align-middle pr-2"
-                      beforeInjection={svg => {
-                        svg.setAttribute("style", "fill: #52606D");
-                        svg.setAttribute("style", "height: 24px");
-                        svg.setAttribute("style", "width: 24px");
-                      }}
-                      src={prefixURL("/static/img/eye.svg")}
-                    />
-                    2042x
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div className="border mb-4 border-gray-200 border-b-4 w-full lg:w-1/3 lg:mx-2">
-              <a href="#">
-                <div
-                  className="w-full h-48 lg:h-56 bg-cover"
-                  style={{
-                    backgroundImage:
-                      "url('https://kkontichfc.be/uploads/img/nieuws/182.jpg')",
-                    backgroundPosition: "center"
-                  }}
-                ></div>
-                <div className="news-category akern text-gray-300 pt-8 px-6">
-                  A-kern
-                </div>
-                <div className="text-xl leading-relaxed pt-6 px-6 h-40">
-                  Verdediger Jente Hermans speelt volgend seizoen voor KKFC!
-                </div>
-                <div className="pb-4 px-6 flex text-xs text-gray-600 justify-between">
-                  <div>
-                    <ReactSVG
-                      className="inline-block align-middle pr-2"
-                      beforeInjection={svg => {
-                        svg.setAttribute("style", "fill: #52606D");
-                      }}
-                      src={prefixURL("/static/img/clock.svg")}
-                    />
-                    maandag 21 juli 2019, 15:03
-                  </div>
-                  <div>
-                    <ReactSVG
-                      className="inline-block align-middle pr-2"
-                      beforeInjection={svg => {
-                        svg.setAttribute("style", "fill: #52606D");
-                        svg.setAttribute("style", "height: 24px");
-                        svg.setAttribute("style", "width: 24px");
-                      }}
-                      src={prefixURL("/static/img/eye.svg")}
-                    />
-                    2042x
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div className="button-w-full text-center mt-8 relative">
-            <a href="#" className="btn mx-auto block">Meer nieuws</a>
-          </div>
+          <LatestNews />
+          <ButtonWithLine text="Meer nieuws" url="#" />
+        </section>
+        <div className="my-8 lg:my-10 lg:my-20 bg-gray-111 w-full">
+          <section className="mx-auto py-2 lg:py-6 xl:py-10 px-4 md:px-16">
+            <CloudinaryContext
+              className="flex flex-wrap justify-around"
+              cloudName="kkontichfc"
+            >
+              {headSponsors &&
+                headSponsors.map(sponsor => {
+                  return (
+                    <a
+                      href={sponsor.url}
+                      className="w-24 md:w-32 mx-4 md:mx-8 lg:mx-10 my-3 lg:my-6 flex"
+                      key={sponsor.cloudinaryID}
+                    >
+                      <Image
+                        className="mx-auto object-contain"
+                        publicId={`sponsors/${sponsor.cloudinaryID}`}
+                      >
+                        <Transformation width="180" height="120" crop="fit" />
+                      </Image>
+                    </a>
+                  );
+                })}
+            </CloudinaryContext>
+          </section>
+        </div>
+        <section className="container my-10 mx-auto px-4 md:px-0 lg:my-16">
+          <h1>Evenementen</h1>
+          <ButtonWithLine text="Alle evenementen" url="#" />
         </section>
       </main>
     </Layout>

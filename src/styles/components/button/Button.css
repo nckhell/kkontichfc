@@ -1,11 +1,11 @@
 .huh {}
 
 .btn {
-    @apply font-bold py-4 px-6 inline-block bg-gray-500 shadow-md uppercase text-white font-semibold;
+    @apply text-sm font-bold py-4 px-6 inline-block bg-gray-500 shadow-md uppercase text-white font-semibold;
 }
 
 .button-w-full .btn {
-    z-index: 3000;
+    z-index: 300;
     position: relative;
 }
 .button-w-full:after {
