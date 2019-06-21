@@ -33,9 +33,7 @@ const Menu = () => {
           </Link>
         </li>
         <li className="has-submenu">
-          <Link href="#">
-            <a>Heren</a>
-          </Link>
+          <a href="#">Heren</a>
           <ul className="submenu">
             <li>
               <Link href="/heren/1e-provinciale">
@@ -50,9 +48,7 @@ const Menu = () => {
           </ul>
         </li>
         <li className="has-submenu">
-          <Link href="#">
-            <a>Dames</a>
-          </Link>
+          <a href="#">Dames</a>
           <ul className="submenu">
             <li>
               <Link href="/dames/1e-nationale">
@@ -72,9 +68,7 @@ const Menu = () => {
           </ul>
         </li>
         <li className="has-submenu">
-          <Link href="#">
-            <a>Jeugd</a>
-          </Link>
+          <a href="#">Jeugd</a>
           <ul className="submenu">
             <li>
               <Link href="/jeugd/paastornooi/">
@@ -124,9 +118,7 @@ const Menu = () => {
           </ul>
         </li>
         <li className="has-submenu">
-          <Link href="#">
-            <a>Info</a>
-          </Link>
+          <a href="#">Info</a>
           <ul className="submenu">
             <li>
               <Link href="/info/geschiedenis/">
@@ -166,9 +158,7 @@ const Menu = () => {
           </ul>
         </li>
         <li className="has-submenu">
-          <Link href="#">
-            <a>Commercieel</a>
-          </Link>
+          <a href="#">Commercieel</a>
           <ul className="submenu">
             <li>
               <Link href="/commercieel/sponsors/">
