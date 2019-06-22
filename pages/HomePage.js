@@ -18,6 +18,7 @@ function HomePage() {
         <HeadSponsors />
         <section className="container my-10 mx-auto px-4 md:px-0 lg:my-16">
           <h1>Evenementen</h1>
+          <p>To do</p>
           <ButtonWithLine text="Alle evenementen" url="#" />
         </section>
       </main>
