@@ -33,7 +33,7 @@ const CarouselItem = props => {
           <div className={`news-category text-white  ${category}`}>
             {category}
           </div>
-          <a href={href} title={data.title} className="block">
+          <a href={prefixURL(href)} title={data.title} className="block">
             <div className="text-2xl py-4 font-semibold text-white md:text-3xl lg:w-4/6 xl:block xl:max-w-6xl xl:text-4xl">
               {/* <span className="text-yellow-400">Not implemented</span> */}
               {data.title}
