@@ -8,6 +8,10 @@
     @apply leading-snug;
 }
 
+.body-content strong, .body-content b {
+    @apply font-semibold;
+}
+
 .body-content h1 {
     @apply font-normal;
     @apply text-5xl;
