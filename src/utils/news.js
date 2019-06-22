@@ -33,7 +33,7 @@ export const getAllSeasonsWithNews = SUMMARY => {
 };
 
 export const getCategoryFromNewsPost = newsPostDir => {
-  return newsPostDir.file.split("/").slice(-1)[0];
+  return newsPostDir.split("/").slice(-1)[0];
 };
 
 export const getSeasonFromNewsPost = newsPostDir => {
@@ -61,11 +61,11 @@ export const sortNewsSummaryJsonOnDate = (summaryJson, order = "desc") => {
 };
 
 export const limit = (summaryJson, amountOfArticles) => {
-  return amountOfArticles.slice(0, amountOfArticles - 1);
+  return summaryJson.slice(0, amountOfArticles);
 };
 
 export const makeUrl = article => {
-  return `${article.dir
+  return `/${article.dir
     .split("content/build/nieuws/")
     .join("nieuws/")}/${article.base.split(".json").join("/")}`;
 };

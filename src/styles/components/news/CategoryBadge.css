@@ -13,7 +13,7 @@
     height: 9px;
 }
 
-.news-category.akern:before {@apply bg-yellow-500;}
+.news-category.a-kern:before {@apply bg-yellow-500;}
 .news-category.algemeen:before {@apply bg-red-500;}
 .news-category.jeugd:before {@apply bg-blue-500;}
 .news-category.dames:before {@apply bg-orange-500;}

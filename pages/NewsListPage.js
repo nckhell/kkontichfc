@@ -1,47 +1,109 @@
-/* eslint-disable global-require */
+/* eslint-disable jsx-a11y/label-has-for */
 import React, { Component } from "react";
-import { Link } from "next-prefixed";
+import _ from "lodash";
 import Layout from "../src/components/layout/Layout";
 import SUMMARY_JSON from "../content/build/nieuws/summary.json";
 import {
   getAllNewsCategories,
   getAllSeasonsWithNews,
   sortNewsSummaryJsonOnDate,
-  makeUrl
+  getCategoryFromNewsPost
 } from "../src/utils/news";
-import { formatDate } from "../src/utils/dateTimeFormat";
+import HeadSponsors from "../src/components/sponsors/HeadSponsors";
+import NewsList from "../src/components/news/NewsList";
 
 class NewsListPage extends Component {
   state = {
-    newsCategories: getAllNewsCategories(SUMMARY_JSON),
-    seasons: getAllSeasonsWithNews(SUMMARY_JSON),
-    newsList: sortNewsSummaryJsonOnDate(SUMMARY_JSON)
+    newsCategoriesInFilter: getAllNewsCategories(SUMMARY_JSON),
+    seasonsInFilter: getAllSeasonsWithNews(SUMMARY_JSON),
+    newsList: sortNewsSummaryJsonOnDate(SUMMARY_JSON),
+    filteredNewsList: sortNewsSummaryJsonOnDate(SUMMARY_JSON)
   };
+
+  constructor() {
+    super();
+    this.filterNewsCategories = this.filterNewsCategories.bind(this);
+  }
 
   componentDidMount() {}
 
+  filterNewsCategories = e => {
+    const { newsCategoriesInFilter } = this.state;
+
+    if (!e.target.checked) {
+      let found = newsCategoriesInFilter.indexOf(e.target.name);
+
+      while (found !== -1) {
+        newsCategoriesInFilter.splice(found, 1);
+        found = newsCategoriesInFilter.indexOf(e.target.name);
+      }
+    }
+
+    if (e.target.checked) {
+      if (newsCategoriesInFilter.indexOf(e.target.name) === -1) {
+        newsCategoriesInFilter.push(e.target.name);
+      }
+    }
+
+    this.setState({ newsCategoriesInFilter });
+  };
+
   render() {
-    const { newsCategories, seasons, newsList } = this.state;
+    const { newsCategoriesInFilter, seasonsInFilter, newsList } = this.state;
+
+    let { filteredNewsList } = this.state;
+
+    filteredNewsList = _.filter(newsList, item => {
+      const categoryExists = newsCategoriesInFilter.indexOf(
+        getCategoryFromNewsPost(item.dir)
+      );
+
+      return categoryExists !== -1;
+    });
+
+    const newsCategories = getAllNewsCategories(SUMMARY_JSON);
+    const seasons = getAllSeasonsWithNews(SUMMARY_JSON);
 
     return (
       <Layout>
-        <div className="center mw6 pa3 pa4-ns">
-          {newsList.map(newsArticle => {
-            const href = makeUrl(newsArticle);
-            const date = formatDate(newsArticle.date);
-            return (
-              <div key={newsArticle.base}>
-                <p>{newsArticle.title}</p>
-                <p>{newsArticle.preview}</p>
-                <p>{date}</p>
-                <Link href={href}>Meer lezen..</Link>
-                <br />
-                <br />
-                <br />
+        <main>
+          <section className="container my-10 mx-auto px-4 md:px-0 lg:my-16">
+            <h1>Nieuwsoverzicht</h1>
+            <div className="bg-gray-111 border border-gray-100 py-4 px-6 my-8">
+              <div className="font-semibold text-lg text-gray-700">
+                Filteren
               </div>
-            );
-          })}
-        </div>
+              <div className="mt-2 -mx-2">
+                {newsCategories &&
+                  newsCategories.map(category => {
+                    return (
+                      <div
+                        className="checkbox-wrapper inline-block"
+                        key={category}
+                      >
+                        <label className="checklabel" htmlFor={category}>
+                          <input
+                            className="checkbox mr-2"
+                            type="checkbox"
+                            name={category}
+                            id={category}
+                            checked={
+                              newsCategoriesInFilter.indexOf(category) > -1
+                            }
+                            readOnly
+                            onChange={this.filterNewsCategories}
+                          />
+                          <span>{category}</span>
+                        </label>
+                      </div>
+                    );
+                  })}
+              </div>
+            </div>
+            <NewsList data={filteredNewsList} />
+          </section>
+          <HeadSponsors />
+        </main>
       </Layout>
     );
   }

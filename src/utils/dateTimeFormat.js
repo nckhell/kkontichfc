@@ -1,7 +1,7 @@
 export const formatDate = (dateString: string): string => {
   const options = {
-    weekday: "short",
-    month: "short",
+    weekday: "long",
+    month: "long",
     day: "numeric"
   };
 

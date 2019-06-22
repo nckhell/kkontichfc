@@ -1,25 +1,44 @@
 import React from "react";
-import { Link, prefixURL } from "next-prefixed";
-import { CloudinaryContext, Image, Transformation } from "cloudinary-react";
+import { prefixURL } from "next-prefixed";
 import ReactSVG from "react-svg";
+import { makeUrl, getCategoryFromNewsPost } from "../../utils/news";
+import { formatDate } from "../../utils/dateTimeFormat";
 
-const NewsItem = (props) => {
+const NewsItem = props => {
+  const { data } = props;
+
+  const href = makeUrl(data);
+  const date = formatDate(data.date);
+  const category = getCategoryFromNewsPost(data.dir);
+  let imageUrl;
+
+  if (data.cloudinaryID) {
+    imageUrl = `http://res.cloudinary.com/kkontichfc/image/upload/v1/nieuws/${data.cloudinaryID}`;
+  } else {
+    imageUrl = prefixURL("/static/img/no-news-image.png");
+  }
+
   return (
-    <div className="border mb-4 border-gray-200 border-b-4 w-full lg:w-1/3 lg:mx-2">
-      <a href="#">
+    <article className=" mb-4 w-full lg:w-1/3 lg:px-2">
+      <a
+        href={href}
+        title={data.title}
+        className="border border-gray-200 border-b-4 block hover:border-gray-300 hover:shadow-md"
+      >
         <div
           className="w-full h-48 lg:h-56 bg-cover"
           style={{
-            backgroundImage:
-              "url('https://kkontichfc.be/uploads/img/nieuws/182.jpg')",
-            backgroundPosition: "center"
+            backgroundImage: `url('${imageUrl}')`,
+            backgroundPosition: `${
+              data.backgroundPosition ? data.backgroundPosition : "center"
+            }`
           }}
-        ></div>
-        <div className="news-category akern text-gray-300 pt-8 px-6">
-          A-kern
+        />
+        <div className={`news-category text-gray-300 pt-8 px-6 ${category}`}>
+          {category}
         </div>
         <div className="text-xl leading-relaxed pt-6 px-6 h-40">
-          Verdediger Jente Hermans speelt volgend seizoen voor KKFC!
+          {data.title}
         </div>
         <div className="pb-4 px-6 flex text-xs text-gray-600 justify-between">
           <div>
@@ -30,7 +49,7 @@ const NewsItem = (props) => {
               }}
               src={prefixURL("/static/img/clock.svg")}
             />
-            maandag 21 juli 2019, 15:03
+            {date}
           </div>
           <div>
             <ReactSVG
@@ -46,8 +65,8 @@ const NewsItem = (props) => {
           </div>
         </div>
       </a>
-    </div>
+    </article>
   );
-}
+};
 
 export default NewsItem;
