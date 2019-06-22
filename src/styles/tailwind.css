@@ -55,6 +55,13 @@ body, html {
     }
 }
 
+.preload * {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+  }
+
 h1 {
     @apply uppercase;
     @apply text-3xl;

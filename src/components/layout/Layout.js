@@ -9,12 +9,17 @@ import "../../styles/tailwind.css";
 
 class Layout extends Component {
   state = {
-    isMenuOpen: false
+    isMenuOpen: false,
+    isLoading: true
   };
 
   constructor() {
     super();
     this.toggleMenu = this.toggleMenu.bind(this);
+  }
+
+  componentDidMount() {
+    this.setState({ isLoading: false });
   }
 
   toggleMenu() {
@@ -25,10 +30,10 @@ class Layout extends Component {
 
   render() {
     const { children, title, description } = this.props;
-    const { isMenuOpen } = this.state;
+    const { isMenuOpen, isLoading } = this.state;
 
     return (
-      <div>
+      <div className={`${isLoading ? "preload" : ""}`}>
         <Head>
           <title>{title} | K. Kontich F.C.</title>
           <meta name="description" content={description} />
