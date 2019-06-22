@@ -49,7 +49,7 @@ class NewsPostPage extends Component {
                   </figcaption>
                 </figure>
               )}
-                {/* eslint-disable-next-line react/no-danger */}
+              {/* eslint-disable-next-line react/no-danger */}
               <div
                 dangerouslySetInnerHTML={{ __html: NewsPostJson.bodyHtml }}
               />

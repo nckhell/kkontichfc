@@ -21,7 +21,7 @@ const NewsItem = props => {
   return (
     <article className=" mb-4 w-full lg:w-1/3 lg:px-2">
       <a
-        href={href}
+        href={prefixURL(href)}
         title={data.title}
         className="border border-gray-200 border-b-4 block hover:border-gray-300 hover:shadow-md"
       >
