@@ -15,7 +15,7 @@ class RankingComponent extends Component {
       return (
         <Tabs
           wrapperClassName="ranking-wrapper"
-          tabListClassName="choose-ranking-type"
+          tabListClassName="tab-wrapper my-6"
           tabContentClassName="ranking-table"
         >
           {rankings.map(ranking => {

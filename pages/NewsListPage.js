@@ -6,16 +6,18 @@ import SUMMARY_JSON from "../content/build/nieuws/summary.json";
 import {
   getAllNewsCategories,
   getAllSeasonsWithNews,
+  getSeasonFromNewsPost,
   sortNewsSummaryJsonOnDate,
   getCategoryFromNewsPost
 } from "../src/utils/news";
 import HeadSponsors from "../src/components/sponsors/HeadSponsors";
 import NewsList from "../src/components/news/NewsList";
+import Settings from "../settings";
 
 class NewsListPage extends Component {
   state = {
     newsCategoriesInFilter: getAllNewsCategories(SUMMARY_JSON),
-    seasonsInFilter: getAllSeasonsWithNews(SUMMARY_JSON),
+    seasonInFilter: Settings.currentSeason,
     newsList: sortNewsSummaryJsonOnDate(SUMMARY_JSON),
     filteredNewsList: sortNewsSummaryJsonOnDate(SUMMARY_JSON)
   };
@@ -23,9 +25,16 @@ class NewsListPage extends Component {
   constructor() {
     super();
     this.filterNewsCategories = this.filterNewsCategories.bind(this);
+    this.filterSeason = this.filterSeason.bind(this);
   }
 
   componentDidMount() {}
+
+  filterSeason = e => {
+    e.preventDefault();
+    const seasonInFilter = e.target.id;
+    this.setState({ seasonInFilter });
+  };
 
   filterNewsCategories = e => {
     const { newsCategoriesInFilter } = this.state;
@@ -49,11 +58,17 @@ class NewsListPage extends Component {
   };
 
   render() {
-    const { newsCategoriesInFilter, seasonsInFilter, newsList } = this.state;
+    const { newsCategoriesInFilter, seasonInFilter, newsList } = this.state;
 
     let { filteredNewsList } = this.state;
 
+    // Filter on newscategory
     filteredNewsList = _.filter(newsList, item => {
+      return getSeasonFromNewsPost(item.dir) === seasonInFilter;
+    });
+
+    // Filter on newscategory
+    filteredNewsList = _.filter(filteredNewsList, item => {
       const categoryExists = newsCategoriesInFilter.indexOf(
         getCategoryFromNewsPost(item.dir)
       );
@@ -69,11 +84,30 @@ class NewsListPage extends Component {
         <main>
           <section className="container my-10 mx-auto px-4 md:px-0 lg:my-16">
             <h1>Nieuwsoverzicht</h1>
-            <div className="bg-gray-111 border border-gray-100 py-4 px-6 my-8">
-              <div className="font-semibold text-lg text-gray-700">
+            <div className="my-6">
+              <ul className="tab-wrapper">
+                {seasons &&
+                  seasons.map(season => {
+                    return (
+                      <li className="inline-block" key={season}>
+                        <a
+                          className={seasonInFilter === season ? "active" : ""}
+                          href={`#${season}`}
+                          onClick={this.filterSeason}
+                          id={season}
+                        >
+                          {season}
+                        </a>
+                      </li>
+                    );
+                  })}
+              </ul>
+            </div>
+            <div className="bg-gray-111 border border-gray-100 pt-6 pb-4 px-6 my-8">
+              {/* <div className="font-semibold text-lg text-gray-700">
                 Filteren
-              </div>
-              <div className="mt-2 -mx-2">
+              </div> */}
+              <div className="-mx-2">
                 {newsCategories &&
                   newsCategories.map(category => {
                     return (

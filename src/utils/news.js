@@ -37,7 +37,7 @@ export const getCategoryFromNewsPost = newsPostDir => {
 };
 
 export const getSeasonFromNewsPost = newsPostDir => {
-  return newsPostDir.file.split("/").slice(-2)[0];
+  return newsPostDir.split("/").slice(-2)[0];
 };
 
 export const sortNewsSummaryJsonOnDate = (summaryJson, order = "desc") => {

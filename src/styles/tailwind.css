@@ -15,6 +15,7 @@
 @import "./components/facebook/Comments.css";
 @import "./components/form/Checkbox.css";
 @import "./components/content/Content.css";
+@import "./components/tabs/Tabs.css";
 
 body, html {
     @apply font-kkfc;

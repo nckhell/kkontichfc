@@ -31,17 +31,21 @@ class RankingPage extends Component {
 
   render() {
     const { isLoading, rankings, error } = this.state;
+    const { teamID } = this.props;
+    const pageTitle = kbvbApiUrls[teamID].staticRoutingInfo.readableTitle;
 
     return (
       <Layout>
-        <h1>Calendar</h1>
-        {error ? <p>{error.message}</p> : null}
-        {!isLoading ? (
-          <RankingComponent rankings={rankings} />
-        ) : (
-          // If there is a delay in data, let's let the user know it's loading
-          <h3>Loading...</h3>
-        )}
+        <div className="px-4 container mx-auto md:px-0">
+          <h1>Klassement {pageTitle && pageTitle}</h1>
+          {error ? <p>{error.message}</p> : null}
+          {!isLoading ? (
+            <RankingComponent rankings={rankings} />
+          ) : (
+            // If there is a delay in data, let's let the user know it's loading
+            <h3>Loading...</h3>
+          )}
+        </div>
       </Layout>
     );
   }

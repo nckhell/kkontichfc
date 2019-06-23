@@ -1,7 +1,8 @@
 const obj = {
   heren1eProv: {
     staticRoutingInfo: {
-      url: "/heren/1e-provinciale"
+      url: "/heren/1e-provinciale",
+      readableTitle: "Heren 1e provinciale"
     },
     ranking: {
       url:
