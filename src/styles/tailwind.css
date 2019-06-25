@@ -16,6 +16,7 @@
 @import "./components/form/Checkbox.css";
 @import "./components/content/Content.css";
 @import "./components/tabs/Tabs.css";
+@import "./components/tabs/TabBar.css";
 
 body, html {
     @apply font-kkfc;

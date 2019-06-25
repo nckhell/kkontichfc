@@ -21,9 +21,10 @@ const obj = {
         "https://datalake-prod2018.rbfa.be/graphql?operationName=GetUpcomingMatch&variables=%7B%22teamId%22%3A%22128030%22%2C%22language%22%3A%22nl%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22f14c473111a1051bdc6d08827231c18d2446044cdcb1202b2ccb5f890113d74d%22%7D%7D"
     }
   },
-  heren4eProv: {
+  heren3eProv: {
     staticRoutingInfo: {
-      url: "/heren/4e-provinciale"
+      url: "/heren/4e-provinciale",
+      readableTitle: "Heren 3e provinciale"
     },
     ranking: {
       url:
@@ -44,7 +45,8 @@ const obj = {
   },
   damesNat: {
     staticRoutingInfo: {
-      url: "/dames/1e-nationale"
+      url: "/dames/1e-nationale",
+      readableTitle: "Dames nationale"
     },
     ranking: {
       url:

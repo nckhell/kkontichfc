@@ -4,6 +4,7 @@ const rankingRoutes = require("./dynamic/rankings");
 const pageRoutes = require("./dynamic/pages");
 const eventRoutes = require("./dynamic/events");
 const gameReportsRoutes = require("./dynamic/gamereports");
+const teamPagesRoutes = require("./dynamic/teams");
 
 module.exports = Object.assign(
   {},
@@ -18,5 +19,6 @@ module.exports = Object.assign(
   rankingRoutes,
   pageRoutes,
   eventRoutes,
-  gameReportsRoutes
+  gameReportsRoutes,
+  teamPagesRoutes
 );

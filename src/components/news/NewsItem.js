@@ -19,7 +19,7 @@ const NewsItem = props => {
   }
 
   return (
-    <article className=" mb-4 w-full lg:w-1/3 lg:px-2">
+    <article className="mb-4 w-full lg:w-1/3 lg:px-2">
       <a
         href={prefixURL(href)}
         title={data.title}
