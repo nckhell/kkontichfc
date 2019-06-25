@@ -104,10 +104,10 @@ class GameComponent extends Component {
               </div>
               <div className="text-lg text-gray-400 py-4 flex flex-col items-center justify-center text-center">
                 <div>
-                  <span className="block font-semibold">{date}</span>
-                  {type === "latest-game"
-                    ? "Gespeeld om"
-                    : "Wordt gespeeld om"}{" "}
+                  <span className="block font-semibold text-gray-600">
+                    {date}
+                  </span>
+                  {type === "latest-game" ? "Gespeeld om" : "Wordt gespeeld om"}{" "}
                   {time}
                 </div>
                 <span className="italic pt-2">{game.series.name}</span>
