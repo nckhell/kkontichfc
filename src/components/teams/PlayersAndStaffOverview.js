@@ -1,3 +1,5 @@
+/* eslint-disable prefer-destructuring */
+/* eslint-disable no-undef-init */
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import PlayersAndStaffContent from "../../../content/players-staff";
@@ -9,8 +11,14 @@ class PlayersAndStaffOverview extends Component {
   render() {
     const { teamID } = this.props;
 
-    const { staff } = PlayersAndStaffContent[teamID];
-    const { players } = PlayersAndStaffContent[teamID];
+    const doesExist = PlayersAndStaffContent[teamID];
+    let staff = undefined;
+    let players = undefined;
+
+    if (doesExist) {
+      staff = PlayersAndStaffContent[teamID].staff;
+      players = PlayersAndStaffContent[teamID].players;
+    }
 
     return (
       <div>
