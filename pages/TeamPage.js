@@ -7,6 +7,7 @@ import Layout from "../src/components/layout/Layout";
 import GameComponent from "../src/components/games/GameComponent";
 import RankingComponent from "../src/components/ranking/RankingComponent";
 import CalendarTableComponent from "../src/components/calendar/CalendarTableComponent";
+import PlayersAndStaffOverview from "../src/components/teams/PlayersAndStaffOverview";
 
 class TeamPage extends Component {
   state = {
@@ -106,6 +107,11 @@ class TeamPage extends Component {
             <div>
               <h3>Volledige kalender</h3>
               <CalendarTableComponent teamID={teamID} />
+            </div>
+          )}
+          {activePage === "spelers-staff" && (
+            <div>
+              <PlayersAndStaffOverview teamID={teamID} />
             </div>
           )}
         </div>

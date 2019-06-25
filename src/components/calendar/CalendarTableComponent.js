@@ -33,8 +33,6 @@ class CalendarTableComponent extends Component {
   render() {
     const { calendar, isLoading, error } = this.state;
 
-    console.log(calendar);
-
     return (
       <ReactPlaceholder
         ready={!isLoading}
