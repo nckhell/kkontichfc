@@ -15,8 +15,6 @@ module.exports = Object.assign(
     "/commercieel/sponsors": { page: "/SponsorsPage" }
   },
   newsRoutes,
-  calendarRoutes,
-  rankingRoutes,
   pageRoutes,
   eventRoutes,
   gameReportsRoutes,

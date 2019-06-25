@@ -2,7 +2,19 @@ export const formatDate = (dateString: string): string => {
   const options = {
     weekday: "long",
     month: "long",
-    day: "numeric"
+    day: "numeric",
+    year: "numeric"
+  };
+
+  return new Date(dateString).toLocaleDateString("nl-NL", options);
+};
+
+export const formatDateShort = (dateString: string): string => {
+  const options = {
+    weekday: "short",
+    month: "short",
+    day: "numeric",
+    year: "numeric"
   };
 
   return new Date(dateString).toLocaleDateString("nl-NL", options);

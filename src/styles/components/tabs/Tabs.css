@@ -15,11 +15,11 @@
     @apply py-6;
     position: relative;
 }
-.tab-wrapper li a.active, .tab-list-item.tab-list-active a {
+.tab-wrapper li a.active, .tab-wrapper .tab-list-item.tab-list-active a {
     @apply text-gray-900;
 }
 
-.tab-wrapper li a.active:before, .tab-list-item.tab-list-active a:before {
+.tab-wrapper li a.active:before, .tab-wrapper .tab-list-item.tab-list-active a:before {
     content: '';
     position: absolute;
     left: 0;
@@ -29,14 +29,37 @@
     @apply bg-red-500;
 }
 
-@media (min-width:768px){
-    .tab-wrapper li a {
-        @apply text-lg;
-        @apply px-6;
-    }
-  }
+.ranking-tabs {
+    @apply bg-gray-100;
+}
 
-  @media (min-width:1280px){
-    .tab-wrapper li a {
+.ranking-tabs li {
+    @apply inline-block;
+}
+
+.ranking-tabs li a {
+    @apply text-gray-400;
+    @apply inline-block;
+    @apply px-4;
+    @apply pt-6;
+    @apply pb-2;
+}
+
+.ranking-tabs li a:hover,
+.ranking-tabs li a:focus {
+    @apply underline;
+    @apply text-red-500
+}
+
+.ranking-tabs li.tab-list-active a {
+    @apply underline;
+    @apply text-gray-600;
+}
+
+
+@media (min-width:768px){
+    .tab-wrapper li a, .ranking-tabs li a{
+        @apply text-lg;
+        @apply px-4;
     }
-  }
+}

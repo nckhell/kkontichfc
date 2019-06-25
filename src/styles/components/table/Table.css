@@ -5,6 +5,7 @@ table {
     @apply border-gray-100;
 }
 
+
 table thead tr {
     @apply bg-gray-100;
 }
@@ -27,4 +28,18 @@ table tbody tr {
 table tbody tr:last-child {
     @apply border-0;
     @apply border-b-4;
+}
+
+table.ranking-table {
+    @apply bg-white;
+    @apply text-lg;
+}
+
+table.ranking-table thead tr th, table.ranking-table tbody tr td {
+    @apply py-4;
+    @apply px-4;
+}
+
+table.ranking-table tbody tr td.no-padding {
+    @apply px-0;
 }

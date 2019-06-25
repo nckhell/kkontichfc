@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import _ from "lodash";
 import PropTypes from "prop-types";
+import ReactPlaceholder from "react-placeholder";
 import RankingTableComponent from "./RankingTableComponent";
+import RankingPlaceholder from "./RankingPlaceholder";
 import Tabs from "../tabs/Tabs";
 import fetch from "../../services/api/fetch";
 import kbvbApiUrls from "../../config/api/kbvb_graphql";
@@ -35,34 +36,40 @@ class RankingComponent extends Component {
     const { rankings, isLoading, error } = this.state;
 
     return (
-      <div>
-        {error ? <p>{error.message}</p> : null}
-        {!isLoading ? (
-          <Tabs
-            wrapperClassName="ranking-wrapper"
-            tabListClassName="tab-wrapper my-6"
-            tabContentClassName="ranking-table"
-          >
-            {rankings.map(ranking => {
-              return (
-                <div
-                  key={ranking.type}
-                  label={getReadableRankingType(ranking.type)}
-                >
-                  <RankingTableComponent
+      <ReactPlaceholder
+        ready={!isLoading}
+        showLoadingAnimation
+        customPlaceholder={RankingPlaceholder}
+      >
+        <div>
+          {error ? <p>{error.message}</p> : null}
+          {!isLoading ? (
+            <Tabs
+              wrapperClassName="ranking-wrapper"
+              tabListClassName="ranking-tabs"
+              tabContentClassName="ranking-table"
+            >
+              {rankings.map(ranking => {
+                return (
+                  <div
                     key={ranking.type}
-                    typeOfRanking={ranking.type}
-                    listOfTeams={ranking.teams}
-                  />
-                </div>
-              );
-            })}
-          </Tabs>
-        ) : (
-          // If there is a delay in data, let's let the user know it's loading
-          <h3>Loading...</h3>
-        )}
-      </div>
+                    label={getReadableRankingType(ranking.type)}
+                  >
+                    <RankingTableComponent
+                      key={ranking.type}
+                      typeOfRanking={ranking.type}
+                      listOfTeams={ranking.teams}
+                    />
+                  </div>
+                );
+              })}
+            </Tabs>
+          ) : (
+            // If there is a delay in data, let's let the user know it's loading
+            <h3>Loading...</h3>
+          )}
+        </div>
+      </ReactPlaceholder>
     );
   }
 }

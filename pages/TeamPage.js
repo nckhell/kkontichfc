@@ -6,6 +6,7 @@ import kbvbApiUrls from "../src/config/api/kbvb_graphql";
 import Layout from "../src/components/layout/Layout";
 import GameComponent from "../src/components/games/GameComponent";
 import RankingComponent from "../src/components/ranking/RankingComponent";
+import CalendarTableComponent from "../src/components/calendar/CalendarTableComponent";
 
 class TeamPage extends Component {
   state = {
@@ -29,7 +30,7 @@ class TeamPage extends Component {
       <Layout>
         <div className="px-4 container mx-auto md:px-0">
           <h1>{pageTitle && pageTitle}</h1>
-          <div className="my-6">
+          <div className="mt-6 mb-8">
             <ul className="tab-wrapper">
               <li>
                 <a
@@ -63,36 +64,50 @@ class TeamPage extends Component {
               </li>
             </ul>
           </div>
-          <div className="my-6 lg:flex lg:flex-wrap lg:-mx-2">
-            <div
-              id="latest-game"
-              className="mb-4 w-full lg:w-1/2 lg:mb-0 lg:px-2"
-            >
-              <GameComponent
-                title="Laatste wedstrijd"
-                type="latest-game"
-                teamID={teamID}
-              />
+          {activePage === "overzicht" && (
+            <div className="my-6">
+              <h3>Kalenderoverzicht</h3>
+              <div className="lg:flex lg:flex-wrap lg:-mx-2">
+                <div
+                  id="latest-game"
+                  className="mb-4 w-full lg:w-1/2 lg:mb-0 lg:px-2"
+                >
+                  <GameComponent
+                    title="Laatste wedstrijd"
+                    type="latest-game"
+                    teamID={teamID}
+                  />
+                </div>
+                <div id="next-game" className="w-full lg:w-1/2 lg:px-2">
+                  <GameComponent
+                    title="Volgende wedstrijd"
+                    type="next-game"
+                    teamID={teamID}
+                  />
+                </div>
+              </div>
+              <div className="button-w-full text-center mt-8 relative">
+                <a
+                  href={prefixURL("#kalender")}
+                  id="kalender"
+                  onClick={this.filterPage}
+                  className="btn mx-auto block"
+                >
+                  Volledige kalender
+                </a>
+              </div>
+              <div className="my-6 lg:my-12">
+                <h3>Rangschikking</h3>
+                <RankingComponent teamID={teamID} />
+              </div>
             </div>
-            <div id="next-game" className="w-full lg:w-1/2 lg:px-2">
-              <GameComponent
-                title="Volgende wedsstrijd"
-                type="next-game"
-                teamID={teamID}
-              />
+          )}
+          {activePage === "kalender" && (
+            <div>
+              <h3>Volledige kalender</h3>
+              <CalendarTableComponent teamID={teamID} />
             </div>
-          </div>
-          <div className="button-w-full text-center mt-8 relative">
-            <a
-              href={prefixURL("#kalender")}
-              id="kalender"
-              onClick={this.filterPage}
-              className="btn mx-auto block"
-            >
-              Volledige kalender
-            </a>
-          </div>
-          <RankingComponent teamID={teamID} />
+          )}
         </div>
       </Layout>
     );

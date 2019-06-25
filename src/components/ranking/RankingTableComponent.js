@@ -4,12 +4,14 @@ import PropTypes from "prop-types";
 const RankingTableComponent = props => {
   const { listOfTeams, typeOfRanking } = props;
   return (
-    <React.Fragment>
-      <table>
+    <div className="overflow-x-auto">
+      <table className="ranking-table w-full text-center">
         <thead>
-          <tr>
-            <th>#</th>
-            <th>Ploeg</th>
+          <tr className="text-gray-600">
+            <th className="text-left">#</th>
+            <th></th>
+            <th className="text-left">Ploeg</th>
+            <th className="lg:hidden font-semibold">Ptn</th>
             <th>M</th>
             <th>W</th>
             <th>V</th>
@@ -17,22 +19,34 @@ const RankingTableComponent = props => {
             <th>+</th>
             <th>-</th>
             <th>+/-</th>
-            <th>Ptn</th>
+            <th className="hidden lg:block font-semibold">Ptn</th>
           </tr>
         </thead>
         <tbody>
           {listOfTeams &&
             listOfTeams.map(teamRankingEntry => {
               return (
-                <tr key={`${typeOfRanking}-${teamRankingEntry.teamId}`}>
-                  <td>{teamRankingEntry.position}</td>
-                  <td>
+                <tr
+                  key={`${typeOfRanking}-${teamRankingEntry.teamId}`}
+                  className={
+                    teamRankingEntry.clubRegistrationNumber === "03029"
+                      ? "bg-yellow-100"
+                      : ""
+                  }
+                >
+                  <td className="font-semibold no-padding">
+                    {teamRankingEntry.position}
+                  </td>
+                  <td className="text-center no-padding">
                     <img
                       src={teamRankingEntry.logo}
+                      className="h-8 inline-block"
                       alt={`Clublogo ${teamRankingEntry.name}`}
-                      width="22"
                     />
-                    {teamRankingEntry.name}
+                  </td>
+                  <td className="text-left">{teamRankingEntry.name}</td>
+                  <td className="lg:hidden font-semibold">
+                    {teamRankingEntry.points}
                   </td>
                   <td>{teamRankingEntry.matchesPlayed}</td>
                   <td>{teamRankingEntry.matchesWon}</td>
@@ -41,13 +55,15 @@ const RankingTableComponent = props => {
                   <td>{teamRankingEntry.goalsFor}</td>
                   <td>{teamRankingEntry.goalsAgainst}</td>
                   <td>{teamRankingEntry.goalDifference}</td>
-                  <td>{teamRankingEntry.points}</td>
+                  <td className="hidden lg:block font-semibold">
+                    {teamRankingEntry.points}
+                  </td>
                 </tr>
               );
             })}
         </tbody>
       </table>
-    </React.Fragment>
+    </div>
   );
 };
 

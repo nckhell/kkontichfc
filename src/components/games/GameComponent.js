@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import ReactPlaceholder from "react-placeholder";
 import { formatDate, formatTime } from "../../utils/dateTimeFormat";
 import fetch from "../../services/api/fetch";
 import kbvbApiUrls from "../../config/api/kbvb_graphql";
+import GameComponentPlaceholder from "./GameComponentPlaceholder";
 
 class GameComponent extends Component {
   state = {
@@ -52,65 +54,71 @@ class GameComponent extends Component {
     const time = formatTime(game.startDate);
 
     return (
-      <div>
-        {error ? <p>{error.message}</p> : null}
-        {!isLoading ? (
-          <div className="border border-gray-200 border-b-4">
-            <div className="border-gray-200 border-b text-center font-semibold py-4 text-xl uppercase">
-              {title}
-            </div>
-            <div className="border-gray-200 border-b flex">
-              <div className="w-1/2 py-6 border-gray-200 border-r flex flex-col justify-center items-center">
-                <div className="flex items-center">
-                  <img
-                    src={game.homeTeam.logo}
-                    className="h-16 inline-block"
-                    alt={game.homeTeam.name}
-                  />{" "}
-                  {type === "latest-game" && (
-                    <span className="pl-4 font-semibold text-4xl text-gray-900">
-                      {game.outcome.homeTeamGoals}
-                    </span>
-                  )}
+      <ReactPlaceholder
+        ready={!isLoading}
+        showLoadingAnimation
+        customPlaceholder={GameComponentPlaceholder}
+      >
+        <div>
+          {error ? <p>{error.message}</p> : null}
+          {!isLoading ? (
+            <div className="border border-gray-200 border-b-4">
+              <div className="border-gray-200 border-b text-center font-semibold py-4 text-lg uppercase">
+                {title}
+              </div>
+              <div className="border-gray-200 border-b flex">
+                <div className="w-1/2 py-6 border-gray-200 border-r flex flex-col justify-center items-center">
+                  <div className="flex items-center">
+                    <img
+                      src={game.homeTeam.logo}
+                      className="h-16 inline-block"
+                      alt={game.homeTeam.name}
+                    />{" "}
+                    {type === "latest-game" && (
+                      <span className="pl-4 font-semibold text-4xl text-gray-900">
+                        {game.outcome.homeTeamGoals}
+                      </span>
+                    )}
+                  </div>
+                  <span className="uppercase pt-4 text-gray-400 font-semibold">
+                    {game.homeTeam.name}
+                  </span>
                 </div>
-                <span className="uppercase pt-4 text-gray-400 font-semibold">
-                  {game.homeTeam.name}
-                </span>
-              </div>
-              <div className="w-1/2 py-6 flex justify-center flex-col items-center">
-                <div className="flex items-center">
-                  {type === "latest-game" && (
-                    <span className="pr-4 font-semibold text-4xl text-gray-900">
-                      {game.outcome.awayTeamGoals}
-                    </span>
-                  )}
-                  <img
-                    src={game.awayTeam.logo}
-                    className="h-16 inline-block"
-                    alt={game.awayTeam.name}
-                  />{" "}
+                <div className="w-1/2 py-6 flex justify-center flex-col items-center">
+                  <div className="flex items-center">
+                    {type === "latest-game" && (
+                      <span className="pr-4 font-semibold text-4xl text-gray-900">
+                        {game.outcome.awayTeamGoals}
+                      </span>
+                    )}
+                    <img
+                      src={game.awayTeam.logo}
+                      className="h-16 inline-block"
+                      alt={game.awayTeam.name}
+                    />{" "}
+                  </div>
+                  <span className="uppercase text-gray-400 pt-4 font-semibold">
+                    {game.awayTeam.name}
+                  </span>
                 </div>
-                <span className="uppercase text-gray-400 pt-4 font-semibold">
-                  {game.awayTeam.name}
-                </span>
+              </div>
+              <div className="text-lg text-gray-400 py-4 flex flex-col items-center justify-center text-center">
+                <div>
+                  <span className="block font-semibold">{date}</span>
+                  {type === "latest-game"
+                    ? "Gespeeld om"
+                    : "Wordt gespeeld om"}{" "}
+                  {time}
+                </div>
+                <span className="italic pt-2">{game.series.name}</span>
               </div>
             </div>
-            <div className="text-lg text-gray-400 py-4 flex flex-col items-center justify-center text-center">
-              <div>
-                <span className="block font-semibold">{date}</span>
-                {type === "latest-game"
-                  ? "Gespeeld om"
-                  : "Wordt gespeeld om"}{" "}
-                {time}
-              </div>
-              <span className="italic pt-2">{game.series.name}</span>
-            </div>
-          </div>
-        ) : (
-          // If there is a delay in data, let's let the user know it's loading
-          <h3>Loading...</h3>
-        )}
-      </div>
+          ) : (
+            // If there is a delay in data, let's let the user know it's loading
+            <h3>Loading...</h3>
+          )}
+        </div>
+      </ReactPlaceholder>
     );
   }
 }

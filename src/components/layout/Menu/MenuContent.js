@@ -43,12 +43,12 @@ const Menu = () => {
           </a>
           <ul className="submenu">
             <li>
-              <Link href="/heren/1e-provinciale">
+              <Link href="/heren/1e-provinciale/">
                 <a>1e Provinciale</a>
               </Link>
             </li>
             <li>
-              <Link href="/heren/4e-provinciale">
+              <Link href="/heren/4e-provinciale/">
                 <a>4e Provinciale</a>
               </Link>
             </li>
@@ -65,17 +65,17 @@ const Menu = () => {
           </a>
           <ul className="submenu">
             <li>
-              <Link href="/dames/1e-nationale">
+              <Link href="/dames/1e-nationale/">
                 <a>1e Nationale</a>
               </Link>
             </li>
             <li>
-              <Link href="/dames/1e-provinciale">
+              <Link href="/dames/1e-provinciale/">
                 <a>1e Provinciale</a>
               </Link>
             </li>
             <li>
-              <Link href="/dames/4e-provinciale">
+              <Link href="/dames/4e-provinciale/">
                 <a>4e Provinciale</a>
               </Link>
             </li>

@@ -46,6 +46,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-facebook": "^8.0.4",
+    "react-placeholder": "^3.0.2",
     "react-responsive-carousel": "^3.1.49",
     "react-svg": "^10.0.9",
     "recursive-copy": "^2.0.10",

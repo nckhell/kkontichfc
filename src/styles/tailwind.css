@@ -22,6 +22,22 @@ body, html {
     @apply font-kkfc;
 }
 
+h2, h3, h4 {
+    @apply leading-snug;
+}
+
+strong, b {
+    @apply font-semibold;
+}
+
+h2, h3 {
+    @apply font-semibold;
+    @apply text-gray-900;
+    @apply text-3xl;
+    @apply normal-case;
+    @apply pb-6;
+}
+
 ::-moz-selection { @apply bg-yellow-200 }
 ::selection { @apply bg-yellow-200 }
 
@@ -66,7 +82,7 @@ body, html {
 
 h1 {
     @apply uppercase;
-    @apply text-3xl;
+    @apply text-4xl;
     @apply text-gray-900;
     @apply font-semibold;
 }
