@@ -16,7 +16,7 @@ function getNewsRoutes() {
       gameReports[gameReport] = {
         page: gameReportComponent,
         query: {
-          fullUrl: gameReport,
+          fullUrl: `${gameReport}/`,
           path: file
         }
       };

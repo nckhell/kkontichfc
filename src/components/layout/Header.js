@@ -57,12 +57,12 @@ class Header extends Component {
                 </Link>
               </li>
               <li className="inline-block pr-12">
-                <Link href="/nieuws/overzicht/">
-                  <a>Webshop</a>
+                <Link href="https://kontich.clubwereld.nl/">
+                  <a target="_blank">KKFC Webshop</a>
                 </Link>
               </li>
               <li className="inline-block">
-                <Link href="/nieuws/overzicht/">
+                <Link href="/commercieel/sponsors/">
                   <a>Sponsors</a>
                 </Link>
               </li>

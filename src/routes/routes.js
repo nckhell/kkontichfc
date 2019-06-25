@@ -1,6 +1,4 @@
 const newsRoutes = require("./dynamic/news");
-const calendarRoutes = require("./dynamic/calendars");
-const rankingRoutes = require("./dynamic/rankings");
 const pageRoutes = require("./dynamic/pages");
 const eventRoutes = require("./dynamic/events");
 const gameReportsRoutes = require("./dynamic/gamereports");

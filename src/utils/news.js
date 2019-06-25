@@ -29,7 +29,7 @@ export const getAllSeasonsWithNews = SUMMARY => {
       }
     });
 
-  return seasons;
+  return seasons.sort().reverse();
 };
 
 export const getCategoryFromNewsPost = newsPostDir => {

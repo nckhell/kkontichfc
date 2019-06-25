@@ -16,7 +16,7 @@ function getEventRoutes() {
       events[event] = {
         page: pageComponent,
         query: {
-          fullUrl: event,
+          fullUrl: `${event}/`,
           path: file
         }
       };

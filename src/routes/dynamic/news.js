@@ -16,7 +16,7 @@ function getNewsRoutes() {
       news[newsPost] = {
         page: newsPostComponent,
         query: {
-          fullUrl: newsPost,
+          fullUrl: `${newsPost}/`,
           path: file
         }
       };

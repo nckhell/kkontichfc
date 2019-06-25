@@ -48,8 +48,8 @@ const Menu = () => {
               </Link>
             </li>
             <li>
-              <Link href="/heren/4e-provinciale/">
-                <a>4e Provinciale</a>
+              <Link href="/heren/3e-provinciale/">
+                <a>3e Provinciale</a>
               </Link>
             </li>
           </ul>
@@ -91,11 +91,11 @@ const Menu = () => {
             Jeugd
           </a>
           <ul className="submenu">
-            <li>
+            {/* <li>
               <Link href="/jeugd/paastornooi/">
                 <a>Paastornooi</a>
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link href="/jeugd/trainingen/">
                 <a>Trainingen</a>
@@ -117,7 +117,7 @@ const Menu = () => {
               </Link>
             </li>
             <li>
-              <Link href="/jeugd/Lidgeld/">
+              <Link href="/jeugd/lidgeld/">
                 <a>Lidgeld</a>
               </Link>
             </li>
@@ -127,7 +127,7 @@ const Menu = () => {
               </Link>
             </li>
             <li>
-              <Link href="/jeugd/mutualiteiten/">
+              <Link href="/jeugd/mutualiteit/">
                 <a>Mutualiteiten</a>
               </Link>
             </li>
@@ -201,7 +201,7 @@ const Menu = () => {
               </Link>
             </li>
             <li>
-              <Link href="/commercieel/huur-kantine/">
+              <Link href="/commercieel/huur-benedenkantine/">
                 <a>Huur kantine</a>
               </Link>
             </li>
