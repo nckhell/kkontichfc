@@ -25,7 +25,7 @@ class NewsPostPage extends Component {
     return (
       <Layout>
         <div id="kkfc-background-logo">
-          <div className="px-4 container mx-auto text-left md:px-0">
+          <div className="px-4 mt-8 md:mt-10 container mx-auto text-left">
             <article className="body-content w-full mx-auto lg:w-5/6">
               <div className={`news-category text-gray-300 pt-8 ${category}`}>
                 {category}

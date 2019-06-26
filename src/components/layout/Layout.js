@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import Head from "next/head";
 import { prefixURL } from "next-prefixed";
 import Header from "./Header";
+import Footer from "./Footer";
 import Menu from "./Menu/MenuContent";
 import DesktopMenu from "./Menu/DesktopMenu";
 import "../../styles/tailwind.css";
@@ -64,6 +65,7 @@ class Layout extends Component {
         </nav>
         <DesktopMenu isMenuOpen={isMenuOpen} />
         {children}
+        <Footer />
       </div>
     );
   }

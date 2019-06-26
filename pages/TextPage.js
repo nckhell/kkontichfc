@@ -18,9 +18,9 @@ class TextPage extends Component {
     return (
       <Layout>
         <div id="kkfc-background-logo">
-          <div className="px-4 container mx-auto text-left md:px-0">
+          <div className="px-4 mt-8 md:mt-10 lg:mt-16 container mx-auto text-left">
             <div className="body-content w-full mx-auto lg:w-5/6">
-              <h1 className="my-6 inline-block lg:w-4/6">{pageJson.title}</h1>
+              <h1 className="pb-6 inline-block lg:w-4/6">{pageJson.title}</h1>
               {/* eslint-disable-next-line react/no-danger */}
               <div dangerouslySetInnerHTML={{ __html: pageJson.bodyHtml }} />
               <FacebookProvider appId="346435965433483">

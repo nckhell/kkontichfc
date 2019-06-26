@@ -36,7 +36,7 @@ class RankingPage extends Component {
 
     return (
       <Layout>
-        <div className="px-4 container mx-auto md:px-0">
+        <div className="px-4 container mx-auto">
           <h1>Klassement {pageTitle && pageTitle}</h1>
           {error ? <p>{error.message}</p> : null}
           {!isLoading ? (

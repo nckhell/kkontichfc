@@ -29,7 +29,7 @@ class TeamPage extends Component {
 
     return (
       <Layout>
-        <div className="px-4 container mx-auto md:px-0">
+        <div className="px-4 mt-8 md:mt-10 container mx-auto">
           <h1>{pageTitle && pageTitle}</h1>
           <div className="mt-6 mb-8">
             <ul className="tab-wrapper">

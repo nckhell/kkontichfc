@@ -10,13 +10,13 @@ function HomePage() {
     <Layout>
       <CarouselSlider />
       <main>
-        <section className="container my-10 mx-auto px-4 md:px-0 lg:my-16">
+        <section className="container my-10 mx-auto px-4 lg:my-16">
           <h1>Laatste nieuws</h1>
           <LatestNews nbrOfItems={3} />
           <ButtonWithLine text="Meer nieuws" url="/nieuws/overzicht" />
         </section>
         <HeadSponsors />
-        <section className="container my-10 mx-auto px-4 md:px-0 lg:my-16">
+        <section className="container my-10 mx-auto px-4 lg:my-16">
           <h1>Evenementen</h1>
           <p>To do</p>
           <ButtonWithLine text="Alle evenementen" url="#" />

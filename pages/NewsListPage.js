@@ -82,7 +82,7 @@ class NewsListPage extends Component {
     return (
       <Layout>
         <main>
-          <section className="container my-10 mx-auto px-4 md:px-0 lg:my-16">
+          <section className="container mt-8 md:mt-10 mx-auto px-4">
             <h1>Nieuwsoverzicht</h1>
             <div className="my-6">
               <ul className="tab-wrapper">
