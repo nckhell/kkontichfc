@@ -22,26 +22,35 @@ class PlayersAndStaffOverview extends Component {
 
     return (
       <div>
-        <h3>Staff</h3>
-        <div className="mt-6 lg:flex lg:-mx-2 flex-wrap mb-6 lg:mb-10">
-          {staff &&
-            staff.map(staffMember => {
-              return (
-                <Profile
-                  data={staffMember}
-                  type="staff"
-                  key={staffMember.name}
-                />
-              );
-            })}
-        </div>
-        <h3>Spelers</h3>
-        <div className="mt-6 lg:flex lg:-mx-2 flex-wrap">
-          {players &&
-            players.map(player => {
-              return <Profile data={player} type="player" key={player.name} />;
-            })}
-        </div>
+        {staff && (
+          <div>
+            <h3>Staff</h3>
+            <div className="mt-6 lg:flex lg:-mx-2 flex-wrap mb-6 lg:mb-10">
+              {staff.map(staffMember => {
+                return (
+                  <Profile
+                    data={staffMember}
+                    type="staff"
+                    key={staffMember.name}
+                  />
+                );
+              })}
+            </div>
+          </div>
+        )}
+
+        {players && (
+          <div>
+            <h3>Spelers</h3>
+            <div className="mt-6 lg:flex lg:-mx-2 flex-wrap">
+              {players.map(player => {
+                return (
+                  <Profile data={player} type="player" key={player.name} />
+                );
+              })}
+            </div>
+          </div>
+        )}
       </div>
     );
   }
