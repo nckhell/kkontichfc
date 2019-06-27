@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import _ from "lodash";
 import NewsItem from "./NewsItem";
 import SUMMARY_JSON from "../../../content/build/nieuws/summary.json";
@@ -16,11 +17,27 @@ const LatestNews = props => {
 
   return (
     <div className="mt-6 lg:flex lg:-mx-2 flex-wrap">
-      {latestNewsList.map(newsArticle => {
-        return <NewsItem data={newsArticle} key={newsArticle.base} />;
-      })}
+      {latestNewsList &&
+        latestNewsList.map(newsArticle => {
+          return <NewsItem data={newsArticle} key={newsArticle.base} />;
+        })}
+      {!latestNewsList && (
+        <p className="lg:px-2">
+          We hebben momenteel geen nieuws om aan je te tonen.
+        </p>
+      )}
     </div>
   );
+};
+
+LatestNews.defaultProps = {
+  nbrOfItems: 3,
+  excludeWithSlug: ""
+};
+
+LatestNews.propTypes = {
+  nbrOfItems: PropTypes.number,
+  excludeWithSlug: PropTypes.string
 };
 
 export default LatestNews;

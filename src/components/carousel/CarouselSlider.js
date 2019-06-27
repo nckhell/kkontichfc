@@ -27,9 +27,10 @@ const CarouselSlider = () => {
       useKeyboardArrows
       autoPlay
     >
-      {sliderNewsList.map(sliderItem => {
-        return <CarouselItem data={sliderItem} key={sliderItem.base} />;
-      })}
+      {sliderNewsList &&
+        sliderNewsList.map(sliderItem => {
+          return <CarouselItem data={sliderItem} key={sliderItem.base} />;
+        })}
     </Carousel>
   );
 };

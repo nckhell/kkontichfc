@@ -9,7 +9,7 @@ import "react-placeholder/lib/reactPlaceholder.css";
 const GameComponentPlaceholder = (
   <div>
     <div className="border border-gray-200 border-b-4">
-      <div className="border-gray-200 border-b text-center font-semibold py-4 text-lg uppercase">
+      <div className="border-gray-200 border-b text-center font-semibold py-4 text-xl uppercase">
         <div className="w-4/6 mx-auto text-center">
           <TextBlock color="#E4E7EB" rows={1} />
         </div>
@@ -26,7 +26,7 @@ const GameComponentPlaceholder = (
           </div>
         </div>
       </div>
-      <div className="text-lg text-gray-400 py-4 flex flex-col items-center justify-center text-center">
+      <div className="text-xl text-gray-400 py-4 flex flex-col items-center justify-center text-center">
         <div className="w-5/6 mx-auto text-center">
           <TextBlock color="#E4E7EB" rows={3} />
         </div>

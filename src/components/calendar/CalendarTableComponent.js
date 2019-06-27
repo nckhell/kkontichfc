@@ -92,6 +92,13 @@ class CalendarTableComponent extends Component {
                   </tr>
                 );
               })}
+            {!calendar && (
+              <tr>
+                <td colSpan="7" className="text-center">
+                  Momenteel nog geen kalender beschikbaar
+                </td>
+              </tr>
+            )}
           </tbody>
         </table>
       </ReactPlaceholder>

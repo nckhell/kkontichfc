@@ -1,5 +1,6 @@
 import React from "react";
 import { prefixURL } from "next-prefixed";
+import PropTypes from "prop-types";
 import ReactSVG from "react-svg";
 import { makeUrl, getCategoryFromNewsPost } from "../../utils/news";
 import { formatDate } from "../../utils/dateTimeFormat";
@@ -29,7 +30,7 @@ const CarouselItem = props => {
       }}
     >
       <div className="gradient-wrapper flex items-center">
-        <div className="px-4 container mx-auto text-left md:px-0">
+        <div className="px-4 container mx-auto text-left">
           <div className={`news-category text-white  ${category}`}>
             {category}
           </div>
@@ -53,6 +54,11 @@ const CarouselItem = props => {
       </div>
     </div>
   );
+};
+
+CarouselItem.propTypes = {
+  // eslint-disable-next-line react/forbid-prop-types
+  data: PropTypes.object.isRequired
 };
 
 export default CarouselItem;

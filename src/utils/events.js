@@ -5,8 +5,8 @@ export const sortEventsSummaryJsonOnDate = (summaryJson, order = "desc") => {
     summaryJson &&
     summaryJson.fileMap &&
     Object.keys(summaryJson.fileMap)
-      .map(file => {
-        return summaryJson.fileMap[file];
+      .map(event => {
+        return summaryJson.fileMap[event];
       })
       .sort((a, b) => {
         const aDate = Date.parse(a.date);
@@ -18,6 +18,35 @@ export const sortEventsSummaryJsonOnDate = (summaryJson, order = "desc") => {
         return bDate > aDate ? 1 : bDate < aDate ? -1 : 0;
       })
   );
+};
+
+export const sortEventsOnOnlyEventsInTheFuture = arrayWithEventObjects => {
+  const currentDate = new Date();
+
+  return arrayWithEventObjects.filter(event => {
+    const eventDate = Date.parse(event.date);
+    return currentDate < eventDate;
+  });
+};
+
+export const getDayFromDate = (dateString: string): string => {
+  const options = {
+    day: "numeric"
+  };
+
+  return new Date(dateString).toLocaleDateString("nl-NL", options);
+};
+
+export const getMonthFromDate = (dateString: string): string => {
+  const options = {
+    month: "short"
+  };
+
+  return new Date(dateString).toLocaleDateString("nl-NL", options);
+};
+
+export const limit = (arrayWithEventObjects, amountOfArticles) => {
+  return arrayWithEventObjects.slice(0, amountOfArticles);
 };
 
 export const makeUrl = event => {
