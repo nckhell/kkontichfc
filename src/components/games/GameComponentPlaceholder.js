@@ -1,9 +1,5 @@
 import React from "react";
-import {
-  TextRow,
-  RectShape,
-  TextBlock
-} from "react-placeholder/lib/placeholders";
+import { RectShape, TextBlock } from "react-placeholder/lib/placeholders";
 import "react-placeholder/lib/reactPlaceholder.css";
 
 const GameComponentPlaceholder = (

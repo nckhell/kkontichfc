@@ -1,6 +1,4 @@
 import React from "react";
-import { TextRow } from "react-placeholder/lib/placeholders";
-import "react-placeholder/lib/reactPlaceholder.css";
 
 const NoRankingToShow = (
   <div>

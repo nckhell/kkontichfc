@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import NewsItem from "./NewsItem";
 
 const NewsList = props => {
@@ -12,6 +13,11 @@ const NewsList = props => {
         })}
     </div>
   );
+};
+
+NewsList.propTypes = {
+  // eslint-disable-next-line react/forbid-prop-types
+  data: PropTypes.object.isRequired
 };
 
 export default NewsList;

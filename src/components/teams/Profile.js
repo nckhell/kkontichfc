@@ -1,6 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { CloudinaryContext, Image, Transformation } from "cloudinary-react";
 import { prefixURL } from "next-prefixed";
 
 const Profile = props => {

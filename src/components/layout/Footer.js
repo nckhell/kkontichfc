@@ -1,7 +1,7 @@
 import React from "react";
 import { prefixURL } from "next-prefixed";
 
-const Footer = props => {
+const Footer = () => {
   return (
     <footer
       id="footer"
@@ -109,28 +109,24 @@ const Footer = props => {
             <h4 className="text-base pb-4 text-gray-800">Geschiedenis</h4>
             <a
               href="https://creative.adobe.com/addons/products/12557"
-              target="_blank"
               className="text-sm text-gray-500 py-1"
             >
               Sponsors
             </a>
             <a
               href="https://github.com/airbnb/lottie-ios"
-              target="_blank"
               className="text-sm text-gray-500 py-1"
             >
               Huur kantine
             </a>
             <a
               href="https://github.com/airbnb/lottie-android"
-              target="_blank"
               className="text-sm text-gray-500 py-1"
             >
               Evenementen
             </a>
             <a
               href="https://github.com/airbnb/lottie-web"
-              target="_blank"
               className="text-sm text-gray-500 py-1"
             >
               KKFC Webshop

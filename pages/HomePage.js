@@ -14,13 +14,13 @@ function HomePage() {
         <section className="container my-10 mx-auto px-4 lg:my-16">
           <h1>Laatste nieuws</h1>
           <LatestNews nbrOfItems={3} />
-          <ButtonWithLine text="Meer nieuws" url="/nieuws/overzicht" />
+          <ButtonWithLine text="Meer nieuws" url="/nieuws/overzicht/" />
         </section>
         <HeadSponsors />
         <section className="container my-10 mx-auto px-4 lg:my-16">
           <h1>Evenementen</h1>
           <UpcomingEvents />
-          <ButtonWithLine text="Alle evenementen" url="#" />
+          <ButtonWithLine text="Alle evenementen" url="/evenementen/" />
         </section>
       </main>
     </Layout>

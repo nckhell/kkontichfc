@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { prefixURL } from "next-prefixed";
 
 const ButtonWithLine = props => {
@@ -11,6 +12,11 @@ const ButtonWithLine = props => {
       </a>
     </div>
   );
+};
+
+ButtonWithLine.propTypes = {
+  url: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired
 };
 
 export default ButtonWithLine;

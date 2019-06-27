@@ -17,7 +17,7 @@ const PurgeHack = () => {
               <div className="gradient-wrapper flex items-center">
                 <div className="px-4 container mx-auto text-left md:px-0">
                   <div className="news-category text-white akern">A-kern</div>
-                  <a href="#" className="block">
+                  <a href="#purge" className="block">
                     <div className="text-2xl py-4 font-semibold text-white md:text-3xl lg:w-4/6 xl:block xl:max-w-6xl xl:text-4xl">
                       <span className="text-yellow-400"></span>
                     </div>
@@ -55,7 +55,7 @@ const PurgeHack = () => {
               <div className="gradient-wrapper flex items-center">
                 <div className="px-4 container mx-auto text-left md:px-0">
                   <div className="news-category text-white akern">A-kern</div>
-                  <a href="#" className="block">
+                  <a href="#purge" className="block">
                     <div className="text-2xl py-4 font-semibold text-white md:text-3xl lg:w-4/6 xl:block xl:max-w-6xl xl:text-4xl">
                       <span className="text-yellow-400"></span>
                     </div>
@@ -95,7 +95,7 @@ const PurgeHack = () => {
         className="control-arrow control-next control-disabled"
       />
       <ul className="control-dots">
-        <li className="dot selected" value={0} role="button" tabIndex={0} />
+        <li className="dot selected" value={0} />
       </ul>
     </div>
   );

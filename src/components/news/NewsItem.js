@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { prefixURL } from "next-prefixed";
 import ReactSVG from "react-svg";
 import { makeUrl, getCategoryFromNewsPost } from "../../utils/news";
@@ -67,6 +68,11 @@ const NewsItem = props => {
       </a>
     </article>
   );
+};
+
+NewsItem.propTypes = {
+  // eslint-disable-next-line react/forbid-prop-types
+  data: PropTypes.object.isRequired
 };
 
 export default NewsItem;
