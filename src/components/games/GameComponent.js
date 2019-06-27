@@ -68,7 +68,10 @@ class GameComponent extends Component {
                 <div className="border-gray-200 border-b text-center font-semibold py-4 text-lg uppercase">
                   {title}
                 </div>
-                <div className="border-gray-200 border-b flex">
+                <div className="border-gray-200 border-b flex relative">
+                  <div className="absolute rounded-full p-2 flex items-center justify-center bg-gray-200 text-gray-400 text-xs font-semibold center-absolute">
+                    VS
+                  </div>
                   <div className="w-1/2 py-6 border-gray-200 border-r flex flex-col justify-center items-center">
                     <div className="flex items-center">
                       <img

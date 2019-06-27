@@ -56,6 +56,12 @@ h2, h3 {
     position: relative;
 }
 
+.center-absolute {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .logo-kkfc-in-background {
     opacity: 0.04;
     left: 0;
