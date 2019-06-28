@@ -14,7 +14,7 @@ const NewsItem = props => {
   let imageUrl;
 
   if (data.cloudinaryID) {
-    imageUrl = `http://res.cloudinary.com/kkontichfc/image/upload/v1/nieuws/${data.cloudinaryID}`;
+    imageUrl = `http://res.cloudinary.com/kkontichfc/image/upload/c_fit,h_391,q_90,w_632/nieuws/${data.cloudinaryID}`;
   } else {
     imageUrl = prefixURL("/static/img/no-news-image.png");
   }
