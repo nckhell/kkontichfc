@@ -904,5 +904,23 @@ export default [
     type: "CLUBSPONSOR",
     highlight: "NO",
     cloudinaryID: "stijn-bevers"
+  },
+  {
+    url: "https://www.straalstudio.be/",
+    name: "Straalstudio",
+    headsponsor: "YES",
+    order: "8",
+    type: "DAMESSPONSOR",
+    highlight: "NO",
+    cloudinaryID: "straalstudio"
+  },
+  {
+    url: "https://trendstop.knack.be/nl/detail/667819957/bj-invest.aspx",
+    name: "BJ invest",
+    headsponsor: "YES",
+    order: "8",
+    type: "DAMESSPONSOR",
+    highlight: "NO",
+    cloudinaryID: "BJ-invest_e6zuas"
   }
 ];
