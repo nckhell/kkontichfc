@@ -5,8 +5,6 @@ import { prefixURL } from "next-prefixed";
 const Profile = props => {
   const { data, type } = props;
 
-  console.log(data);
-
   let imageUrl;
 
   if (data.cloudinaryID) {
@@ -16,7 +14,7 @@ const Profile = props => {
   }
 
   return (
-    <div className="mb-4 w-full lg:w-1/3 lg:px-2">
+    <div className="mb-4 w-full md:w-1/2 lg:w-1/3 md:px-2">
       <div className="border border-gray-200 border-b-4 block">
         <div
           className="w-full h-64 bg-cover"

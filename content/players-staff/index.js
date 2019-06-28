@@ -41,7 +41,7 @@ const obj = {
     ],
     players: [
       {
-        position: "VERDERDIGER",
+        position: "VERDEDIGER",
         name: "De Cock Glen",
         birthdate: "1989-09-17",
         cloudinaryID: ""
@@ -53,7 +53,7 @@ const obj = {
         cloudinaryID: ""
       },
       {
-        position: "VERDERDIGER",
+        position: "VERDEDIGER",
         name: "Gabriels Anthony",
         birthdate: "1992-11-06",
         cloudinaryID: ""
@@ -77,7 +77,7 @@ const obj = {
         cloudinaryID: ""
       },
       {
-        position: "VERDERDIGER",
+        position: "VERDEDIGER",
         name: "Bruno Duarte Arjonas",
         birthdate: "1989-07-15",
         cloudinaryID: ""
@@ -107,13 +107,13 @@ const obj = {
         cloudinaryID: ""
       },
       {
-        position: "VERDERDIGER",
+        position: "VERDEDIGER",
         name: "Van Esser REmi",
         birthdate: "1998-02-13",
         cloudinaryID: ""
       },
       {
-        position: "VERDERDIGER",
+        position: "VERDEDIGER",
         name: "Vleminckx Tim",
         birthdate: "1987-03-31",
         cloudinaryID: ""

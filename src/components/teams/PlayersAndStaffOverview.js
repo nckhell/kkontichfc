@@ -4,6 +4,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import PlayersAndStaffContent from "../../../content/players-staff";
 import Profile from "./Profile";
+import PlayersPerPosition from "./PlayersPerPosition";
 
 class PlayersAndStaffOverview extends Component {
   componentDidMount() {}
@@ -25,7 +26,7 @@ class PlayersAndStaffOverview extends Component {
         {staff && (
           <div>
             <h3>Staff</h3>
-            <div className="mt-6 lg:flex lg:-mx-2 flex-wrap mb-6 lg:mb-10">
+            <div className="mt-6 md:flex md:-mx-2 flex-wrap mb-6 md:mb-10">
               {staff.map(staffMember => {
                 return (
                   <Profile
@@ -41,14 +42,26 @@ class PlayersAndStaffOverview extends Component {
 
         {players && (
           <div>
-            <h3>Spelers</h3>
-            <div className="mt-6 lg:flex lg:-mx-2 flex-wrap">
-              {players.map(player => {
-                return (
-                  <Profile data={player} type="player" key={player.name} />
-                );
-              })}
-            </div>
+            <PlayersPerPosition
+              data={players}
+              type="DOELMAN"
+              title="Doelmannen"
+            />
+            <PlayersPerPosition
+              data={players}
+              type="VERDEDIGER"
+              title="Verdedigers"
+            />
+            <PlayersPerPosition
+              data={players}
+              type="MIDDENVELDER"
+              title="Middenvelders"
+            />
+            <PlayersPerPosition
+              data={players}
+              type="AANVALLER"
+              title="Aanvallers"
+            />
           </div>
         )}
       </div>
