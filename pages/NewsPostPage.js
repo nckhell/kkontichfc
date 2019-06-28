@@ -5,16 +5,11 @@ import { prefixURL } from "next-prefixed";
 import { FacebookProvider, Like, Comments } from "react-facebook";
 import LatestNews from "../src/components/news/LatestNews";
 import ButtonWithLine from "../src/components/buttons/ButtonWithLine";
-import {
-  getCategoryFromNewsPost,
-  makeUrl,
-  getSeasonFromNewsPost
-} from "../src/utils/news";
+import { getCategoryFromNewsPost, makeUrl } from "../src/utils/news";
 import { formatDate } from "../src/utils/dateTimeFormat";
 import Layout from "../src/components/layout/Layout";
 import HeadSponsors from "../src/components/sponsors/HeadSponsors";
 import BreadCrumb from "../src/components/breadcrumbs/BreadCrumb";
-import mapUrlToBreadcrumbs from "../src/utils/mapUrlToBreadcrumb";
 
 class NewsPostPage extends Component {
   state = {};
