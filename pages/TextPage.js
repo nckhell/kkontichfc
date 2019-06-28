@@ -4,6 +4,8 @@ import { prefixURL } from "next-prefixed";
 import { FacebookProvider, Like } from "react-facebook";
 import Layout from "../src/components/layout/Layout";
 import HeadSponsors from "../src/components/sponsors/HeadSponsors";
+import BreadCrumb from "../src/components/breadcrumbs/BreadCrumb";
+import mapUrlToBreadcrumbs from "../src/utils/mapUrlToBreadcrumb";
 
 class TextPage extends Component {
   state = {};
@@ -14,11 +16,17 @@ class TextPage extends Component {
     /* eslint-disable react/prop-types */
     const { pageJson, query } = this.props;
     const href = `${query.fullUrl}/`;
+    const breadcrumbs = mapUrlToBreadcrumbs(href);
 
     return (
       <Layout>
         <div id="kkfc-background-logo">
           <div className="px-4 mt-8 md:mt-10 lg:mt-16 container mx-auto text-left">
+            <div className="w-full mx-auto lg:w-5/6">
+              <BreadCrumb data={breadcrumbs} />
+            </div>
+          </div>
+          <div className="px-4 mt-4 md:mt-5 lg:mt-8 container mx-auto text-left">
             <div className="body-content w-full mx-auto lg:w-5/6">
               <h1 className="pb-6 inline-block lg:w-4/6">{pageJson.title}</h1>
               {/* eslint-disable-next-line react/no-danger */}

@@ -10,7 +10,8 @@ function getTeamsRoutes() {
       teamsRoutes[value.staticRoutingInfo.url] = {
         page: teamPage,
         query: {
-          teamID: key
+          teamID: key,
+          fullUrl: value.staticRoutingInfo.url
         }
       };
     }

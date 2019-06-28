@@ -8,6 +8,8 @@ import GameComponent from "../src/components/games/GameComponent";
 import RankingComponent from "../src/components/ranking/RankingComponent";
 import CalendarTableComponent from "../src/components/calendar/CalendarTableComponent";
 import PlayersAndStaffOverview from "../src/components/teams/PlayersAndStaffOverview";
+import BreadCrumb from "../src/components/breadcrumbs/BreadCrumb";
+import mapUrlToBreadcrumbs from "../src/utils/mapUrlToBreadcrumb";
 
 class TeamPage extends Component {
   state = {
@@ -24,11 +26,16 @@ class TeamPage extends Component {
 
   render() {
     const { activePage } = this.state;
-    const { teamID } = this.props;
+    const { teamID, fullUrl } = this.props;
     const pageTitle = kbvbApiUrls[teamID].staticRoutingInfo.readableTitle;
+
+    const breadcrumbs = mapUrlToBreadcrumbs(fullUrl);
 
     return (
       <Layout>
+        <div className="px-4 mt-8 md:mt-10 lg:mt-16 container mx-auto text-left">
+          <BreadCrumb data={breadcrumbs} />
+        </div>
         <div className="px-4 mt-8 md:mt-10 container mx-auto">
           <h1>{pageTitle && pageTitle}</h1>
           <div className="mt-6 mb-8">
@@ -121,12 +128,13 @@ class TeamPage extends Component {
 }
 
 TeamPage.propTypes = {
-  teamID: PropTypes.string.isRequired
+  teamID: PropTypes.string.isRequired,
+  fullUrl: PropTypes.string.isRequired
 };
 
 TeamPage.getInitialProps = ({ query }) => {
-  const { teamID } = query;
-  return { teamID };
+  const { teamID, fullUrl } = query;
+  return { teamID, fullUrl };
 };
 
 export default TeamPage;

@@ -17,6 +17,7 @@
 @import "./components/content/Content.css";
 @import "./components/tabs/Tabs.css";
 @import "./components/tabs/TabBar.css";
+@import "./components/breadcrumb/Breadcrumb.css";
 
 body, html {
     @apply font-kkfc;

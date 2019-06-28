@@ -72,7 +72,7 @@ class GameComponent extends Component {
                   <div className="absolute rounded-full p-2 flex items-center justify-center bg-gray-200 text-gray-400 text-xs font-semibold center-absolute">
                     VS
                   </div>
-                  <div className="w-1/2 py-6 border-gray-200 border-r flex flex-col justify-center items-center">
+                  <div className="w-1/2 py-6 border-gray-200 border-r flex flex-col justify-center items-center text-center">
                     <div className="flex items-center">
                       <img
                         src={game.homeTeam.logo}
@@ -89,7 +89,7 @@ class GameComponent extends Component {
                       {game.homeTeam.name}
                     </span>
                   </div>
-                  <div className="w-1/2 py-6 flex justify-center flex-col items-center">
+                  <div className="w-1/2 py-6 flex justify-center flex-col items-center text-center">
                     <div className="flex items-center">
                       {type === "latest-game" && (
                         <span className="pr-4 font-semibold text-4xl text-gray-900">

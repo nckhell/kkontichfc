@@ -1,7 +1,7 @@
 .body-content {
     @apply text-xl;
     @apply text-gray-700;
-    @apply leading-loose
+    @apply leading-loose;
 }
 
 .body-content h1, h2, h3, h4 {
@@ -34,7 +34,7 @@
     @apply text-3xl;
 }
 
-.body-content p, .body-content ul, .body-content ol {
+.body-content p, .body-content ul, .body-content ol, .body-content table {
     @apply mb-8;
 }
 

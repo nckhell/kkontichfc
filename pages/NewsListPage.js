@@ -12,6 +12,7 @@ import {
 } from "../src/utils/news";
 import HeadSponsors from "../src/components/sponsors/HeadSponsors";
 import NewsList from "../src/components/news/NewsList";
+import BreadCrumb from "../src/components/breadcrumbs/BreadCrumb";
 import Settings from "../settings";
 
 class NewsListPage extends Component {
@@ -82,6 +83,9 @@ class NewsListPage extends Component {
     return (
       <Layout>
         <main>
+          <div className="px-4 mt-8 md:mt-10 lg:mt-16 container mx-auto text-left">
+            <BreadCrumb data={[{ title: "nieuwsoverzicht", url: "nieuws" }]} />
+          </div>
           <section className="container mt-8 md:mt-10 mx-auto px-4">
             <h1>Nieuwsoverzicht</h1>
             <div className="my-6">
