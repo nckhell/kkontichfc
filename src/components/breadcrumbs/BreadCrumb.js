@@ -6,7 +6,7 @@ const BreadCrumb = props => {
   const { data } = props;
 
   return (
-    <ul className="text-base">
+    <ul className="text-xs md:text-base leading-loose">
       <li className="inline-block text-gray-500">
         <a
           href={prefixURL("/")}

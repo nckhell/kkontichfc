@@ -5,10 +5,16 @@ import { prefixURL } from "next-prefixed";
 import { FacebookProvider, Like, Comments } from "react-facebook";
 import LatestNews from "../src/components/news/LatestNews";
 import ButtonWithLine from "../src/components/buttons/ButtonWithLine";
-import { getCategoryFromNewsPost, makeUrl } from "../src/utils/news";
+import {
+  getCategoryFromNewsPost,
+  makeUrl,
+  getSeasonFromNewsPost
+} from "../src/utils/news";
 import { formatDate } from "../src/utils/dateTimeFormat";
 import Layout from "../src/components/layout/Layout";
 import HeadSponsors from "../src/components/sponsors/HeadSponsors";
+import BreadCrumb from "../src/components/breadcrumbs/BreadCrumb";
+import mapUrlToBreadcrumbs from "../src/utils/mapUrlToBreadcrumb";
 
 class NewsPostPage extends Component {
   state = {};
@@ -25,7 +31,24 @@ class NewsPostPage extends Component {
     return (
       <Layout>
         <div id="kkfc-background-logo">
-          <div className="px-4 mt-8 md:mt-10 container mx-auto text-left">
+          <div className="px-4 mt-8 md:mt-10 lg:mt-16 container mx-auto text-left">
+            <div className="w-full mx-auto lg:w-5/6">
+              <BreadCrumb
+                data={[
+                  { title: "nieuws", url: "nieuws/overzicht" },
+                  {
+                    title: "...",
+                    url: ""
+                  },
+                  {
+                    title: NewsPostJson.title,
+                    url: ""
+                  }
+                ]}
+              />
+            </div>
+          </div>
+          <div className="px-4 md:mt-4 md:mt-5 container mx-auto text-left">
             <article className="body-content w-full mx-auto lg:w-5/6">
               <div className={`news-category text-gray-300 pt-8 ${category}`}>
                 {category}
