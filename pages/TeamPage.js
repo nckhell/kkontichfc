@@ -2,6 +2,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { prefixURL } from "next-prefixed";
+import NextSeo from "next-seo";
 import kbvbApiUrls from "../src/config/api/kbvb_graphql";
 import Layout from "../src/components/layout/Layout";
 import GameComponent from "../src/components/games/GameComponent";
@@ -30,9 +31,29 @@ class TeamPage extends Component {
     const pageTitle = kbvbApiUrls[teamID].staticRoutingInfo.readableTitle;
 
     const breadcrumbs = mapUrlToBreadcrumbs(fullUrl);
+    const seoMaleOrFemale =
+      breadcrumbs[0].title.charAt(0).toUpperCase() +
+      breadcrumbs[0].title.slice(1);
+    const seoTeam =
+      breadcrumbs[1].title.charAt(0).toUpperCase() +
+      breadcrumbs[1].title.slice(1);
 
     return (
       <Layout>
+        <NextSeo
+          config={{
+            title: `${seoTeam} | ${seoMaleOrFemale}`,
+            description: `Rangschikking, kalender, staff en spelers van onze ${pageTitle}`,
+            canonical: `https://kkontichfc.be${fullUrl}`,
+            openGraph: {
+              type: "website",
+              locale: "nl_BE",
+              url: `https://kkontichfc.be${fullUrl}`,
+              title: `${seoTeam} | ${seoMaleOrFemale} | K. Kontich F.C.`,
+              description: `Rangschikking, kalender, staff en spelers van onze ${pageTitle}`
+            }
+          }}
+        />
         <div className="px-4 mt-8 md:mt-10 lg:mt-16 container mx-auto text-left">
           <BreadCrumb data={breadcrumbs} />
         </div>

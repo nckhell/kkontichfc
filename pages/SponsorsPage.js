@@ -1,6 +1,7 @@
 import React from "react";
 import _ from "lodash";
 import { prefixURL } from "next-prefixed";
+import NextSeo from "next-seo";
 import Layout from "../src/components/layout/Layout";
 import sponsorsJson from "../content/sponsors";
 import BreadCrumb from "../src/components/breadcrumbs/BreadCrumb";
@@ -21,6 +22,20 @@ function SponsorsPage() {
 
   return (
     <Layout>
+      <NextSeo
+        config={{
+          title: "Sponsors | Commercieel",
+          description: `K. Kontich F.C. wil graag al haar sponsors bedanken.`,
+          canonical: `https://kkontichfc.be/commercieel/sponsors`,
+          openGraph: {
+            type: "website",
+            locale: "nl_BE",
+            url: "https://kkontichfc.be/commercieel/sponsors",
+            title: "Sponsors | Commercieel | K. Kontich F.C.",
+            description: "K. Kontich F.C. wil graag al haar sponsors bedanken."
+          }
+        }}
+      />
       <div id="kkfc-background-logo">
         <div className="px-4 mt-8 md:mt-10 lg:mt-16 container mx-auto text-left">
           <BreadCrumb

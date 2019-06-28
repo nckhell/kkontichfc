@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/label-has-for */
 import React, { Component } from "react";
 import _ from "lodash";
+import NextSeo from "next-seo";
 import Layout from "../src/components/layout/Layout";
 import SUMMARY_JSON from "../content/build/nieuws/summary.json";
 import {
@@ -82,6 +83,20 @@ class NewsListPage extends Component {
 
     return (
       <Layout>
+        <NextSeo
+          config={{
+            title: "Nieuws",
+            description: "Lees het laatste nieuws omtrent K. Kontich F.C.",
+            canonical: `https://kkontichfc.be/nieuws/overzicht/`,
+            openGraph: {
+              type: "website",
+              locale: "nl_BE",
+              url: "https://kkontichfc.be/nieuws/overzicht/",
+              title: "Nieuws | K. Kontich F.C.",
+              description: "Lees het laatste nieuws omtrent K. Kontich F.C."
+            }
+          }}
+        />
         <main>
           <div className="px-4 mt-8 md:mt-10 lg:mt-16 container mx-auto text-left">
             <BreadCrumb data={[{ title: "nieuwsoverzicht", url: "nieuws" }]} />

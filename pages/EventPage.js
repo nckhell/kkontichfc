@@ -1,5 +1,6 @@
 /* eslint-disable global-require */
 import React, { Component } from "react";
+import NextSeo from "next-seo";
 import { CloudinaryContext, Image, Transformation } from "cloudinary-react";
 import { prefixURL } from "next-prefixed";
 import { FacebookProvider, Like, Comments } from "react-facebook";
@@ -20,8 +21,35 @@ class EventPage extends Component {
     const date = formatDate(EventJson.date);
     const href = makeUrl(EventJson);
 
+    let imageSeo = [];
+    if (EventJson.cloudinaryID) {
+      imageSeo = [
+        {
+          url: `https://res.cloudinary.com/kkontichfc/image/upload/c_fill,h_630,w_1200/evenementen/${EventJson.cloudinaryID}`,
+          width: "1200",
+          height: "630",
+          alt: `${EventJson.title}`
+        }
+      ];
+    }
+
     return (
       <Layout>
+        <NextSeo
+          config={{
+            title: `${EventJson.title} | Evenementen`,
+            description: `${EventJson.preview}...`,
+            canonical: `https://kkontichfc.be${href}`,
+            openGraph: {
+              type: "website",
+              locale: "nl_BE",
+              url: `https://kkontichfc.be${href}`,
+              title: `${EventJson.title} | Evenementen | K. Kontich F.C.`,
+              description: `${EventJson.preview}...`,
+              images: imageSeo
+            }
+          }}
+        />
         <div id="kkfc-background-logo">
           <div className="px-4 mt-8 md:mt-10 lg:mt-16 container mx-auto text-left">
             <div className="w-full mx-auto lg:w-5/6">

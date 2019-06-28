@@ -2,6 +2,7 @@
 import React, { Component } from "react";
 import { CloudinaryContext, Image, Transformation } from "cloudinary-react";
 import { prefixURL } from "next-prefixed";
+import NextSeo from "next-seo";
 import { FacebookProvider, Like, Comments } from "react-facebook";
 import LatestNews from "../src/components/news/LatestNews";
 import ButtonWithLine from "../src/components/buttons/ButtonWithLine";
@@ -23,8 +24,38 @@ class NewsPostPage extends Component {
     const category = getCategoryFromNewsPost(NewsPostJson.dir);
     const href = makeUrl(NewsPostJson);
 
+    const categoryUpperCaseSeo =
+      category.charAt(0).toUpperCase() + category.slice(1);
+
+    let imageSeo = [];
+    if (NewsPostJson.cloudinaryID) {
+      imageSeo = [
+        {
+          url: `https://res.cloudinary.com/kkontichfc/image/upload/c_fill,h_630,w_1200/nieuws/${NewsPostJson.cloudinaryID}`,
+          width: "1200",
+          height: "630",
+          alt: `${NewsPostJson.title}`
+        }
+      ];
+    }
+
     return (
       <Layout>
+        <NextSeo
+          config={{
+            title: `${NewsPostJson.title} | ${categoryUpperCaseSeo}`,
+            description: `${NewsPostJson.preview}...`,
+            canonical: `https://kkontichfc.be${href}`,
+            openGraph: {
+              type: "website",
+              locale: "nl_BE",
+              url: `https://kkontichfc.be${href}`,
+              title: `${NewsPostJson.title} | ${categoryUpperCaseSeo} | K. Kontich F.C.`,
+              description: `${NewsPostJson.preview}...`,
+              images: imageSeo
+            }
+          }}
+        />
         <div id="kkfc-background-logo">
           <div className="px-4 mt-8 md:mt-10 lg:mt-16 container mx-auto text-left">
             <div className="w-full mx-auto lg:w-5/6">

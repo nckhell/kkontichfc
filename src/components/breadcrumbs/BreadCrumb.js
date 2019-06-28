@@ -21,7 +21,7 @@ const BreadCrumb = props => {
           return (
             <li
               className="inline-block capitalize text-gray-500 slash-before"
-              key={breadCrumbItem.url}
+              key={breadCrumbItem.title}
             >
               {breadCrumbItem.title}
             </li>

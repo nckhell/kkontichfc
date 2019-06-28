@@ -1,6 +1,7 @@
 /* eslint-disable global-require */
 import React, { Component } from "react";
 import _ from "lodash";
+import NextSeo from "next-seo";
 import Layout from "../src/components/layout/Layout";
 import SUMMARY_JSON from "../content/build/evenementen/summary.json";
 import BreadCrumb from "../src/components/breadcrumbs/BreadCrumb";
@@ -62,6 +63,22 @@ class EventsListPage extends Component {
 
     return (
       <Layout>
+        <NextSeo
+          config={{
+            title: "Evenementen",
+            description:
+              "K. Kontich F.C. organiseert doorheen het jaar tal van evenementen. Ontdek welke evenementen er zitten aan te komen.",
+            canonical: `https://kkontichfc.be/evenementen/`,
+            openGraph: {
+              type: "website",
+              locale: "nl_BE",
+              url: "https://kkontichfc.be/evenementen/",
+              title: "Evenementen | K. Kontich F.C.",
+              description:
+                "K. Kontich F.C. organiseert doorheen het jaar tal van evenementen. Ontdek welke evenementen er zitten aan te komen."
+            }
+          }}
+        />
         <main>
           <div className="px-4 mt-8 md:mt-10 lg:mt-16 container mx-auto text-left">
             <BreadCrumb

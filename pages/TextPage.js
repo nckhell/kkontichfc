@@ -2,6 +2,7 @@
 import React, { Component } from "react";
 import { prefixURL } from "next-prefixed";
 import { FacebookProvider, Like } from "react-facebook";
+import NextSeo from "next-seo";
 import Layout from "../src/components/layout/Layout";
 import ButtonWithLine from "../src/components/buttons/ButtonWithLine";
 import HeadSponsors from "../src/components/sponsors/HeadSponsors";
@@ -20,8 +21,26 @@ class TextPage extends Component {
     const href = `${query.fullUrl}/`;
     const breadcrumbs = mapUrlToBreadcrumbs(href);
 
+    const firstBreadCrumbInUppercase =
+      breadcrumbs[0].title.charAt(0).toUpperCase() +
+      breadcrumbs[0].title.slice(1);
+
     return (
       <Layout>
+        <NextSeo
+          config={{
+            title: `${pageJson.title} | ${firstBreadCrumbInUppercase}`,
+            description: `${pageJson.preview}...`,
+            canonical: `https://kkontichfc.be${href}`,
+            openGraph: {
+              type: "website",
+              locale: "nl_BE",
+              url: `https://kkontichfc.be${href}`,
+              title: `${pageJson.title} | ${firstBreadCrumbInUppercase} | K. Kontich F.C.`,
+              description: `${pageJson.preview}...`
+            }
+          }}
+        />
         <div id="kkfc-background-logo">
           <div className="px-4 mt-8 md:mt-10 lg:mt-16 container mx-auto text-left">
             <div className="w-full mx-auto lg:w-5/6">
