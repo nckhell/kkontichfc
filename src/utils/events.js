@@ -20,6 +20,25 @@ export const sortEventsSummaryJsonOnDate = (summaryJson, order = "desc") => {
   );
 };
 
+export const getAllSeasonsWithEvents = SUMMARY => {
+  const seasons = [];
+
+  SUMMARY.fileMap &&
+    Object.keys(SUMMARY.fileMap).forEach(file => {
+      const season = file.split("/").slice(-2)[0];
+
+      if (seasons.indexOf(season) === -1) {
+        seasons.push(season);
+      }
+    });
+
+  return seasons.sort().reverse();
+};
+
+export const getSeasonFromEvent = EventDir => {
+  return EventDir.split("/").slice(-1)[0];
+};
+
 export const sortEventsOnOnlyEventsInTheFuture = arrayWithEventObjects => {
   const currentDate = new Date();
 

@@ -1,23 +1,24 @@
 import React from "react";
 import PropTypes from "prop-types";
-import NewsItem from "./NewsItem";
+import EventItem from "./EventItem";
 
-const NewsList = props => {
+const EventList = props => {
   const { data } = props;
 
   return (
     <div className="mt-6 lg:flex lg:-mx-2 flex-wrap">
       {data &&
-        data.map(newsArticle => {
-          return <NewsItem data={newsArticle} key={newsArticle.base} />;
+        data.map(eventItem => {
+          return <EventItem data={eventItem} key={eventItem.base} />;
         })}
+      {!data && <p>Er zijn momenteel nog geen evenementen gepland.</p>}
     </div>
   );
 };
 
-NewsList.propTypes = {
+EventList.propTypes = {
   // eslint-disable-next-line react/forbid-prop-types
   data: PropTypes.array.isRequired
 };
 
-export default NewsList;
+export default EventList;

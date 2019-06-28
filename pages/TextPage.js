@@ -3,7 +3,9 @@ import React, { Component } from "react";
 import { prefixURL } from "next-prefixed";
 import { FacebookProvider, Like } from "react-facebook";
 import Layout from "../src/components/layout/Layout";
+import ButtonWithLine from "../src/components/buttons/ButtonWithLine";
 import HeadSponsors from "../src/components/sponsors/HeadSponsors";
+import UpcomingEvents from "../src/components/events/UpcomingEvents";
 import BreadCrumb from "../src/components/breadcrumbs/BreadCrumb";
 import mapUrlToBreadcrumbs from "../src/utils/mapUrlToBreadcrumb";
 
@@ -50,6 +52,11 @@ class TextPage extends Component {
           />
         </div>
         <HeadSponsors />
+        {/* <section className="container my-10 mx-auto px-4 lg:my-16">
+          <h1>Evenementen</h1>
+          <UpcomingEvents />
+          <ButtonWithLine text="Alle evenementen" url="/evenementen/" />
+        </section> */}
       </Layout>
     );
   }

@@ -206,7 +206,7 @@ const Menu = () => {
               </Link>
             </li>
             <li>
-              <Link href="/commercieel/evenementen/">
+              <Link href="/evenementen/">
                 <a>Evenementen</a>
               </Link>
             </li>

@@ -11,7 +11,7 @@
     "dev": "npm run build:content && next",
     "build": "npm run build:content && next build",
     "build:content:news": "processmd content/nieuws/**/**/*.md --outputDir content/build/nieuws --preview 110 --summaryOutput content/build/nieuws/summary.json --markdownOptions.html true",
-    "build:content:events": "processmd content/evenementen/*.md --outputDir content/build/evenementen --preview 100 --summaryOutput content/build/evenementen/summary.json --markdownOptions.html true",
+    "build:content:events": "processmd content/evenementen/**/*.md --outputDir content/build/evenementen --preview 100 --summaryOutput content/build/evenementen/summary.json --markdownOptions.html true",
     "build:content:wedstrijdverslagen": "processmd content/wedstrijdverslagen/2019-2020/heren/1e-provinciale/*.md --outputDir content/build/wedstrijdverslagen/2019-2020/heren/1e-provinciale --preview 110 --summaryOutput content/build/wedstrijdverslagen/summary.json --markdownOptions.html true",
     "build:content:pages": "processmd content/pages/**/*.md --outputDir content/build/pages --preview 110 --summaryOutput content/build/pages/summary.json --markdownOptions.html true",
     "build:content": "npm run build:content:wedstrijdverslagen && npm run build:content:events && npm run build:content:news && npm run build:content:pages",

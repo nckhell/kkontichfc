@@ -1,6 +1,6 @@
 ---
 title: Herfststage
-date: 2019-10-10
+date: 2018-10-10
 ---
 <p class="p1">De voorbije voetbalkampen van KKFC (Herfststage, Paasstage en Zomerstage ) wezen uit dat onze jeugd &lsquo;nood&rsquo; heeft aan specifieke, betaalbare voetbalkampen tijdens de schoolvakanties.</p>
 <p class="p2">Het is voor ouders niet steeds even eenvoudig om passende opvang te vinden voor hun kinderen tijdens de vakanties. Daarenboven merken wij dat een intensieve voetbalstage onze spelertjes effectief vooruitgang laat boeken op voetbaltechnisch gebied.</p>

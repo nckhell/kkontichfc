@@ -21,9 +21,10 @@ const UpcomingEvents = props => {
         upcomingEvents.map(event => {
           return <UpcomingEventItem data={event} key={event.base} />;
         })}
-      {!upcomingEvents && (
-        <p className="lg:px-2">Er zijn nog geen evementen ingepland.</p>
-      )}
+      {!upcomingEvents ||
+        (upcomingEvents.length === 0 && (
+          <p className="lg:px-2">Er zijn nog geen evementen ingepland.</p>
+        ))}
     </div>
   );
 };

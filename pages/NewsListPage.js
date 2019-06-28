@@ -63,7 +63,7 @@ class NewsListPage extends Component {
 
     let { filteredNewsList } = this.state;
 
-    // Filter on newscategory
+    // Filter on season
     filteredNewsList = _.filter(newsList, item => {
       return getSeasonFromNewsPost(item.dir) === seasonInFilter;
     });
