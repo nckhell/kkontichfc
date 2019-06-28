@@ -1,12 +1,12 @@
 const DEFAULT_SEO = {
   title: "Welkom",
   titleTemplate: "%s | K. Kontich F.C.",
-  canonical: "https://kkontichfc.be",
+  canonical: "https://kkontichfc.be/",
   facebook: {
     appId: 346435965433483
   },
   description:
-    "K.Kontich FC treed aan in de Antwerpse 1e provinciale. De club is aangesloten bij de KBVB met stamnummer 3029 en heeft rood en geel als kleuren.",
+    "K.Kontich FC treedt aan in de Antwerpse 1e Provinciale. De club is aangesloten bij de KBVB met stamnummer 3029 en heeft rood en geel als kleuren.",
   openGraph: {
     type: "website",
     locale: "nl_BE",
