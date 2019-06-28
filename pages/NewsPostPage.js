@@ -47,7 +47,7 @@ class NewsPostPage extends Component {
             description: `${NewsPostJson.preview}...`,
             canonical: `https://kkontichfc.be${href}`,
             openGraph: {
-              type: "website",
+              type: "article",
               locale: "nl_BE",
               url: `https://kkontichfc.be${href}`,
               title: `${NewsPostJson.title} | ${categoryUpperCaseSeo} | K. Kontich F.C.`,
