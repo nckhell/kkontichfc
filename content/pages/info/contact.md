@@ -7,11 +7,9 @@ title: Contact
     <br/>
     <strong>Terreinen/maatschappelijke zetel:</strong> Duffelsesteenweg 73, 2550 Kontich
     <br/>
-
     <strong>Correspondentieadres:</strong> Helenaveldstraat 26, 2550 Kontich (Adres GC Knegtel theo)
     <br/>
     <strong>Telefoon kantine:</strong> 03/457 10 09</p>
-
 <p>
     <strong>Gerechtigd Correspondent:</strong>
     <br/> 0475/81 18 80

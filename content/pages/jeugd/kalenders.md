@@ -1,4 +1,4 @@
 ---
 title: Kalenders
 ---
-<iframe class="calendar" src="http://static.belgianfootball.be/project/publiek/ploegclub/nl/kalender_03029.htm"></iframe>
+<p>Bekijk alle kalenders van onze jeugdploegen via <a href="https://www.belgianfootball.be/nl/club/1509/ploegen" target="_blank" title="KBVB - Kalenders K. Kontich F.C.">deze link</a>.</p>

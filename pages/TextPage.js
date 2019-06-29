@@ -55,8 +55,9 @@ class TextPage extends Component {
               <FacebookProvider appId="346435965433483">
                 <div className="my-6">
                   <Like
-                    href={`https://kkontichfc.be/${href}`}
+                    href={`https://kkontichfc.be${href}`}
                     colorScheme="dark"
+                    size="large"
                     showFaces
                     share
                   />

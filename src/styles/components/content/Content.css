@@ -2,10 +2,16 @@
     @apply text-xl;
     @apply text-gray-700;
     @apply leading-loose;
+    @apply overflow-x-hidden;
 }
 
 .body-content h1, h2, h3, h4 {
     @apply leading-snug;
+}
+
+.body-content iframe {
+    /* max-width: 100%;
+    height: auto; */
 }
 
 .body-content strong, .body-content b {

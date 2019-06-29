@@ -1,13 +1,8 @@
 ---
 title: Huur benedenkatine
 ---
-<div class="gallery">
-    <img src="https://res.cloudinary.com/kkontichfc/image/upload/v1561492152/kantine/kantine_1_ugafyy.jpg" alt="Foto van de benedenkantine 1" />
-    <img src="https://res.cloudinary.com/kkontichfc/image/upload/v1561492151/kantine/kantine_2_fjvksm.jpg" alt="Foto van de benedenkantine 2" />
-    <img src="https://res.cloudinary.com/kkontichfc/image/upload/v1561492152/kantine/kantine_3_qs2vyh.jpg" alt="Foto van de benedenkantine 3" />
-    <img src="https://res.cloudinary.com/kkontichfc/image/upload/v1561492151/kantine/kantine_4_tdb0kn.jpg" alt="Foto van de benedenkantine 4" />
+<div class="center mb-6"><img src="https://res.cloudinary.com/kkontichfc/image/upload/v1561492152/kantine/spotlight_kantine_nffgqg.png" alt="Huur onze kantine" />
 </div>
-
 <p>Een communicant in de familie? Je ziet het niet zitten om de jaarlijkse BBQ-familie dit jaar bij jou in de tuin te organiseren? De benedenkantine van K. Kontich F.C. biedt dan zeker een oplossing! Je kan onze benedenkantine huren tegen erg democratische voorwaarden. Ontdek ze hier!</p>
 
 <h2>Financiële voorwaarden</h2>
@@ -42,5 +37,3 @@ title: Huur benedenkatine
     <li>Reservatie via <a href="mailto:commercieel@kkontichfc.be" title="commercieel@kkontichfc.be">commercieel@kkontichfc.be</a>.
     </li>
 </ul>
-<div class="center"><img src="https://res.cloudinary.com/kkontichfc/image/upload/v1561492152/kantine/spotlight_kantine_nffgqg.png" alt="Huur onze kantine" />
-</div>

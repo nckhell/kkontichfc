@@ -1,7 +1,12 @@
 ---
 title: Trainers
 ---
-<h2>Bovenbouw <span>Coördinator: Mo Sabhaoui</span></h2>
+<h2>Bovenbouw</h2>
+<div class="ranking-tabs">
+    <div class="text-gray-800 px-4 pt-4">
+        <span class="font-semibold">Coördinator:</span> Mo Sabhaoui
+    </div>
+</div>
 <table width="100%" cellpadding="0" cellspacing="0">
     <thead>
         <tr>
@@ -28,7 +33,13 @@ title: Trainers
             </tr>
     </tbody>
 </table>
-<h2>Middenbouw <span>Coördinator: Patrick Hannes</span></h2>
+<br/>
+<h2>Middenbouw</h2>
+<div class="ranking-tabs">
+    <div class="text-gray-800 px-4 pt-4">
+        <span class="font-semibold">Coördinator:</span> Patrick Hannes
+    </div>
+</div>
 <table width="100%" cellpadding="0" cellspacing="0">
     <thead>
         <tr>
@@ -63,7 +74,13 @@ title: Trainers
             </tr>
     </tbody>
 </table>
+<br/>
 <h2>Onderbouw <span>Coördinator: Joachim Laurier</span></h2>
+<div class="ranking-tabs">
+    <div class="text-gray-800 px-4 pt-4">
+        <span class="font-semibold">Coördinator:</span> Joachim Laurier
+    </div>
+</div>
 <table width="100%" cellpadding="0" cellspacing="0">
     <thead>
         <tr>

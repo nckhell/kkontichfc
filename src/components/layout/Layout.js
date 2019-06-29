@@ -21,14 +21,11 @@ class Layout extends Component {
   }
 
   componentDidMount() {
-    const isProduction = process.env.APP_ENV === "gh-pages";
-    if (isProduction) {
-      if (!window.GA_INITIALIZED) {
-        initGA();
-        window.GA_INITIALIZED = true;
-      }
-      logPageView();
+    if (!window.GA_INITIALIZED) {
+      initGA();
+      window.GA_INITIALIZED = true;
     }
+    logPageView();
 
     this.setState({ isLoading: false });
   }

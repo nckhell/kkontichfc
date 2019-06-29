@@ -39,8 +39,8 @@ const Footer = () => {
             <Link href="/jeugd/trainers/">
               <a className="text-sm text-gray-500 py-1">Trainers</a>
             </Link>
-            <Link href="/jeugd/kalenders/">
-              <a className="text-sm text-gray-500 py-1">Kalenders</a>
+            <Link href="https://www.belgianfootball.be/nl/club/1509/ploegen">
+              <a target="_blank" className="text-sm text-gray-500 py-1">Kalenders</a>
             </Link>
             <Link href="/jeugd/lidgeld/">
               <a className="text-sm text-gray-500 py-1">Lidgeld</a>
@@ -48,7 +48,7 @@ const Footer = () => {
             <Link href="/jeugd/online-registratie/">
               <a className="text-sm text-gray-500 py-1">Online registratie</a>
             </Link>
-            <Link href="/jeugd/mutaliteit/">
+            <Link href="/jeugd/mutualiteit/">
               <a className="text-sm text-gray-500 py-1">Mutualiteit</a>
             </Link>
             <Link href="/jeugd/ongevallen/">

@@ -112,8 +112,8 @@ const Menu = () => {
               </Link>
             </li>
             <li>
-              <Link href="/jeugd/kalenders/">
-                <a>Kalenders</a>
+              <Link href="https://www.belgianfootball.be/nl/club/1509/ploegen">
+                <a target="_blank">Kalenders</a>
               </Link>
             </li>
             <li>
