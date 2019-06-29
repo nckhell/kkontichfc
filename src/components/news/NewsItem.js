@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { prefixURL } from "next-prefixed";
+import { FacebookProvider, Like } from "react-facebook";
 import ReactSVG from "react-svg";
 import { makeUrl, getCategoryFromNewsPost } from "../../utils/news";
 import { formatDate } from "../../utils/dateTimeFormat";
@@ -20,7 +21,7 @@ const NewsItem = props => {
   }
 
   return (
-    <article className="mb-4 w-full lg:w-1/3 lg:px-2">
+    <article className="mb-4 w-full md:w-1/2 lg:w-1/3 md:px-2">
       <a
         href={prefixURL(href)}
         title={data.title}
@@ -53,16 +54,15 @@ const NewsItem = props => {
             {date}
           </div>
           <div>
-            <ReactSVG
-              className="inline-block align-middle pr-2"
-              beforeInjection={svg => {
-                svg.setAttribute("style", "fill: #52606D");
-                svg.setAttribute("style", "height: 24px");
-                svg.setAttribute("style", "width: 24px");
-              }}
-              src={prefixURL("/static/img/eye.svg")}
-            />
-            2042x
+            <FacebookProvider appId="346435965433483">
+              <Like
+                href={`https://kkontichfc.be${href}`}
+                colorScheme="dark"
+                layout="button_count"
+                showFaces={false}
+                share={false}
+              />
+            </FacebookProvider>
           </div>
         </div>
       </a>

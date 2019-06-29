@@ -105,13 +105,18 @@ class NewsPostPage extends Component {
               <FacebookProvider appId="346435965433483">
                 <div className="my-6">
                   <Like
-                    href={`https://kkontichfc.be/${href}`}
+                    href={`https://kkontichfc.be${href}`}
                     colorScheme="dark"
                     showFaces
+                    size="large"
                     share
                   />
                 </div>
-                <Comments href={`https://kkontichfc.be/${href}`} width="100%" />
+                <Comments
+                  href={`https://kkontichfc.be${href}`}
+                  width="100%"
+                  numPosts="10"
+                />
               </FacebookProvider>
             </article>
           </div>
@@ -122,7 +127,7 @@ class NewsPostPage extends Component {
           />
         </div>
         <div className="my-16 h-1 w-full border-t border-gray-200" />
-        <section className="container mx-auto px-4 md:px-0">
+        <section className="container mx-auto px-4">
           <h1>Andere recente artikels</h1>
           <LatestNews nbrOfItems={3} excludeWithSlug={NewsPostJson.base} />
           <ButtonWithLine text="Meer nieuws" url="/nieuws/overzicht" />

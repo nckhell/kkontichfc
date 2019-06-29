@@ -50,7 +50,7 @@ class Header extends Component {
               </a>
             </Link>
           </div>
-          <div className="hidden md:block">
+          <div className="hidden xl:block">
             <ul className="font-semibold text-gray-900 uppercase">
               <li className="inline-block pr-12">
                 <Link href="/nieuws/overzicht/">

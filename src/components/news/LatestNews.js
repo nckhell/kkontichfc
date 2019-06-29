@@ -16,7 +16,7 @@ const LatestNews = props => {
   );
 
   return (
-    <div className="mt-6 lg:flex lg:-mx-2 flex-wrap">
+    <div className="mt-6 md:flex md:-mx-2 flex-wrap justify-center">
       {latestNewsList &&
         latestNewsList.map(newsArticle => {
           return <NewsItem data={newsArticle} key={newsArticle.base} />;

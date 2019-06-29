@@ -6,7 +6,7 @@ const EventList = props => {
   const { data } = props;
 
   return (
-    <div className="mt-6 lg:flex lg:-mx-2 flex-wrap">
+    <div className="mt-6 md:flex md:-mx-2 flex-wrap">
       {data &&
         data.map(eventItem => {
           return <EventItem data={eventItem} key={eventItem.base} />;
