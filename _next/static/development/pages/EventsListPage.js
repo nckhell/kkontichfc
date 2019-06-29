@@ -7,7 +7,7 @@
 /*! exports provided: fileMap, sourceFileArray, default */
 /***/ (function(module) {
 
-module.exports = {"fileMap":{"content/build/evenementen/2018-2019/mosselsouper-de-zwaluw.json":{"title":"Mosselsouper KKFC - De Zwaluw","date":"2018-09-15T00:00:00.000Z","cloudinaryID":"8_wxcscm","preview":"Op zaterdag 15 en zondag 16 september 2018 slaan K. Kontich F.C., de damesafdeling &eacute;n Lokaal","dir":"content/build/evenementen/2018-2019","base":"mosselsouper-de-zwaluw.json","ext":".json","sourceBase":"mosselsouper-de-zwaluw.md","sourceExt":".md"},"content/build/evenementen/2018-2019/diner-kkfc-vv-duffel.json":{"title":"Diner KKFC - VV Duffel","date":"2019-04-07T00:00:00.000Z","preview":"ZATERDAG 27 OKTOBER 2018 - 17U30\n    Cava *\n    Bloemkoolsoepje met garnalen *","dir":"content/build/evenementen/2018-2019","base":"diner-kkfc-vv-duffel.json","ext":".json","sourceBase":"diner-kkfc-vv-duffel.md","sourceExt":".md"},"content/build/evenementen/2018-2019/sponsorreceptie-kkfc-berg-en-dal.json":{"title":"Sponsorreceptie KKFC - Berg & Dal","date":"2019-02-16T00:00:00.000Z","preview":"Inschrijven via commercieel@kkontichfc.be of GSM 0479/69.48.49.","dir":"content/build/evenementen/2018-2019","base":"sponsorreceptie-kkfc-berg-en-dal.json","ext":".json","sourceBase":"sponsorreceptie-kkfc-berg-en-dal.md","sourceExt":".md"},"content/build/evenementen/2018-2019/diner-kkfc-herentals.json":{"title":"Diner KKFC - VC Herentals","date":"2018-10-27T00:00:00.000Z","preview":"ZATERDAG 27 OKTOBER 2018 - 17U30\n    Cava *\n    Bloemkoolsoepje met garnalen *","dir":"content/build/evenementen/2018-2019","base":"diner-kkfc-herentals.json","ext":".json","sourceBase":"diner-kkfc-herentals.md","sourceExt":".md"},"content/build/evenementen/2018-2019/sponsorreceptie-kkfc-schriek.json":{"title":"Sponsorreceptie KKFC - Schriek","date":"2018-12-08T00:00:00.000Z","preview":"Inschrijven via commercieel@kkontichfc.be of GSM 0479/69.48.49.","dir":"content/build/evenementen/2018-2019","base":"sponsorreceptie-kkfc-schriek.json","ext":".json","sourceBase":"sponsorreceptie-kkfc-schriek.md","sourceExt":".md"},"content/build/evenementen/2018-2019/diner-kkfc-de-kempen.json":{"title":"Diner KKFC - FC De Kempen TL","date":"2019-03-02T00:00:00.000Z","preview":"ZATERDAG 2 MAART 2019 - 17u30\n    Cava *\n    Witloofroomsoep *\n    Rundsstoverij met vergeten","dir":"content/build/evenementen/2018-2019","base":"diner-kkfc-de-kempen.json","ext":".json","sourceBase":"diner-kkfc-de-kempen.md","sourceExt":".md"},"content/build/evenementen/2018-2019/herfststage.json":{"title":"Herfststage","date":"2018-10-10T00:00:00.000Z","preview":"De voorbije voetbalkampen van KKFC (Herfststage, Paasstage en Zomerstage ) wezen uit dat onze jeugd","dir":"content/build/evenementen/2018-2019","base":"herfststage.json","ext":".json","sourceBase":"herfststage.md","sourceExt":".md"},"content/build/evenementen/2018-2019/diner-kkfc-rochus-deurne.json":{"title":"Diner KKFC - Rochus Deurne","date":"2019-01-19T00:00:00.000Z","preview":"ZATERDAG 19 JANUARI 2019 - 17u30\n    Cava *\n    Reuze vleesbrochette met warme groentjes,","dir":"content/build/evenementen/2018-2019","base":"diner-kkfc-rochus-deurne.json","ext":".json","sourceBase":"diner-kkfc-rochus-deurne.md","sourceExt":".md"},"content/build/evenementen/2019-2020/event.json":{"title":"Event toevoegen","date":"2019-12-08T00:00:00.000Z","preview":"To do","dir":"content/build/evenementen/2019-2020","base":"event.json","ext":".json","sourceBase":"event.md","sourceExt":".md"}},"sourceFileArray":["content/evenementen/2018-2019/diner-kkfc-de-kempen.md","content/evenementen/2018-2019/diner-kkfc-herentals.md","content/evenementen/2018-2019/diner-kkfc-rochus-deurne.md","content/evenementen/2018-2019/diner-kkfc-vv-duffel.md","content/evenementen/2018-2019/herfststage.md","content/evenementen/2018-2019/mosselsouper-de-zwaluw.md","content/evenementen/2018-2019/sponsorreceptie-kkfc-berg-en-dal.md","content/evenementen/2018-2019/sponsorreceptie-kkfc-schriek.md","content/evenementen/2019-2020/event.md"]};
+module.exports = {"fileMap":{"content/build/evenementen/2018-2019/diner-kkfc-de-kempen.json":{"title":"Diner KKFC - FC De Kempen TL","date":"2019-03-02T00:00:00.000Z","preview":"ZATERDAG 2 MAART 2019 - 17u30\n    Cava *\n    Witloofroomsoep *\n    Rundsstoverij met vergeten","dir":"content/build/evenementen/2018-2019","base":"diner-kkfc-de-kempen.json","ext":".json","sourceBase":"diner-kkfc-de-kempen.md","sourceExt":".md"},"content/build/evenementen/2018-2019/diner-kkfc-herentals.json":{"title":"Diner KKFC - VC Herentals","date":"2018-10-27T00:00:00.000Z","preview":"ZATERDAG 27 OKTOBER 2018 - 17U30\n    Cava *\n    Bloemkoolsoepje met garnalen *","dir":"content/build/evenementen/2018-2019","base":"diner-kkfc-herentals.json","ext":".json","sourceBase":"diner-kkfc-herentals.md","sourceExt":".md"},"content/build/evenementen/2018-2019/diner-kkfc-vv-duffel.json":{"title":"Diner KKFC - VV Duffel","date":"2019-04-07T00:00:00.000Z","preview":"ZATERDAG 27 OKTOBER 2018 - 17U30\n    Cava *\n    Bloemkoolsoepje met garnalen *","dir":"content/build/evenementen/2018-2019","base":"diner-kkfc-vv-duffel.json","ext":".json","sourceBase":"diner-kkfc-vv-duffel.md","sourceExt":".md"},"content/build/evenementen/2018-2019/diner-kkfc-rochus-deurne.json":{"title":"Diner KKFC - Rochus Deurne","date":"2019-01-19T00:00:00.000Z","preview":"ZATERDAG 19 JANUARI 2019 - 17u30\n    Cava *\n    Reuze vleesbrochette met warme groentjes,","dir":"content/build/evenementen/2018-2019","base":"diner-kkfc-rochus-deurne.json","ext":".json","sourceBase":"diner-kkfc-rochus-deurne.md","sourceExt":".md"},"content/build/evenementen/2018-2019/herfststage.json":{"title":"Herfststage","date":"2018-10-10T00:00:00.000Z","preview":"De voorbije voetbalkampen van KKFC (Herfststage, Paasstage en Zomerstage ) wezen uit dat onze jeugd","dir":"content/build/evenementen/2018-2019","base":"herfststage.json","ext":".json","sourceBase":"herfststage.md","sourceExt":".md"},"content/build/evenementen/2018-2019/mosselsouper-de-zwaluw.json":{"title":"Mosselsouper KKFC - De Zwaluw","date":"2018-09-15T00:00:00.000Z","cloudinaryID":"8_wxcscm","preview":"Op zaterdag 15 en zondag 16 september 2018 slaan K. Kontich F.C., de damesafdeling &eacute;n Lokaal","dir":"content/build/evenementen/2018-2019","base":"mosselsouper-de-zwaluw.json","ext":".json","sourceBase":"mosselsouper-de-zwaluw.md","sourceExt":".md"},"content/build/evenementen/2018-2019/sponsorreceptie-kkfc-berg-en-dal.json":{"title":"Sponsorreceptie KKFC - Berg & Dal","date":"2019-02-16T00:00:00.000Z","preview":"Inschrijven via commercieel@kkontichfc.be of GSM 0479/69.48.49.","dir":"content/build/evenementen/2018-2019","base":"sponsorreceptie-kkfc-berg-en-dal.json","ext":".json","sourceBase":"sponsorreceptie-kkfc-berg-en-dal.md","sourceExt":".md"},"content/build/evenementen/2018-2019/sponsorreceptie-kkfc-schriek.json":{"title":"Sponsorreceptie KKFC - Schriek","date":"2018-12-08T00:00:00.000Z","preview":"Inschrijven via commercieel@kkontichfc.be of GSM 0479/69.48.49.","dir":"content/build/evenementen/2018-2019","base":"sponsorreceptie-kkfc-schriek.json","ext":".json","sourceBase":"sponsorreceptie-kkfc-schriek.md","sourceExt":".md"},"content/build/evenementen/2019-2020/event.json":{"title":"Event toevoegen","date":"2019-12-08T00:00:00.000Z","preview":"To do","dir":"content/build/evenementen/2019-2020","base":"event.json","ext":".json","sourceBase":"event.md","sourceExt":".md"}},"sourceFileArray":["content/evenementen/2018-2019/diner-kkfc-de-kempen.md","content/evenementen/2018-2019/diner-kkfc-herentals.md","content/evenementen/2018-2019/diner-kkfc-rochus-deurne.md","content/evenementen/2018-2019/diner-kkfc-vv-duffel.md","content/evenementen/2018-2019/herfststage.md","content/evenementen/2018-2019/mosselsouper-de-zwaluw.md","content/evenementen/2018-2019/sponsorreceptie-kkfc-berg-en-dal.md","content/evenementen/2018-2019/sponsorreceptie-kkfc-schriek.md","content/evenementen/2019-2020/event.md"]};
 
 /***/ }),
 
@@ -48107,6 +48107,8 @@ function (_Component) {
     key: "componentDidMount",
     value: function componentDidMount() {
       var isProduction = process.env.APP_ENV === "gh-pages";
+      console.log(process.env.APP_ENV);
+      console.log(isProduction);
 
       if (isProduction) {
         if (!window.GA_INITIALIZED) {
@@ -48141,20 +48143,20 @@ function (_Component) {
         className: "".concat(isLoading ? "preload" : ""),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 49
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_8___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48
+          lineNumber: 50
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
         charSet: "utf-8",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
+          lineNumber: 51
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
@@ -48162,7 +48164,7 @@ function (_Component) {
         content: "initial-scale=1.0, width=device-width",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 52
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("link", {
@@ -48170,7 +48172,7 @@ function (_Component) {
         rel: "stylesheet",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 56
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("link", {
@@ -48179,7 +48181,7 @@ function (_Component) {
         href: Object(next_prefixed__WEBPACK_IMPORTED_MODULE_9__["prefixURL"])("/static/img/favicon.ico"),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 60
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -48187,14 +48189,14 @@ function (_Component) {
         toggleMenu: this.toggleMenu,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 66
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("nav", {
         className: "relative z-50",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 67
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
@@ -48202,26 +48204,26 @@ function (_Component) {
         className: "xl:hidden ".concat(isMenuOpen ? "open" : "closed"),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 68
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_Menu_MenuContent__WEBPACK_IMPORTED_MODULE_12__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 72
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_Menu_DesktopMenu__WEBPACK_IMPORTED_MODULE_13__["default"], {
         isMenuOpen: isMenuOpen,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73
+          lineNumber: 75
         },
         __self: this
       }), children, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_11__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 77
         },
         __self: this
       }));
