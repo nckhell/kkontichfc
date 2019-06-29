@@ -1,5 +1,6 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import { prefixURL } from "next-prefixed";
+import { Link, prefixURL } from "next-prefixed";
 
 const Footer = () => {
   return (
@@ -11,122 +12,88 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row md:mb-16">
           <div className="md:w-1/4 flex flex-col mb-8 md:mb-0">
             <h4 className="text-base pb-4 text-gray-800">Eerste elftallen</h4>
-            <a href="/featured" className="text-sm text-gray-500 py-1">
-              Heren 1e Prov.
-            </a>
-            <a href="/recent" className="text-sm text-gray-500 py-1">
-              Heren 3e Prov.
-            </a>
-            <a href="/animators" className="text-sm text-gray-500 py-1">
-              Dames 1e Nat.
-            </a>
-            <a href="/animators" className="text-sm text-gray-500 py-1">
-              Dames 1e Prov.
-            </a>
-            <a href="/animators" className="text-sm text-gray-500 py-1">
-              Dames 4e Prov.
-            </a>
+            <Link href="/heren/1e-provinciale/">
+              <a className="text-sm text-gray-500 py-1">Heren 1e Prov.</a>
+            </Link>
+            <Link href="/heren/3e-provinciale/">
+              <a className="text-sm text-gray-500 py-1">Heren 3e Prov.</a>
+            </Link>
+            <Link href="/dames/1e-nationale/">
+              <a className="text-sm text-gray-500 py-1">Dames 1e Nat.</a>
+            </Link>
+            <Link href="/dames/1e-provinciale/">
+              <a className="text-sm text-gray-500 py-1">Dames 1e Prov.</a>
+            </Link>
+            <Link href="/dames/4e-provinciale/">
+              <a className="text-sm text-gray-500 py-1">Dames 4e Prov.</a>
+            </Link>
           </div>
           <div className="md:w-1/4 flex flex-col mb-12 md:mb-0">
             <h4 className="text-base pb-4 text-gray-800">Jeugd</h4>
-            <a
-              href="/page/terms-and-conditions"
-              className="text-sm text-gray-500 py-1"
-            >
-              Trainingen
-            </a>
-            <a
-              href="/page/privacy-policy"
-              className="text-sm text-gray-500 py-1"
-            >
-              Ploegen
-            </a>
-            <a href="/page/contact" className="text-sm text-gray-500 py-1">
-              Trainers
-            </a>
-            <a href="/page/contact" className="text-sm text-gray-500 py-1">
-              Kalenders
-            </a>
-            <a href="/page/contact" className="text-sm text-gray-500 py-1">
-              Lidgeld
-            </a>
-            <a href="/page/contact" className="text-sm text-gray-500 py-1">
-              Online registratie
-            </a>
-            <a href="/page/contact" className="text-sm text-gray-500 py-1">
-              Mutaliteiten
-            </a>
-            <a href="/page/contact" className="text-sm text-gray-500 py-1">
-              Ongevallen
-            </a>
+            <Link href="/jeugd/trainingen">
+              <a className="text-sm text-gray-500 py-1">Trainingen</a>
+            </Link>
+            <Link href="/jeugd/ploegen/">
+              <a className="text-sm text-gray-500 py-1">Ploegen</a>
+            </Link>
+            <Link href="/jeugd/trainers/">
+              <a className="text-sm text-gray-500 py-1">Trainers</a>
+            </Link>
+            <Link href="/jeugd/kalenders/">
+              <a className="text-sm text-gray-500 py-1">Kalenders</a>
+            </Link>
+            <Link href="/jeugd/lidgeld/">
+              <a className="text-sm text-gray-500 py-1">Lidgeld</a>
+            </Link>
+            <Link href="/jeugd/online-registratie/">
+              <a className="text-sm text-gray-500 py-1">Online registratie</a>
+            </Link>
+            <Link href="/jeugd/mutaliteit/">
+              <a className="text-sm text-gray-500 py-1">Mutualiteit</a>
+            </Link>
+            <Link href="/jeugd/ongevallen/">
+              <a className="text-sm text-gray-500 py-1">Ongevallen</a>
+            </Link>
           </div>
           <div className="md:w-1/4 flex flex-col mb-12 md:mb-0">
             <h4 className="text-base pb-4 text-gray-800">Info</h4>
-            <a
-              href="https://lottiefiles.com/ios"
-              className="text-sm text-gray-500 py-1"
-            >
-              Geschiedenis
-            </a>
-            <a
-              href="https://lottiefiles.com/android"
-              className="text-sm text-gray-500 py-1"
-            >
-              Bestuur
-            </a>
-            <a
-              href="https://lottiefiles.com/android"
-              className="text-sm text-gray-500 py-1"
-            >
-              Secretariaat
-            </a>
-            <a
-              href="https://lottiefiles.com/android"
-              className="text-sm text-gray-500 py-1"
-            >
-              Weerbericht
-            </a>
-            <a
-              href="https://lottiefiles.com/android"
-              className="text-sm text-gray-500 py-1"
-            >
-              Contact
-            </a>
-            <a
-              href="https://lottiefiles.com/android"
-              className="text-sm text-gray-500 py-1"
-            >
-              Downloads
-            </a>
-            <a
-              href="https://lottiefiles.com/android"
-              className="text-sm text-gray-500 py-1"
-            >
-              Organigrammen
-            </a>
+            <Link href="/info/geschiedenis">
+              <a className="text-sm text-gray-500 py-1">Geschiedenis</a>
+            </Link>
+            <Link href="/info/bestuur">
+              <a className="text-sm text-gray-500 py-1">Bestuur</a>
+            </Link>
+            <Link href="/info/secretariaat">
+              <a className="text-sm text-gray-500 py-1">Secretariaat</a>
+            </Link>
+            <Link href="/info/weerbericht">
+              <a className="text-sm text-gray-500 py-1">Weerbericht</a>
+            </Link>
+            <Link href="/info/contact">
+              <a className="text-sm text-gray-500 py-1">Contact</a>
+            </Link>
+            <Link href="/info/downloads">
+              <a className="text-sm text-gray-500 py-1">Downloads</a>
+            </Link>
+            <Link href="/info/organigrammen">
+              <a className="text-sm text-gray-500 py-1">Organigrammen</a>
+            </Link>
           </div>
           <div className="md:w-1/4 flex flex-col mb-12 md:mb-0">
             <h4 className="text-base pb-4 text-gray-800">Geschiedenis</h4>
+            <Link href="/commercieel/sponsors">
+              <a className="text-sm text-gray-500 py-1">Sponsors</a>
+            </Link>
+            <Link href="/commercieel/huur-benedenkantine">
+              <a className="text-sm text-gray-500 py-1">Huur kantine</a>
+            </Link>
+            <Link href="/evenementen">
+              <a className="text-sm text-gray-500 py-1">Evenementen</a>
+            </Link>
             <a
-              href="https://creative.adobe.com/addons/products/12557"
-              className="text-sm text-gray-500 py-1"
-            >
-              Sponsors
-            </a>
-            <a
-              href="https://github.com/airbnb/lottie-ios"
-              className="text-sm text-gray-500 py-1"
-            >
-              Huur kantine
-            </a>
-            <a
-              href="https://github.com/airbnb/lottie-android"
-              className="text-sm text-gray-500 py-1"
-            >
-              Evenementen
-            </a>
-            <a
-              href="https://github.com/airbnb/lottie-web"
+              href="https://kontich.clubwereld.nl/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-sm text-gray-500 py-1"
             >
               KKFC Webshop

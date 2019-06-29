@@ -128,7 +128,7 @@ const Menu = () => {
             </li>
             <li>
               <Link href="/jeugd/mutualiteit/">
-                <a>Mutualiteiten</a>
+                <a>Mutualiteit</a>
               </Link>
             </li>
             <li>

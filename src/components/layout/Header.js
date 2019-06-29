@@ -54,7 +54,7 @@ class Header extends Component {
             <ul className="font-semibold text-gray-900 uppercase">
               <li className="inline-block pr-12">
                 <Link href="/nieuws/overzicht/">
-                  <a>Match center</a>
+                  <a>Nieuws</a>
                 </Link>
               </li>
               <li className="inline-block pr-12">
