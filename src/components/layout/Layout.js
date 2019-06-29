@@ -6,6 +6,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Menu from "./Menu/MenuContent";
 import DesktopMenu from "./Menu/DesktopMenu";
+import { initGA, logPageView } from "../../utils/analytics";
 import "../../styles/tailwind.css";
 
 class Layout extends Component {
@@ -20,6 +21,15 @@ class Layout extends Component {
   }
 
   componentDidMount() {
+    const isProduction = process.env.APP_ENV === "gh-pages";
+    if (isProduction) {
+      if (!window.GA_INITIALIZED) {
+        initGA();
+        window.GA_INITIALIZED = true;
+      }
+      logPageView();
+    }
+
     this.setState({ isLoading: false });
   }
 
@@ -30,7 +40,7 @@ class Layout extends Component {
   }
 
   render() {
-    const { children, title, description } = this.props;
+    const { children } = this.props;
     const { isMenuOpen, isLoading } = this.state;
 
     return (
@@ -67,10 +77,5 @@ class Layout extends Component {
     );
   }
 }
-
-Layout.defaultProps = {
-  title: "Default title",
-  description: "Default description"
-};
 
 export default Layout;
