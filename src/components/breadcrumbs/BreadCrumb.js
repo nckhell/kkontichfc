@@ -39,13 +39,7 @@ const BreadCrumb = props => {
               itemScope
               itemType="http://schema.org/ListItem"
             >
-              <a
-                href={`#${breadCrumbItem.title}`}
-                itemProp="item"
-                title={breadCrumbItem.title}
-              >
-                {breadCrumbItem.title}
-              </a>
+              <span itemProp="item">{breadCrumbItem.title}</span>
               <meta itemProp="position" content={position} />
             </li>
           );
