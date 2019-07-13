@@ -17,12 +17,16 @@ const UpcomingEventItem = props => {
         title={data.title}
         className="border border-gray-200 border-b-4 block hover:border-gray-300 hover:shadow-md"
       >
-        <div className="flex">
+        <div className="flex" itemScope itemType="http://schema.org/Event">
+          <meta itemProp="startDate" content={data.date} />
           <div className="w-1/4 bg-yellow-200 text-yellow-700 font-semibold text-2xl py-5 flex justify-center items-center flex-col leading-none border-r-2 border-yellow-400">
             <span className="block">{day}</span>
             <span className="block">{month}</span>
           </div>
-          <div className="w-3/4 flex px-4 lg:px-6 items-center uppercase font-semibold text-gray-900">
+          <div
+            className="w-3/4 flex px-4 lg:px-6 items-center uppercase font-semibold text-gray-900"
+            itemProp="name"
+          >
             {data.title}
           </div>
         </div>

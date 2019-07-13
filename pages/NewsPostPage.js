@@ -75,16 +75,34 @@ class NewsPostPage extends Component {
             </div>
           </div>
           <div className="px-4 md:mt-4 md:mt-5 container mx-auto text-left">
-            <article className="body-content w-full mx-auto lg:w-5/6">
-              <div className={`news-category text-gray-300 pt-8 ${category}`}>
+            <article
+              className="body-content w-full mx-auto lg:w-5/6"
+              itemScope
+              itemType="http://schema.org/NewsArticle"
+            >
+              <div
+                className={`news-category text-gray-300 pt-8 ${category}`}
+                itemProp="genre"
+              >
                 {category}
               </div>
-              <h1 className="my-6 inline-block lg:w-4/6">
+              <h1 className="my-6 inline-block lg:w-4/6" itemProp="headline">
                 {NewsPostJson.title}
               </h1>
-              <div className="mb-8 text-gray-900 font-semibold">{date}</div>
+              <div
+                className="mb-8 text-gray-900 font-semibold"
+                itemProp="datePublished"
+                content={NewsPostJson.date}
+              >
+                {date}
+              </div>
               {NewsPostJson.cloudinaryID && (
-                <figure className="mb-8">
+                <figure
+                  className="mb-8"
+                  itemProp="image"
+                  itemScope
+                  itemType="http://schema.org/ImageObject"
+                >
                   <CloudinaryContext cloudName="kkontichfc">
                     <Image
                       className="w-full h-auto"
@@ -94,6 +112,8 @@ class NewsPostPage extends Component {
                       <Transformation width="800" height="600" crop="fill" />
                     </Image>
                   </CloudinaryContext>
+                  <meta itemProp="height" content="800" />
+                  <meta itemProp="width" content="600" />
                   <figcaption className="italic text-base text-gray-300">
                     {NewsPostJson.figCaption}
                   </figcaption>
@@ -102,6 +122,7 @@ class NewsPostPage extends Component {
               {/* eslint-disable-next-line react/no-danger */}
               <div
                 dangerouslySetInnerHTML={{ __html: NewsPostJson.bodyHtml }}
+                itemProp="articleBody"
               />
               <FacebookProvider appId="346435965433483">
                 <div className="my-6">

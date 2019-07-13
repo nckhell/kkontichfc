@@ -69,11 +69,27 @@ class EventPage extends Component {
             </div>
           </div>
           <div className="px-4 md:mt-4 md:mt-5 container mx-auto text-left">
-            <article className="body-content w-full mx-auto lg:w-5/6">
-              <h1 className="my-6 inline-block lg:w-4/6">{EventJson.title}</h1>
-              <div className="mb-8 text-gray-900 font-semibold">{date}</div>
+            <article
+              className="body-content w-full mx-auto lg:w-5/6"
+              itemScope
+              itemType="http://schema.org/Event"
+            >
+              <h1 itemProp="name" className="my-6 inline-block lg:w-4/6">
+                {EventJson.title}
+              </h1>
+              <div
+                className="mb-8 text-gray-900 font-semibold"
+                itemProp={EventJson.date}
+              >
+                {date}
+              </div>
               {EventJson.cloudinaryID && (
-                <figure className="mb-8">
+                <figure
+                  className="mb-8"
+                  itemProp="image"
+                  itemScope
+                  itemType="http://schema.org/ImageObject"
+                >
                   <CloudinaryContext cloudName="kkontichfc">
                     <Image
                       className="w-full h-auto"
@@ -83,13 +99,18 @@ class EventPage extends Component {
                       <Transformation width="800" height="600" crop="fill" />
                     </Image>
                   </CloudinaryContext>
+                  <meta itemProp="height" content="800" />
+                  <meta itemProp="width" content="600" />
                   <figcaption className="italic text-base text-gray-300">
                     {EventJson.figCaption}
                   </figcaption>
                 </figure>
               )}
               {/* eslint-disable-next-line react/no-danger */}
-              <div dangerouslySetInnerHTML={{ __html: EventJson.bodyHtml }} />
+              <div
+                itemProp="description"
+                dangerouslySetInnerHTML={{ __html: EventJson.bodyHtml }}
+              />
               <FacebookProvider appId="346435965433483">
                 <div className="my-6">
                   <Like

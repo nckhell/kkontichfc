@@ -18,7 +18,11 @@ const EventItem = props => {
   }
 
   return (
-    <article className="mb-4 w-full md:w-1/2 lg:w-1/3 md:px-2">
+    <article
+      className="mb-4 w-full md:w-1/2 lg:w-1/3 md:px-2"
+      itemScope
+      itemType="http://schema.org/Event"
+    >
       <a
         href={prefixURL(href)}
         title={data.title}
@@ -37,8 +41,12 @@ const EventItem = props => {
           <div className="w-1/4 bg-yellow-200 text-yellow-700 font-semibold text-2xl py-5 flex justify-center items-center flex-col leading-none border-r-2 border-yellow-400">
             <span className="block">{day}</span>
             <span className="block">{month}</span>
+            <meta itemProp="startDate" content={data.date} />
           </div>
-          <div className="w-3/4 flex px-4 lg:px-6 items-center uppercase font-semibold text-gray-900">
+          <div
+            className="w-3/4 flex px-4 lg:px-6 items-center uppercase font-semibold text-gray-900"
+            itemProp="name"
+          >
             {data.title}
           </div>
         </div>

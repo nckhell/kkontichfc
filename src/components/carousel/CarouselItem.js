@@ -28,19 +28,23 @@ const CarouselItem = props => {
           data.backgroundPosition ? data.backgroundPosition : "center"
         }`
       }}
+      itemScope
+      itemType="http://schema.org/NewsArticle"
     >
       <div className="gradient-wrapper flex items-center">
         <div className="px-4 container mx-auto text-left">
-          <div className={`news-category text-white  ${category}`}>
+          <div
+            className={`news-category text-white  ${category}`}
+            itemProp="genre"
+          >
             {category}
           </div>
           <a href={prefixURL(href)} title={data.title} className="block">
-            <div className="text-2xl py-4 font-semibold text-white md:text-3xl lg:w-4/6 xl:block xl:max-w-6xl xl:text-4xl">
-              {/* <span className="text-yellow-400">Not implemented</span> */}
+            <div className="text-2xl py-4 font-semibold text-white md:text-3xl lg:w-4/6 xl:block xl:max-w-6xl xl:text-4xl" itemProp="headline">
               {data.title}
             </div>
           </a>
-          <div className="text-sm md:text-base font-semibold text-white">
+          <div className="text-sm md:text-base font-semibold text-white" itemProp="datePublished" content={data.date}>
             <ReactSVG
               className="inline-block align-middle pr-2"
               beforeInjection={svg => {
