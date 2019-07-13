@@ -24,8 +24,8 @@ const Footer = () => {
             <Link href="/dames/1e-provinciale/">
               <a className="text-sm text-gray-500 py-1">Dames 1e Prov.</a>
             </Link>
-            <Link href="/dames/4e-provinciale/">
-              <a className="text-sm text-gray-500 py-1">Dames 4e Prov.</a>
+            <Link href="/dames/3e-provinciale/">
+              <a className="text-sm text-gray-500 py-1">Dames 3e Prov.</a>
             </Link>
           </div>
           <div className="md:w-1/4 flex flex-col mb-12 md:mb-0">

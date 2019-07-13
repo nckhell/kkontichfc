@@ -26,7 +26,7 @@ class RankingComponent extends Component {
     fetch(kbvbApiUrls[teamID].ranking.url)
       .then(data =>
         this.setState({
-          rankings: data.data.seriesRankings.rankings,
+          rankings: data.data.seriesRankings,
           isLoading: false
         })
       )
@@ -45,13 +45,13 @@ class RankingComponent extends Component {
         >
           <div>
             {error ? <p>{error.message}</p> : null}
-            {!isLoading ? (
+            {!isLoading && rankings.rankings.length > 0 ? (
               <Tabs
                 wrapperClassName="ranking-wrapper"
                 tabListClassName="ranking-tabs"
                 tabContentClassName="ranking-table"
               >
-                {rankings.map(ranking => {
+                {rankings.rankings.map(ranking => {
                   return (
                     <div
                       key={ranking.type}
