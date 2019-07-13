@@ -25,7 +25,7 @@ class RankingComponent extends Component {
 
     if (prevProps.teamID !== teamID) {
       // eslint-disable-next-line react/no-did-update-set-state
-      this.setState({ isLoading: true });
+      this.setState({ isLoading: true, rankings: [] });
       this.fetchRanking();
     }
   }

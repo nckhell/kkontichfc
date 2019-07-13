@@ -117,6 +117,7 @@ class EventPage extends Component {
                     href={`https://kkontichfc.be/${href}`}
                     colorScheme="dark"
                     showFaces
+                    size="large"
                     share
                   />
                 </div>

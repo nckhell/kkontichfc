@@ -2,6 +2,7 @@
 import React, { Component } from "react";
 import GameComponent from "../games/GameComponent";
 import RankingComponent from "../ranking/RankingComponent";
+import ButtonWithLine from "../buttons/ButtonWithLine";
 import kbvbApiUrls from "../../config/api/kbvb_graphql";
 
 class MatchCenter extends Component {
@@ -61,6 +62,12 @@ class MatchCenter extends Component {
         <div className="my-6 lg:my-12">
           <h3>Top 5</h3>
           <RankingComponent teamID={activeTeam} limit={5} />
+          <div className="mt-4">
+            <ButtonWithLine
+              text={`Meer over onze ${kbvbApiUrls[activeTeam].staticRoutingInfo.readableTitle}`}
+              url={kbvbApiUrls[activeTeam].staticRoutingInfo.url}
+            />
+          </div>
         </div>
       </div>
     );

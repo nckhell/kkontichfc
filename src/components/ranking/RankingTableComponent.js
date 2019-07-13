@@ -65,7 +65,7 @@ const RankingTableComponent = props => {
                   </tr>
                 );
               }
-              return "";
+              return false;
             })}
         </tbody>
       </table>
