@@ -65,6 +65,7 @@ class TeamPage extends Component {
                 <a
                   className={activePage === "overzicht" ? "active" : ""}
                   href="#overzicht"
+                  title="Overzicht en rangschikkking"
                   onClick={this.filterPage}
                   id="overzicht"
                 >
@@ -75,6 +76,7 @@ class TeamPage extends Component {
                 <a
                   className={activePage === "kalender" ? "active" : ""}
                   href="#kalender"
+                  title="Kalender en uitslagen"
                   onClick={this.filterPage}
                   id="kalender"
                 >
@@ -85,6 +87,7 @@ class TeamPage extends Component {
                 <a
                   className={activePage === "spelers-staff" ? "active" : ""}
                   href="#spelers-staff"
+                  title="spelers en staff"
                   onClick={this.filterPage}
                   id="spelers-staff"
                 >
@@ -119,6 +122,7 @@ class TeamPage extends Component {
                 <a
                   href={prefixURL("#kalender")}
                   id="kalender"
+                  title="Volledige kalender"
                   onClick={this.filterPage}
                   className="btn mx-auto block"
                 >

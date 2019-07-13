@@ -28,7 +28,7 @@ class Tab extends Component {
 
     return (
       <li className={className}>
-        <a href={`#${label}`} onClick={onClick}>
+        <a title={label} href={`#${label}`} onClick={onClick}>
           {label}
         </a>
       </li>

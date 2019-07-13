@@ -99,6 +99,7 @@ class EventsListPage extends Component {
                         <a
                           className={seasonInFilter === season ? "active" : ""}
                           href={`#${season}`}
+                          title={season}
                           onClick={this.filterSeason}
                           id={season}
                         >

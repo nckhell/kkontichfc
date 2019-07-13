@@ -13,84 +13,153 @@ const Footer = () => {
           <div className="md:w-1/4 flex flex-col mb-8 md:mb-0">
             <h4 className="text-base pb-4 text-gray-800">Eerste elftallen</h4>
             <Link href="/heren/1e-provinciale/">
-              <a className="text-sm text-gray-500 py-1">Heren 1e Prov.</a>
+              <a
+                title="Heren 1e Provinciale"
+                className="text-sm text-gray-500 py-1"
+              >
+                Heren 1e Prov.
+              </a>
             </Link>
             <Link href="/heren/3e-provinciale/">
-              <a className="text-sm text-gray-500 py-1">Heren 3e Prov.</a>
+              <a
+                title="Heren 3e Provinciale"
+                className="text-sm text-gray-500 py-1"
+              >
+                Heren 3e Prov.
+              </a>
             </Link>
             <Link href="/dames/1e-nationale/">
-              <a className="text-sm text-gray-500 py-1">Dames 1e Nat.</a>
+              <a
+                title="Dames 1e Nationale"
+                className="text-sm text-gray-500 py-1"
+              >
+                Dames 1e Nat.
+              </a>
             </Link>
             <Link href="/dames/1e-provinciale/">
-              <a className="text-sm text-gray-500 py-1">Dames 1e Prov.</a>
+              <a
+                title="Dames 1e Provinciale"
+                className="text-sm text-gray-500 py-1"
+              >
+                Dames 1e Prov.
+              </a>
             </Link>
             <Link href="/dames/3e-provinciale/">
-              <a className="text-sm text-gray-500 py-1">Dames 3e Prov.</a>
+              <a
+                title="Dames 3e Provinciale"
+                className="text-sm text-gray-500 py-1"
+              >
+                Dames 3e Prov.
+              </a>
             </Link>
           </div>
           <div className="md:w-1/4 flex flex-col mb-12 md:mb-0">
             <h4 className="text-base pb-4 text-gray-800">Jeugd</h4>
             <Link href="/jeugd/trainingen">
-              <a className="text-sm text-gray-500 py-1">Trainingen</a>
+              <a title="Trainingen" className="text-sm text-gray-500 py-1">
+                Trainingen
+              </a>
             </Link>
             <Link href="/jeugd/ploegen/">
-              <a className="text-sm text-gray-500 py-1">Ploegen</a>
+              <a title="Ploegen" className="text-sm text-gray-500 py-1">
+                Ploegen
+              </a>
             </Link>
             <Link href="/jeugd/trainers/">
-              <a className="text-sm text-gray-500 py-1">Trainers</a>
+              <a title="Trainers" className="text-sm text-gray-500 py-1">
+                Trainers
+              </a>
             </Link>
             <Link href="https://www.belgianfootball.be/nl/club/1509/ploegen">
-              <a target="_blank" className="text-sm text-gray-500 py-1">Kalenders</a>
+              <a
+                title="Kalenders"
+                target="_blank"
+                className="text-sm text-gray-500 py-1"
+              >
+                Kalenders
+              </a>
             </Link>
             <Link href="/jeugd/lidgeld/">
-              <a className="text-sm text-gray-500 py-1">Lidgeld</a>
+              <a title="Lidgeld" className="text-sm text-gray-500 py-1">
+                Lidgeld
+              </a>
             </Link>
             <Link href="/jeugd/online-registratie/">
-              <a className="text-sm text-gray-500 py-1">Online registratie</a>
+              <a
+                title="Online registratie"
+                className="text-sm text-gray-500 py-1"
+              >
+                Online registratie
+              </a>
             </Link>
             <Link href="/jeugd/mutualiteit/">
-              <a className="text-sm text-gray-500 py-1">Mutualiteit</a>
+              <a title="Mutualiteit" className="text-sm text-gray-500 py-1">
+                Mutualiteit
+              </a>
             </Link>
             <Link href="/jeugd/ongevallen/">
-              <a className="text-sm text-gray-500 py-1">Ongevallen</a>
+              <a title="Ongevallen" className="text-sm text-gray-500 py-1">
+                Ongevallen
+              </a>
             </Link>
           </div>
           <div className="md:w-1/4 flex flex-col mb-12 md:mb-0">
             <h4 className="text-base pb-4 text-gray-800">Info</h4>
             <Link href="/info/geschiedenis">
-              <a className="text-sm text-gray-500 py-1">Geschiedenis</a>
+              <a title="Geschiedenis" className="text-sm text-gray-500 py-1">
+                Geschiedenis
+              </a>
             </Link>
             <Link href="/info/bestuur">
-              <a className="text-sm text-gray-500 py-1">Bestuur</a>
+              <a title="Bestuur" className="text-sm text-gray-500 py-1">
+                Bestuur
+              </a>
             </Link>
             <Link href="/info/secretariaat">
-              <a className="text-sm text-gray-500 py-1">Secretariaat</a>
+              <a title="Secretariaat" className="text-sm text-gray-500 py-1">
+                Secretariaat
+              </a>
             </Link>
             <Link href="/info/weerbericht">
-              <a className="text-sm text-gray-500 py-1">Weerbericht</a>
+              <a title="Weerbericht" className="text-sm text-gray-500 py-1">
+                Weerbericht
+              </a>
             </Link>
             <Link href="/info/contact">
-              <a className="text-sm text-gray-500 py-1">Contact</a>
+              <a title="Contact" className="text-sm text-gray-500 py-1">
+                Contact
+              </a>
             </Link>
             <Link href="/info/downloads">
-              <a className="text-sm text-gray-500 py-1">Downloads</a>
+              <a title="Downloads" className="text-sm text-gray-500 py-1">
+                Downloads
+              </a>
             </Link>
             <Link href="/info/organigrammen">
-              <a className="text-sm text-gray-500 py-1">Organigrammen</a>
+              <a title="Organigrammen" className="text-sm text-gray-500 py-1">
+                Organigrammen
+              </a>
             </Link>
           </div>
           <div className="md:w-1/4 flex flex-col mb-12 md:mb-0">
             <h4 className="text-base pb-4 text-gray-800">Geschiedenis</h4>
             <Link href="/commercieel/sponsors">
-              <a className="text-sm text-gray-500 py-1">Sponsors</a>
+              <a title="Sponsors" className="text-sm text-gray-500 py-1">
+                Sponsors
+              </a>
             </Link>
             <Link href="/commercieel/huur-benedenkantine">
-              <a className="text-sm text-gray-500 py-1">Huur kantine</a>
+              <a title="Huur kantine" className="text-sm text-gray-500 py-1">
+                Huur kantine
+              </a>
             </Link>
             <Link href="/evenementen">
-              <a className="text-sm text-gray-500 py-1">Evenementen</a>
+              <a title="Evenementen" className="text-sm text-gray-500 py-1">
+                Evenementen
+              </a>
             </Link>
             <a
+              title="KKFC Webshop"
               href="https://kontich.clubwereld.nl/"
               target="_blank"
               rel="noopener noreferrer"
@@ -107,6 +176,7 @@ const Footer = () => {
           </div>
           <div className="md:w-1/2 flex flex-col md:flex-row md:justify-end">
             <a
+              title="Volg K. Kontich F.C. op Facebook"
               href="https://facebook.com/kkontichfc"
               target="_blank"
               rel="noopener noreferrer"
@@ -158,12 +228,14 @@ const Footer = () => {
               /kkontichfc
             </a>
             <a
+              title="info@kkontichfc.be"
               href="mailto:info@kkontichfc.be"
               className="pb-2 md:pb-0 md:px-3 text-sm flex items-center text-grey-darkest"
             >
               info@kkontichfc.be
             </a>
             <a
+              title="Panathlon Vlaanderen"
               href="http://panathlonvlaanderen.be/"
               target="_blank"
               rel="noopener noreferrer"

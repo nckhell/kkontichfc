@@ -7,7 +7,7 @@ const ButtonWithLine = props => {
 
   return (
     <div className="button-w-full text-center mt-8 relative">
-      <a href={prefixURL(url)} className="btn mx-auto block">
+      <a title={text} href={prefixURL(url)} className="btn mx-auto block">
         {text}
       </a>
     </div>

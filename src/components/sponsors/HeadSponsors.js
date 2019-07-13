@@ -20,6 +20,7 @@ function HeadSponsors() {
               return (
                 <a
                   href={sponsor.url}
+                  title={sponsor.name}
                   className="w-24 md:w-32 mx-4 md:mx-8 lg:mx-10 my-3 lg:my-6 flex"
                   key={sponsor.cloudinaryID}
                 >

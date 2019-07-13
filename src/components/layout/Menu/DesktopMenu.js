@@ -36,6 +36,7 @@ const DesktopMenu = props => {
           <a
             href="https://www.facebook.com/kkontichfc/"
             rel="noopener noreferrer"
+            title="Volg K. Kontich F.C. op Facebook"
             className="text-blue-700 font-semibold inline-block hover:underline"
             target="_blank"
           >

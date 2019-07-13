@@ -13,6 +13,7 @@ const Menu = () => {
             rel="noopener noreferrer"
             className="text-blue-700 font-semibold"
             target="_blank"
+            title="Volg K. Kontich F.C. op Facebook"
           >
             Volg ons
           </a>
@@ -24,12 +25,12 @@ const Menu = () => {
         </li>
         <li>
           <Link href="/">
-            <a>Home</a>
+            <a title="Home">Home</a>
           </Link>
         </li>
         <li>
           <Link href="/nieuws/overzicht/">
-            <a>Nieuws</a>
+            <a title="Nieuws">Nieuws</a>
           </Link>
         </li>
         <li className="has-submenu">
@@ -38,18 +39,19 @@ const Menu = () => {
             onClick={e => {
               e.preventDefault();
             }}
+            title="Heren"
           >
             Heren
           </a>
           <ul className="submenu">
             <li>
               <Link href="/heren/1e-provinciale/">
-                <a>1e Provinciale</a>
+                <a title="Heren 1e Provinciale">1e Provinciale</a>
               </Link>
             </li>
             <li>
               <Link href="/heren/3e-provinciale/">
-                <a>3e Provinciale</a>
+                <a title="Heren 3e Provinciale">3e Provinciale</a>
               </Link>
             </li>
           </ul>
@@ -57,6 +59,7 @@ const Menu = () => {
         <li className="has-submenu">
           <a
             href="#"
+            title="Dames"
             onClick={e => {
               e.preventDefault();
             }}
@@ -66,17 +69,17 @@ const Menu = () => {
           <ul className="submenu">
             <li>
               <Link href="/dames/1e-nationale/">
-                <a>1e Nationale</a>
+                <a title="Dames 1e nationale">1e Nationale</a>
               </Link>
             </li>
             <li>
               <Link href="/dames/1e-provinciale/">
-                <a>1e Provinciale</a>
+                <a title="Dames 1e pronviciale">1e Provinciale</a>
               </Link>
             </li>
             <li>
               <Link href="/dames/3e-provinciale/">
-                <a>3e Provinciale</a>
+                <a title="Dames 3e provinciale">3e Provinciale</a>
               </Link>
             </li>
           </ul>
@@ -87,6 +90,7 @@ const Menu = () => {
             onClick={e => {
               e.preventDefault();
             }}
+            title="Jeugd"
           >
             Jeugd
           </a>
@@ -98,42 +102,44 @@ const Menu = () => {
             </li> */}
             <li>
               <Link href="/jeugd/trainingen/">
-                <a>Trainingen</a>
+                <a title="Trainingen">Trainingen</a>
               </Link>
             </li>
             <li>
               <Link href="/jeugd/ploegen/">
-                <a>Ploegen</a>
+                <a title="Ploegen">Ploegen</a>
               </Link>
             </li>
             <li>
               <Link href="/jeugd/trainers/">
-                <a>Trainers</a>
+                <a title="Trainers">Trainers</a>
               </Link>
             </li>
             <li>
               <Link href="https://www.belgianfootball.be/nl/club/1509/ploegen">
-                <a target="_blank">Kalenders</a>
+                <a title="Kalenders" target="_blank">
+                  Kalenders
+                </a>
               </Link>
             </li>
             <li>
               <Link href="/jeugd/lidgeld/">
-                <a>Lidgeld</a>
+                <a title="Lidgeld">Lidgeld</a>
               </Link>
             </li>
             <li>
               <Link href="/jeugd/online-registratie/">
-                <a>Online registratie</a>
+                <a title="Online registratie">Online registratie</a>
               </Link>
             </li>
             <li>
               <Link href="/jeugd/mutualiteit/">
-                <a>Mutualiteit</a>
+                <a title="Mutualiteit">Mutualiteit</a>
               </Link>
             </li>
             <li>
               <Link href="/jeugd/ongevallen/">
-                <a>Ongevallen</a>
+                <a title="Ongevallen">Ongevallen</a>
               </Link>
             </li>
           </ul>
@@ -144,43 +150,44 @@ const Menu = () => {
             onClick={e => {
               e.preventDefault();
             }}
+            title="Info"
           >
             Info
           </a>
           <ul className="submenu">
             <li>
               <Link href="/info/geschiedenis/">
-                <a>Geschiedenis</a>
+                <a title="Geschiedenis">Geschiedenis</a>
               </Link>
             </li>
             <li>
               <Link href="/info/bestuur/">
-                <a>Bestuur</a>
+                <a title="Bestuur">Bestuur</a>
               </Link>
             </li>
             <li>
               <Link href="/info/secretariaat/">
-                <a>Secretariaat</a>
+                <a title="Secretariaat">Secretariaat</a>
               </Link>
             </li>
             <li>
               <Link href="/info/weerbericht/">
-                <a>Weerbericht</a>
+                <a title="Weerbericht">Weerbericht</a>
               </Link>
             </li>
             <li>
               <Link href="/info/contact/">
-                <a>Contact</a>
+                <a title="Contact">Contact</a>
               </Link>
             </li>
             <li>
               <Link href="/info/downloads/">
-                <a>Downloads</a>
+                <a title="Downloads">Downloads</a>
               </Link>
             </li>
             <li>
               <Link href="/info/organigrammen/">
-                <a>Organigrammen</a>
+                <a title="Organigrammen">Organigrammen</a>
               </Link>
             </li>
           </ul>
@@ -191,28 +198,31 @@ const Menu = () => {
             onClick={e => {
               e.preventDefault();
             }}
+            title="Commercieel"
           >
             Commercieel
           </a>
           <ul className="submenu">
             <li>
               <Link href="/commercieel/sponsors/">
-                <a>Sponsors</a>
+                <a title="Sponsors">Sponsors</a>
               </Link>
             </li>
             <li>
               <Link href="/commercieel/huur-benedenkantine/">
-                <a>Huur kantine</a>
+                <a title="Huur kantine">Huur kantine</a>
               </Link>
             </li>
             <li>
               <Link href="/evenementen/">
-                <a>Evenementen</a>
+                <a title="Evenementen">Evenementen</a>
               </Link>
             </li>
             <li>
               <Link href="https://kontich.clubwereld.nl/">
-                <a target="_blank">KKFC Webshop</a>
+                <a title="KKFC Webshop" target="_blank">
+                  KKFC Webshop
+                </a>
               </Link>
             </li>
           </ul>

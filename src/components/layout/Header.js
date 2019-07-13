@@ -45,6 +45,7 @@ class Header extends Component {
                   className="w-8 md:w-16 lg:w-18"
                   src={prefixURL("/static/img/kkontichfc.svg")}
                   alt="K. Kontich F.C."
+                  title="K. Kontich F.C."
                 />
                 <h1 className="hidden">K. Kontich F.C.</h1>
               </a>
@@ -54,17 +55,19 @@ class Header extends Component {
             <ul className="font-semibold text-gray-900 uppercase">
               <li className="inline-block pr-12">
                 <Link href="/nieuws/overzicht/">
-                  <a>Nieuws</a>
+                  <a title="Nieuws">Nieuws</a>
                 </Link>
               </li>
               <li className="inline-block pr-12">
                 <Link href="https://kontich.clubwereld.nl/">
-                  <a target="_blank">KKFC Webshop</a>
+                  <a title="KKFC Webshop" target="_blank">
+                    KKFC Webshop
+                  </a>
                 </Link>
               </li>
               <li className="inline-block">
                 <Link href="/commercieel/sponsors/">
-                  <a>Sponsors</a>
+                  <a title="Sponsors">Sponsors</a>
                 </Link>
               </li>
             </ul>

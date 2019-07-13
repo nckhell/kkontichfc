@@ -6,22 +6,22 @@ const RankingPlaceholder = (
   <div>
     <ol className="tab-list ranking-tabs">
       <li className="tab-list-item tab-list-active">
-        <a href="#Algemeen">
+        <a href="#Algemeen" title="Algemeen">
           <TextRow color="#616E7C" />
         </a>
       </li>
       <li className="tab-list-item">
-        <a href="#Periode 1">
+        <a href="#Periode 1" title="Periode 1">
           <TextRow color="#616E7C" />
         </a>
       </li>
       <li className="tab-list-item">
-        <a href="#Periode 2">
+        <a href="#Periode 2" title="Periode 2">
           <TextRow color="#616E7C" />
         </a>
       </li>
       <li className="tab-list-item">
-        <a href="#Periode 3">
+        <a href="#Periode 3" title="Periode 3">
           <TextRow color="#616E7C" />
         </a>
       </li>
