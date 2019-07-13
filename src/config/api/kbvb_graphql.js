@@ -2,7 +2,8 @@ const obj = {
   heren1eProv: {
     staticRoutingInfo: {
       url: "/heren/1e-provinciale/",
-      readableTitle: "Heren 1e Provinciale"
+      readableTitle: "Heren 1e Provinciale",
+      shortHandTitle: "Heren 1e Prov."
     },
     ranking: {
       url:
@@ -24,7 +25,8 @@ const obj = {
   heren3eProv: {
     staticRoutingInfo: {
       url: "/heren/3e-provinciale/",
-      readableTitle: "Heren 3e Provinciale"
+      readableTitle: "Heren 3e Provinciale",
+      shortHandTitle: "Heren 3e Prov."
     },
     ranking: {
       url:
@@ -46,7 +48,8 @@ const obj = {
   damesNat: {
     staticRoutingInfo: {
       url: "/dames/1e-nationale/",
-      readableTitle: "Dames nationale"
+      readableTitle: "Dames nationale",
+      shortHandTitle: "Dames Nat."
     },
     ranking: {
       url:
@@ -68,7 +71,8 @@ const obj = {
   dames1eProv: {
     staticRoutingInfo: {
       url: "/dames/1e-provinciale/",
-      readableTitle: "Dames 1e Provinciale"
+      readableTitle: "Dames 1e Provinciale",
+      shortHandTitle: "Dames 1e Prov."
     },
     ranking: {
       url:
@@ -90,7 +94,8 @@ const obj = {
   dames3eProv: {
     staticRoutingInfo: {
       url: "/dames/3e-provinciale/",
-      readableTitle: "Dames 3e Provinciale"
+      readableTitle: "Dames 3e Provinciale",
+      shortHandTitle: "Dames 3e Prov."
     },
     ranking: {
       url:

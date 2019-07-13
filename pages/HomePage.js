@@ -5,6 +5,7 @@ import LatestNews from "../src/components/news/LatestNews";
 import ButtonWithLine from "../src/components/buttons/ButtonWithLine";
 import HeadSponsors from "../src/components/sponsors/HeadSponsors";
 import UpcomingEvents from "../src/components/events/UpcomingEvents";
+import MatchCenter from "../src/components/matchcenter/MatchCenter";
 
 function HomePage() {
   return (
@@ -21,6 +22,10 @@ function HomePage() {
           <h1>Evenementen</h1>
           <UpcomingEvents />
           <ButtonWithLine text="Alle evenementen" url="/evenementen/" />
+        </section>
+        <section className="container my-10 mx-auto px-4 lg:my-16">
+          <h1>Match center</h1>
+          <MatchCenter />
         </section>
       </main>
     </Layout>

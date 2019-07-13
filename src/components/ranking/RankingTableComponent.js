@@ -2,7 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const RankingTableComponent = props => {
-  const { listOfTeams, typeOfRanking } = props;
+  const { listOfTeams, typeOfRanking, limit } = props;
+  let rowCount = 0;
+
   return (
     <div className="overflow-x-auto">
       <table className="ranking-table w-full text-center">
@@ -25,41 +27,45 @@ const RankingTableComponent = props => {
         <tbody>
           {listOfTeams &&
             listOfTeams.map(teamRankingEntry => {
-              return (
-                <tr
-                  key={`${typeOfRanking}-${teamRankingEntry.teamId}`}
-                  className={
-                    teamRankingEntry.clubRegistrationNumber === "03029"
-                      ? "bg-yellow-100"
-                      : ""
-                  }
-                >
-                  <td className="font-semibold no-padding">
-                    {teamRankingEntry.position}
-                  </td>
-                  <td className="text-center no-padding">
-                    <img
-                      src={teamRankingEntry.logo}
-                      className="h-8 inline-block"
-                      alt={`Clublogo ${teamRankingEntry.name}`}
-                    />
-                  </td>
-                  <td className="text-left">{teamRankingEntry.name}</td>
-                  <td className="lg:hidden font-semibold">
-                    {teamRankingEntry.points}
-                  </td>
-                  <td>{teamRankingEntry.matchesPlayed}</td>
-                  <td>{teamRankingEntry.matchesWon}</td>
-                  <td>{teamRankingEntry.matchesLost}</td>
-                  <td>{teamRankingEntry.matchesDrawn}</td>
-                  <td>{teamRankingEntry.goalsFor}</td>
-                  <td>{teamRankingEntry.goalsAgainst}</td>
-                  <td>{teamRankingEntry.goalDifference}</td>
-                  <td className="hidden lg:block font-semibold">
-                    {teamRankingEntry.points}
-                  </td>
-                </tr>
-              );
+              rowCount += 1;
+              if (limit && rowCount <= limit) {
+                return (
+                  <tr
+                    key={`${typeOfRanking}-${teamRankingEntry.teamId}`}
+                    className={
+                      teamRankingEntry.clubRegistrationNumber === "03029"
+                        ? "bg-yellow-100"
+                        : ""
+                    }
+                  >
+                    <td className="font-semibold no-padding">
+                      {teamRankingEntry.position}
+                    </td>
+                    <td className="text-center no-padding">
+                      <img
+                        src={teamRankingEntry.logo}
+                        className="h-8 inline-block"
+                        alt={`Clublogo ${teamRankingEntry.name}`}
+                      />
+                    </td>
+                    <td className="text-left">{teamRankingEntry.name}</td>
+                    <td className="lg:hidden font-semibold">
+                      {teamRankingEntry.points}
+                    </td>
+                    <td>{teamRankingEntry.matchesPlayed}</td>
+                    <td>{teamRankingEntry.matchesWon}</td>
+                    <td>{teamRankingEntry.matchesLost}</td>
+                    <td>{teamRankingEntry.matchesDrawn}</td>
+                    <td>{teamRankingEntry.goalsFor}</td>
+                    <td>{teamRankingEntry.goalsAgainst}</td>
+                    <td>{teamRankingEntry.goalDifference}</td>
+                    <td className="hidden lg:block font-semibold">
+                      {teamRankingEntry.points}
+                    </td>
+                  </tr>
+                );
+              }
+              return "";
             })}
         </tbody>
       </table>
@@ -69,7 +75,8 @@ const RankingTableComponent = props => {
 
 RankingTableComponent.propTypes = {
   listOfTeams: PropTypes.arrayOf(PropTypes.object).isRequired,
-  typeOfRanking: PropTypes.string.isRequired
+  typeOfRanking: PropTypes.string.isRequired,
+  limit: PropTypes.number.isRequired
 };
 
 export default RankingTableComponent;

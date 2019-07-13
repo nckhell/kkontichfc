@@ -19,6 +19,16 @@ class GameComponent extends Component {
     this.fetch();
   }
 
+  componentDidUpdate(prevProps) {
+    const { teamID } = this.props;
+
+    if (prevProps.teamID !== teamID) {
+      // eslint-disable-next-line react/no-did-update-set-state
+      this.setState({ isLoading: true });
+      this.fetch();
+    }
+  }
+
   fetch() {
     const { teamID, type } = this.props;
 

@@ -20,6 +20,16 @@ class RankingComponent extends Component {
     this.fetchRanking();
   }
 
+  componentDidUpdate(prevProps) {
+    const { teamID } = this.props;
+
+    if (prevProps.teamID !== teamID) {
+      // eslint-disable-next-line react/no-did-update-set-state
+      this.setState({ isLoading: true });
+      this.fetchRanking();
+    }
+  }
+
   fetchRanking() {
     const { teamID } = this.props;
 
@@ -35,6 +45,7 @@ class RankingComponent extends Component {
 
   render() {
     const { rankings, isLoading, error } = this.state;
+    const { limit } = this.props;
 
     if (rankings) {
       return (
@@ -61,6 +72,7 @@ class RankingComponent extends Component {
                         key={ranking.type}
                         typeOfRanking={ranking.type}
                         listOfTeams={ranking.teams}
+                        limit={limit}
                       />
                     </div>
                   );
@@ -78,8 +90,13 @@ class RankingComponent extends Component {
   }
 }
 
+RankingComponent.defaultProps = {
+  limit: 30
+};
+
 RankingComponent.propTypes = {
-  teamID: PropTypes.string.isRequired
+  teamID: PropTypes.string.isRequired,
+  limit: PropTypes.number
 };
 
 export default RankingComponent;
