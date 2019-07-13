@@ -27,6 +27,7 @@ function HeadSponsors() {
                   <Image
                     className="mx-auto object-contain"
                     publicId={`sponsors/${sponsor.cloudinaryID}`}
+                    alt={sponsor.name}
                   >
                     <Transformation width="180" height="120" crop="fit" />
                   </Image>

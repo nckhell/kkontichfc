@@ -78,6 +78,7 @@ class EventPage extends Component {
                     <Image
                       className="w-full h-auto"
                       publicId={`evenementen/${EventJson.cloudinaryID}`}
+                      alt={EventJson.title}
                     >
                       <Transformation width="800" height="600" crop="fill" />
                     </Image>
