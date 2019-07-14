@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { prefixURL } from "next-prefixed";
 import Lightbox from "react-image-lightbox";
-import "react-image-lightbox/style.css";
 import NextSeo from "next-seo";
 import Layout from "../src/components/layout/Layout";
 import BreadCrumb from "../src/components/breadcrumbs/BreadCrumb";
