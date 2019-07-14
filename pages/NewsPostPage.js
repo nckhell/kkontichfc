@@ -40,7 +40,7 @@ class NewsPostPage extends Component {
     }
 
     return (
-      <Layout>
+      <Layout showGrassHeader>
         <NextSeo
           config={{
             title: `${NewsPostJson.title} | ${categoryUpperCaseSeo}`,

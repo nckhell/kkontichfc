@@ -21,7 +21,7 @@ function SponsorsPage() {
   });
 
   return (
-    <Layout>
+    <Layout showGrassHeader>
       <NextSeo
         config={{
           title: "Sponsors | Commercieel",

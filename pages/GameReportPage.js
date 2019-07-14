@@ -12,7 +12,7 @@ class GameReportPage extends Component {
     const { gameReportJson } = this.props;
 
     return (
-      <Layout>
+      <Layout showGrassHeader>
         <h1>
           {gameReportJson.homeTeam} - {gameReportJson.awayTeam}
         </h1>

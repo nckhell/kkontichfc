@@ -34,7 +34,7 @@ class EventPage extends Component {
     }
 
     return (
-      <Layout>
+      <Layout showGrassHeader>
         <NextSeo
           config={{
             title: `${EventJson.title} | Evenementen`,

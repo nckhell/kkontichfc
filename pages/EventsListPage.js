@@ -62,7 +62,7 @@ class EventsListPage extends Component {
     }
 
     return (
-      <Layout>
+      <Layout showGrassHeader>
         <NextSeo
           config={{
             title: "Evenementen",

@@ -39,7 +39,7 @@ class TeamPage extends Component {
       breadcrumbs[1].title.slice(1);
 
     return (
-      <Layout>
+      <Layout showGrassHeader>
         <NextSeo
           config={{
             title: `${seoTeam} | ${seoMaleOrFemale}`,

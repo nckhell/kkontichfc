@@ -24,7 +24,7 @@ class GameComponent extends Component {
 
     if (prevProps.teamID !== teamID) {
       // eslint-disable-next-line react/no-did-update-set-state
-      this.setState({ isLoading: true });
+      this.setState({ isLoading: true, game: [] });
       this.fetch();
     }
   }

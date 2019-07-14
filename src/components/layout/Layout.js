@@ -37,8 +37,10 @@ class Layout extends Component {
   }
 
   render() {
-    const { children } = this.props;
+    const { children, showGrassHeader } = this.props;
     const { isMenuOpen, isLoading } = this.state;
+
+    const grassHeaderUrl = prefixURL("/static/img/grass-texture.jpg");
 
     return (
       <div className={`${isLoading ? "preload" : ""}`}>
@@ -68,6 +70,14 @@ class Layout extends Component {
           </div>
         </nav>
         <DesktopMenu isMenuOpen={isMenuOpen} />
+        {showGrassHeader && (
+          <div
+            className="h-40 md:h-48 lg:h-56 xl:h-68 bg-no-repeat bg-cover	bg-center"
+            style={{
+              backgroundImage: `url('${grassHeaderUrl}')`
+            }}
+          ></div>
+        )}
         {children}
         <Footer />
       </div>

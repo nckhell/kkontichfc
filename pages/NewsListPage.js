@@ -82,7 +82,7 @@ class NewsListPage extends Component {
     const seasons = getAllSeasonsWithNews(SUMMARY_JSON);
 
     return (
-      <Layout>
+      <Layout showGrassHeader>
         <NextSeo
           config={{
             title: "Nieuws",

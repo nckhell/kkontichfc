@@ -26,7 +26,7 @@ class TextPage extends Component {
       breadcrumbs[0].title.slice(1);
 
     return (
-      <Layout>
+      <Layout showGrassHeader>
         <NextSeo
           config={{
             title: `${pageJson.title} | ${firstBreadCrumbInUppercase}`,
