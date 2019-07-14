@@ -154,7 +154,7 @@ class NewsPostPage extends Component {
           <LatestNews nbrOfItems={3} excludeWithSlug={NewsPostJson.base} />
           <ButtonWithLine text="Meer nieuws" url="/nieuws/overzicht" />
         </section>
-        <HeadSponsors />
+        {/* <HeadSponsors /> */}
       </Layout>
     );
   }

@@ -130,7 +130,7 @@ class EventsListPage extends Component {
             </div>
             <EventList data={filteredEventsList} />
           </section>
-          <HeadSponsors />
+          {/* <HeadSponsors /> */}
         </main>
       </Layout>
     );

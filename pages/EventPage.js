@@ -131,7 +131,7 @@ class EventPage extends Component {
             alt="K. Kontich F.C."
           />
         </div>
-        <HeadSponsors />
+        {/* <HeadSponsors /> */}
       </Layout>
     );
   }

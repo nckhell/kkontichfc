@@ -156,7 +156,7 @@ class NewsListPage extends Component {
             </div>
             <NewsList data={filteredNewsList} />
           </section>
-          <HeadSponsors />
+          {/* <HeadSponsors /> */}
         </main>
       </Layout>
     );

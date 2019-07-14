@@ -71,7 +71,7 @@ class TextPage extends Component {
             alt="K. Kontich F.C."
           />
         </div>
-        <HeadSponsors />
+        {/* <HeadSponsors /> */}
         {/* <section className="container my-10 mx-auto px-4 lg:my-16">
           <h1>Evenementen</h1>
           <UpcomingEvents />
