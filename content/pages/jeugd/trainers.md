@@ -75,7 +75,7 @@ title: Trainers
     </tbody>
 </table>
 <br/>
-<h2>Onderbouw <span>Coördinator: Joachim Laurier</span></h2>
+<h2>Onderbouw</h2>
 <div class="ranking-tabs">
     <div class="text-gray-800 px-4 pt-4">
         <span class="font-semibold">Coördinator:</span> Joachim Laurier

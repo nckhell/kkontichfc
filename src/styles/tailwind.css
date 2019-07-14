@@ -93,3 +93,9 @@ h1 {
     @apply text-gray-900;
     @apply font-semibold;
 }
+
+#footer a:focus, #footer a:hover {
+    outline: none;
+    @apply text-red-500;
+    @apply underline;
+}

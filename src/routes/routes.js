@@ -10,7 +10,8 @@ module.exports = Object.assign(
     "/": { page: "/HomePage" },
     "/nieuws/overzicht": { page: "/NewsListPage" },
     "/evenementen": { page: "/EventsListPage" },
-    "/commercieel/sponsors": { page: "/SponsorsPage" }
+    "/commercieel/sponsors": { page: "/SponsorsPage" },
+    "/jeugd/ploegen": { page: "/YouthTeamsPage" }
   },
   newsRoutes,
   pageRoutes,
