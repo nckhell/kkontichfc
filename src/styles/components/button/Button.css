@@ -12,6 +12,11 @@
     @apply font-semibold;
 }
 
+.btn.success, .btn.success:hover {
+    cursor: not-allowed;
+    @apply bg-teal-500;
+}
+
 .button-w-full .btn {
     z-index: 300;
     position: relative;

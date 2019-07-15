@@ -4,11 +4,16 @@ import NextSeo from "next-seo";
 import { Formik } from "formik";
 import * as Yup from "yup";
 import Recaptcha from "react-recaptcha";
+import post from "../src/services/api/post";
 import Layout from "../src/components/layout/Layout";
 import BreadCrumb from "../src/components/breadcrumbs/BreadCrumb";
 
 // eslint-disable-next-line react/prefer-stateless-function
 class OnlineRegistrationPage extends Component {
+  state = {
+    success: false
+  };
+
   componentDidMount() {
     const script = document.createElement("script");
     script.src = "https://www.google.com/recaptcha/api.js";
@@ -19,6 +24,7 @@ class OnlineRegistrationPage extends Component {
 
   render() {
     const requiredMessage = "Verplicht veld";
+    const { success } = this.state;
 
     return (
       <Layout showGrassHeader>
@@ -88,8 +94,28 @@ class OnlineRegistrationPage extends Component {
               }}
               onSubmit={(values, { setSubmitting }) => {
                 setTimeout(() => {
-                  alert(JSON.stringify(values, null, 2));
+                  post("http://kkfc-api.local/api/youth-inscriptions", values)
+                    .then(data => console.log(data))
+                    .catch(error => {
+                      if (error.response) {
+                        // The request was made and the server responded with a status code
+                        // that falls out of the range of 2xx
+                        console.log(error.response.data);
+                        console.log(error.response.status);
+                        console.log(error.response.headers);
+                      } else if (error.request) {
+                        // The request was made but no response was received
+                        // `error.request` is an instance of XMLHttpRequest in the browser and an instance of
+                        // http.ClientRequest in node.js
+                        console.log(error.request);
+                      } else {
+                        // Something happened in setting up the request that triggered an Error
+                        console.log("Error", error.message);
+                      }
+                      console.log(error.config);
+                    });
                   setSubmitting(false);
+                  this.setState({ success: true });
                 }, 500);
               }}
               validationSchema={Yup.object().shape({
@@ -126,6 +152,33 @@ class OnlineRegistrationPage extends Component {
                 } = props;
                 return (
                   <form className="form__style" onSubmit={handleSubmit}>
+                    {success && (
+                      <div
+                        className="mb-8 bg-teal-100 border-b-4 border-teal-500 rounded-b text-teal-900 px-4 py-3 leading-relaxed"
+                        role="alert"
+                      >
+                        <div className="flex">
+                          <div className="py-1">
+                            <svg
+                              className="fill-current h-6 w-6 text-teal-500 mr-4"
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 20 20"
+                            >
+                              <path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z" />
+                            </svg>
+                          </div>
+                          <div>
+                            <p className="font-bold">
+                              Inschrijving goed ontvangen
+                            </p>
+                            <p className="text-base">
+                              Bedankt voor je inschrijving. Wij doen het nodige
+                              en nemen (indien nodig) contact met je op.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    )}
                     <div className="lg:flex">
                       <div className="lg:w-4/12">
                         <h2 className="lg:text-2xl">Persoonlijke gegevens</h2>
@@ -187,8 +240,8 @@ class OnlineRegistrationPage extends Component {
                             }
                           >
                             <option value="" label="Selecteer geslacht" />
-                            <option value="jongen" label="Jongen" />
-                            <option value="meisje" label="Meisje" />
+                            <option value="M" label="Jongen" />
+                            <option value="F" label="Meisje" />
                           </select>
                           {errors.sex && touched.sex && (
                             <div className="input-feedback">{errors.sex}</div>
@@ -567,8 +620,8 @@ class OnlineRegistrationPage extends Component {
                             }
                           >
                             <option value="" label="Selecteer" />
-                            <option value="nee" label="Nee" />
-                            <option value="ja" label="Ja" />
+                            <option value="N" label="Nee" />
+                            <option value="Y" label="Ja" />
                           </select>
                           {errors.affiliatedWithOtherClub &&
                             touched.affiliatedWithOtherClub && (
@@ -627,8 +680,8 @@ class OnlineRegistrationPage extends Component {
                         </div>
                         <div>
                           <Recaptcha
-                            // KKFC sitekey="6LfEsWQUAAAAAIuiUIzvT5G0VZOJXXGsS5HhUdyZ"
-                            sitekey="6Le2nREUAAAAALYuOv7X9Fe3ysDmOmghtj0dbCKW"
+                            sitekey="6LfEsWQUAAAAAIuiUIzvT5G0VZOJXXGsS5HhUdyZ"
+                            // sitekey="6Le2nREUAAAAALYuOv7X9Fe3ysDmOmghtj0dbCKW"
                             render="explicit"
                             verifyCallback={response => {
                               setFieldValue("recaptcha", response);
@@ -658,13 +711,20 @@ class OnlineRegistrationPage extends Component {
                       </div>
                     </div>
                     <div className="my-8 flex justify-end">
-                      <button
-                        type="submit"
-                        className="btn"
-                        disabled={isSubmitting}
-                      >
-                        Verzenden
-                      </button>
+                      {!success && (
+                        <button
+                          type="submit"
+                          className="btn"
+                          disabled={isSubmitting}
+                        >
+                          Verzenden
+                        </button>
+                      )}
+                      {success && (
+                        <div className="btn success">
+                          Inschrijving ontvangen!
+                        </div>
+                      )}
                     </div>
                   </form>
                 );
