@@ -56,6 +56,11 @@
       <priority>0.6</priority>
    </url>
    <url>
+      <loc>https://kkontichfc.be/jeugd/paastornooi/</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
       <loc>https://kkontichfc.be/jeugd/trainers/</loc>
       <changefreq>yearly</changefreq>
       <priority>0.6</priority>
