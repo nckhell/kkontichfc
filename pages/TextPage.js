@@ -4,9 +4,6 @@ import { prefixURL } from "next-prefixed";
 import { FacebookProvider, Like } from "react-facebook";
 import NextSeo from "next-seo";
 import Layout from "../src/components/layout/Layout";
-import ButtonWithLine from "../src/components/buttons/ButtonWithLine";
-import HeadSponsors from "../src/components/sponsors/HeadSponsors";
-import UpcomingEvents from "../src/components/events/UpcomingEvents";
 import BreadCrumb from "../src/components/breadcrumbs/BreadCrumb";
 import mapUrlToBreadcrumbs from "../src/utils/mapUrlToBreadcrumb";
 

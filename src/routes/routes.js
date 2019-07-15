@@ -11,6 +11,7 @@ module.exports = Object.assign(
     "/nieuws/overzicht": { page: "/NewsListPage" },
     "/evenementen": { page: "/EventsListPage" },
     "/commercieel/sponsors": { page: "/SponsorsPage" },
+    "/info/bestuur": { page: "/BoardPage" },
     "/jeugd/ploegen": { page: "/YouthTeamsPage" }
   },
   newsRoutes,
