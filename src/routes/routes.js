@@ -12,7 +12,11 @@ module.exports = Object.assign(
     "/evenementen": { page: "/EventsListPage" },
     "/commercieel/sponsors": { page: "/SponsorsPage" },
     "/info/bestuur": { page: "/BoardPage" },
-    "/jeugd/ploegen": { page: "/YouthTeamsPage" }
+    "/jeugd/ploegen": { page: "/YouthTeamsPage" },
+    "/jeugd/online-registratie": { page: "/OnlineRegistrationPage" },
+    "/jeugd/paastornooi/online-registratie": {
+      page: "/PaastornooiRegistrationPage"
+    }
   },
   newsRoutes,
   pageRoutes,
