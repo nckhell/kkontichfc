@@ -135,11 +135,6 @@ const Footer = () => {
                 Downloads
               </a>
             </Link>
-            <Link href="/info/organigrammen">
-              <a title="Organigrammen" className="text-sm text-gray-500 py-1">
-                Organigrammen
-              </a>
-            </Link>
           </div>
           <div className="md:w-1/4 flex flex-col mb-12 md:mb-0">
             <h4 className="text-base pb-4 text-gray-800">Geschiedenis</h4>

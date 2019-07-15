@@ -185,11 +185,6 @@ const Menu = () => {
                 <a title="Downloads">Downloads</a>
               </Link>
             </li>
-            <li>
-              <Link href="/info/organigrammen/">
-                <a title="Organigrammen">Organigrammen</a>
-              </Link>
-            </li>
           </ul>
         </li>
         <li className="has-submenu">
