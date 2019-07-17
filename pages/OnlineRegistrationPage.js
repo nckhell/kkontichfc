@@ -7,6 +7,7 @@ import Recaptcha from "react-recaptcha";
 import post from "../src/services/api/post";
 import Layout from "../src/components/layout/Layout";
 import BreadCrumb from "../src/components/breadcrumbs/BreadCrumb";
+import YouthInscriptionSucces from "../src/components/form/YouthInscriptionSucces";
 
 // eslint-disable-next-line react/prefer-stateless-function
 class OnlineRegistrationPage extends Component {
@@ -94,8 +95,13 @@ class OnlineRegistrationPage extends Component {
               }}
               onSubmit={(values, { setSubmitting }) => {
                 setTimeout(() => {
-                  post("http://kkfc-api.local/api/youth-inscriptions", values)
-                    .then(data => console.log(data))
+                  post(
+                    "http://api.kkontichfc.be/api/youth-inscriptions",
+                    values
+                  )
+                    .then(() => {
+                      this.setState({ success: true });
+                    })
                     .catch(error => {
                       if (error.response) {
                         // The request was made and the server responded with a status code
@@ -115,7 +121,6 @@ class OnlineRegistrationPage extends Component {
                       console.log(error.config);
                     });
                   setSubmitting(false);
-                  this.setState({ success: true });
                 }, 500);
               }}
               validationSchema={Yup.object().shape({
@@ -145,6 +150,7 @@ class OnlineRegistrationPage extends Component {
                   touched,
                   errors,
                   isSubmitting,
+                  isValid,
                   handleChange,
                   handleBlur,
                   handleSubmit,
@@ -152,33 +158,7 @@ class OnlineRegistrationPage extends Component {
                 } = props;
                 return (
                   <form className="form__style" onSubmit={handleSubmit}>
-                    {success && (
-                      <div
-                        className="mb-8 bg-teal-100 border-b-4 border-teal-500 rounded-b text-teal-900 px-4 py-3 leading-relaxed"
-                        role="alert"
-                      >
-                        <div className="flex">
-                          <div className="py-1">
-                            <svg
-                              className="fill-current h-6 w-6 text-teal-500 mr-4"
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 20 20"
-                            >
-                              <path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z" />
-                            </svg>
-                          </div>
-                          <div>
-                            <p className="font-bold">
-                              Inschrijving goed ontvangen
-                            </p>
-                            <p className="text-base">
-                              Bedankt voor je inschrijving. Wij doen het nodige
-                              en nemen (indien nodig) contact met je op.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    )}
+                    {success && <YouthInscriptionSucces />}
                     <div className="lg:flex">
                       <div className="lg:w-4/12">
                         <h2 className="lg:text-2xl">Persoonlijke gegevens</h2>
@@ -680,8 +660,8 @@ class OnlineRegistrationPage extends Component {
                         </div>
                         <div>
                           <Recaptcha
-                            sitekey="6LfEsWQUAAAAAIuiUIzvT5G0VZOJXXGsS5HhUdyZ"
-                            // sitekey="6Le2nREUAAAAALYuOv7X9Fe3ysDmOmghtj0dbCKW"
+                            // sitekey="6LfEsWQUAAAAAIuiUIzvT5G0VZOJXXGsS5HhUdyZ"
+                            sitekey="6Le2nREUAAAAALYuOv7X9Fe3ysDmOmghtj0dbCKW"
                             render="explicit"
                             verifyCallback={response => {
                               setFieldValue("recaptcha", response);
@@ -710,7 +690,13 @@ class OnlineRegistrationPage extends Component {
                         </p>
                       </div>
                     </div>
-                    <div className="my-8 flex justify-end">
+                    <div className="my-8 flex justify-end items-center">
+                      {!isValid && (
+                        <div className="text-sm text-red-500 italic pr-8">
+                          Het formulier is nog niet volledig correct ingevuld,
+                          kijk het opnieuw na.
+                        </div>
+                      )}
                       {!success && (
                         <button
                           type="submit"
@@ -726,6 +712,7 @@ class OnlineRegistrationPage extends Component {
                         </div>
                       )}
                     </div>
+                    {success && <YouthInscriptionSucces />}
                   </form>
                 );
               }}

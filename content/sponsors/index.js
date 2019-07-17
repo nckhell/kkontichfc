@@ -359,6 +359,15 @@ export default [
     cloudinaryID: "paul-dak"
   },
   {
+    url: "http://www.gilberte.be/",
+    name: "Wasserij Gilberte",
+    headsponsor: "NO",
+    order: "7",
+    type: "DAMESSPONSOR",
+    highlight: "NO",
+    cloudinaryID: "wasserij-gilberte_m0ytr6"
+  },
+  {
     url: "http://ulp.be/",
     name: "ULP",
     headsponsor: "YES",

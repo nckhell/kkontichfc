@@ -4,11 +4,17 @@ import NextSeo from "next-seo";
 import { Formik } from "formik";
 import * as Yup from "yup";
 import Recaptcha from "react-recaptcha";
+import post from "../src/services/api/post";
 import Layout from "../src/components/layout/Layout";
 import BreadCrumb from "../src/components/breadcrumbs/BreadCrumb";
+import PaastornooiInscriptionSucces from "../src/components/form/PaastornooiInscriptionSucces";
 
 // eslint-disable-next-line react/prefer-stateless-function
 class PaastornooiRegistrationPage extends Component {
+  state = {
+    success: false
+  };
+
   componentDidMount() {
     const script = document.createElement("script");
     script.src = "https://www.google.com/recaptcha/api.js";
@@ -19,6 +25,7 @@ class PaastornooiRegistrationPage extends Component {
 
   render() {
     const requiredMessage = "Verplicht veld";
+    const { success } = this.state;
 
     return (
       <Layout showGrassHeader>
@@ -72,7 +79,31 @@ class PaastornooiRegistrationPage extends Component {
               }}
               onSubmit={(values, { setSubmitting }) => {
                 setTimeout(() => {
-                  alert(JSON.stringify(values, null, 2));
+                  post(
+                    "http://api.kkontichfc.be/api/paastornooi-inscriptions",
+                    values
+                  )
+                    .then(() => {
+                      this.setState({ success: true });
+                    })
+                    .catch(error => {
+                      if (error.response) {
+                        // The request was made and the server responded with a status code
+                        // that falls out of the range of 2xx
+                        console.log(error.response.data);
+                        console.log(error.response.status);
+                        console.log(error.response.headers);
+                      } else if (error.request) {
+                        // The request was made but no response was received
+                        // `error.request` is an instance of XMLHttpRequest in the browser and an instance of
+                        // http.ClientRequest in node.js
+                        console.log(error.request);
+                      } else {
+                        // Something happened in setting up the request that triggered an Error
+                        console.log("Error", error.message);
+                      }
+                      console.log(error.config);
+                    });
                   setSubmitting(false);
                 }, 500);
               }}
@@ -102,6 +133,7 @@ class PaastornooiRegistrationPage extends Component {
                   touched,
                   errors,
                   isSubmitting,
+                  isValid,
                   handleChange,
                   handleBlur,
                   handleSubmit,
@@ -109,6 +141,7 @@ class PaastornooiRegistrationPage extends Component {
                 } = props;
                 return (
                   <form className="form__style" onSubmit={handleSubmit}>
+                    {success && <PaastornooiInscriptionSucces />}
                     <div className="lg:flex">
                       <div className="lg:w-4/12">
                         <h2 className="lg:text-2xl">Clubinformatie</h2>
@@ -361,15 +394,29 @@ class PaastornooiRegistrationPage extends Component {
                         </div>
                       </div>
                     </div>
-                    <div className="my-8 flex justify-end">
-                      <button
-                        type="submit"
-                        className="btn"
-                        disabled={isSubmitting}
-                      >
-                        Verzenden
-                      </button>
+                    <div className="my-8 flex justify-end items-center">
+                      {!isValid && (
+                        <div className="text-sm text-red-500 italic pr-8">
+                          Het formulier is nog niet volledig correct ingevuld,
+                          kijk het opnieuw na.
+                        </div>
+                      )}
+                      {!success && (
+                        <button
+                          type="submit"
+                          className="btn"
+                          disabled={isSubmitting}
+                        >
+                          Verzenden
+                        </button>
+                      )}
+                      {success && (
+                        <div className="btn success">
+                          Inschrijving ontvangen!
+                        </div>
+                      )}
                     </div>
+                    {success && <PaastornooiInscriptionSucces />}
                   </form>
                 );
               }}

@@ -42,6 +42,12 @@
     @apply mb-2;
 }
 
+.form__style button[type="submit"]:disabled {
+    @apply bg-gray-100;
+    @apply text-gray-300;
+    @apply cursor-wait;
+}
+
 .form__style .input-feedback {
     @apply text-red-500;
     @apply text-sm;
