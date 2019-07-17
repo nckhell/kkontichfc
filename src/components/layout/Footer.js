@@ -127,7 +127,7 @@ const Footer = () => {
             </Link>
             <Link href="/info/contact">
               <a title="Contact" className="text-sm text-gray-500 py-1">
-                Contact
+                Contact & ligging
               </a>
             </Link>
             <Link href="/info/downloads">

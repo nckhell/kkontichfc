@@ -177,7 +177,7 @@ const Menu = () => {
             </li>
             <li>
               <Link href="/info/contact/">
-                <a title="Contact">Contact</a>
+                <a title="Contact">Contact & ligging</a>
               </Link>
             </li>
             <li>

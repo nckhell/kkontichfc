@@ -62,6 +62,9 @@
     .form__style .input__fields > div {
         width: 47.5%;
     }
+    .form__style .input__fields.full-width > div {
+        width: 100%;
+    }
  }
 
  .form__style select {

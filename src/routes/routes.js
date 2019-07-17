@@ -14,6 +14,7 @@ module.exports = Object.assign(
     "/info/bestuur": { page: "/BoardPage" },
     "/jeugd/ploegen": { page: "/YouthTeamsPage" },
     "/jeugd/online-registratie": { page: "/OnlineRegistrationPage" },
+    "/info/contact": { page: "/ContactPage" },
     "/jeugd/paastornooi/online-registratie": {
       page: "/PaastornooiRegistrationPage"
     }

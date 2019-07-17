@@ -80,7 +80,7 @@ class PaastornooiRegistrationPage extends Component {
               onSubmit={(values, { setSubmitting }) => {
                 setTimeout(() => {
                   post(
-                    "http://api.kkontichfc.be/api/paastornooi-inscriptions",
+                    "https://api.kkontichfc.be/paastornooi-inscriptions",
                     values
                   )
                     .then(() => {
@@ -150,6 +150,7 @@ class PaastornooiRegistrationPage extends Component {
                         <div>
                           <label htmlFor="gc">Gerechtigd correspondent</label>
                           <input
+                            disabled={success}
                             id="gc"
                             placeholder="Gerechtigd correspondent"
                             type="text"
@@ -169,6 +170,7 @@ class PaastornooiRegistrationPage extends Component {
                         <div>
                           <label htmlFor="club">Club</label>
                           <input
+                            disabled={success}
                             id="club"
                             placeholder="Club"
                             type="text"
@@ -188,6 +190,7 @@ class PaastornooiRegistrationPage extends Component {
                         <div>
                           <label htmlFor="stamnummer">Stamnummer</label>
                           <input
+                            disabled={success}
                             id="stamnummer"
                             placeholder="Stamnummer"
                             type="text"
@@ -209,6 +212,7 @@ class PaastornooiRegistrationPage extends Component {
                         <div>
                           <label htmlFor="shirtColor">Kleur shirts</label>
                           <input
+                            disabled={success}
                             id="shirtColor"
                             placeholder="Kleur shirts"
                             type="text"
@@ -230,6 +234,7 @@ class PaastornooiRegistrationPage extends Component {
                         <div>
                           <label htmlFor="pantsColor">Kleur broeken</label>
                           <input
+                            disabled={success}
                             id="pantsColor"
                             placeholder="Kleur broeken"
                             type="text"
@@ -287,6 +292,7 @@ class PaastornooiRegistrationPage extends Component {
                             Naam contactpersoon
                           </label>
                           <input
+                            disabled={success}
                             id="contactName"
                             placeholder="Naam contactpersoon"
                             type="text"
@@ -310,6 +316,7 @@ class PaastornooiRegistrationPage extends Component {
                             Adres contactpersoon
                           </label>
                           <input
+                            disabled={success}
                             id="contactAddress"
                             placeholder="Adres contactpersoon"
                             type="text"
@@ -333,6 +340,7 @@ class PaastornooiRegistrationPage extends Component {
                             Telefoon contactpersoon
                           </label>
                           <input
+                            disabled={success}
                             id="contactTel"
                             placeholder="Telefoon contactpersoon"
                             type="text"
@@ -356,6 +364,7 @@ class PaastornooiRegistrationPage extends Component {
                             Email contactpersoon
                           </label>
                           <input
+                            disabled={success}
                             id="contactEmail"
                             placeholder="Email contactpersoon"
                             type="text"
@@ -376,8 +385,8 @@ class PaastornooiRegistrationPage extends Component {
                         </div>
                         <div>
                           <Recaptcha
-                            // KKFC sitekey="6LfEsWQUAAAAAIuiUIzvT5G0VZOJXXGsS5HhUdyZ"
-                            sitekey="6Le2nREUAAAAALYuOv7X9Fe3ysDmOmghtj0dbCKW"
+                            sitekey="6LfEsWQUAAAAAIuiUIzvT5G0VZOJXXGsS5HhUdyZ"
+                            // sitekey="6Le2nREUAAAAALYuOv7X9Fe3ysDmOmghtj0dbCKW"
                             render="explicit"
                             verifyCallback={response => {
                               setFieldValue("recaptcha", response);

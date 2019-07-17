@@ -95,10 +95,7 @@ class OnlineRegistrationPage extends Component {
               }}
               onSubmit={(values, { setSubmitting }) => {
                 setTimeout(() => {
-                  post(
-                    "http://api.kkontichfc.be/api/youth-inscriptions",
-                    values
-                  )
+                  post("https://api.kkontichfc.be/youth-inscriptions", values)
                     .then(() => {
                       this.setState({ success: true });
                     })
@@ -167,6 +164,7 @@ class OnlineRegistrationPage extends Component {
                         <div>
                           <label htmlFor="firstname">Voornaam</label>
                           <input
+                            disabled={success}
                             id="firstname"
                             placeholder="Voornaam"
                             type="text"
@@ -188,6 +186,7 @@ class OnlineRegistrationPage extends Component {
                         <div>
                           <label htmlFor="lastname">Achternaam</label>
                           <input
+                            disabled={success}
                             id="lastname"
                             placeholder="Achternaam"
                             type="text"
@@ -230,6 +229,7 @@ class OnlineRegistrationPage extends Component {
                         <div>
                           <label htmlFor="email">Email</label>
                           <input
+                            disabled={success}
                             id="email"
                             placeholder="Email"
                             type="text"
@@ -249,6 +249,7 @@ class OnlineRegistrationPage extends Component {
                         <div>
                           <label htmlFor="address">Adres</label>
                           <input
+                            disabled={success}
                             id="address"
                             placeholder="Adres"
                             type="text"
@@ -270,6 +271,7 @@ class OnlineRegistrationPage extends Component {
                         <div>
                           <label htmlFor="postal">Postcode</label>
                           <input
+                            disabled={success}
                             id="postal"
                             placeholder="Postcode"
                             type="text"
@@ -291,6 +293,7 @@ class OnlineRegistrationPage extends Component {
                         <div>
                           <label htmlFor="city">Stad of Gemeente</label>
                           <input
+                            disabled={success}
                             id="city"
                             placeholder="Stad of Gemeente"
                             type="text"
@@ -310,6 +313,7 @@ class OnlineRegistrationPage extends Component {
                         <div>
                           <label htmlFor="tel">Telefoonnummer</label>
                           <input
+                            disabled={success}
                             id="tel"
                             placeholder="Telefoon"
                             type="text"
@@ -329,6 +333,7 @@ class OnlineRegistrationPage extends Component {
                         <div>
                           <label htmlFor="tel">Geboortedatum</label>
                           <input
+                            disabled={success}
                             id="birthDate"
                             placeholder="Geboortedatum"
                             type="text"
@@ -350,6 +355,7 @@ class OnlineRegistrationPage extends Component {
                         <div>
                           <label htmlFor="birthPlace">Geboorteplaats</label>
                           <input
+                            disabled={success}
                             id="birthPlace"
                             placeholder="Geboorteplaats"
                             type="text"
@@ -371,6 +377,7 @@ class OnlineRegistrationPage extends Component {
                         <div>
                           <label htmlFor="nationality">Nationaliteit</label>
                           <input
+                            disabled={success}
                             id="nationality"
                             placeholder="Nationaliteit"
                             type="text"
@@ -392,6 +399,7 @@ class OnlineRegistrationPage extends Component {
                         <div>
                           <label htmlFor="RRN">Rijksregisternummer</label>
                           <input
+                            disabled={success}
                             id="RRN"
                             placeholder="Rijksregisternummer"
                             type="text"
@@ -413,6 +421,7 @@ class OnlineRegistrationPage extends Component {
                             Wettelijk vertegenwoordiger
                           </label>
                           <input
+                            disabled={success}
                             id="legalRepresentative"
                             placeholder="Wettelijk vertegenwoordiger"
                             type="text"
@@ -447,6 +456,7 @@ class OnlineRegistrationPage extends Component {
                             Land van herkomst
                           </label>
                           <input
+                            disabled={success}
                             id="landOfOrigin"
                             placeholder="Land van herkomst"
                             type="text"
@@ -470,6 +480,7 @@ class OnlineRegistrationPage extends Component {
                             Vorig adres in het buitenland
                           </label>
                           <input
+                            disabled={success}
                             id="adressAbroad"
                             placeholder="Vorig adres in het buitenland"
                             type="text"
@@ -493,6 +504,7 @@ class OnlineRegistrationPage extends Component {
                             Datum aankomst België
                           </label>
                           <input
+                            disabled={success}
                             id="dateOfArrivalInBelgium"
                             placeholder="Datum aankomst België"
                             type="text"
@@ -523,6 +535,7 @@ class OnlineRegistrationPage extends Component {
                         <div>
                           <label htmlFor="previousClub">Vorige club</label>
                           <input
+                            disabled={success}
                             id="previousClub"
                             placeholder="Vorige club"
                             type="text"
@@ -544,6 +557,7 @@ class OnlineRegistrationPage extends Component {
                         <div>
                           <label htmlFor="position">Standaardpositie</label>
                           <input
+                            disabled={success}
                             id="position"
                             placeholder="Standaardpositie"
                             type="text"
@@ -565,6 +579,7 @@ class OnlineRegistrationPage extends Component {
                         <div>
                           <label htmlFor="bankNumber">Rekeningnummer</label>
                           <input
+                            disabled={success}
                             id="bankNumber"
                             placeholder="Rekeningnummer"
                             type="text"
@@ -615,6 +630,7 @@ class OnlineRegistrationPage extends Component {
                             Ziekte en/of medicatie
                           </label>
                           <textarea
+                            disabled={success}
                             id="diseaseAndMedication"
                             placeholder="Ziekte en/of medicatie"
                             type="text"
@@ -640,6 +656,7 @@ class OnlineRegistrationPage extends Component {
                             Opmerkingen
                           </label>
                           <textarea
+                            disabled={success}
                             id="remarks"
                             placeholder="Ziekte en/of medicatie"
                             type="text"
@@ -660,8 +677,8 @@ class OnlineRegistrationPage extends Component {
                         </div>
                         <div>
                           <Recaptcha
-                            // sitekey="6LfEsWQUAAAAAIuiUIzvT5G0VZOJXXGsS5HhUdyZ"
-                            sitekey="6Le2nREUAAAAALYuOv7X9Fe3ysDmOmghtj0dbCKW"
+                            sitekey="6LfEsWQUAAAAAIuiUIzvT5G0VZOJXXGsS5HhUdyZ"
+                            // sitekey="6Le2nREUAAAAALYuOv7X9Fe3ysDmOmghtj0dbCKW"
                             render="explicit"
                             verifyCallback={response => {
                               setFieldValue("recaptcha", response);
