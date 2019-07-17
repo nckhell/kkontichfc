@@ -40,7 +40,7 @@ class Header extends Component {
           </div>
           <div className="logo">
             <Link href="/">
-              <a>
+              <a title="K. Kontich F.C.">
                 <img
                   className="w-8 md:w-16 lg:w-18"
                   src={prefixURL("/static/img/kkontichfc.svg")}
