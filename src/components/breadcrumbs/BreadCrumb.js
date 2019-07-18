@@ -31,6 +31,22 @@ const BreadCrumb = props => {
       {data &&
         data.map(breadCrumbItem => {
           position += 1;
+          if (breadCrumbItem.url === "") {
+            return (
+              <li
+                className="inline-block capitalize text-gray-500 slash-before"
+                key={breadCrumbItem.title}
+                itemProp="itemListElement"
+                itemScope
+                itemType="http://schema.org/ListItem"
+              >
+                <span itemProp="item">
+                  <span itemProp="name">{breadCrumbItem.title}</span>
+                </span>
+                <meta itemProp="position" content={position} />
+              </li>
+            );
+          }
           return (
             <li
               className="inline-block capitalize text-gray-500 slash-before"
@@ -39,8 +55,15 @@ const BreadCrumb = props => {
               itemScope
               itemType="http://schema.org/ListItem"
             >
-              <span itemProp="item">{breadCrumbItem.title}</span>
-              <meta itemProp="position" content={position} />
+              <a
+                href={prefixURL(breadCrumbItem.url)}
+                itemProp="item"
+                title={breadCrumbItem.title}
+                className="hover:text-red-500 hover:underline"
+              >
+                <span itemProp="name">{breadCrumbItem.title}</span>
+                <meta itemProp="position" content={position} />
+              </a>
             </li>
           );
         })}

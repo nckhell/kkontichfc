@@ -54,8 +54,8 @@ class ContactPage extends Component {
             <div className="w-full mx-auto">
               <BreadCrumb
                 data={[
-                  { title: "info", url: "info" },
-                  { title: "contact & ligging", url: "contact" }
+                  { title: "info", url: "" },
+                  { title: "contact & ligging", url: "" }
                 ]}
               />
             </div>

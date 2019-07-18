@@ -105,7 +105,7 @@
 }
 
 #desktop-menu ul.submenu > li {
-    @apply leading-loose;
+    line-height: 2;
 }
 
 #desktop-menu ul.submenu {
@@ -120,4 +120,10 @@
 #desktop-menu ul.submenu > li > a:hover, #desktop-menu ul.submenu > li > a:focus {
     @apply text-yellow-400;
     outline: none;
+}
+
+@media (min-width: 1280px) {
+    #desktop-menu ul.submenu > li {
+        line-height: 2.2;
+    }
 }

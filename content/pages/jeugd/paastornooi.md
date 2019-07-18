@@ -1,10 +1,9 @@
 ---
 title: Volvo Vermant Cup (Paastornooi)
 ---
-<img src="https://www.link2fleet.be/wp-content/uploads/2018/04/Logo-Vermant-Groep.png" style="max-width: 100%; height: auto;" alt="Volvo Vermant Cup 2019" />
-<h1>Paastornooi<span>Volvo-Vermant Cup 2019</h1>
 <p><strong>Beste sportvriend,</strong></p>
 <p>K. Kontich F.C. nodigt u uit op haar 50ste Paastornooi - dit jaar ook de Volvo-Vermant Cup genoemd - , een tornooi dat heel wat waardering geniet van clubs die reeds meegedaan hebben tijdens de vorige uitgaven.</p>
+<img src="https://www.link2fleet.be/wp-content/uploads/2018/04/Logo-Vermant-Groep.png" style="max-width: 100%; height: auto;" alt="Volvo Vermant Cup 2019" />
 <p>
     Het tornooi gaat door op <strong>zaterdag 20 april 2019</strong> voor de U10-U11-U12 en U13 en op <strong>maandag 22 april 2019</strong> voor de U6-U7-U8 en U9. Het Paastornooi vindt plaats op de terreinen van K. Kontich F.C., hetgeen u de mogelijkheid geeft om o.a. op kunstgras te voetballen.
 </p>

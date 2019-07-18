@@ -50,6 +50,7 @@
     "react-dom": "^16.8.6",
     "react-facebook": "^8.0.4",
     "react-ga": "^2.6.0",
+    "react-image-gallery": "^0.8.18",
     "react-image-lightbox": "^5.1.0",
     "react-placeholder": "^3.0.2",
     "react-recaptcha": "^2.3.10",

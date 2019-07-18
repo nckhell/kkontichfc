@@ -99,7 +99,7 @@ class NewsListPage extends Component {
         />
         <main>
           <div className="px-4 mt-8 md:mt-10 lg:mt-16 container mx-auto text-left">
-            <BreadCrumb data={[{ title: "nieuwsoverzicht", url: "nieuws" }]} />
+            <BreadCrumb data={[{ title: "nieuwsoverzicht", url: "" }]} />
           </div>
           <section className="container mt-8 md:mt-10 mx-auto px-4">
             <h1>Nieuwsoverzicht</h1>

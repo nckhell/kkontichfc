@@ -33,9 +33,10 @@
     box-shadow: 0 1px 0 #ECEFF3 inset;
 }
 
-#navigation #menu ul li:hover > a {
+#navigation #menu ul li:hover > a, #navigation #menu ul li > a:focus {
     color: #3260B1;
     background: rgba(50,96,177,0.05);
+    outline: none;
 }
 
 #navigation #menu ul li:hover > .submenu {

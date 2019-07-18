@@ -83,8 +83,8 @@ class EventsListPage extends Component {
           <div className="px-4 mt-8 md:mt-10 lg:mt-16 container mx-auto text-left">
             <BreadCrumb
               data={[
-                { title: "commercieel", url: "nieuws" },
-                { title: "evenementen", url: "evenementen" }
+                { title: "commercieel", url: "" },
+                { title: "evenementen", url: "" }
               ]}
             />
           </div>

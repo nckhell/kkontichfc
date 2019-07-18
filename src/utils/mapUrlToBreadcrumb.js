@@ -6,7 +6,7 @@ export const mapUrlToBreadCrumb = (url: string): string => {
 
   return arr.map(item => ({
     title: item,
-    url: item
+    url: ""
   }));
 };
 

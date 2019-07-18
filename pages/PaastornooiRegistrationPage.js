@@ -50,9 +50,9 @@ class PaastornooiRegistrationPage extends Component {
             <div className="w-full">
               <BreadCrumb
                 data={[
-                  { title: "Jeugd", url: "jeugd" },
-                  { title: "Paastornooi", url: "paatornooi" },
-                  { title: "Online registratie", url: "online_registratie" }
+                  { title: "Jeugd", url: "" },
+                  { title: "Paastornooi", url: "jeugd/paastornooi" },
+                  { title: "Online registratie", url: "" }
                 ]}
               />
             </div>

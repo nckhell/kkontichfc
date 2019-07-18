@@ -20,6 +20,7 @@
 @import "./components/breadcrumb/Breadcrumb.css";
 @import "./components/lightbox/LightBox.css";
 @import "./components/form/Form.css";
+@import "./components/gallery/ImageGallery.css";
 
 body, html {
     @apply font-kkfc;

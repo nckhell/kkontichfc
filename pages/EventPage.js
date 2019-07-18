@@ -55,7 +55,7 @@ class EventPage extends Component {
             <div className="w-full mx-auto lg:w-5/6">
               <BreadCrumb
                 data={[
-                  { title: "commercieel", url: "commercieel" },
+                  { title: "commercieel", url: "" },
                   {
                     title: "evenementen",
                     url: "evenementen"

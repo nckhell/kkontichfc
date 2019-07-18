@@ -5,8 +5,6 @@ import Profile from "./Profile";
 const PlayersPerPosition = props => {
   const { data, type, title } = props;
 
-  console.log(data);
-
   return (
     <div>
       <h2>{title}</h2>

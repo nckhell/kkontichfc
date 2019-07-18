@@ -65,18 +65,6 @@ const obj = {
         cloudinaryID: ""
       },
       {
-        position: "MIDDENVELDER",
-        name: "Sucu Ozan Arman",
-        birthdate: "1992-12-28",
-        cloudinaryID: ""
-      },
-      {
-        position: "MIDDENVELDER",
-        name: "Ocak Murat",
-        birthdate: "null",
-        cloudinaryID: ""
-      },
-      {
         position: "VERDEDIGER",
         name: "Bruno Duarte Arjonas",
         birthdate: "1989-07-15",
@@ -116,6 +104,36 @@ const obj = {
         position: "VERDEDIGER",
         name: "Vleminckx Tim",
         birthdate: "1987-03-31",
+        cloudinaryID: ""
+      },
+      {
+        position: "AANVALLER",
+        name: "Bokila Wim",
+        birthdate: "",
+        cloudinaryID: ""
+      },
+      {
+        position: "AANVALLER",
+        name: "Van Loon Jens",
+        birthdate: "",
+        cloudinaryID: ""
+      },
+      {
+        position: "VERDEDIGER",
+        name: "Hermans Jente",
+        birthdate: "",
+        cloudinaryID: ""
+      },
+      {
+        position: "MIDDENVELDER",
+        name: "Huygen Tivi",
+        birthdate: "",
+        cloudinaryID: ""
+      },
+      {
+        position: "DOELMAN",
+        name: "Ledent Frederic",
+        birthdate: "",
         cloudinaryID: ""
       }
     ]
