@@ -54,14 +54,17 @@ class EventPage extends Component {
             <div className="w-full mx-auto lg:w-5/6">
               <BreadCrumb
                 data={[
-                  { title: "commercieel", url: "" },
+                  {
+                    title: "commercieel",
+                    url: "#"
+                  },
                   {
                     title: "evenementen",
                     url: "evenementen"
                   },
                   {
                     title: EventJson.title,
-                    url: ""
+                    url: `https://www.kkontichfc.be${href}`
                   }
                 ]}
               />
@@ -78,9 +81,27 @@ class EventPage extends Component {
               </h1>
               <div
                 className="mb-8 text-gray-900 font-semibold"
-                itemProp={EventJson.date}
+                itemProp="startDate"
+                dateTime={EventJson.date}
               >
                 {date}
+              </div>
+              <div
+                itemProp="location"
+                itemScope
+                itemType="http://schema.org/Place"
+              >
+                <meta itemProp="name" content="K. Kontich F.C." />
+                <div
+                  itemProp="address"
+                  itemitemScopescope
+                  itemType="http://schema.org/PostalAddress"
+                >
+                  <meta
+                    itemProp="address"
+                    content="Duffelsesteenweg 73, 2550 Kontich"
+                  />
+                </div>
               </div>
               {EventJson.cloudinaryID && (
                 <figure
@@ -101,6 +122,14 @@ class EventPage extends Component {
                   </CloudinaryContext>
                   <meta itemProp="height" content="800" />
                   <meta itemProp="width" content="600" />
+                  <meta
+                    itemProp="url"
+                    content={
+                      EventJson.cloudinaryID
+                        ? imageSeo[0].url
+                        : prefixURL("/static/img/no-news-image.png")
+                    }
+                  />
                   <figcaption className="italic text-base text-gray-300">
                     {EventJson.figCaption}
                   </figcaption>

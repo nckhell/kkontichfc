@@ -30,8 +30,8 @@ class BoardPage extends Component {
             <div className="w-full mx-auto lg:w-5/6">
               <BreadCrumb
                 data={[
-                  { title: "info", url: "" },
-                  { title: "bestuur", url: "" }
+                  { title: "info", url: "#" },
+                  { title: "bestuur", url: "info/bestuur" }
                 ]}
               />
             </div>

@@ -37,7 +37,7 @@ class ContactPage extends Component {
       <Layout showGrassHeader>
         <NextSeo
           config={{
-            title: `Contact | Info`,
+            title: `Contact & Ligging | Info`,
             description: `Al de nodige contactgegevens en details over K. Kontich F.C.`,
             canonical: `https://www.kkontichfc.be/info/contact`,
             openGraph: {
@@ -54,8 +54,8 @@ class ContactPage extends Component {
             <div className="w-full mx-auto">
               <BreadCrumb
                 data={[
-                  { title: "info", url: "" },
-                  { title: "contact & ligging", url: "" }
+                  { title: "info", url: "#" },
+                  { title: "contact & ligging", url: "info/contact" }
                 ]}
               />
             </div>

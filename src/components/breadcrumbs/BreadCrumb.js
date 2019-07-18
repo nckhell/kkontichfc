@@ -56,7 +56,11 @@ const BreadCrumb = props => {
               itemType="http://schema.org/ListItem"
             >
               <a
-                href={prefixURL(breadCrumbItem.url)}
+                href={
+                  breadCrumbItem.url === "#"
+                    ? "#"
+                    : prefixURL(breadCrumbItem.url)
+                }
                 itemProp="item"
                 title={breadCrumbItem.title}
                 className="hover:text-red-500 hover:underline"

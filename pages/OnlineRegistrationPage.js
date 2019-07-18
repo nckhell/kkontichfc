@@ -48,8 +48,11 @@ class OnlineRegistrationPage extends Component {
             <div className="w-full">
               <BreadCrumb
                 data={[
-                  { title: "Jeugd", url: "" },
-                  { title: "Online registratie", url: "" }
+                  { title: "Jeugd", url: "#" },
+                  {
+                    title: "Online registratie",
+                    url: "jeugd/online-registratie"
+                  }
                 ]}
               />
             </div>

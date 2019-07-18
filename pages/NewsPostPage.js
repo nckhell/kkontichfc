@@ -64,11 +64,11 @@ class NewsPostPage extends Component {
                   { title: "nieuws", url: "nieuws/overzicht" },
                   {
                     title: "...",
-                    url: ""
+                    url: "#"
                   },
                   {
                     title: NewsPostJson.title,
-                    url: ""
+                    url: `https://www.kkontichfc.be${href}`
                   }
                 ]}
               />
@@ -80,6 +80,28 @@ class NewsPostPage extends Component {
               itemScope
               itemType="http://schema.org/NewsArticle"
             >
+              <span itemProp="author" content="K. Kontich F.C." />
+              <div
+                itemProp="publisher"
+                itemScope
+                itemType="http://schema.org/Organization"
+              >
+                <div
+                  itemProp="logo"
+                  itemScope
+                  itemType="http://schema.org/ImageObject"
+                >
+                  <meta
+                    itemProp="url"
+                    content="https://res.cloudinary.com/kkontichfc/image/upload/v1563367382/logo.png"
+                  />
+                </div>
+                <meta itemProp="name" content="K. Kontich F.C." />
+              </div>
+              <link
+                itemProp="mainEntityOfPage"
+                href={`https://www.kkontichfc.be${href}`}
+              />
               <div
                 className={`news-category text-gray-300 pt-8 ${category}`}
                 itemProp="genre"
@@ -113,8 +135,16 @@ class NewsPostPage extends Component {
                       <Transformation width="800" height="600" crop="fill" />
                     </Image>
                   </CloudinaryContext>
-                  <meta itemProp="height" content="800" />
-                  <meta itemProp="width" content="600" />
+                  <meta itemProp="height" content="630" />
+                  <meta itemProp="width" content="1200" />
+                  <meta
+                    itemProp="url"
+                    content={
+                      NewsPostJson.cloudinaryID
+                        ? imageSeo[0].url
+                        : prefixURL("/static/img/no-news-image.png")
+                    }
+                  />
                   <figcaption className="italic text-base text-gray-300">
                     {NewsPostJson.figCaption}
                   </figcaption>

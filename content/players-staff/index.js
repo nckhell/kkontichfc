@@ -44,67 +44,67 @@ const obj = {
         position: "VERDEDIGER",
         name: "De Cock Glen",
         birthdate: "1989-09-17",
-        cloudinaryID: ""
+        cloudinaryID: "decock-glen_p8fmsi"
       },
       {
         position: "AANVALLER",
         name: "De Cock Victor",
         birthdate: "1995-09-17",
-        cloudinaryID: ""
+        cloudinaryID: "decock-victor_a4ppjg"
       },
       {
         position: "VERDEDIGER",
         name: "Gabriels Anthony",
         birthdate: "1992-11-06",
-        cloudinaryID: ""
+        cloudinaryID: "gabriels-anthony_e2nidd"
       },
       {
         position: "MIDDENVELDER",
         name: "Somers Jonas",
         birthdate: "1995-02-28",
-        cloudinaryID: ""
+        cloudinaryID: "somers-jonas_ozvkhs"
       },
       {
         position: "VERDEDIGER",
         name: "Bruno Duarte Arjonas",
         birthdate: "1989-07-15",
-        cloudinaryID: ""
+        cloudinaryID: "bruno-duarte-arjonas_hmbe1l"
       },
       {
         position: "MIDDENVELDER",
         name: "Tindemans Andreas",
         birthdate: "1998-05-07",
-        cloudinaryID: ""
+        cloudinaryID: "tindemans-andreas_veuuu3"
       },
       {
         position: "DOELMAN",
         name: "Cop Maarten",
         birthdate: "1999-05-12",
-        cloudinaryID: ""
+        cloudinaryID: "cop-maarten_v747sy"
       },
       {
         position: "AANVALLER",
         name: "Kreydt Jordi",
         birthdate: "1997-02-04",
-        cloudinaryID: ""
+        cloudinaryID: "kreydt-jordi_c05smz"
       },
       {
         position: "AANVALLER",
         name: "Van Camp Indyana",
         birthdate: "1998-01-15",
-        cloudinaryID: ""
+        cloudinaryID: "van-camp-indyana_hqxld6"
       },
       {
         position: "VERDEDIGER",
         name: "Van Esser REmi",
         birthdate: "1998-02-13",
-        cloudinaryID: ""
+        cloudinaryID: "van-esser-remi_qilvpf"
       },
       {
         position: "VERDEDIGER",
         name: "Vleminckx Tim",
         birthdate: "1987-03-31",
-        cloudinaryID: ""
+        cloudinaryID: "vleminckx-tim_zrolaa"
       },
       {
         position: "AANVALLER",

@@ -21,11 +21,7 @@ const NewsItem = props => {
   }
 
   return (
-    <article
-      className="mb-4 w-full md:w-1/2 lg:w-1/3 md:px-2"
-      itemScope
-      itemType="http://schema.org/NewsArticle"
-    >
+    <article className="mb-4 w-full md:w-1/2 lg:w-1/3 md:px-2">
       <a
         href={prefixURL(href)}
         title={data.title}
@@ -40,20 +36,14 @@ const NewsItem = props => {
             }`
           }}
         />
-        <div
-          className={`news-category text-gray-300 pt-8 px-6 ${category}`}
-          itemProp="genre"
-        >
+        <div className={`news-category text-gray-300 pt-8 px-6 ${category}`}>
           {category}
         </div>
-        <div
-          className="text-xl leading-relaxed pt-6 px-6 h-40"
-          itemProp="headline"
-        >
+        <div className="text-xl leading-relaxed pt-6 px-6 h-40">
           {data.title}
         </div>
         <div className="pb-4 px-6 flex text-xs text-gray-600 justify-between">
-          <div itemProp="datePublished" content={data.date}>
+          <div content={data.date}>
             <ReactSVG
               className="inline-block align-middle pr-2"
               beforeInjection={svg => {

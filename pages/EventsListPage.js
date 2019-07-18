@@ -5,7 +5,6 @@ import NextSeo from "next-seo";
 import Layout from "../src/components/layout/Layout";
 import SUMMARY_JSON from "../content/build/evenementen/summary.json";
 import BreadCrumb from "../src/components/breadcrumbs/BreadCrumb";
-import HeadSponsors from "../src/components/sponsors/HeadSponsors";
 import EventList from "../src/components/events/EventList";
 import {
   sortEventsSummaryJsonOnDate,
@@ -83,8 +82,8 @@ class EventsListPage extends Component {
           <div className="px-4 mt-8 md:mt-10 lg:mt-16 container mx-auto text-left">
             <BreadCrumb
               data={[
-                { title: "commercieel", url: "" },
-                { title: "evenementen", url: "" }
+                { title: "commercieel", url: "#" },
+                { title: "evenementen", url: "evenementen" }
               ]}
             />
           </div>
