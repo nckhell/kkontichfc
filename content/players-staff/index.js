@@ -135,6 +135,36 @@ const obj = {
         name: "Ledent Frederic",
         birthdate: "",
         cloudinaryID: ""
+      },
+      {
+        position: "DOELMAN",
+        name: "van Oostveldt Gian",
+        birthdate: "",
+        cloudinaryID: ""
+      },
+      {
+        position: "MIDDENVELDER",
+        name: "Koeck Arnout",
+        birthdate: "",
+        cloudinaryID: ""
+      },
+      {
+        position: "VERDEDIGER",
+        name: "Kliché Andreas",
+        birthdate: "",
+        cloudinaryID: ""
+      },
+      {
+        position: "AANVALLER",
+        name: "Kreydt Tibo",
+        birthdate: "",
+        cloudinaryID: ""
+      },
+      {
+        position: "VERDEDIGER",
+        name: "Verdoren Jari",
+        birthdate: "",
+        cloudinaryID: ""
       }
     ]
   }
