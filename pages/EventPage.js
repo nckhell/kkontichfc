@@ -5,7 +5,6 @@ import { CloudinaryContext, Image, Transformation } from "cloudinary-react";
 import { prefixURL } from "next-prefixed";
 import { FacebookProvider, Like, Comments } from "react-facebook";
 import Layout from "../src/components/layout/Layout";
-import HeadSponsors from "../src/components/sponsors/HeadSponsors";
 import BreadCrumb from "../src/components/breadcrumbs/BreadCrumb";
 import { makeUrl } from "../src/utils/events";
 import { formatDate } from "../src/utils/dateTimeFormat";
