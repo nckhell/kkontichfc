@@ -1,6 +1,6 @@
 ---
 title: Heren 1e prov. - voorbereiding
-date: 2019-06-18
+date: 2019-06-20
 ---
 <p>Met een 2<sup>e</sup> plaats in het eindklassement en deelname aan de eindronde deed K. Kontich F.C. beter dan de 5<sup>e</sup> plaats (en deelname aan de eindronde) in het seizoen 2017-2018.</p>
 <p>&ldquo;<em>Beter doen dan vorig seizoen</em>&rdquo; zou met andere woorden betekenen dat K. Kontich F.C. seizoen 2019-2020 als kampioen of promovendus afsluit. &ldquo;<em>In voetbal kan alles</em>&rdquo;, is een waarheid als een koe, maar &ndash; rekening houdende met de sterke reeks die 1<sup>e</sup> provinciale volgend seizoen zal zijn &ndash; is voorzichtigheid omtrent de verwachtingen geboden.</p>
