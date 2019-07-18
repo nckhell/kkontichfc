@@ -108,6 +108,7 @@ class NewsPostPage extends Component {
                       className="w-full h-auto"
                       publicId={`nieuws/${NewsPostJson.cloudinaryID}`}
                       alt={NewsPostJson.title}
+                      secure
                     >
                       <Transformation width="800" height="600" crop="fill" />
                     </Image>

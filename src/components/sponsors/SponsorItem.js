@@ -22,6 +22,7 @@ const SponsorItem = props => {
                 publicId={`sponsors/${sponsor.cloudinaryID}`}
                 className="inline-block max-h-full"
                 alt={sponsor.name}
+                secure
               >
                 <Transformation width="180" height="120" crop="fit" />
               </Image>

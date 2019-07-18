@@ -12,7 +12,7 @@ const EventItem = props => {
   let imageUrl;
 
   if (data.cloudinaryID) {
-    imageUrl = `http://res.cloudinary.com/kkontichfc/image/upload/v1/evenementen/${data.cloudinaryID}`;
+    imageUrl = `https://res.cloudinary.com/kkontichfc/image/upload/v1/evenementen/${data.cloudinaryID}`;
   } else {
     imageUrl = prefixURL("/static/img/no-news-image.png");
   }
