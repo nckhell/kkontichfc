@@ -34569,7 +34569,7 @@ function (_Component) {
           isLoading = _this$state.isLoading;
       var grassHeaderUrl = Object(next_prefixed__WEBPACK_IMPORTED_MODULE_9__["prefixURL"])("/static/img/grass-texture.jpg");
       return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "".concat(isLoading ? "preload" : "", " ").concat(isMenuOpen ? "xl:overflow-y-hidden" : ""),
+        className: "".concat(isLoading ? "preload" : ""),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 46
@@ -34578,14 +34578,14 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_8___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 47
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
         charSet: "utf-8",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 48
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
@@ -34593,7 +34593,7 @@ function (_Component) {
         content: "initial-scale=1.0, width=device-width",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53
+          lineNumber: 49
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("link", {
@@ -34601,7 +34601,7 @@ function (_Component) {
         rel: "stylesheet",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 53
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("link", {
@@ -34610,7 +34610,7 @@ function (_Component) {
         href: Object(next_prefixed__WEBPACK_IMPORTED_MODULE_9__["prefixURL"])("/static/img/favicon.ico"),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61
+          lineNumber: 57
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -34618,14 +34618,14 @@ function (_Component) {
         toggleMenu: this.toggleMenu,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 63
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("nav", {
         className: "relative z-50",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 64
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
@@ -34633,20 +34633,20 @@ function (_Component) {
         className: "xl:hidden ".concat(isMenuOpen ? "open" : "closed"),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 65
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_Menu_MenuContent__WEBPACK_IMPORTED_MODULE_12__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73
+          lineNumber: 69
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_Menu_DesktopMenu__WEBPACK_IMPORTED_MODULE_13__["default"], {
         isMenuOpen: isMenuOpen,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 72
         },
         __self: this
       }), showGrassHeader && react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
@@ -34656,13 +34656,13 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78
+          lineNumber: 74
         },
         __self: this
       }), children, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_11__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 86
+          lineNumber: 82
         },
         __self: this
       }));
