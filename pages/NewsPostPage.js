@@ -45,11 +45,11 @@ class NewsPostPage extends Component {
           config={{
             title: `${NewsPostJson.title} | ${categoryUpperCaseSeo}`,
             description: `${NewsPostJson.preview}...`,
-            canonical: `https://kkontichfc.be${href}`,
+            canonical: `https://www.kkontichfc.be${href}`,
             openGraph: {
               type: "article",
               locale: "nl_BE",
-              url: `https://kkontichfc.be${href}`,
+              url: `https://www.kkontichfc.be${href}`,
               title: `${NewsPostJson.title} | ${categoryUpperCaseSeo} | K. Kontich F.C.`,
               description: `${NewsPostJson.preview}...`,
               images: imageSeo
@@ -127,7 +127,7 @@ class NewsPostPage extends Component {
               <FacebookProvider appId="346435965433483">
                 <div className="my-6">
                   <Like
-                    href={`https://kkontichfc.be${href}`}
+                    href={`https://www.kkontichfc.be${href}`}
                     colorScheme="dark"
                     showFaces
                     size="large"
@@ -135,7 +135,7 @@ class NewsPostPage extends Component {
                   />
                 </div>
                 <Comments
-                  href={`https://kkontichfc.be${href}`}
+                  href={`https://www.kkontichfc.be${href}`}
                   width="100%"
                   numPosts="10"
                 />

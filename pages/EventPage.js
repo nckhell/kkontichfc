@@ -39,11 +39,11 @@ class EventPage extends Component {
           config={{
             title: `${EventJson.title} | Evenementen`,
             description: `${EventJson.preview}...`,
-            canonical: `https://kkontichfc.be${href}`,
+            canonical: `https://www.kkontichfc.be${href}`,
             openGraph: {
               type: "website",
               locale: "nl_BE",
-              url: `https://kkontichfc.be${href}`,
+              url: `https://www.kkontichfc.be${href}`,
               title: `${EventJson.title} | Evenementen | K. Kontich F.C.`,
               description: `${EventJson.preview}...`,
               images: imageSeo
@@ -114,7 +114,7 @@ class EventPage extends Component {
               <FacebookProvider appId="346435965433483">
                 <div className="my-6">
                   <Like
-                    href={`https://kkontichfc.be/${href}`}
+                    href={`https://www.kkontichfc.be/${href}`}
                     colorScheme="dark"
                     showFaces
                     size="large"

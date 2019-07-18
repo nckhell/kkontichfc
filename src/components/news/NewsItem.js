@@ -66,7 +66,7 @@ const NewsItem = props => {
           <div>
             <FacebookProvider appId="346435965433483">
               <Like
-                href={`https://kkontichfc.be${href}`}
+                href={`https://www.kkontichfc.be${href}`}
                 colorScheme="dark"
                 layout="button_count"
                 showFaces={false}

@@ -1,7 +1,7 @@
 const DEFAULT_SEO = {
   title: "Welkom",
   titleTemplate: "%s | K. Kontich F.C.",
-  canonical: "https://kkontichfc.be/",
+  canonical: "https://www.kkontichfc.be/",
   facebook: {
     appId: 346435965433483
   },
@@ -10,7 +10,7 @@ const DEFAULT_SEO = {
   openGraph: {
     type: "website",
     locale: "nl_BE",
-    url: "https://kkontichfc.be",
+    url: "https://www.kkontichfc.be",
     title: "K. Kontich F.C.",
     description: "Konininklijke Kontich Football Club.",
     images: [

@@ -28,11 +28,11 @@ class TextPage extends Component {
           config={{
             title: `${pageJson.title} | ${firstBreadCrumbInUppercase}`,
             description: `${pageJson.preview}...`,
-            canonical: `https://kkontichfc.be${href}`,
+            canonical: `https://www.kkontichfc.be${href}`,
             openGraph: {
               type: "website",
               locale: "nl_BE",
-              url: `https://kkontichfc.be${href}`,
+              url: `https://www.kkontichfc.be${href}`,
               title: `${pageJson.title} | ${firstBreadCrumbInUppercase} | K. Kontich F.C.`,
               description: `${pageJson.preview}...`
             }
@@ -52,7 +52,7 @@ class TextPage extends Component {
               <FacebookProvider appId="346435965433483">
                 <div className="my-6">
                   <Like
-                    href={`https://kkontichfc.be${href}`}
+                    href={`https://www.kkontichfc.be${href}`}
                     colorScheme="dark"
                     size="large"
                     showFaces

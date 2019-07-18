@@ -87,11 +87,11 @@ class NewsListPage extends Component {
           config={{
             title: "Nieuws",
             description: "Lees het laatste nieuws omtrent K. Kontich F.C.",
-            canonical: `https://kkontichfc.be/nieuws/overzicht/`,
+            canonical: `https://www.kkontichfc.be/nieuws/overzicht/`,
             openGraph: {
               type: "website",
               locale: "nl_BE",
-              url: "https://kkontichfc.be/nieuws/overzicht/",
+              url: "https://www.kkontichfc.be/nieuws/overzicht/",
               title: "Nieuws | K. Kontich F.C.",
               description: "Lees het laatste nieuws omtrent K. Kontich F.C."
             }

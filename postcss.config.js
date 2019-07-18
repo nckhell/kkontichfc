@@ -24,8 +24,8 @@ module.exports = {
     postcssImport,
     tailwindcss("./tailwind.config.js"),
     autoprefixer(),
-    ...(process.env.APP_ENV === "gh-pages" ? [purgecss] : []),
-    ...(process.env.APP_ENV === "gh-pages"
+    ...(process.env.APP_ENV === "production" ? [purgecss] : []),
+    ...(process.env.APP_ENV === "production"
       ? [cssnano({ preset: "default" })]
       : [])
   ]

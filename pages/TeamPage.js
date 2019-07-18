@@ -44,11 +44,11 @@ class TeamPage extends Component {
           config={{
             title: `${seoTeam} | ${seoMaleOrFemale}`,
             description: `Rangschikking, kalender, staff en spelers van onze ${pageTitle}`,
-            canonical: `https://kkontichfc.be${fullUrl}`,
+            canonical: `https://www.kkontichfc.be${fullUrl}`,
             openGraph: {
               type: "website",
               locale: "nl_BE",
-              url: `https://kkontichfc.be${fullUrl}`,
+              url: `https://www.kkontichfc.be${fullUrl}`,
               title: `${seoTeam} | ${seoMaleOrFemale} | K. Kontich F.C.`,
               description: `Rangschikking, kalender, staff en spelers van onze ${pageTitle}`
             }

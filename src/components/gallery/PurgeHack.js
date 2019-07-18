@@ -2,7 +2,7 @@ import React from "react";
 
 const PurgeHack = () => {
   return (
-    <div className="image-gallery fullscreen-modal" aria-live="polite">
+    <div className="preload image-gallery fullscreen-modal" aria-live="polite">
       <div className="image-gallery-content fullscreen">
         <div className="image-gallery-slide-wrapper bottom ">
           <button

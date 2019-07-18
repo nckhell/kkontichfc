@@ -39,11 +39,11 @@ class ContactPage extends Component {
           config={{
             title: `Contact | Info`,
             description: `Al de nodige contactgegevens en details over K. Kontich F.C.`,
-            canonical: `https://kkontichfc.be/info/contact`,
+            canonical: `https://www.kkontichfc.be/info/contact`,
             openGraph: {
               type: "website",
               locale: "nl_BE",
-              url: `https://kkontichfc.be/info/contact`,
+              url: `https://www.kkontichfc.be/info/contact`,
               title: `Contact | Info | K. Kontich F.C.`,
               description: `Al de nodige contactgegevens en details over K. Kontich F.C.`
             }
@@ -269,7 +269,7 @@ class ContactPage extends Component {
                   <FacebookProvider appId="346435965433483">
                     <div className="my-6">
                       <Like
-                        href="https://kkontichfc.be/info/contact"
+                        href="https://www.kkontichfc.be/info/contact"
                         colorScheme="dark"
                         size="large"
                         showFaces

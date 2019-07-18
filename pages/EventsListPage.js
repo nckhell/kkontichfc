@@ -68,11 +68,11 @@ class EventsListPage extends Component {
             title: "Evenementen",
             description:
               "K. Kontich F.C. organiseert doorheen het jaar tal van evenementen. Ontdek welke evenementen er zitten aan te komen.",
-            canonical: `https://kkontichfc.be/evenementen/`,
+            canonical: `https://www.kkontichfc.be/evenementen/`,
             openGraph: {
               type: "website",
               locale: "nl_BE",
-              url: "https://kkontichfc.be/evenementen/",
+              url: "https://www.kkontichfc.be/evenementen/",
               title: "Evenementen | K. Kontich F.C.",
               description:
                 "K. Kontich F.C. organiseert doorheen het jaar tal van evenementen. Ontdek welke evenementen er zitten aan te komen."
