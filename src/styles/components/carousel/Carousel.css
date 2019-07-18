@@ -101,6 +101,10 @@
     border:3px solid #ccc;
     outline:0
   }
+
+  .carousel .outline-none:focus {
+    outline: none;
+  } 
   
   .carousel .thumb.selected,.carousel .thumb:hover{
     border:3px solid #333

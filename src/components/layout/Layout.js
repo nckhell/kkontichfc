@@ -43,7 +43,11 @@ class Layout extends Component {
     const grassHeaderUrl = prefixURL("/static/img/grass-texture.jpg");
 
     return (
-      <div className={`${isLoading ? "preload" : ""}`}>
+      <div
+        className={`${isLoading ? "preload" : ""} ${
+          isMenuOpen ? "xl:overflow-y-hidden" : ""
+        }`}
+      >
         <Head>
           <meta charSet="utf-8" />
           <meta

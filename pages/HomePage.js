@@ -58,8 +58,8 @@ function HomePage() {
                 items={images}
                 useBrowserFullscreen={false}
                 showPlayButton={false}
-                autoPlay
-                slideDuration={1000}
+                autoPlay={false}
+                slideDuration={750}
                 slideInterval={7500}
                 showNav={false}
               />
