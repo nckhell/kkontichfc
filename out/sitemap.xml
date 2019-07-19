@@ -86,6 +86,11 @@
       <priority>0.6</priority>
    </url>
    <url>
+      <loc>https://www.kkontichfc.be/jeugd/blessures/</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.6</priority>
+   </url>
+   <url>
       <loc>https://www.kkontichfc.be/info/geschiedenis/</loc>
       <priority>0.5</priority>
    </url>
