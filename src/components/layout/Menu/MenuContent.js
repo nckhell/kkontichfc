@@ -142,6 +142,11 @@ const Menu = () => {
                 <a title="Ongevallen">Ongevallen</a>
               </Link>
             </li>
+            <li>
+              <Link href="/jeugd/blessures/">
+                <a title="Blessures">Blessures</a>
+              </Link>
+            </li>
           </ul>
         </li>
         <li className="has-submenu">

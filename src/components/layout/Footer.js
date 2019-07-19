@@ -102,6 +102,11 @@ const Footer = () => {
                 Ongevallen
               </a>
             </Link>
+            <Link href="/jeugd/blessures/">
+              <a title="Blessures" className="text-sm text-gray-500 py-1">
+                Blessures
+              </a>
+            </Link>
           </div>
           <div className="md:w-1/4 flex flex-col mb-12 md:mb-0">
             <h4 className="text-base pb-4 text-gray-800">Info</h4>

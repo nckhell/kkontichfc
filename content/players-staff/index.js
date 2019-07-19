@@ -165,6 +165,12 @@ const obj = {
         name: "Verdoren Jari",
         birthdate: "",
         cloudinaryID: ""
+      },
+      {
+        position: "MIDDENVELDER",
+        name: "Mondelaers Arne",
+        birthdate: "",
+        cloudinaryID: ""
       }
     ]
   }

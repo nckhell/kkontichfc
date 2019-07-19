@@ -1,6 +1,6 @@
 const DEFAULT_SEO = {
   title: "Welkom",
-  titleTemplate: "%s | K. Kontich F.C.",
+  titleTemplate: "%s | Koninklijke Kontich Football Club",
   canonical: "https://www.kkontichfc.be/",
   facebook: {
     appId: 346435965433483
