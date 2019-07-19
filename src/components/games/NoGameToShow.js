@@ -14,7 +14,7 @@ const NoGameToShow = props => {
             {type === "latest-game" ? "Laatste wedstrijd" : ""}
           </div>
         </div>
-        <div className="border-gray-200 border-b flex items-center justify-center py-16 text-gray-700">
+        <div className="border-gray-200 border-b flex items-center justify-center py-16 text-gray-700 text-center px-4">
           {type === "next-game"
             ? "De volgende wedstrijd is nog niet ingepland."
             : ""}

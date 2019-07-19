@@ -58,17 +58,20 @@ class Header extends Component {
           </div>
           <div className="logo text-center">
             <Link href="/">
-              <a title="K. Kontich F.C." className="flex items-center flex-col">
+              <a
+                title="Koninkijke Kontich Football Club"
+                className="flex items-center flex-col"
+              >
                 <img
                   className="w-8 md:w-12 lg:w-18"
                   src={prefixURL("/static/img/kkontichfc.svg")}
-                  alt="K. Kontich F.C."
-                  title="K. Kontich F.C."
+                  alt="Koninklijke Kontich Football Club"
+                  title="Koninklijke Kontich Football Club"
                 />
-                <h1 className="pt-2 pl-2 text-sm leading-tight xl:pl-0 lg:text-base">
+                <h1 className="pt-2 text-sm leading-tight lg:text-base">
                   K. Kontich F.C.
                   <br />
-                  <span className="normal-case font-normal italic text-gray-600 text-animate">
+                  <span className="text-xs md:text-base normal-case font-normal italic text-gray-600 text-animate">
                     {msg}
                   </span>
                 </h1>
