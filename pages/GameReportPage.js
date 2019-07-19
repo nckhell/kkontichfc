@@ -18,6 +18,7 @@ class GameReportPage extends Component {
         </h1>
         {/* eslint-disable-next-line react/no-danger */}
         <div dangerouslySetInnerHTML={{ __html: gameReportJson.bodyHtml }} />
+        <div className="spacer mb-16 md:mb-24"></div>
       </Layout>
     );
   }

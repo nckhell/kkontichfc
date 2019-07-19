@@ -39,7 +39,7 @@ const CarouselItem = props => {
             title={data.title}
             className="block outline-none"
           >
-            <div className="outline-none text-2xl py-4 font-semibold text-white md:text-3xl lg:w-4/6 xl:block xl:max-w-6xl xl:text-4xl">
+            <div className="outline-none text-3xl py-4 font-semibold text-white lg:w-4/6 lg:text-4xl xl:block xl:max-w-6xl xl:text-4xl font-montserrat trackting-tight">
               {data.title}
             </div>
           </a>

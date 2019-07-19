@@ -6,7 +6,7 @@ import React from "react";
 const Menu = () => {
   return (
     <div id="menu">
-      <ul className="main-menu">
+      <ul className="main-menu font-montserrat tracking-tight">
         <li className="facebook-link xl:hidden">
           <a
             href="https://www.facebook.com/kkontichfc/"

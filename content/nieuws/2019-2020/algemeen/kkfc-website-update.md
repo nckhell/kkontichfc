@@ -1,5 +1,5 @@
 ---
-title: De website van K. Kontich F.C. kreeg een update!
+title: De website kreeg een update!
 date: 2019-07-18
 backgroundPosition: top
 cloudinaryID: Who-Exactly-Do-You-Need-To-Update-Your-Website_iseggd

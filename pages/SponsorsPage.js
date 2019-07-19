@@ -59,6 +59,7 @@ function SponsorsPage() {
           alt="K. Kontich F.C."
         />
       </div>
+      <div className="spacer mb-16 md:mb-24"></div>
     </Layout>
   );
 }

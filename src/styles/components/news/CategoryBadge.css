@@ -1,18 +1,27 @@
 .news-category {
     @apply font-bold;
-    @apply text-sm;
+    @apply text-xs;
     @apply uppercase;
+    @apply font-montserrat;
+    @apply tracking-tight;
+    @apply inline-block;
+    @apply px-2;
+    @apply py-1;
+    @apply rounded;
+    @apply bg-red-500;
+    @apply text-white;
+    @apply shadow;
 }
 
 /* ADD IN PURGEHACKBADGES.JS */
-.news-category.a-kern:before {@apply bg-yellow-500;}
-.news-category.algemeen:before {@apply bg-red-500;}
-.news-category.jeugd:before {@apply bg-blue-500;}
-.news-category.dames:before {@apply bg-orange-500;}
-.news-category.evenementen:before {@apply bg-green-500;}
+.news-category.a-kern:before, .news-category.a-kern {@apply bg-yellow-500;}
+.news-category.algemeen:before, .news-category.algemeen {@apply bg-red-500;}
+.news-category.jeugd:before, .news-category.jeugd {@apply bg-blue-500;}
+.news-category.dames:before, .news-category.dames {@apply bg-orange-500;}
+.news-category.evenementen:before, .news-category.evenementen {@apply bg-green-500;}
 
 .news-category:before {
-    content: '';
+    /* content: ''; */
     position: relative;
     display: inline-block;
     margin-right: 12px;

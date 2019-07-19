@@ -7,6 +7,7 @@
 
 .body-content h1, h2, h3, h4 {
     @apply leading-snug;
+    @apply tracking-tight;
 }
 
 .body-content iframe {
@@ -20,14 +21,15 @@
 
 .body-content h1 {
     @apply font-normal;
-    @apply text-5xl;
+    @apply text-4xl;
     @apply normal-case;
+    @apply font-semibold;
 }
 
 .body-content h2, h3 {
     @apply font-semibold;
     @apply text-gray-900;
-    @apply text-4xl;
+    @apply text-3xl;
     @apply normal-case;
     @apply pb-4;
 }
@@ -93,4 +95,13 @@
 
 .body-content a:hover {
     text-decoration: none;
+}
+
+@media (min-width: 768px) { 
+    .body-content h1 {
+        @apply text-5xl;
+    }
+    .body-content h2, h3 {
+        @apply text-4xl;
+    }
 }

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-danger */
 import React from "react";
 import PropTypes from "prop-types";
 import { prefixURL } from "next-prefixed";
@@ -35,12 +36,19 @@ const NewsItem = props => {
               data.backgroundPosition ? data.backgroundPosition : "center"
             }`
           }}
-        />
-        <div className={`news-category text-gray-300 pt-8 px-6 ${category}`}>
-          {category}
+        >
+          <div className={`news-category mt-4 ml-6 ${category}`}>
+            {category}
+          </div>
         </div>
-        <div className="text-xl leading-relaxed pt-6 px-6 h-40">
-          {data.title}
+        <div className="h-56 overlow-y-hidden px-6">
+          <div className="text-xl leading-relaxed pt-6 font-montserrat font-medium tracking-tighter">
+            {data.title}
+          </div>
+          <div
+            className="text-sm leading-loose pt-2 text-gray-600 overflow-y-hidden"
+            dangerouslySetInnerHTML={{ __html: `${data.preview} ...` }}
+          />
         </div>
         <div className="pb-4 px-6 flex text-xs text-gray-600 justify-between">
           <div content={data.date}>

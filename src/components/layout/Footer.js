@@ -4,10 +4,7 @@ import { Link, prefixURL } from "next-prefixed";
 
 const Footer = () => {
   return (
-    <footer
-      id="footer"
-      className="bg-gray-100 border-t border-gray-200 mt-16 md:mt-24"
-    >
+    <footer id="footer" className="bg-gray-100 border-t border-gray-200">
       <div className="container py-8 md:py-16 px-4 mx-auto flex flex-col text-gray-500">
         <div className="flex flex-col md:flex-row md:mb-16">
           <div className="md:w-1/4 flex flex-col mb-8 md:mb-0">

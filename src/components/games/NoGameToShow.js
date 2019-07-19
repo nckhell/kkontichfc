@@ -8,7 +8,7 @@ const NoGameToShow = props => {
   return (
     <div>
       <div className="border border-gray-200 border-b-4">
-        <div className="border-gray-200 border-b text-center font-semibold py-4 text-lg uppercase">
+        <div className="border-gray-200 border-b text-center font-semibold py-4 uppercase font-montserrat">
           <div className="w-4/6 mx-auto text-center">
             {type === "next-game" ? "Volgende wedstrijd" : ""}
             {type === "latest-game" ? "Laatste wedstrijd" : ""}

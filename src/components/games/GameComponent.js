@@ -75,7 +75,7 @@ class GameComponent extends Component {
             {error ? <p>{error.message}</p> : null}
             {!isLoading ? (
               <div className="border border-gray-200 border-b-4">
-                <div className="border-gray-200 border-b text-center font-semibold py-4 text-lg uppercase">
+                <div className="border-gray-200 border-b text-center font-semibold py-4 uppercase font-montserrat">
                   {title}
                 </div>
                 <div className="border-gray-200 border-b flex relative">

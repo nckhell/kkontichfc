@@ -76,7 +76,7 @@ class EventPage extends Component {
               itemScope
               itemType="http://schema.org/Event"
             >
-              <h1 itemProp="name" className="my-6 inline-block lg:w-4/6">
+              <h1 itemProp="name" className="my-6 inline-block lg:w-5/6">
                 {EventJson.title}
               </h1>
               <div
@@ -160,7 +160,7 @@ class EventPage extends Component {
             alt="K. Kontich F.C."
           />
         </div>
-        {/* <HeadSponsors /> */}
+        <div className="spacer mb-16 md:mb-24"></div>
       </Layout>
     );
   }

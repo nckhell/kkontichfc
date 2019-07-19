@@ -5,6 +5,8 @@ input[type="checkbox"] + span {
     @apply bg-gray-100;
     @apply border;
     @apply border-gray-200;
+    @apply font-montserrat;
+    @apply tracking-tight;
     @apply py-1;
     @apply px-2;
     @apply mx-2;

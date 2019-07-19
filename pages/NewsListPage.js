@@ -158,7 +158,7 @@ class NewsListPage extends Component {
             </div>
             <NewsList data={filteredNewsList} />
           </section>
-          {/* <HeadSponsors /> */}
+          <div className="spacer mb-16 md:mb-24"></div>
         </main>
       </Layout>
     );

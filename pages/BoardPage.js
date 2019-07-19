@@ -59,6 +59,7 @@ class BoardPage extends Component {
             />
           </div>
         </div>
+        <div className="spacer mb-16 md:mb-24"></div>
       </Layout>
     );
   }

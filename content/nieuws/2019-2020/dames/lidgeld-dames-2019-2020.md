@@ -38,7 +38,7 @@ cloudinaryID: 171_immzew
 <br/>
 <h2>Vlaams neutraal ziekenfonds</h2>
 <p>Wij vestigen er de aandacht op dat onze sponsor <strong>Vlaams Neutraal Ziekenfonds</strong> voor maar liefst <strong>30 EUR</strong>&nbsp;tegemoet komt in het jaarlijkse lidgeld bij elke erkende sportclub. Als enige voorwaarde geldt uiteraard dat je al lid moest zijn van het Vlaams Neutraal Ziekenfonds op het ogenblik van betaling van het lidgeld. <br /><br />Meer info vind je op: <a href="http://kkontichfc.be/jeugd/mutualiteit">http://kkontichfc.be/jeugd/mutualiteit</a></p>
-<div class="center"><img style="max-width: 80%;" src="https://kkontichfc.be/uploads/img/sponsors/140.png" alt="Vlaams &amp; Neutraal Ziekenfonds" /></div>
+<div class="center"><img style="max-width: 80%;" src="https://res.cloudinary.com/kkontichfc/image/upload/v1556376650/sponsors/vlaams-neutraal-ziekenfonds.png" alt="Vlaams &amp; Neutraal Ziekenfonds" /></div>
 <div class="center">&nbsp;</div>
 <br/>
 <h2>Volledige communicatie</h2>

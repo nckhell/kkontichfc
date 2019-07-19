@@ -88,6 +88,8 @@
 @media (min-width: 768px) { 
   .hamburger-label {
     @apply text-base;
+    @apply font-montserrat;
+    @apply tracking-tight;
     margin-left: 12px;
   }
   .hamburger-inner {

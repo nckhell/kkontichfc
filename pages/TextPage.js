@@ -5,6 +5,7 @@ import { FacebookProvider, Like } from "react-facebook";
 import NextSeo from "next-seo";
 import Layout from "../src/components/layout/Layout";
 import BreadCrumb from "../src/components/breadcrumbs/BreadCrumb";
+import HistoryGallery from "../src/components/history/HistoryGallery";
 import mapUrlToBreadcrumbs from "../src/utils/mapUrlToBreadcrumb";
 
 class TextPage extends Component {
@@ -68,12 +69,8 @@ class TextPage extends Component {
             alt="K. Kontich F.C."
           />
         </div>
-        {/* <HeadSponsors /> */}
-        {/* <section className="container my-10 mx-auto px-4 lg:my-16">
-          <h1>Evenementen</h1>
-          <UpcomingEvents />
-          <ButtonWithLine text="Alle evenementen" url="/evenementen/" />
-        </section> */}
+        <div className="spacer mb-16 md:mb-24"></div>
+        {pageJson.sourceBase === "geschiedenis.md" && <HistoryGallery />}
       </Layout>
     );
   }

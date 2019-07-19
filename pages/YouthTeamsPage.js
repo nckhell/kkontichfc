@@ -83,6 +83,7 @@ class YouthTeamsPage extends Component {
             onCloseRequest={() => this.setState({ isOpen: false })}
           />
         )}
+        <div className="spacer mb-16 md:mb-24"></div>
       </Layout>
     );
   }

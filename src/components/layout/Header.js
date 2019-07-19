@@ -79,22 +79,22 @@ class Header extends Component {
             </Link>
           </div>
           <div className="hidden xl:block">
-            <ul className="font-semibold text-gray-900 uppercase">
+            <ul className="font-semibold text-gray-900 uppercase font-montserrat tracking-tight">
               <li className="inline-block pr-10">
                 <Link href="/nieuws/overzicht/">
-                  <a title="Nieuws">Nieuws</a>
+                  <a title="Nieuws" className="hover:text-yellow-500">Nieuws</a>
                 </Link>
               </li>
               <li className="inline-block pr-10">
                 <Link href="https://kontich.clubwereld.nl/">
-                  <a title="KKFC Webshop" target="_blank">
+                  <a title="KKFC Webshop" target="_blank" className="hover:text-yellow-500">
                     KKFC Webshop
                   </a>
                 </Link>
               </li>
               <li className="inline-block">
                 <Link href="/commercieel/sponsors/">
-                  <a title="Sponsors">Sponsors</a>
+                  <a title="Sponsors" className="hover:text-yellow-500">Sponsors</a>
                 </Link>
               </li>
             </ul>

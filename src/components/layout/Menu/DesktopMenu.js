@@ -21,7 +21,7 @@ const DesktopMenu = props => {
           />
           <h2
             id="quote"
-            className="pt-4 leading-tight font-semibold text-2xl text-red-800"
+            className="pt-4 leading-tight font-semibold text-2xl text-red-800 font-montserrat tracking-tight;"
           >
             {" "}
             Quam parva nulli cedo <br />

@@ -102,13 +102,15 @@ class NewsPostPage extends Component {
                 itemProp="mainEntityOfPage"
                 href={`https://www.kkontichfc.be${href}`}
               />
-              <div
-                className={`news-category text-gray-300 pt-8 ${category}`}
-                itemProp="genre"
-              >
-                {category}
+              <div>
+                <div
+                  className={`news-category text-gray-300 pt-8 ${category}`}
+                  itemProp="genre"
+                >
+                  {category}
+                </div>
               </div>
-              <h1 className="my-6 inline-block lg:w-4/6" itemProp="headline">
+              <h1 className="my-6 inline-block lg:w-5/6" itemProp="headline">
                 {NewsPostJson.title}
               </h1>
               <div
@@ -185,7 +187,7 @@ class NewsPostPage extends Component {
           <LatestNews nbrOfItems={3} excludeWithSlug={NewsPostJson.base} />
           <ButtonWithLine text="Meer nieuws" url="/nieuws/overzicht" />
         </section>
-        {/* <HeadSponsors /> */}
+        <div className="spacer mb-16 md:mb-24"></div>
       </Layout>
     );
   }

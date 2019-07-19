@@ -195,8 +195,8 @@ module.exports = {
       default: "1"
     },
     fontFamily: {
-      kkfc: ["Poppins", "sans-serif"],
-      kkfcv2: ["Montserrat", "sans-serif"]
+      poppins: ["Poppins", "sans-serif"],
+      montserrat: ["Montserrat", "sans-serif"]
     },
     fontSize: {
       xs: "0.75rem",
