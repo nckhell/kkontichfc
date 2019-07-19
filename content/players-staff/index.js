@@ -53,12 +53,6 @@ const obj = {
         cloudinaryID: "decock-victor_a4ppjg"
       },
       {
-        position: "VERDEDIGER",
-        name: "Gabriels Anthony",
-        birthdate: "1992-11-06",
-        cloudinaryID: "gabriels-anthony_e2nidd"
-      },
-      {
         position: "MIDDENVELDER",
         name: "Somers Jonas",
         birthdate: "1995-02-28",
@@ -66,7 +60,7 @@ const obj = {
       },
       {
         position: "VERDEDIGER",
-        name: "Bruno Duarte Arjonas",
+        name: "Duarte Arjonas Bruno",
         birthdate: "1989-07-15",
         cloudinaryID: "bruno-duarte-arjonas_hmbe1l"
       },

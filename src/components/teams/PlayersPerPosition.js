@@ -1,16 +1,19 @@
 import React from "react";
 import PropTypes from "prop-types";
+import _ from "lodash";
 import Profile from "./Profile";
 
 const PlayersPerPosition = props => {
   const { data, type, title } = props;
 
+  const players = _.orderBy(data, "name", "asc");
+
   return (
     <div>
       <h2>{title}</h2>
       <div className="mt-6 mb-6 md:flex md:-mx-2 flex-wrap">
-        {data &&
-          data
+        {players &&
+          players
             .filter(player => {
               return player.position === type;
             })
