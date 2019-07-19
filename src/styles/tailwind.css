@@ -102,3 +102,7 @@ h1 {
     @apply text-red-500;
     @apply underline;
 }
+
+.text-animate {
+    transition: all 0.3s ease;
+}
