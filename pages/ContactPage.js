@@ -172,7 +172,7 @@ class ContactPage extends Component {
                             <textarea
                               id="message"
                               disabled={success}
-                              placeholder="Ziekte en/of medicatie"
+                              placeholder="Bericht"
                               type="text"
                               value={values.message}
                               onChange={handleChange}

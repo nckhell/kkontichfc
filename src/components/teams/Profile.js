@@ -4,13 +4,10 @@ import { prefixURL } from "next-prefixed";
 
 const Profile = props => {
   const { data, type } = props;
-  const imageFolder =
-    type === "player" ? "spelers/heren/1e-provinciale/2018-2019" : type;
-
   let imageUrl;
 
   if (data.cloudinaryID) {
-    imageUrl = `http://res.cloudinary.com/kkontichfc/image/upload/v1/${imageFolder}/${data.cloudinaryID}`;
+    imageUrl = `http://res.cloudinary.com/kkontichfc/image/upload/v1/${data.cloudinaryID}`;
   } else {
     imageUrl = prefixURL("/static/img/no-news-image.png");
   }

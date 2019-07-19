@@ -46,7 +46,7 @@ class CalendarTableComponent extends Component {
               <tr className="text-gray-600">
                 <th>Datum</th>
                 <th className="text-center">Tijd</th>
-                {/* <th>Type</th> */}
+                <th>Type</th>
                 <th colSpan="2">Thuisploeg</th>
                 <th colSpan="2">Uitploeg</th>
                 <th className="text-center">Score</th>
@@ -61,13 +61,14 @@ class CalendarTableComponent extends Component {
                       <td className="text-center">
                         {formatTime(calendarEntry.startDate)}
                       </td>
-                      {/* <td>{calendarEntry.series.name}</td> */}
+                      <td>{calendarEntry.series.name}</td>
                       <td className="text-center">
-                        <img
-                          src={calendarEntry.homeTeam.logo}
-                          alt={`Clublogo ${calendarEntry.homeTeam.name}`}
-                          className="h-8 inline-block"
-                        />
+                        <span
+                          className="block w-10 h-10 bg-contain bg-no-repeat bg-no-repeat bg-center"
+                          style={{
+                            backgroundImage: `url('${calendarEntry.homeTeam.logo}')`
+                          }}
+                        ></span>
                       </td>
                       <td>
                         {calendarEntry.homeTeam.id === "128030"
@@ -75,11 +76,12 @@ class CalendarTableComponent extends Component {
                           : calendarEntry.homeTeam.name}
                       </td>
                       <td className="text-center">
-                        <img
-                          src={calendarEntry.awayTeam.logo}
-                          alt={`Clublogo ${calendarEntry.awayTeam.name}`}
-                          className="h-8 inline-block"
-                        />
+                        <span
+                          className="block w-10 h-10 bg-contain bg-no-repeat bg-no-repeat bg-center"
+                          style={{
+                            backgroundImage: `url('${calendarEntry.awayTeam.logo}')`
+                          }}
+                        ></span>
                       </td>
                       <td>
                         {calendarEntry.awayTeam.id === "128030"
