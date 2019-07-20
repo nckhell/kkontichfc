@@ -21,6 +21,7 @@
 @import "./components/lightbox/LightBox.css";
 @import "./components/form/Form.css";
 @import "./components/gallery/ImageGallery.css";
+@import "./components/reports/GameReports.css";
 
 body,
 html {

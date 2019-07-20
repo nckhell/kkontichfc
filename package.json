@@ -32,6 +32,7 @@
   },
   "homepage": "https://github.com/nckhell/kkontichfc#readme",
   "dependencies": {
+    "@mdi/font": "^3.8.95",
     "@zeit/next-css": "^1.0.1",
     "autoprefixer": "^9.6.0",
     "axios": ">=0.18.1",
@@ -57,6 +58,7 @@
     "react-recaptcha": "^2.3.10",
     "react-responsive-carousel": "^3.1.49",
     "react-svg": "^10.0.9",
+    "react-vertical-timeline-component": "^2.4.0",
     "recursive-copy": "^2.0.10",
     "tailwindcss": "^1.0.4",
     "yup": "^0.27.0"

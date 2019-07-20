@@ -18,7 +18,13 @@ const PlayersPerPosition = props => {
               return player.position === type;
             })
             .map(player => {
-              return <Profile data={player} type="player" key={player.name} />;
+              return (
+                <Profile
+                  data={player}
+                  type="player"
+                  key={`${player.firstname}${player.lastname}`}
+                />
+              );
             })}
       </div>
     </div>

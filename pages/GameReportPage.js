@@ -1,6 +1,8 @@
 /* eslint-disable global-require */
 import React, { Component } from "react";
+import NextSeo from "next-seo";
 import Layout from "../src/components/layout/Layout";
+import GameReportWrapper from "../src/components/gamereport/GameReportWrapper";
 
 class GameReportPage extends Component {
   state = {};
@@ -9,16 +11,11 @@ class GameReportPage extends Component {
 
   render() {
     /* eslint-disable react/prop-types */
-    const { gameReportJson } = this.props;
+    const { gameReportJson, query } = this.props;
 
     return (
-      <Layout showGrassHeader>
-        <h1>
-          {gameReportJson.homeTeam} - {gameReportJson.awayTeam}
-        </h1>
-        {/* eslint-disable-next-line react/no-danger */}
-        <div dangerouslySetInnerHTML={{ __html: gameReportJson.bodyHtml }} />
-        <div className="spacer mb-16 md:mb-24"></div>
+      <Layout>
+        <GameReportWrapper gameReportData={gameReportJson} query={query} />
       </Layout>
     );
   }
@@ -30,7 +27,7 @@ GameReportPage.getInitialProps = ({ query }) => {
 
   // Without .json require is not working, so exclude it first
   const gameReportJson = require(`../${fileName}.json`);
-  return { gameReportJson };
+  return { gameReportJson, query };
 };
 
 export default GameReportPage;

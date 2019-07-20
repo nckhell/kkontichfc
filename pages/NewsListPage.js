@@ -104,7 +104,9 @@ class NewsListPage extends Component {
             />
           </div>
           <section className="container mt-8 md:mt-10 mx-auto px-4">
-            <h1>Nieuwsoverzicht</h1>
+            <h1 className="font-semibold text-5xl normal-case pb-6 inline-block lg:w-4/6">
+              Nieuwsoverzicht
+            </h1>
             <div className="my-6">
               <ul className="tab-wrapper">
                 {seasons &&

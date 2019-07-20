@@ -58,7 +58,9 @@ class TeamPage extends Component {
           <BreadCrumb data={breadcrumbs} />
         </div>
         <div className="px-4 mt-8 md:mt-10 container mx-auto">
-          <h1>{pageTitle && pageTitle}</h1>
+          <h1 className="font-semibold text-5xl normal-case pb-6 inline-block lg:w-4/6">
+            {pageTitle && pageTitle}
+          </h1>
           <div className="mt-6 mb-8">
             <ul className="tab-wrapper">
               <li>
