@@ -33,16 +33,18 @@ class YouthTeam extends Component {
           className="border border-gray-200 border-b-4 block hover:border-gray-300 hover:shadow-md no-underline"
         >
           <div
-            className="w-full h-64 bg-cover bg-center"
+            className="w-full h-68 bg-cover bg-center relative gradient-b"
             style={{
               backgroundImage: `url('${imageUrl}')`
             }}
-          />
-          <div className="text-xl leading-relaxed py-6 px-6 no-underline text-gray-900">
-            {data.team}
-            <span className="text-gray-500 block text-lg">
-              {data.coach.name}
-            </span>
+          >
+            <div className="news-category mt-4 ml-6 position">{data.team}</div>
+            <div className="flex absolute bottom-0 py-6 px-6 items-center font-montserrat tracking-tight z-50 font-bold">
+              <div className="text-3xl text-white leading-tight">
+                {data.coach.lastname}
+                <div className="text-yellow-500">{data.coach.firstname}</div>
+              </div>
+            </div>
           </div>
         </a>
       </div>

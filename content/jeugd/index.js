@@ -3,12 +3,14 @@ const obj = [
     team: "U21",
     cloudinaryID: "u21_t8qjtd",
     coach: {
-      name: "Fahri Kork",
+      lastname: "Kork",
+      firstname: "Fahri",
       email: "",
       tel: ""
     },
     afgv: {
-      name: "",
+      lastname: "",
+      firstname: "",
       email: "",
       tel: ""
     }
@@ -17,12 +19,13 @@ const obj = [
     team: "U17 Rood",
     cloudinaryID: "u17-rood_r3avrz",
     coach: {
-      name: "Kris Mampaey",
+      lastname: "Mampaey",
+      firstname: "Kris",
       email: "",
       tel: ""
     },
     afgv: {
-      name: "",
+      lastname: "",
       email: "",
       tel: ""
     }
@@ -31,12 +34,14 @@ const obj = [
     team: "U17 Geel",
     cloudinaryID: "u17-geel_apz6sk",
     coach: {
-      name: "Eric Van Dessel",
+      lastname: "Van Dessel",
+      firstname: "Eric",
       email: "",
       tel: ""
     },
     afgv: {
-      name: "",
+      lastname: "",
+      firstname: "",
       email: "",
       tel: ""
     }
@@ -45,12 +50,14 @@ const obj = [
     team: "Meisjes U16",
     cloudinaryID: "meisjes-u16_suimb2",
     coach: {
-      name: "Stéphane Van Beethoven",
+      lastname: "Van Beethoven",
+      firstname: "Stéphane",
       email: "",
       tel: ""
     },
     afgv: {
-      name: "",
+      lastname: "",
+      firstname: "",
       email: "",
       tel: ""
     }
@@ -59,12 +66,14 @@ const obj = [
     team: "U15 Rood",
     cloudinaryID: "",
     coach: {
-      name: "Cedric Cottignie",
+      lastname: "Cottignie",
+      firstname: "Cedric",
       email: "",
       tel: ""
     },
     afgv: {
-      name: "",
+      lastname: "",
+      firstname: "",
       email: "",
       tel: ""
     }
@@ -73,12 +82,14 @@ const obj = [
     team: "U15 Geel",
     cloudinaryID: "",
     coach: {
-      name: "Kevin Hannes",
+      lastname: "Hannes",
+      firstname: "Kevin",
       email: "",
       tel: ""
     },
     afgv: {
-      name: "",
+      lastname: "",
+      firstname: "",
       email: "",
       tel: ""
     }
@@ -87,12 +98,14 @@ const obj = [
     team: "U13",
     cloudinaryID: "u13_l93sul",
     coach: {
-      name: "Rudy Minart",
+      lastname: "Minart",
+      firstname: "Rudy",
       email: "",
       tel: ""
     },
     afgv: {
-      name: "",
+      lastname: "",
+      firstname: "",
       email: "",
       tel: ""
     }
@@ -101,12 +114,14 @@ const obj = [
     team: "Meisjes U13",
     cloudinaryID: "meisjes-u13_r6hc2l",
     coach: {
-      name: "Katrijn Liefooghe",
+      lastname: "Liefooghe",
+      firstname: "Katrijn",
       email: "",
       tel: ""
     },
     afgv: {
-      name: "",
+      lastname: "",
+      firstname: "",
       email: "",
       tel: ""
     }
@@ -115,12 +130,14 @@ const obj = [
     team: "U12 Rood",
     cloudinaryID: "u12-rood_pw9pzh",
     coach: {
-      name: "Nico Meys",
+      lastname: "Meys",
+      firstname: "Nico",
       email: "",
       tel: ""
     },
     afgv: {
-      name: "",
+      lastname: "",
+      firsname: "",
       email: "",
       tel: ""
     }
@@ -129,12 +146,14 @@ const obj = [
     team: "U12 Geel",
     cloudinaryID: "u12-geel_l99zgc",
     coach: {
-      name: "Joachiem Laurier",
+      lastname: "Laurier",
+      firstname: "Joachiem",
       email: "",
       tel: ""
     },
     afgv: {
-      name: "",
+      lastname: "",
+      firstname: "",
       email: "",
       tel: ""
     }
@@ -143,12 +162,14 @@ const obj = [
     team: "U12 Zwart",
     cloudinaryID: "u12-zwart_motrwq",
     coach: {
-      name: "Mike Stevens & Giovanni Verbiest",
+      lastname: "Verbiest",
+      firstname: "Giovanni",
       email: "",
       tel: ""
     },
     afgv: {
-      name: "",
+      lastname: "",
+      firstname: "",
       email: "",
       tel: ""
     }
@@ -157,12 +178,14 @@ const obj = [
     team: "U11",
     cloudinaryID: "u11_l7yi7h",
     coach: {
-      name: "Ashley Vandeperre",
+      lastname: "Vandeperre",
+      firstname: "Ashley",
       email: "",
       tel: ""
     },
     afgv: {
-      name: "",
+      lastname: "",
+      firstname: "",
       email: "",
       tel: ""
     }
@@ -171,12 +194,14 @@ const obj = [
     team: "U10",
     cloudinaryID: "u10_szev5x",
     coach: {
-      name: "Indyana Van Camp",
+      lastname: "Van Camp",
+      firstname: "Indyana",
       email: "",
       tel: ""
     },
     afgv: {
-      name: "",
+      lastname: "",
+      firstname: "",
       email: "",
       tel: ""
     }
@@ -185,12 +210,14 @@ const obj = [
     team: "U9",
     cloudinaryID: "",
     coach: {
-      name: "Bunow Angafor",
+      lastname: "Angafor",
+      firstname: "Bunow",
       email: "",
       tel: ""
     },
     afgv: {
-      name: "",
+      lastname: "",
+      firstname: "",
       email: "",
       tel: ""
     }
@@ -199,12 +226,14 @@ const obj = [
     team: "U8",
     cloudinaryID: "u8_mih5bn",
     coach: {
-      name: "Thomas Van Soom",
+      lastname: "Van Soom",
+      firstname: "Thomas",
       email: "",
       tel: ""
     },
     afgv: {
-      name: "",
+      lastname: "",
+      firstname: "",
       email: "",
       tel: ""
     }
@@ -213,12 +242,14 @@ const obj = [
     team: "U7 Rood",
     cloudinaryID: "u7-rood_scjkt0",
     coach: {
-      name: "Mike Stevens",
+      lastname: "Stevens",
+      firstname: "Mike",
       email: "",
       tel: ""
     },
     afgv: {
-      name: "",
+      lastname: "",
+      firstname: "",
       email: "",
       tel: ""
     }
@@ -227,12 +258,14 @@ const obj = [
     team: "U7 Geel",
     cloudinaryID: "u7-geel_f3kwms",
     coach: {
-      name: "Kenny Van Den Eynde",
+      lastname: "Van Den Eynde",
+      firstname: "Kenny",
       email: "",
       tel: ""
     },
     afgv: {
-      name: "",
+      lastname: "",
+      firstname: "",
       email: "",
       tel: ""
     }
@@ -241,12 +274,14 @@ const obj = [
     team: "U6",
     cloudinaryID: "",
     coach: {
-      name: "Mike Stevens & Kenny Van Den Eynde",
+      lastname: "Stevens",
+      firstname: "Mike",
       email: "",
       tel: ""
     },
     afgv: {
-      name: "",
+      lastname: "",
+      firstname: "",
       email: "",
       tel: ""
     }
