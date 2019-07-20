@@ -49,6 +49,7 @@ const obj = {
         position: "VERDEDIGER",
         lastname: "De Cock",
         firstname: "Glen",
+        shirtNumber: "18",
         birthdate: "1989-09-17",
         cloudinaryID:
           "spelers/heren/1e-provinciale/2018-2019/decock-glen_p8fmsi"
@@ -57,6 +58,7 @@ const obj = {
         position: "AANVALLER",
         lastname: "De Cock",
         firstname: "Victor",
+        shirtNumber: "17",
         birthdate: "1995-09-17",
         cloudinaryID:
           "spelers/heren/1e-provinciale/2018-2019/decock-victor_a4ppjg"
@@ -65,6 +67,7 @@ const obj = {
         position: "MIDDENVELDER",
         lastname: "Somers",
         firstname: "Jonas",
+        shirtNumber: "19",
         birthdate: "1995-02-28",
         cloudinaryID:
           "spelers/heren/1e-provinciale/2018-2019/somers-jonas_ozvkhs"
@@ -73,6 +76,7 @@ const obj = {
         position: "VERDEDIGER",
         lastname: "Duarte Arjonas",
         firstname: "Bruno",
+        shirtNumber: "6",
         birthdate: "1989-07-15",
         cloudinaryID:
           "spelers/heren/1e-provinciale/2018-2019/bruno-duarte-arjonas_hmbe1l"
@@ -81,6 +85,7 @@ const obj = {
         position: "MIDDENVELDER",
         lastname: "Tindemans",
         firstname: "Andreas",
+        shirtNumber: "21",
         birthdate: "1998-05-07",
         cloudinaryID:
           "spelers/heren/1e-provinciale/2018-2019/tindemans-andreas_veuuu3"
@@ -89,6 +94,7 @@ const obj = {
         position: "DOELMAN",
         lastname: "Cop",
         firstname: "Maarten",
+        shirtNumber: "27",
         birthdate: "1999-05-12",
         cloudinaryID:
           "spelers/heren/1e-provinciale/2018-2019/cop-maarten_v747sy"
@@ -97,6 +103,7 @@ const obj = {
         position: "AANVALLER",
         lastname: "Kreydt",
         firstname: "Jordi",
+        shirtNumber: "9",
         birthdate: "1997-02-04",
         cloudinaryID:
           "spelers/heren/1e-provinciale/2018-2019/kreydt-jordi_c05smz"
@@ -105,6 +112,7 @@ const obj = {
         position: "AANVALLER",
         lastname: "Van Camp",
         firstname: "Indyana",
+        shirtNumber: "24",
         birthdate: "1998-01-15",
         cloudinaryID:
           "spelers/heren/1e-provinciale/2018-2019/van-camp-indyana_hqxld6"
@@ -113,6 +121,7 @@ const obj = {
         position: "VERDEDIGER",
         lastname: "Van Esser",
         firstname: "Remi",
+        shirtNumber: "15",
         birthdate: "1998-02-13",
         cloudinaryID:
           "spelers/heren/1e-provinciale/2018-2019/van-esser-remi_qilvpf"
@@ -121,6 +130,7 @@ const obj = {
         position: "VERDEDIGER",
         lastname: "Vleminckx",
         firstname: "Tim",
+        shirtNumber: "5",
         birthdate: "1987-03-31",
         cloudinaryID:
           "spelers/heren/1e-provinciale/2018-2019/vleminckx-tim_zrolaa"
@@ -129,6 +139,7 @@ const obj = {
         position: "AANVALLER",
         lastname: "Bokila",
         firstname: "Wim",
+        shirtNumber: "7",
         birthdate: "",
         cloudinaryID: ""
       },
@@ -136,6 +147,7 @@ const obj = {
         position: "AANVALLER",
         lastname: "Van Loon",
         firstname: "Jens",
+        shirtNumber: "14",
         birthdate: "",
         cloudinaryID: ""
       },
@@ -143,6 +155,7 @@ const obj = {
         position: "VERDEDIGER",
         lastname: "Hermans",
         firstname: "Jente",
+        shirtNumber: "16",
         birthdate: "",
         cloudinaryID: ""
       },
@@ -150,6 +163,7 @@ const obj = {
         position: "MIDDENVELDER",
         lastname: "Huygen",
         firstname: "Tivi",
+        shirtNumber: "3",
         birthdate: "",
         cloudinaryID: ""
       },
@@ -157,6 +171,7 @@ const obj = {
         position: "DOELMAN",
         lastname: "Ledent",
         firstname: "Frederic",
+        shirtNumber: "1",
         birthdate: "",
         cloudinaryID: ""
       },
@@ -171,6 +186,7 @@ const obj = {
         position: "MIDDENVELDER",
         lastname: "Koeck",
         firstname: "Arnout",
+        shirtNumber: "8",
         birthdate: "",
         cloudinaryID: ""
       },
@@ -178,6 +194,7 @@ const obj = {
         position: "VERDEDIGER",
         lastname: "Kliché",
         firstname: "Andreas",
+        shirtNumber: "2",
         birthdate: "",
         cloudinaryID: ""
       },
@@ -199,6 +216,14 @@ const obj = {
         position: "MIDDENVELDER",
         lastname: "Mondelaers",
         firstname: "Arne",
+        birthdate: "",
+        cloudinaryID: ""
+      },
+      {
+        position: "MIDDENVELDER",
+        lastname: "Erciyas",
+        firstname: "Emre",
+        shirtNumber: "10",
         birthdate: "",
         cloudinaryID: ""
       }

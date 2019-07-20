@@ -6,7 +6,7 @@ import Profile from "./Profile";
 const PlayersPerPosition = props => {
   const { data, type, title } = props;
 
-  const players = _.orderBy(data, "name", "asc");
+  const players = _.orderBy(data, "lastname", "asc");
 
   return (
     <div>
