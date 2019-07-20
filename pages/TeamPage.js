@@ -14,7 +14,7 @@ import mapUrlToBreadcrumbs from "../src/utils/mapUrlToBreadcrumb";
 
 class TeamPage extends Component {
   state = {
-    activePage: "overzicht"
+    activePage: "spelers-staff"
   };
 
   componentDidMount() {}

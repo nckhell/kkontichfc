@@ -9,26 +9,39 @@ const Profile = props => {
   if (data.cloudinaryID) {
     imageUrl = `http://res.cloudinary.com/kkontichfc/image/upload/v1/${data.cloudinaryID}`;
   } else {
-    imageUrl = prefixURL("/static/img/no-news-image.png");
+    imageUrl =
+      "https://res.cloudinary.com/kkontichfc/image/upload/v1563609630/no-profile-image_zkkklb.png";
   }
 
   return (
     <div className="mb-4 w-full md:w-1/2 lg:w-1/3 md:px-2">
       <div className="border border-gray-200 border-b-4 block">
         <div
-          className="w-full h-64 bg-cover"
+          className="w-full bg-cover relative gradient-b"
           style={{
             backgroundImage: `url('${imageUrl}')`,
+            height: "450px",
             backgroundPosition: `${
               data.backgroundPosition ? data.backgroundPosition : "center"
             }`
           }}
-        />
-        <div className="text-xl leading-relaxed py-6 px-6">
-          {data.name}
+        >
           {type === "staff" && (
-            <span className="text-gray-500 block text-lg">{data.position}</span>
+            <div className="news-category mt-4 ml-6 position">
+              {data.position}
+            </div>
           )}
+          <div className="flex absolute bottom-0 py-6 px-6 items-center font-montserrat tracking-tight z-50 font-bold">
+            {data.shirtNumber && (
+              <div className="text-6xl text-white pr-4 leading-none">
+                {data.shirtNumber}
+              </div>
+            )}
+            <div className="text-3xl text-white leading-tight">
+              {data.lastname}
+              <div className="text-yellow-500">{data.firstname}</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

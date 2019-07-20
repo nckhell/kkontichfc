@@ -82,19 +82,27 @@ class Header extends Component {
             <ul className="font-semibold text-gray-900 uppercase font-montserrat tracking-tight">
               <li className="inline-block pr-10">
                 <Link href="/nieuws/overzicht/">
-                  <a title="Nieuws" className="hover:text-yellow-500">Nieuws</a>
+                  <a title="Nieuws" className="hover:text-yellow-500">
+                    Nieuws
+                  </a>
                 </Link>
               </li>
               <li className="inline-block pr-10">
                 <Link href="https://kontich.clubwereld.nl/">
-                  <a title="KKFC Webshop" target="_blank" className="hover:text-yellow-500">
+                  <a
+                    title="KKFC Webshop"
+                    target="_blank"
+                    className="hover:text-yellow-500"
+                  >
                     KKFC Webshop
                   </a>
                 </Link>
               </li>
               <li className="inline-block">
                 <Link href="/commercieel/sponsors/">
-                  <a title="Sponsors" className="hover:text-yellow-500">Sponsors</a>
+                  <a title="Sponsors" className="hover:text-yellow-500">
+                    Sponsors
+                  </a>
                 </Link>
               </li>
             </ul>

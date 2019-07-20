@@ -22,96 +22,128 @@
 @import "./components/form/Form.css";
 @import "./components/gallery/ImageGallery.css";
 
-body, html {
-    @apply font-poppins;
+body,
+html {
+  @apply font-poppins;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    @apply font-montserrat;
-    @apply font-bold;
-    @apply tracking-tight;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-montserrat;
+  @apply font-bold;
+  @apply tracking-tight;
 }
 
 h4 {
-    @apply font-semibold;
+  @apply font-semibold;
 }
 
-h2, h3, h4 {
-    @apply leading-snug;
+h2,
+h3,
+h4 {
+  @apply leading-snug;
 }
 
-strong, b {
-    @apply font-semibold;
+strong,
+b {
+  @apply font-semibold;
 }
 
-h2, h3 {
-    @apply font-semibold;
-    @apply text-gray-900;
-    @apply text-3xl;
-    @apply normal-case;
-    @apply pb-6;
+h2,
+h3 {
+  @apply font-semibold;
+  @apply text-gray-900;
+  @apply text-3xl;
+  @apply normal-case;
+  @apply pb-6;
 }
 
-::-moz-selection { @apply bg-yellow-200 }
-::selection { @apply bg-yellow-200 }
+::-moz-selection {
+  @apply bg-yellow-200;
+}
+::selection {
+  @apply bg-yellow-200;
+}
 
-*:focus, button:focus {
-    outline: 3px solid #F7C948;
-    outline-offset: 5px;
+*:focus,
+button:focus {
+  outline: 3px solid #f7c948;
+  outline-offset: 5px;
 }
 
 .logo {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%); 
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 #kkfc-background-logo {
-    position: relative;
+  position: relative;
 }
 
 .center-absolute {
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .logo-kkfc-in-background {
-    opacity: 0.04;
-    left: 0;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-    position: absolute;
-    width: 20%;
-    display: none;
+  opacity: 0.04;
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  position: absolute;
+  width: 20%;
+  display: none;
 }
 
-@media (min-width: 1024px) { 
-    .logo-kkfc-in-background {
-        display: block;
-    }
+@media (min-width: 1024px) {
+  .logo-kkfc-in-background {
+    display: block;
+  }
 }
 
 .preload * {
-    -webkit-transition: none !important;
-    -moz-transition: none !important;
-    -ms-transition: none !important;
-    -o-transition: none !important;
-  }
-
-h1 {
-    @apply uppercase;
-    @apply text-3xl;
-    @apply text-gray-900;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
 }
 
-#footer a:focus, #footer a:hover {
-    outline: none;
-    @apply text-red-500;
-    @apply underline;
+h1 {
+  @apply uppercase;
+  @apply text-3xl;
+  @apply text-gray-900;
+}
+
+#footer a:focus,
+#footer a:hover {
+  outline: none;
+  @apply text-red-500;
+  @apply underline;
 }
 
 .text-animate {
-    transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.gradient-b:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  background-image: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(0, 0, 0, .95)
+  );
+  width: 100%;
+  @apply h-40;
 }

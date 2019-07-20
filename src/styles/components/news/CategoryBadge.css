@@ -19,6 +19,7 @@
 .news-category.jeugd:before, .news-category.jeugd {@apply bg-blue-500;}
 .news-category.dames:before, .news-category.dames {@apply bg-orange-500;}
 .news-category.evenementen:before, .news-category.evenementen {@apply bg-green-500;}
+.news-category.position:before, .news-category.position {@apply bg-gray-500;}
 
 .news-category:before {
     /* content: ''; */
