@@ -11,7 +11,7 @@ import {
 const UpcomingEvents = props => {
   const { nbrOfItems } = props;
   let upcomingEvents = sortEventsOnOnlyEventsInTheFuture(
-    sortEventsSummaryJsonOnDate(SUMMARY_JSON)
+    sortEventsSummaryJsonOnDate(SUMMARY_JSON, "asc")
   );
   upcomingEvents = limit(upcomingEvents, nbrOfItems);
 

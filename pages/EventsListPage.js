@@ -16,8 +16,8 @@ import Settings from "../settings";
 
 class EventsListPage extends Component {
   state = {
-    eventsList: sortEventsSummaryJsonOnDate(SUMMARY_JSON),
-    filteredEventsList: sortEventsSummaryJsonOnDate(SUMMARY_JSON),
+    eventsList: sortEventsSummaryJsonOnDate(SUMMARY_JSON, "asc"),
+    filteredEventsList: sortEventsSummaryJsonOnDate(SUMMARY_JSON, "asc"),
     seasonInFilter: Settings.currentSeason,
     showPastEventsFilter: true
   };
