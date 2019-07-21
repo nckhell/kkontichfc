@@ -350,15 +350,6 @@ export default [
     cloudinaryID: "joly-vw"
   },
   {
-    url: "http://dakwerkenpauldak.be/",
-    name: "Paul Dak",
-    headsponsor: "NO",
-    order: "7",
-    type: "DAMESSPONSOR",
-    highlight: "NO",
-    cloudinaryID: "paul-dak"
-  },
-  {
     url: "http://www.gilberte.be/",
     name: "Wasserij Gilberte",
     headsponsor: "NO",
@@ -422,24 +413,6 @@ export default [
     type: "CLUBSPONSOR",
     highlight: "NO",
     cloudinaryID: "van-den-bergh"
-  },
-  {
-    url: "http://www.certenos.be/",
-    name: "Certenos",
-    headsponsor: "NO",
-    order: "8",
-    type: "DAMESSPONSOR",
-    highlight: "NO",
-    cloudinaryID: "certenos"
-  },
-  {
-    url: "http://www.zya-collection.be/",
-    name: "Zya Collection",
-    headsponsor: "NO",
-    order: "8",
-    type: "DAMESSPONSOR",
-    highlight: "NO",
-    cloudinaryID: "zya"
   },
   {
     url: "http://www.gozar.be/pages/Gozar.aspx",
@@ -538,15 +511,6 @@ export default [
     type: "CLUBSPONSOR",
     highlight: "NO",
     cloudinaryID: "gemo-parketvloeren"
-  },
-  {
-    url: "http://www.skifriends.be/",
-    name: "Reizen Lauwers - Skifriends",
-    headsponsor: "NO",
-    order: "15",
-    type: "DAMESSPONSOR",
-    highlight: "NO",
-    cloudinaryID: "lauwers-skifriends"
   },
   {
     name: "DC4GROUP",
@@ -662,15 +626,6 @@ export default [
     type: "KANTINESPONSOR",
     highlight: "NO",
     cloudinaryID: "party-ride"
-  },
-  {
-    url: "https://nl.yelp.be/biz/de-gains-kontich",
-    name: "De Gains",
-    headsponsor: "NO",
-    order: "0",
-    type: "KANTINESPONSOR",
-    highlight: "NO",
-    cloudinaryID: "gains"
   },
   {
     url: "http://www.jmwprinting.be/",
