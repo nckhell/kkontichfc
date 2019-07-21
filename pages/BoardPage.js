@@ -38,9 +38,9 @@ class BoardPage extends Component {
           </div>
           <div className="px-4 mt-4 md:mt-5 lg:mt-8 container mx-auto text-left">
             <div className="body-content w-full mx-auto lg:w-5/6">
-              <h1 className="leading-snug font-normal text-5xl normal-case pb-6 inline-block lg:w-4/6">
-                Bestuur
-              </h1>
+              <div className="body-content">
+                <h1 className="pb-6 inline-block lg:w-4/6">Bestuur</h1>
+              </div>
               {BoardContent &&
                 BoardContent.map(board => {
                   return (

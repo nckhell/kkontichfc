@@ -1,17 +1,34 @@
+/* eslint-disable prefer-destructuring */
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import _ from "lodash";
 import CarouselItem from "./CarouselItem";
-import { sortNewsSummaryJsonOnDate, limit } from "../../utils/news";
-import SUMMARY_JSON from "../../../content/build/nieuws/summary.json";
+import CarouselItemReport from "./CarouselItemReport";
+import { sortSliderSummaryJsonOnDate, limit } from "../../utils/slider";
+import SUMMARY_JSON_NEWS from "../../../content/build/nieuws/summary.json";
+import SUMMARY_JSON_REPORTS from "../../../content/build/wedstrijdverslagen/summary.json";
 
 const CarouselSlider = () => {
   const amountOfSliderItems = 4;
 
-  let sliderNewsList = sortNewsSummaryJsonOnDate(SUMMARY_JSON);
+  const arrNews = Object.entries(SUMMARY_JSON_NEWS.fileMap).map(elem => {
+    const obj = elem[1];
+    obj.sourceMap = elem[0];
+    obj.typeOf = "NEWS";
+    return obj;
+  });
+
+  const arrReports = Object.entries(SUMMARY_JSON_REPORTS.fileMap).map(elem => {
+    const obj = elem[1];
+    obj.sourceMap = elem[0];
+    obj.typeOf = "REPORT";
+    return obj;
+  });
+
+  let sliderNewsList = sortSliderSummaryJsonOnDate(arrNews.concat(arrReports));
   sliderNewsList = limit(
-    _.filter(sliderNewsList, newsItem => {
-      return newsItem.slider === "YES";
+    _.filter(sliderNewsList, item => {
+      return item.slider === "YES";
     }),
     amountOfSliderItems
   );
@@ -29,7 +46,10 @@ const CarouselSlider = () => {
     >
       {sliderNewsList &&
         sliderNewsList.map(sliderItem => {
-          return <CarouselItem data={sliderItem} key={sliderItem.base} />;
+          if (sliderItem.typeOf === "NEWS") {
+            return <CarouselItem data={sliderItem} key={sliderItem.base} />;
+          }
+          return <CarouselItemReport data={sliderItem} key={sliderItem.base} />;
         })}
     </Carousel>
   );

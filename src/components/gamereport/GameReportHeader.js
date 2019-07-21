@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { prefixURL } from "next-prefixed";
 import ReactSVG from "react-svg";
-import { formatDate, formatTime } from "../../utils/dateTimeFormat";
-import fetch from "../../services/api/fetch";
+import { formatDate } from "../../utils/dateTimeFormat";
 
 class GameReportHeader extends Component {
   state = {};
@@ -14,8 +13,7 @@ class GameReportHeader extends Component {
     const { gameDetails } = this.props;
     const grassHeaderUrl = prefixURL("/static/img/grass-texture.jpg");
 
-    const date = formatDate(gameDetails.startDate);
-    const time = formatTime(gameDetails.startDate);
+    const date = formatDate(gameDetails.date);
 
     return (
       <div
@@ -24,40 +22,33 @@ class GameReportHeader extends Component {
           backgroundImage: `url('${grassHeaderUrl}')`
         }}
       >
-        <div className="py-48 z-50 px-4 container mx-auto text-left relative">
+        <div className="py-16 md:py-24 lg:py-32 xl:py-40 z-50 px-4 container mx-auto text-left relative">
           <div className="w-full mx-auto lg:w-5/6">
-            <div className="text-sm md:text-base font-semibold text-white mb-8">
-              <ReactSVG
-                className="inline-block align-middle pr-2"
-                beforeInjection={svg => {
-                  svg.setAttribute("style", "fill: #fff");
-                }}
-                src={prefixURL("/static/img/clock.svg")}
-              />
-              {date}, gespeeld om {time}
+            <div className="news-category text-white mb-8 game-type position">
+              {gameDetails.type}
             </div>
             <div className="flex text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white leading-relaxed">
               <div>
                 <div>
                   <span
                     className={`${
-                      gameDetails.homeTeam.registrationNumber === "03029"
+                      gameDetails.homeTeam === "K. Kontich F.C."
                         ? "text-yellow-500"
                         : ""
                     }`}
                   >
-                    {gameDetails.homeTeam.name}
+                    {gameDetails.homeTeam}
                   </span>
                 </div>
                 <div>
                   <span
                     className={`${
-                      gameDetails.awayTeam.registrationNumber === "03029"
+                      gameDetails.awayTeam === "K. Kontich F.C."
                         ? "text-yellow-500"
                         : ""
                     }`}
                   >
-                    {gameDetails.awayTeam.name}
+                    {gameDetails.awayTeam}
                   </span>
                 </div>
               </div>
@@ -65,26 +56,36 @@ class GameReportHeader extends Component {
                 <div>
                   <span
                     className={`${
-                      gameDetails.homeTeam.registrationNumber === "03029"
+                      gameDetails.homeTeam === "K. Kontich F.C."
                         ? "text-yellow-500"
                         : ""
                     }`}
                   >
-                    {gameDetails.outcome.homeTeamGoals}
+                    {gameDetails.homeTeamScore}
                   </span>
                 </div>
                 <div>
                   <span
                     className={`${
-                      gameDetails.awayTeam.registrationNumber === "03029"
+                      gameDetails.awayTeam === "K. Kontich F.C."
                         ? "text-yellow-500"
                         : ""
                     }`}
                   >
-                    {gameDetails.outcome.awayTeamGoals}
+                    {gameDetails.awayTeamScore}
                   </span>
                 </div>
               </div>
+            </div>
+            <div className="text-sm md:text-base font-semibold text-white mt-8">
+              <ReactSVG
+                className="inline-block align-middle pr-2"
+                beforeInjection={svg => {
+                  svg.setAttribute("style", "fill: #fff");
+                }}
+                src={prefixURL("/static/img/clock.svg")}
+              />
+              Gespeeld op {date}
             </div>
           </div>
         </div>

@@ -10,6 +10,7 @@ module.exports = Object.assign(
     "/": { page: "/HomePage" },
     "/nieuws/overzicht": { page: "/NewsListPage" },
     "/evenementen": { page: "/EventsListPage" },
+    "/wedstrijdverslagen": { page: "/GameReportsListPage" },
     "/commercieel/sponsors": { page: "/SponsorsPage" },
     "/info/bestuur": { page: "/BoardPage" },
     "/jeugd/ploegen": { page: "/YouthTeamsPage" },

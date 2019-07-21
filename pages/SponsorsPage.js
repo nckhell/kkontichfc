@@ -46,9 +46,9 @@ function SponsorsPage() {
           />
         </div>
         <section className="container mt-8 md:mt-10 mx-auto px-4">
-          <h1 className="font-semibold text-5xl normal-case pb-6 inline-block lg:w-4/6">
-            Sponsors
-          </h1>
+          <div className="body-content">
+            <h1 className="pb-6 inline-block lg:w-4/6">Sponsors</h1>
+          </div>
           <h2>Clubsponsors</h2>
           <SponsorList data={clubSponsors} />
           <h2>Kantinesponsors</h2>

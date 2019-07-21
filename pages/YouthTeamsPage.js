@@ -55,9 +55,9 @@ class YouthTeamsPage extends Component {
             />
           </div>
           <section className="container mt-8 md:mt-10 mx-auto px-4">
-            <h1 className="font-semibold text-5xl normal-case pb-6 inline-block lg:w-4/6">
-              Ploegen
-            </h1>
+            <div className="body-content">
+              <h1 className="pb-6 inline-block lg:w-4/6">Ploegen</h1>
+            </div>
             <div className="mt-6 mb-6 md:flex md:-mx-2 flex-wrap">
               {YouthTeamsList &&
                 YouthTeamsList.map(team => {

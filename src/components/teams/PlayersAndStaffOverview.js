@@ -32,7 +32,7 @@ class PlayersAndStaffOverview extends Component {
                   <Profile
                     data={staffMember}
                     type="staff"
-                    key={staffMember.name}
+                    key={`${staffMember.firstname}${staffMember.lastname}`}
                   />
                 );
               })}
