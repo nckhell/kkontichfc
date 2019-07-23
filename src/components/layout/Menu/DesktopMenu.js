@@ -32,22 +32,6 @@ const DesktopMenu = props => {
         </div>
       </div>
       <div className="bg-white w-7/12 flex justify-center items-center relative">
-        <div className="facebook-desktop">
-          <a
-            href="https://www.facebook.com/kkontichfc/"
-            rel="noopener noreferrer"
-            title="Volg K. Kontich F.C. op Facebook"
-            className="text-blue-700 font-semibold inline-block hover:underline"
-            target="_blank"
-          >
-            <img
-              src={prefixURL("/static/img/facebook.svg")}
-              className="w-8 inline-block pr-2"
-              alt="K. Kontich F.C."
-            />
-            Volg ons op facebook
-          </a>
-        </div>
         <div
           id="desktop-menu"
           className="w-full flex justify-center items-center"

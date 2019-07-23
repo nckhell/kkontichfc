@@ -104,6 +104,21 @@
     @apply border-red-200;
 }
 
+#desktop-menu ul.main-menu > li.facebook a {
+    @apply text-blue-700;
+    @apply font-semibold;
+    @apply inline-block;
+    @apply no-underline;
+    @apply text-base;
+    @apply border-0;
+    @apply normal-case;
+}
+
+#desktop-menu ul.main-menu > li.facebook a:hover {
+    @apply text-blue-700;
+    @apply underline;
+}
+
 #desktop-menu ul.submenu > li {
     line-height: 2;
 }

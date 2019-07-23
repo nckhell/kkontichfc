@@ -227,6 +227,22 @@ const Menu = () => {
             </li>
           </ul>
         </li>
+        <li className="facebook hidden xl:block">
+          <a
+            href="https://www.facebook.com/kkontichfc/"
+            rel="noopener noreferrer"
+            title="Volg K. Kontich F.C. op Facebook"
+            className="text-blue-700 font-semibold inline-block hover:underline"
+            target="_blank"
+          >
+            <img
+              src={prefixURL("/static/img/facebook.svg")}
+              className="w-8 inline-block pr-2"
+              alt="K. Kontich F.C."
+            />
+            Volg ons op facebook
+          </a>
+        </li>
       </ul>
     </div>
   );
