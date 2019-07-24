@@ -6,14 +6,19 @@ import SUMMARY_JSON from "../../../content/build/nieuws/summary.json";
 import { sortNewsSummaryJsonOnDate, limit } from "../../utils/news";
 
 const LatestNews = props => {
-  const { nbrOfItems, excludeWithSlug } = props;
+  const { nbrOfItems, excludeWithSlug, excludeSliderItems } = props;
   let latestNewsList = sortNewsSummaryJsonOnDate(SUMMARY_JSON);
-  latestNewsList = limit(
-    _.filter(latestNewsList, item => {
-      return item.base !== excludeWithSlug;
-    }),
-    nbrOfItems
-  );
+  latestNewsList = _.filter(latestNewsList, item => {
+    return item.base !== excludeWithSlug;
+  });
+
+  if (excludeSliderItems) {
+    latestNewsList = _.filter(latestNewsList, item => {
+      return item.slider !== "YES";
+    });
+  }
+
+  latestNewsList = limit(latestNewsList, nbrOfItems);
 
   return (
     <div className="mt-6 md:flex md:-mx-2 flex-wrap justify-center">
@@ -32,12 +37,14 @@ const LatestNews = props => {
 
 LatestNews.defaultProps = {
   nbrOfItems: 3,
-  excludeWithSlug: ""
+  excludeWithSlug: "",
+  excludeSliderItems: false
 };
 
 LatestNews.propTypes = {
   nbrOfItems: PropTypes.number,
-  excludeWithSlug: PropTypes.string
+  excludeWithSlug: PropTypes.string,
+  excludeSliderItems: PropTypes.bool
 };
 
 export default LatestNews;

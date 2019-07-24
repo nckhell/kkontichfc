@@ -37,7 +37,7 @@ function HomePage() {
       <main>
         <section className="container my-10 mx-auto px-4 lg:my-16">
           <h1>Laatste nieuws</h1>
-          <LatestNews nbrOfItems={3} />
+          <LatestNews nbrOfItems={3} excludeSliderItems />
           <ButtonWithLine text="Meer nieuws" url="/nieuws/overzicht/" />
         </section>
         <section className="container my-10 mx-auto px-4 lg:my-16">
