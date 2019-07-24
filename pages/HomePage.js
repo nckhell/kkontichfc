@@ -41,7 +41,20 @@ function HomePage() {
           <ButtonWithLine text="Meer nieuws" url="/nieuws/overzicht/" />
         </section>
         <section className="container my-10 mx-auto px-4 lg:my-16">
-          <h1>Match center</h1>
+          <h1 className="leading-none md:leading-tight">
+            Match center
+            <br />
+            <span className="text-base normal-case font-medium md:text-xl">
+              <a
+                href="https://www.beste-bookmakers.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Beste-Bookmakers"
+              >
+                Mede mogelijk gemaakt door: Beste-Bookmakers.com
+              </a>
+            </span>
+          </h1>
           <MatchCenter />
         </section>
         <HeadSponsors />
