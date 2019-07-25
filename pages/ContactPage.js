@@ -214,7 +214,7 @@ class ContactPage extends Component {
                               className="btn text-base"
                               disabled={isSubmitting}
                             >
-                              Verzenden
+                              {isSubmitting ? "Even geduld" : "Verzenden"}
                             </button>
                           )}
                           {success && (

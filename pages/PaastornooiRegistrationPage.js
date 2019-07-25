@@ -420,7 +420,7 @@ class PaastornooiRegistrationPage extends Component {
                           className="btn"
                           disabled={isSubmitting}
                         >
-                          Verzenden
+                          {isSubmitting ? "Even geduld" : "Verzenden"}
                         </button>
                       )}
                       {success && (
