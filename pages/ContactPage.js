@@ -76,6 +76,7 @@ class ContactPage extends Component {
                       post("https://api.kkontichfc.be/contact", values)
                         .then(() => {
                           this.setState({ success: true });
+                          setSubmitting(false);
                         })
                         .catch(error => {
                           if (error.response) {
@@ -95,7 +96,6 @@ class ContactPage extends Component {
                           }
                           console.log(error.config);
                         });
-                      setSubmitting(false);
                     }, 500);
                   }}
                   validationSchema={Yup.object().shape({

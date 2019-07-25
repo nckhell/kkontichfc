@@ -89,6 +89,7 @@ class PaastornooiRegistrationPage extends Component {
                   )
                     .then(() => {
                       this.setState({ success: true });
+                      setSubmitting(false);
                     })
                     .catch(error => {
                       if (error.response) {
@@ -108,7 +109,6 @@ class PaastornooiRegistrationPage extends Component {
                       }
                       console.log(error.config);
                     });
-                  setSubmitting(false);
                 }, 500);
               }}
               validationSchema={Yup.object().shape({

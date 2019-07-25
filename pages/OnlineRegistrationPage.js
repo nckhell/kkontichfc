@@ -101,6 +101,7 @@ class OnlineRegistrationPage extends Component {
                   post("https://api.kkontichfc.be/youth-inscriptions", values)
                     .then(() => {
                       this.setState({ success: true });
+                      setSubmitting(false);
                     })
                     .catch(error => {
                       if (error.response) {
@@ -120,7 +121,6 @@ class OnlineRegistrationPage extends Component {
                       }
                       console.log(error.config);
                     });
-                  setSubmitting(false);
                 }, 500);
               }}
               validationSchema={Yup.object().shape({
