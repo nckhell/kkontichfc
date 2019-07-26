@@ -43,4 +43,4 @@ cloudinaryID: 171_immzew
 <br/>
 <h2>Volledige communicatie</h2>
 <p>Via onderstaande link kan u de volledige communicatie terugvinden omtrent de lidgelden en informatie voor het seizoen 2019-2020. <strong>Lees zeker de volledige brief door om van alles op de hoogte te zijn!</strong></p>
-<div><a class="more" title="Lidgelden &amp; informatie dames 2019-2020" href="http://kkontichfc.be/uploads/downloads/lidgeld-dames-2019-2020.pdf" target="_blank" rel="noopener">Lidgelden &amp; informatie dames 2019-2020</a></div>
+<div><a class="more" title="Lidgelden &amp; informatie dames 2019-2020" href="https://res.cloudinary.com/kkontichfc/image/upload/v1561490164/downloads/lidgeld-dames-2019-2020_f6szmr.pdf" target="_blank" rel="noopener">Lidgelden &amp; informatie dames 2019-2020</a></div>
