@@ -29,7 +29,7 @@ function HomePage() {
       const dateB = new Date(b.date);
       return dateB - dateA;
     })
-    .slice(0, 2);
+    .slice(0, 5);
 
   return (
     <Layout>

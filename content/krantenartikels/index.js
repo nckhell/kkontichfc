@@ -10,6 +10,12 @@ const obj = [
     krant: "GVA",
     title: "Wes De Ceuster: Dit keer dubbele cijfers vermijden",
     date: "2019-06-25 "
+  },
+  {
+    cloudinaryID: "67275802_3125406527477311_4573887209551167488_n_zfvuhi",
+    krant: "",
+    title: "Herstelde Ledent (Kontich) nog als supporter mee naar Minderhout",
+    date: "2019-07-27 "
   }
 ];
 
