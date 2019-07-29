@@ -1,5 +1,5 @@
 ---
-title: Minderhout - K. Kontich F.C. (1-2)
+title: Minderhout - K. Kontich F.C.
 date: 2019-07-29
 slider: YES
 type: Croky Cup
