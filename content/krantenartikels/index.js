@@ -16,6 +16,12 @@ const obj = [
     krant: "",
     title: "Herstelde Ledent (Kontich) nog als supporter mee naar Minderhout",
     date: "2019-07-27 "
+  },
+  {
+    cloudinaryID: "67451996_3130732736944690_3101895195864596480_n_js7agm",
+    krant: "",
+    title: "Kontich schakelt Minderhout uit",
+    date: "2019-07-28 "
   }
 ];
 

@@ -124,15 +124,6 @@ export default [
     cloudinaryID: "gebroeders-nijs"
   },
   {
-    url: "http://www.gielis-veremans.be/",
-    name: "Gielis-Veremans NV",
-    headsponsor: "NO",
-    order: "27",
-    type: "CLUBSPONSOR",
-    highlight: "NO",
-    cloudinaryID: "gielis-veremans"
-  },
-  {
     url: "http://garage.peugeot.be/selleslaghs",
     name: "Garage Selleslaghs NV",
     headsponsor: "NO",
@@ -178,15 +169,6 @@ export default [
     cloudinaryID: "van-den-wijngaert"
   },
   {
-    url: "http://users.skynet.be/fa521851/",
-    name: "BVBA Van Der Heyden Motors",
-    headsponsor: "NO",
-    order: "39",
-    type: "CLUBSPONSOR",
-    highlight: "NO",
-    cloudinaryID: "van-der-heyden"
-  },
-  {
     url: "http://www.fvp.be",
     name: "Van Put F NV",
     headsponsor: "NO",
@@ -212,15 +194,6 @@ export default [
     type: "CLUBSPONSOR",
     highlight: "NO",
     cloudinaryID: "camelia"
-  },
-  {
-    url: "http://www.verbessem.be/",
-    name: "Vervoer Verbessem nv",
-    headsponsor: "NO",
-    order: "44",
-    type: "CLUBSPONSOR",
-    highlight: "NO",
-    cloudinaryID: "verbessem"
   },
   {
     url:
@@ -396,16 +369,6 @@ export default [
     cloudinaryID: "cronos"
   },
   {
-    url:
-      "http://www.1207.be/Jan-Huygelen/onbekend/onbekend/Kontich/AY75za/detail_bus_free",
-    name: "Marktslagerij Jan Huygelen",
-    headsponsor: "NO",
-    order: "7",
-    type: "CLUBSPONSOR",
-    highlight: "NO",
-    cloudinaryID: "jan-huygelen"
-  },
-  {
     url: "http://www.vandenbergh.co/",
     name: "Van den Bergh",
     headsponsor: "NO",
@@ -442,15 +405,6 @@ export default [
     cloudinaryID: "apotheek-vranken"
   },
   {
-    url: "http://kurtstuer.be/",
-    name: "Stuer",
-    headsponsor: "NO",
-    order: "9",
-    type: "CLUBSPONSOR",
-    highlight: "NO",
-    cloudinaryID: "stuer"
-  },
-  {
     url: "http://www.meco.be",
     name: "MECO",
     headsponsor: "NO",
@@ -466,15 +420,6 @@ export default [
     order: "10",
     type: "CLUBSPONSOR",
     highlight: "NO"
-  },
-  {
-    url: "http://www.hechi.be ",
-    name: "Hechi World Kitchen",
-    headsponsor: "YES",
-    order: "5",
-    type: "CLUBSPONSOR",
-    highlight: "NO",
-    cloudinaryID: "hechi"
   },
   {
     url: "http://www.top-salon.be/",
@@ -672,15 +617,6 @@ export default [
     cloudinaryID: "vipvervoer-spruyt"
   },
   {
-    url: "https://francoishisconceptstore.com/",
-    name: "François his concept store",
-    headsponsor: "NO",
-    order: "5",
-    type: "KANTINESPONSOR",
-    highlight: "NO",
-    cloudinaryID: "francois"
-  },
-  {
     url: "http://www.lunchgarden.com/nl/restaurant/edegem",
     name: "Lunch Garden",
     headsponsor: "YES",
@@ -726,15 +662,6 @@ export default [
     cloudinaryID: "group-f"
   },
   {
-    url: "",
-    name: "Bespoke",
-    headsponsor: "NO",
-    order: "8",
-    type: "CLUBSPONSOR",
-    highlight: "NO",
-    cloudinaryID: "bespoke"
-  },
-  {
     url: "http://www.tcict.be/",
     name: "TCict Computer Systems",
     headsponsor: "NO",
@@ -742,15 +669,6 @@ export default [
     type: "KANTINESPONSOR",
     highlight: "NO",
     cloudinaryID: "tcict"
-  },
-  {
-    url: "http://www.dixan.be/",
-    name: "Dixan",
-    headsponsor: "NO",
-    order: "8",
-    type: "CLUBSPONSOR",
-    highlight: "NO",
-    cloudinaryID: "dixan"
   },
   {
     url: "https://www.sportveldbelijning.be/",
@@ -886,5 +804,32 @@ export default [
     type: "DAMESSPONSOR",
     highlight: "NO",
     cloudinaryID: "BJ-invest_e6zuas"
+  },
+  {
+    url: "https://www.velodi.be/",
+    name: "Fietsenwinkel Velodi",
+    headsponsor: "NO",
+    order: "8",
+    type: "CLUBSPONSOR",
+    highlight: "NO",
+    cloudinaryID: "velodi_tjhaw9"
+  },
+  {
+    url: "https://www.facebook.com/GOSTOwijnproeverij/",
+    name: "Wijnbar Gosto",
+    headsponsor: "NO",
+    order: "8",
+    type: "CLUBSPONSOR",
+    highlight: "NO",
+    cloudinaryID: "gosto_y7fqnd"
+  },
+  {
+    url: "https://www.occhipurifotografie.be/",
+    name: "Fotografie Occhipuri",
+    headsponsor: "NO",
+    order: "8",
+    type: "CLUBSPONSOR",
+    highlight: "NO",
+    cloudinaryID: ""
   }
 ];
