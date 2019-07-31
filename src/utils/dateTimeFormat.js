@@ -22,7 +22,9 @@ export const formatDateShort = (dateString: string): string => {
 
 export const formatTime = (dateString: string): string => {
   const date = new Date(dateString);
-  const time = date.toLocaleTimeString();
+  const time = date.toLocaleTimeString("nl-NL", {
+    timeZone: "Europe/Brussels"
+  });
   const removeSeconds = time.split(":");
 
   return removeSeconds.slice(0, -1).join(":");
