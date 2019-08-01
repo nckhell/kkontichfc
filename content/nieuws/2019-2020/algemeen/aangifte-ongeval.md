@@ -25,7 +25,7 @@ cloudinaryID: Injury_f3hvxg
 </ol>
 <p style="margin-bottom: 0.5rem !important;"><strong>Bijlagen:</strong></p>
 <ul>
-  <li><a title="ngevallen formulier KBVB" href="https://res.cloudinary.com/kkontichfc/image/upload/v1564682144/nieuws/ongevallen/kbvb_nieuw_aangifteformulier_ongeval_ymcrfh.pdf">Ongevallen formulier KBVB</a></li>
+  <li><a title="ngevallen formulier KBVB" href="https://res.cloudinary.com/kkontichfc/image/upload/v1564682144/downloads/aangifteformulier_ongeval_2019_azoccl.pdf">Ongevallen formulier KBVB</a></li>
   <li><a title="Ongevallen formulier Kontich" href="https://res.cloudinary.com/kkontichfc/image/upload/v1564682145/nieuws/ongevallen/ongeval-formulier-kontich_1_imdkbe.pdf">Ongevallen formulier Kontich</a></li>
   <li><a title="Medisch attest" href="https://res.cloudinary.com/kkontichfc/image/upload/v1564682143/nieuws/ongevallen/medisch_attest_vmwwcl.pdf">Medisch attest</a></li>
   <li><a title="Voorbeeld aangifteformulier" href="https://res.cloudinary.com/kkontichfc/image/upload/v1564682143/nieuws/ongevallen/Voorbeeld_aangifteformulier_bond_ithcyx.pdf">Voorbeeld aangifteformulier</a></li>

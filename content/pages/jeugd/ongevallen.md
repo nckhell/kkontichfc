@@ -75,7 +75,7 @@ title: Ongevallen
     <p><strong>Bijlagen:</strong></p>
     <ul>
         <li>
-            <a href="https://res.cloudinary.com/kkontichfc/image/upload/v1561490099/downloads/aangifte-ongeval_u3lniz.pdf" title="Klik hier om het aangifteformulier van de KBVB te downloaden">Download formulier 1 (KBVB)</a>
+            <a href="https://res.cloudinary.com/kkontichfc/image/upload/v1564682144/downloads/aangifteformulier_ongeval_2019_azoccl.pdf" title="Klik hier om het aangifteformulier van de KBVB te downloaden">Download formulier 1 (KBVB)</a>
         </li>
         <li>
             <a href="https://res.cloudinary.com/kkontichfc/image/upload/v1561491537/downloads/ongeval-formulier-kontich_ij9fft.pdf" title="Klik hier om het aangifteformulier voor de club te downloaden">Download formulier 2 (voor de club)</a>
