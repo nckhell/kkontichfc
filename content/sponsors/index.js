@@ -831,5 +831,14 @@ export default [
     type: "CLUBSPONSOR",
     highlight: "NO",
     cloudinaryID: ""
+  },
+  {
+    url: "https://airzone.be/",
+    name: "Airzone",
+    headsponsor: "YES",
+    order: "8",
+    type: "CLUBSPONSOR",
+    highlight: "NO",
+    cloudinaryID: "airzone_jng0yv"
   }
 ];

@@ -72,6 +72,7 @@ title: Ongevallen
     <br> Theo Knegtel - 0495/90.33.00 - <a href="mailto:gc@kkontichfc.be" title="Mail clubsecretaris K. Kontich FC">gc@kkontichfc.be</a>
 </p>
 <div id="aangifte-formulier">
+    <p><strong>Bijlagen:</strong></p>
     <ul>
         <li>
             <a href="https://res.cloudinary.com/kkontichfc/image/upload/v1561490099/downloads/aangifte-ongeval_u3lniz.pdf" title="Klik hier om het aangifteformulier van de KBVB te downloaden">Download formulier 1 (KBVB)</a>
@@ -79,5 +80,11 @@ title: Ongevallen
         <li>
             <a href="https://res.cloudinary.com/kkontichfc/image/upload/v1561491537/downloads/ongeval-formulier-kontich_ij9fft.pdf" title="Klik hier om het aangifteformulier voor de club te downloaden">Download formulier 2 (voor de club)</a>
         </li>
+    </ul>
+    <p><strong>Andere documenten:</strong></p>
+    <ul>
+        <li><a title="Medisch attest" href="https://res.cloudinary.com/kkontichfc/image/upload/v1564682143/nieuws/ongevallen/medisch_attest_vmwwcl.pdf">Medisch attest</a></li>
+        <li><a title="Voorbeeld aangifteformulier" href="https://res.cloudinary.com/kkontichfc/image/upload/v1564682143/nieuws/ongevallen/Voorbeeld_aangifteformulier_bond_ithcyx.pdf">Voorbeeld aangifteformulier</a></li>
+        <li><a title="Voorbeeld bevestigingsbrief" href="https://res.cloudinary.com/kkontichfc/image/upload/v1564682145/nieuws/ongevallen/voorbeeld_bevestigingsbrief_wdvidu.pdf">Voorbeeld bevestigingsbrief</a></li>
     </ul>
 </div>
