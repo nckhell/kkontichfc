@@ -22,6 +22,12 @@ const obj = [
     krant: "",
     title: "Kontich schakelt Minderhout uit",
     date: "2019-07-28 "
+  },
+  {
+    cloudinaryID: "67510181_3149392088412088_8322793969855496192_o_cpesyo",
+    krant: "",
+    title: "Thuisploeg verlaat Beker met opgeheven hoofd",
+    date: "2019-08-05 "
   }
 ];
 
