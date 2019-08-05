@@ -62,8 +62,13 @@ class GameComponent extends Component {
     const { title } = this.props;
 
     if (game) {
-      const date = formatDate(game.startDate);
-      const time = formatTime(game.startDate);
+      let date;
+      let time;
+
+      if (!isLoading) {
+        date = formatDate(game.startDate);
+        time = formatTime(game.startDate);
+      }
 
       return (
         <ReactPlaceholder
