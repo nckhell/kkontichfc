@@ -1,9 +1,17 @@
 ---
-title: Volvo Vermant Cup (Paastornooi)
+title: Vermant-Cup (Paastornooi)
 ---
 <p><strong>Beste sportvriend,</strong></p>
-<p>K. Kontich F.C. nodigt u uit op haar 50ste Paastornooi - dit jaar ook de Volvo-Vermant Cup genoemd - , een tornooi dat heel wat waardering geniet van clubs die reeds meegedaan hebben tijdens de vorige uitgaven.</p>
-<img src="https://www.link2fleet.be/wp-content/uploads/2018/04/Logo-Vermant-Groep.png" style="max-width: 100%; height: auto;" alt="Volvo Vermant Cup 2019" />
+<p>K. Kontich F.C. nodigt u uit op haar 50ste Paastornooi - dit jaar ook de Vermant-Cup genoemd - , een tornooi dat heel wat waardering geniet van clubs die reeds meegedaan hebben tijdens de vorige uitgaven.</p>
+<div class="lg:flex lg:flex-wrap lg:-mx-8 items-center mb-6">
+    <div class="mb-4 w-full lg:w-1/2 lg:mb-0 lg:px-8">
+        <img src="https://www.link2fleet.be/wp-content/uploads/2018/04/Logo-Vermant-Groep.png" style="max-width: 90%; height: auto;" alt="Volvo Vermant" />
+    </div>
+    <div class="mb-4 w-full lg:w-1/2 lg:mb-0 lg:px-8">
+        <img src="https://res.cloudinary.com/kkontichfc/image/upload/v1565372112/sponsors/KIA-vermant-zilver_yzunbr.png" style="max-width: 90%; height: auto;" alt="Kia Vermant" />
+    </div>
+
+</div>
 <p>
     Het tornooi gaat door op <strong>zaterdag 20 april 2019</strong> voor de U10-U11-U12 en U13 en op <strong>maandag 22 april 2019</strong> voor de U6-U7-U8 en U9. Het Paastornooi vindt plaats op de terreinen van K. Kontich F.C., hetgeen u de mogelijkheid geeft om o.a. op kunstgras te voetballen.
 </p>
@@ -18,7 +26,7 @@ title: Volvo Vermant Cup (Paastornooi)
     </p>
 </div>
 <h2>Speelschema's en reglement</h2>
-<p>De speelschema's en het reglement voor ons 50ste Paastornooi (Volvo Vermant Cup) zijn bekend! <strong>Een belangrijke opmerking voor alle deelnemers:</strong> gelieve het tornooiblad op voorhand in te vullen en door te mailen naar <a href="mailto:knegtel.theos@skynet.be" title="knegtel.theos@skynet.be">knegtel.theos@skynet.be</a> of het de dag zelf mee te brengen.</strong>
+<p>De speelschema's en het reglement voor ons 50ste Paastornooi (Vermant-Cup) zijn bekend! <strong>Een belangrijke opmerking voor alle deelnemers:</strong> gelieve het tornooiblad op voorhand in te vullen en door te mailen naar <a href="mailto:knegtel.theos@skynet.be" title="knegtel.theos@skynet.be">knegtel.theos@skynet.be</a> of het de dag zelf mee te brengen.</strong>
 </p>
 <ul>
     <li><a href="http://kkontichfc.be/uploads/paastornooi/tornooireglement-2019.pdf" title="tornooireglement-2019">Tornooireglement</a></li>

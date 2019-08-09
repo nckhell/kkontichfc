@@ -34,7 +34,7 @@ cloudinaryID: 171_immzew
   <li class="p2">De <span class="s1"><strong>lidgelden voor nieuwe leden </strong></span>(jeugd &eacute;n senioren) bedragen <strong>325 EUR</strong>. In het kledingpakket zit een trainingspak (verplicht te dragen bij thuis- en uitwedstrijden) begrepen, alsook een trainingshirt, voetbalbroekje en voetbalkousen.</li>
   <li class="p2">De <span class="s1"><strong>lidgelden voor bestaande leden </strong></span>(jeugd &eacute;n senioren) bedragen <strong>295 EUR</strong>. In het kledingpakket zit een trainingspak of regenvest (keuze door te geven), voetbalbroekje en voetbalkousen begrepen.&nbsp;</li>
 </ul>
-<p><span style="text-decoration: underline;">Nog dit:</span> in het pakket van de lidgelden zitten telkens 5 tombolakaarten ter waarde van 5 EUR/ex. begrepen. Het staat het lid vrij om deze door te verkopen. De trekking van de tombola wordt voorzien op de jaarlijkse Volvo Vermant-Cup met Pasen.</p>
+<p><span style="text-decoration: underline;">Nog dit:</span> in het pakket van de lidgelden zitten telkens 5 tombolakaarten ter waarde van 5 EUR/ex. begrepen. Het staat het lid vrij om deze door te verkopen. De trekking van de tombola wordt voorzien op de jaarlijkse Vermant-Cup met Pasen.</p>
 <br/>
 <h2>Vlaams neutraal ziekenfonds</h2>
 <p>Wij vestigen er de aandacht op dat onze sponsor <strong>Vlaams Neutraal Ziekenfonds</strong> voor maar liefst <strong>30 EUR</strong>&nbsp;tegemoet komt in het jaarlijkse lidgeld bij elke erkende sportclub. Als enige voorwaarde geldt uiteraard dat je al lid moest zijn van het Vlaams Neutraal Ziekenfonds op het ogenblik van betaling van het lidgeld. <br /><br />Meer info vind je op: <a href="http://kkontichfc.be/jeugd/mutualiteit">http://kkontichfc.be/jeugd/mutualiteit</a></p>

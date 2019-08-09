@@ -752,6 +752,15 @@ export default [
     cloudinaryID: "volvo-vermant"
   },
   {
+    url: "https://kiavermant.be/",
+    name: "Kia Vermant",
+    headsponsor: "YES",
+    order: "2",
+    type: "CLUBSPONSOR",
+    highlight: "NO",
+    cloudinaryID: "KIA-vermant-zilver-blok_xxy8kw"
+  },
+  {
     url: "https://www.facebook.com/SaniHeat-1565257860450173/",
     name: "SaniHeat",
     headsponsor: "NO",

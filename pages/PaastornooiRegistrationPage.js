@@ -32,7 +32,7 @@ class PaastornooiRegistrationPage extends Component {
         <NextSeo
           config={{
             title: "Online registratie | Paastornooi | Jeugd",
-            description: `Online registratie voor het Paastornooi (Volvo Vermant Cup) van K. Kontich F.C.`,
+            description: `Online registratie voor het Paastornooi (Vermant-Cup) van K. Kontich F.C.`,
             canonical: `https://www.kkontichfc.be/info/bestuur`,
             openGraph: {
               type: "website",
@@ -42,7 +42,7 @@ class PaastornooiRegistrationPage extends Component {
               title:
                 "Online registratie | Paastornooi | Jeugd | K. Kontich F.C.",
               description:
-                "Online registratie voor het Paastornooi (Volvo Vermant Cup) van K. Kontich F.C."
+                "Online registratie voor het Paastornooi (Vermant-Cup) van K. Kontich F.C."
             }
           }}
         />
@@ -64,7 +64,7 @@ class PaastornooiRegistrationPage extends Component {
           <div className="px-4 mt-4 md:mt-5 lg:mt-8 container mx-auto text-left">
             <div className="body-content w-full">
               <h1 className="leading-snug font-normal text-5xl normal-case pb-6 inline-block mb-8">
-                Online registratie Volvo Vermant Cup
+                Online registratie Vermant-Cup
               </h1>
             </div>
             <Formik

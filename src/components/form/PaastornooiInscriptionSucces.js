@@ -19,7 +19,7 @@ const PaastornooiInscriptionSucces = () => {
         <div>
           <p className="font-bold">Inschrijving goed ontvangen</p>
           <p className="text-base">
-            We hebben jouw inschrijving voor ons Paastornooi (Volvo Vermant Cup)
+            We hebben jouw inschrijving voor ons Paastornooi (Vermant-Cup)
             goed ontvangen. Houd onze website en facebookpagina in het oog voor
             communicatie omtrent de speelschema's en andere informatie.
           </p>
