@@ -12,9 +12,7 @@ module.exports = withCSS({
     assetPrefix
   },
   async exportPathMap(defaultPathMap, { dev, dir, outDir }) {
-    // If building for export
     if (!dev) {
-      // copy everything in htdocs file to out dir
       await recursiveCopy(join(dir, "src/htdocs/"), outDir, { dot: true });
     }
 
