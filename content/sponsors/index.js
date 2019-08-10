@@ -25,6 +25,15 @@ export default [
     cloudinaryID: "dakwerken-van-elshocht"
   },
   {
+    url: "https://www.dca.be/nl",
+    name: "DCA",
+    headsponsor: "YES",
+    order: "4",
+    type: "CLUBSPONSOR",
+    highlight: "NO",
+    cloudinaryID: "dca_logo_yuil6i"
+  },
+  {
     url: "http://www.fransdevocht.be/",
     name: "Frans De Vocht",
     headsponsor: "YES",
