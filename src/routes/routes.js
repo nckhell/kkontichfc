@@ -13,6 +13,7 @@ module.exports = Object.assign(
     "/wedstrijdverslagen": { page: "/GameReportsListPage" },
     "/commercieel/sponsors": { page: "/SponsorsPage" },
     "/info/bestuur": { page: "/BoardPage" },
+    "/jeugd/trainers": { page: "/YouthTrainersPage" },
     "/jeugd/ploegen": { page: "/YouthTeamsPage" },
     "/jeugd/online-registratie": { page: "/OnlineRegistrationPage" },
     "/info/contact": { page: "/ContactPage" },

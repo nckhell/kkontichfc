@@ -858,5 +858,14 @@ export default [
     type: "CLUBSPONSOR",
     highlight: "NO",
     cloudinaryID: "airzone_jng0yv"
+  },
+  {
+    url: "http://www.deganzenpoel.be/",
+    name: "De Ganzenpoel",
+    headsponsor: "NO",
+    order: "8",
+    type: "CLUBSPONSOR",
+    highlight: "NO",
+    cloudinaryID: "ganzenpoel_l7vtcw"
   }
 ];

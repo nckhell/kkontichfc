@@ -26,11 +26,11 @@ function SponsorsPage() {
         config={{
           title: "Sponsors | Commercieel",
           description: `K. Kontich F.C. wil graag al haar sponsors bedanken.`,
-          canonical: `https://www.kkontichfc.be/commercieel/sponsors`,
+          canonical: `https://www.kkontichfc.be/commercieel/sponsors/`,
           openGraph: {
             type: "website",
             locale: "nl_BE",
-            url: "https://www.kkontichfc.be/commercieel/sponsors",
+            url: "https://www.kkontichfc.be/commercieel/sponsors/",
             title: "Sponsors | Commercieel | K. Kontich F.C.",
             description: "K. Kontich F.C. wil graag al haar sponsors bedanken."
           }

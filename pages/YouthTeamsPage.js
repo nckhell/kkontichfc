@@ -34,7 +34,7 @@ class YouthTeamsPage extends Component {
           config={{
             title: "Ploegen | Jeugd",
             description: `Een overzicht van alle jeugdploegen van K. Kontich F.C.`,
-            canonical: `https://kkontichfc.be/jeugd/ploegen`,
+            canonical: `https://www.kkontichfc.be/jeugd/ploegen/`,
             openGraph: {
               type: "website",
               locale: "nl_BE",

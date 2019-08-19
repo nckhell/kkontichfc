@@ -33,12 +33,12 @@ class PaastornooiRegistrationPage extends Component {
           config={{
             title: "Online registratie | Paastornooi | Jeugd",
             description: `Online registratie voor het Paastornooi (Vermant-Cup) van K. Kontich F.C.`,
-            canonical: `https://www.kkontichfc.be/info/bestuur`,
+            canonical: `https://www.kkontichfc.be/jeugd/paastornooi/online-registratie/`,
             openGraph: {
               type: "website",
               locale: "nl_BE",
               url:
-                "https://www.kkontichfc.be/jeugd/paastornooi/online-registratie",
+                "https://www.kkontichfc.be/jeugd/paastornooi/online-registratie/",
               title:
                 "Online registratie | Paastornooi | Jeugd | K. Kontich F.C.",
               description:

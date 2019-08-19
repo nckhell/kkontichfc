@@ -15,11 +15,11 @@ class BoardPage extends Component {
           config={{
             title: "Bestuur | Info",
             description: `Een overzicht van het bestuur van K. Kontich F.C.`,
-            canonical: `https://www.kkontichfc.be/info/bestuur`,
+            canonical: `https://www.kkontichfc.be/info/bestuur/`,
             openGraph: {
               type: "website",
               locale: "nl_BE",
-              url: "https://www.kkontichfc.be/info/bestuur",
+              url: "https://www.kkontichfc.be/info/bestuur/",
               title: "Bestuur | Info | K. Kontich F.C.",
               description: "Een overzicht van het bestuur van K. Kontich F.C."
             }

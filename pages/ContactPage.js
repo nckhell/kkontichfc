@@ -39,11 +39,11 @@ class ContactPage extends Component {
           config={{
             title: `Contact & Ligging | Info`,
             description: `Al de nodige contactgegevens en details over K. Kontich F.C.`,
-            canonical: `https://www.kkontichfc.be/info/contact`,
+            canonical: `https://www.kkontichfc.be/info/contact/`,
             openGraph: {
               type: "website",
               locale: "nl_BE",
-              url: `https://www.kkontichfc.be/info/contact`,
+              url: `https://www.kkontichfc.be/info/contact/`,
               title: `Contact | Info | K. Kontich F.C.`,
               description: `Al de nodige contactgegevens en details over K. Kontich F.C.`
             }

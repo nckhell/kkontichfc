@@ -33,13 +33,14 @@ class OnlineRegistrationPage extends Component {
           config={{
             title: "Online registratie | Jeugd",
             description: `Online registratie voor de jeugd van K. Kontich F.C.`,
-            canonical: `https://www.kkontichfc.be/info/bestuur`,
+            canonical: `https://www.kkontichfc.be/jeugd/online-registratie/`,
             openGraph: {
               type: "website",
               locale: "nl_BE",
-              url: "https://www.kkontichfc.be/info/bestuur",
+              url: "https://www.kkontichfc.be/jeugd/online-registratie/",
               title: "Bestuur | Info | K. Kontich F.C.",
-              description: "Een overzicht van het bestuur van K. Kontich F.C."
+              description:
+                "Online registratie voor de jeugd van K. Kontich F.C."
             }
           }}
         />
