@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { prefixURL } from "next-prefixed";
+import ReactSVG from "react-svg";
 
 const Profile = props => {
   const { data, type } = props;
@@ -29,6 +30,23 @@ const Profile = props => {
           {type === "staff" && (
             <div className="news-category mt-4 ml-6 position">
               {data.position}
+            </div>
+          )}
+          {data.email && (
+            <div className="news-category mt-4 ml-2 position">
+              <a
+                className="inline-block"
+                href={`mailto:${data.email}`}
+                title={data.email}
+              >
+                <ReactSVG
+                  className="inline-block align-middle w-4"
+                  beforeInjection={svg => {
+                    svg.setAttribute("style", "fill: #FFFFFF");
+                  }}
+                  src={prefixURL("/static/img/email.svg")}
+                />
+              </a>
             </div>
           )}
           <div className="flex absolute bottom-0 py-6 px-6 items-center font-montserrat tracking-tight z-50 font-bold">

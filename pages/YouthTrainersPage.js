@@ -80,8 +80,18 @@ class YouthTrainersPage extends Component {
               <div className="body-content">
                 <h1 className="pb-6 inline-block lg:w-4/6">Trainers</h1>
               </div>
-              <YouthTeamTrainers title="Bovenbouw" data={bovenbouw} />
-              <YouthTeamTrainers title="Middenbouw" data={middenbouw} />
+              <YouthTeamTrainers
+                title="Bovenbouw"
+                coordinator="Kris Mampaey"
+                coordinatorEmail="kris.liliane@skynet.be"
+                data={bovenbouw}
+              />
+              <YouthTeamTrainers
+                title="Middenbouw"
+                coordinator="Sven Eeraerts"
+                coordinatorEmail="sven.eeeraerts@telenet.be"
+                data={middenbouw}
+              />
               <YouthTeamTrainers title="Onderbouw" data={onderbouw} />
               <FacebookProvider appId="346435965433483">
                 <div className="my-6">

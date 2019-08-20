@@ -45,12 +45,13 @@ function HomePage() {
             Match center
             <br />
             <span className="text-base normal-case font-medium md:text-xl">
-              Mede mogelijk gemaakt door:
+              Mede mogelijk gemaakt door:{" "}
               <a
                 href="https://www.beste-bookmakers.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Beste-Bookmakers"
+                className="text-red-500"
               >
                 Beste-Bookmakers.com
               </a>

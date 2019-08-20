@@ -13,6 +13,7 @@ const obj = {
         lastname: "De Ceuster",
         firstname: "Wes",
         birthdate: "",
+        email: "wes.deceuster@telenet.be",
         cloudinaryID: "staff/heren/1e-provinciale/2018-2019/de-ceuster-wes"
       },
       {
@@ -23,10 +24,11 @@ const obj = {
         cloudinaryID: "staff/heren/1e-provinciale/2018-2019/mo-sabhaoui"
       },
       {
-        position: "Afgevaardigde",
+        position: "Afgv.",
         lastname: "Roothans",
         firstname: "Danny",
         birthdate: "",
+        email: "danny.roothans@hotmail.be",
         cloudinaryID: "staff/heren/1e-provinciale/2018-2019/roothans-danny"
       },
       {
@@ -229,6 +231,26 @@ const obj = {
       }
     ]
   },
+  heren3eProv: {
+    staff: [
+      {
+        position: "T1",
+        lastname: "Van den Langenbergh",
+        firstname: "Ward ",
+        birthdate: "",
+        email: "vdlward@telenet.be",
+        cloudinaryID: ""
+      },
+      {
+        position: "Afgv.",
+        lastname: "De Roeck",
+        firstname: "Kobe",
+        birthdate: "",
+        email: "kderoeck@hotmail.com",
+        cloudinaryID: ""
+      }
+    ]
+  },
   damesNat: {
     staff: [
       {
@@ -236,13 +258,15 @@ const obj = {
         lastname: "Sara",
         firstname: "Noé",
         birthdate: "",
+        email: "sara.noe96@gmail.com",
         cloudinaryID: ""
       },
       {
-        position: "T2",
+        position: "T2/Keeperstrainer",
         lastname: "Claudio",
         firstname: "Palmeri",
         birthdate: "",
+        email: "claudio.palmeri@mail.be",
         cloudinaryID: ""
       }
     ]
@@ -254,8 +278,17 @@ const obj = {
         lastname: "Van Camp",
         firstname: "Indyana",
         birthdate: "",
+        email: "dretha98@gmail.com",
         cloudinaryID:
           "spelers/heren/1e-provinciale/2018-2019/van-camp-indyana_hqxld6"
+      },
+      {
+        position: "Afgv.",
+        lastname: "Kesters",
+        firstname: "Jefry",
+        birthdate: "",
+        email: "jefrykesters@gmail.com",
+        cloudinaryID: ""
       }
     ]
   },
@@ -263,11 +296,11 @@ const obj = {
     staff: [
       {
         position: "T1",
-        lastname: "Van Camp",
-        firstname: "Indyana",
+        lastname: "Dams",
+        firstname: "Pascale",
         birthdate: "",
-        cloudinaryID:
-          "spelers/heren/1e-provinciale/2018-2019/van-camp-indyana_hqxld6"
+        email: "pascale.dams@hotmail.com",
+        cloudinaryID: ""
       }
     ]
   }
