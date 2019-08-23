@@ -1,6 +1,7 @@
 ---
 title: Laatste wedstrijd poulefase BVA (Wuustwezel)
 figCaption: Beker van Antwerpen
+slider: YES
 date: 2019-08-23
 cloudinaryID: Beker_gof8vb
 ---
