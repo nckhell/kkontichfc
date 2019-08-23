@@ -9,9 +9,9 @@ K. Kontich FC voert momenteel het klassement aan in de Beker van Antwerpen en on
 
 De eerste 4 ploegen gaan naar de 1/8e finale (en maken dus kans op kwalificatie voor de Beker van België).
 
-# Leuk weetje over deze bekerpartij 
+## Leuk weetje over deze bekerpartij 
 In het doel van onze tegenstander staat één van onze sponsors, nl. Benjamin Kersmaekers van vastgoedkantoor Coprimmo (Antwerpsesteenweg)!
 
 Heb je een huis of appartement te koop, bel dan zeker nog voor de match van morgen naar Benjamin. Alle succes gewenst, Benjamin Kersmaekers! 
 
-*Supporters op post!*
+**Supporters op post!**
