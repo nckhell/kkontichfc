@@ -87,7 +87,7 @@ class Header extends Component {
                   </a>
                 </Link>
               </li>
-              <li className="inline-block pr-10">
+              {/* <li className="inline-block pr-10">
                 <Link href="https://kontich.clubwereld.nl/">
                   <a
                     title="KKFC Webshop"
@@ -97,7 +97,7 @@ class Header extends Component {
                     KKFC Webshop
                   </a>
                 </Link>
-              </li>
+              </li> */}
               <li className="inline-block">
                 <Link href="/commercieel/sponsors/">
                   <a title="Sponsors" className="hover:text-yellow-500">

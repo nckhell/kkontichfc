@@ -239,7 +239,8 @@ const obj = {
         firstname: "Ward ",
         birthdate: "",
         email: "vdlward@telenet.be",
-        cloudinaryID: ""
+        cloudinaryID:
+          "staff/heren/3e-provinciale/69086919_1082388208818653_1855479000617451520_n_rir9lv"
       },
       {
         position: "Afgv.",
@@ -247,7 +248,8 @@ const obj = {
         firstname: "Kobe",
         birthdate: "",
         email: "kderoeck@hotmail.com",
-        cloudinaryID: ""
+        cloudinaryID:
+          "staff/heren/3e-provinciale/68629165_392403718081016_7447594976277430272_n_uioo3e"
       }
     ]
   },
