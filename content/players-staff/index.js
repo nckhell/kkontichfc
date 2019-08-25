@@ -75,15 +75,6 @@ const obj = {
           "spelers/heren/1e-provinciale/2018-2019/somers-jonas_ozvkhs"
       },
       {
-        position: "VERDEDIGER",
-        lastname: "Duarte Arjonas",
-        firstname: "Bruno",
-        shirtNumber: "6",
-        birthdate: "1989-07-15",
-        cloudinaryID:
-          "spelers/heren/1e-provinciale/2018-2019/bruno-duarte-arjonas_hmbe1l"
-      },
-      {
         position: "MIDDENVELDER",
         lastname: "Tindemans",
         firstname: "Andreas",
@@ -143,7 +134,8 @@ const obj = {
         firstname: "Wim",
         shirtNumber: "7",
         birthdate: "",
-        cloudinaryID: ""
+        cloudinaryID:
+          "c_scale,q_100,w_800/spelers/heren/1e-provinciale/2019-2020/6L2A5943_xrnswc"
       },
       {
         position: "AANVALLER",
@@ -151,7 +143,8 @@ const obj = {
         firstname: "Jens",
         shirtNumber: "14",
         birthdate: "",
-        cloudinaryID: ""
+        cloudinaryID:
+          "c_scale,q_100,w_800/spelers/heren/1e-provinciale/2019-2020/6L2A5963_lmcpog"
       },
       {
         position: "VERDEDIGER",
@@ -159,7 +152,8 @@ const obj = {
         firstname: "Jente",
         shirtNumber: "16",
         birthdate: "",
-        cloudinaryID: ""
+        cloudinaryID:
+          "c_scale,q_100,w_800/spelers/heren/1e-provinciale/2019-2020/6L2A5931_eqqmke"
       },
       {
         position: "MIDDENVELDER",
@@ -167,7 +161,8 @@ const obj = {
         firstname: "Tivi",
         shirtNumber: "3",
         birthdate: "",
-        cloudinaryID: ""
+        cloudinaryID:
+          "c_scale,q_100,w_800/spelers/heren/1e-provinciale/2019-2020/6L2A5949_j34ztm"
       },
       {
         position: "DOELMAN",
@@ -175,7 +170,8 @@ const obj = {
         firstname: "Frederic",
         shirtNumber: "1",
         birthdate: "",
-        cloudinaryID: ""
+        cloudinaryID:
+          "c_scale,q_100,w_800/spelers/heren/1e-provinciale/2019-2020/6L2A5933_dppmj9"
       },
       {
         position: "DOELMAN",
@@ -190,7 +186,8 @@ const obj = {
         firstname: "Arnout",
         shirtNumber: "8",
         birthdate: "",
-        cloudinaryID: ""
+        cloudinaryID:
+          "c_scale,q_100,w_800/spelers/heren/1e-provinciale/2019-2020/6L2A5935_usiqo9"
       },
       {
         position: "VERDEDIGER",
@@ -198,21 +195,24 @@ const obj = {
         firstname: "Andreas",
         shirtNumber: "2",
         birthdate: "",
-        cloudinaryID: ""
+        cloudinaryID:
+          "c_scale,q_100,w_800/spelers/heren/1e-provinciale/2019-2020/6L2A5961_mk5lew"
       },
       {
         position: "AANVALLER",
         lastname: "Kreydt",
         firstname: "Tibo",
         birthdate: "",
-        cloudinaryID: ""
+        cloudinaryID:
+          "c_scale,q_100,w_800/spelers/heren/1e-provinciale/2019-2020/6L2A5969_kcsmoz"
       },
       {
         position: "VERDEDIGER",
         lastname: "Verdoren",
         firstname: "Jari",
         birthdate: "",
-        cloudinaryID: ""
+        cloudinaryID:
+          "c_scale,q_100,w_800/spelers/heren/1e-provinciale/2019-2020/6L2A5929_v675wo"
       },
       {
         position: "MIDDENVELDER",
@@ -227,7 +227,8 @@ const obj = {
         firstname: "Emre",
         shirtNumber: "10",
         birthdate: "",
-        cloudinaryID: ""
+        cloudinaryID:
+          "c_scale,q_100,w_800/spelers/heren/1e-provinciale/2019-2020/6L2A5973_r2l8wj"
       }
     ]
   },

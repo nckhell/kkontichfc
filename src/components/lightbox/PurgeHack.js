@@ -46,7 +46,7 @@ const PurgeHack = () => {
             <div className="ril-inner ril__inner">
               <img
                 className="ril-image-current ril__image"
-                src="http://res.cloudinary.com/kkontichfc/image/upload/v1/teams/2018-2019/u17-rood_r3avrz"
+                src="https://res.cloudinary.com/kkontichfc/image/upload/v1/teams/2018-2019/u17-rood_r3avrz"
                 alt="Dummy"
               />
             </div>

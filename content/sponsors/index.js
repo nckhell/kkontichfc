@@ -848,7 +848,7 @@ export default [
     order: "8",
     type: "CLUBSPONSOR",
     highlight: "NO",
-    cloudinaryID: ""
+    cloudinaryID: "OcchiPuri-logo_odiaka"
   },
   {
     url: "https://airzone.be/",
