@@ -133,6 +133,7 @@ const obj = {
         lastname: "Bokila",
         firstname: "Wim",
         shirtNumber: "7",
+        backgroundPosition: "center top 65%",
         birthdate: "",
         cloudinaryID:
           "c_scale,q_100,w_800/spelers/heren/1e-provinciale/2019-2020/6L2A5943_xrnswc"
@@ -142,6 +143,7 @@ const obj = {
         lastname: "Van Loon",
         firstname: "Jens",
         shirtNumber: "14",
+        backgroundPosition: "center top 42%",
         birthdate: "",
         cloudinaryID:
           "c_scale,q_100,w_800/spelers/heren/1e-provinciale/2019-2020/6L2A5963_lmcpog"
@@ -151,6 +153,7 @@ const obj = {
         lastname: "Hermans",
         firstname: "Jente",
         shirtNumber: "16",
+        backgroundPosition: "center top 38%",
         birthdate: "",
         cloudinaryID:
           "c_scale,q_100,w_800/spelers/heren/1e-provinciale/2019-2020/6L2A5931_eqqmke"
@@ -160,6 +163,7 @@ const obj = {
         lastname: "Huygen",
         firstname: "Tivi",
         shirtNumber: "3",
+        backgroundPosition: "center top 20%",
         birthdate: "",
         cloudinaryID:
           "c_scale,q_100,w_800/spelers/heren/1e-provinciale/2019-2020/6L2A5949_j34ztm"
@@ -169,6 +173,7 @@ const obj = {
         lastname: "Ledent",
         firstname: "Frederic",
         shirtNumber: "1",
+        backgroundPosition: "center top 68%",
         birthdate: "",
         cloudinaryID:
           "c_scale,q_100,w_800/spelers/heren/1e-provinciale/2019-2020/6L2A5933_dppmj9"
@@ -186,6 +191,7 @@ const obj = {
         firstname: "Arnout",
         shirtNumber: "8",
         birthdate: "",
+        backgroundPosition: "center top 59%",
         cloudinaryID:
           "c_scale,q_100,w_800/spelers/heren/1e-provinciale/2019-2020/6L2A5935_usiqo9"
       },
@@ -195,6 +201,7 @@ const obj = {
         firstname: "Andreas",
         shirtNumber: "2",
         birthdate: "",
+        backgroundPosition: "center top 45%",
         cloudinaryID:
           "c_scale,q_100,w_800/spelers/heren/1e-provinciale/2019-2020/6L2A5961_mk5lew"
       },
@@ -203,6 +210,7 @@ const obj = {
         lastname: "Kreydt",
         firstname: "Tibo",
         birthdate: "",
+        backgroundPosition: "center top 25%",
         cloudinaryID:
           "c_scale,q_100,w_800/spelers/heren/1e-provinciale/2019-2020/6L2A5969_kcsmoz"
       },
@@ -211,6 +219,7 @@ const obj = {
         lastname: "Verdoren",
         firstname: "Jari",
         birthdate: "",
+        backgroundPosition: "center top 65%",
         cloudinaryID:
           "c_scale,q_100,w_800/spelers/heren/1e-provinciale/2019-2020/6L2A5929_v675wo"
       },
@@ -226,6 +235,7 @@ const obj = {
         lastname: "Erciyas",
         firstname: "Emre",
         shirtNumber: "10",
+        backgroundPosition: "center top 15%",
         birthdate: "",
         cloudinaryID:
           "c_scale,q_100,w_800/spelers/heren/1e-provinciale/2019-2020/6L2A5973_r2l8wj"
