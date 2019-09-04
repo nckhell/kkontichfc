@@ -1,6 +1,7 @@
 ---
 title: Downloads
 ---
+
 <table width="100%" cellspacing="0" cellpadding="0">
   <thead>
     <tr>
@@ -23,7 +24,7 @@ title: Downloads
     </tr>
     <tr>
       <td>Trainingen 2010-2020</td>
-      <td>TBA</td>
+      <td><a target="_blank" title="Download Trainingen 2010-2020" href="https://res.cloudinary.com/kkontichfc/image/upload/v1563868636/downloads/trainingen-2019-2020_u8ntlk.pdf">Download</a></td>
     </tr>
     <tr>
       <td>Lidgeld en informatie 2019-2020</td>
