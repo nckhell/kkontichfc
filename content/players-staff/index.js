@@ -268,18 +268,18 @@ const obj = {
     staff: [
       {
         position: "T1",
-        lastname: "Sara",
-        firstname: "Noé",
-        birthdate: "",
-        email: "sara.noe96@gmail.com",
-        cloudinaryID: ""
-      },
-      {
-        position: "T2/Keeperstrainer",
         lastname: "Claudio",
         firstname: "Palmeri",
         birthdate: "",
         email: "claudio.palmeri@mail.be",
+        cloudinaryID: ""
+      },
+      {
+        position: "T2",
+        lastname: "Sara",
+        firstname: "Noé",
+        birthdate: "",
+        email: "sara.noe96@gmail.com",
         cloudinaryID: ""
       }
     ]
