@@ -815,13 +815,13 @@ export default [
     cloudinaryID: "straalstudio"
   },
   {
-    url: "https://trendstop.knack.be/nl/detail/667819957/bj-invest.aspx",
+    url: "https://www.schilderstudio.be/",
     name: "BJ invest",
     headsponsor: "YES",
     order: "8",
     type: "DAMESSPONSOR",
     highlight: "NO",
-    cloudinaryID: "BJ-invest_e6zuas"
+    cloudinaryID: "logo-schilderstudio-schilder-schilderwerken_v0pujr"
   },
   {
     url: "https://www.velodi.be/",
