@@ -67,6 +67,11 @@ const Footer = () => {
                 Trainers
               </a>
             </Link>
+            <Link href="/jeugd/paastornooi/">
+              <a title="Paastornooi" className="text-sm text-gray-500 py-1">
+                Paastornooi
+              </a>
+            </Link>
             <Link href="https://www.belgianfootball.be/nl/club/1509/ploegen">
               <a
                 title="Kalenders"

@@ -31,7 +31,7 @@ class PaastornooiRegistrationPage extends Component {
       <Layout showGrassHeader>
         <NextSeo
           config={{
-            title: "Online registratie | Paastornooi | Jeugd",
+            title: "Online registratie | Paastornooi Vermant-Cup | Jeugd",
             description: `Online registratie voor het Paastornooi (Vermant-Cup) van K. Kontich F.C.`,
             canonical: `https://www.kkontichfc.be/jeugd/paastornooi/online-registratie/`,
             openGraph: {
@@ -40,7 +40,7 @@ class PaastornooiRegistrationPage extends Component {
               url:
                 "https://www.kkontichfc.be/jeugd/paastornooi/online-registratie/",
               title:
-                "Online registratie | Paastornooi | Jeugd | K. Kontich F.C.",
+                "Online registratie Paastornooi / Vermant-Cup | K. Kontich F.C.",
               description:
                 "Online registratie voor het Paastornooi (Vermant-Cup) van K. Kontich F.C."
             }
@@ -64,8 +64,22 @@ class PaastornooiRegistrationPage extends Component {
           <div className="px-4 mt-4 md:mt-5 lg:mt-8 container mx-auto text-left">
             <div className="body-content w-full">
               <h1 className="leading-snug font-normal text-5xl normal-case pb-6 inline-block mb-8">
-                Online registratie Vermant-Cup
+                Online registratie voor ons 51ste Paastornooi / Vermant-Cup
               </h1>
+              Het tornooi vindt plaats gespreid over 3 dagen:
+              <ul>
+                <li>
+                  <u>Vrijdagavond 10 april 2020:</u> meisjes U13 en U16
+                </li>
+                <li>
+                  <u>Zaterdag 11 april 2020:</u> U12 & U13 (voormiddag), U10 &
+                  U11 (namiddag)
+                </li>
+                <li>
+                  <u>Maandag 13 april 2020:</u> U8 & U9 (voormiddag), U6 & U7
+                  (namiddag)
+                </li>
+              </ul>
             </div>
             <Formik
               initialValues={{
@@ -279,6 +293,8 @@ class PaastornooiRegistrationPage extends Component {
                             <option value="U11" label="U11" />
                             <option value="U12" label="U12" />
                             <option value="U13" label="U13" />
+                            <option value="U13_dames" label="Meisjes U13" />
+                            <option value="U16_dames" label="Meisjes U16" />
                           </select>
                           {errors.team && touched.team && (
                             <div className="input-feedback">{errors.team}</div>

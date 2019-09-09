@@ -95,11 +95,11 @@ const Menu = () => {
             Jeugd
           </a>
           <ul className="submenu">
-            {/* <li>
+            <li>
               <Link href="/jeugd/paastornooi/">
                 <a>Paastornooi</a>
               </Link>
-            </li> */}
+            </li>
             <li>
               <Link href="/jeugd/trainingen/">
                 <a title="Trainingen">Trainingen</a>
