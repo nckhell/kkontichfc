@@ -14,7 +14,7 @@ title: Vermant-Cup (Paastornooi)
 
 </div>
 <p>
-    Het tornooi gaat door op <strong>vrijdag 10 april</strong> voor de meisjes U13 & U16, <strong>zaterdag 11 april april 2020</strong> voor de U10-U11-U12 en U13 en op <strong>maandag 13 april 2019</strong> voor de U6-U7-U8 en U9. Het Paastornooi vindt plaats op de terreinen van K. Kontich F.C., hetgeen u de mogelijkheid geeft om o.a. op kunstgras te voetballen.
+    Het tornooi gaat door op <strong>vrijdag 10 april</strong> voor de meisjes U13 & U16, <strong>zaterdag 11 april april 2020</strong> voor de U10-U11-U12 en U13 en op <strong>maandag 13 april 2020</strong> voor de U6-U7-U8 en U9. Het Paastornooi vindt plaats op de terreinen van K. Kontich F.C., hetgeen u de mogelijkheid geeft om o.a. op kunstgras te voetballen.
 </p>
 <div>
     <h2>Inschrijven</h2>
