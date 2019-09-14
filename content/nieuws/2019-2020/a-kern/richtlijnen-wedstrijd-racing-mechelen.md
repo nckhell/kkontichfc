@@ -1,5 +1,5 @@
 ---
-title: Richtlijnen wedstrijd KRC Mechelen - Kontich FC
+title: Richtlijnen wedstrijd KRC Mechelen - Kontich FC (3-4!)
 slider: YES
 date: 2019-09-14
 cloudinaryID: 69441276_3558071470885255_5841342705824694272_o_wvucwq
@@ -28,3 +28,7 @@ cloudinaryID: 69441276_3558071470885255_5841342705824694272_o_wvucwq
 <li>Personen die beschikken over een vrijkaart dienen zich aan te bieden aan de hoofdingang. Er zal geen doorgang verleend worden via de bezoekersingang.</li>
 <li>Technische staf kan voor aanvang van de wedstrijd iets drinken in een aparte ruimte.</li>
 </li>
+<br/>
+<div class="center">
+<img src="https://res.cloudinary.com/kkontichfc/image/upload/v1568473402/aanrijroute_KRC_Mechelen_oqynyh.jpg" alt="Richtlijnen wedstrijd Racing Mechelen" />
+</div>
