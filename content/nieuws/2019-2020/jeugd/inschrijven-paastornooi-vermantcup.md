@@ -1,6 +1,6 @@
 ---
 title: Inschrijven Paastornooi / Vermant-Cup 2020
-date: 2019-09-10
+date: 2019-09-16
 slider: YES
 cloudinaryID: 35_akqo8w
 ---

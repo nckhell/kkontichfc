@@ -14,14 +14,14 @@ const obj = {
         firstname: "Wes",
         birthdate: "",
         email: "wes.deceuster@telenet.be",
-        cloudinaryID: "staff/heren/1e-provinciale/2018-2019/de-ceuster-wes"
+        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5944_hzvlkj"
       },
       {
         position: "T2",
         lastname: "Sabhaoui",
         firstname: "Mo",
         birthdate: "",
-        cloudinaryID: "staff/heren/1e-provinciale/2018-2019/mo-sabhaoui"
+        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5948_evbugw"
       },
       {
         position: "Afgv.",
@@ -29,21 +29,21 @@ const obj = {
         firstname: "Danny",
         birthdate: "",
         email: "danny.roothans@hotmail.be",
-        cloudinaryID: "staff/heren/1e-provinciale/2018-2019/roothans-danny"
+        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5964_mkibb2"
       },
       {
         position: "Keeperstrainer",
         lastname: "Van Der Veer",
         firstname: "Jan",
         birthdate: "",
-        cloudinaryID: "staff/heren/1e-provinciale/2018-2019/van-der-veer-jan"
+        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5951_k4hcvb"
       },
       {
         position: "Kiné/verzorger",
         lastname: "Hellemans",
         firstname: "Nick",
         birthdate: "1993-11-30",
-        cloudinaryID: "staff/heren/1e-provinciale/2018-2019/hellemans-nick"
+        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5970_zridtx"
       }
     ],
     players: [
@@ -53,8 +53,8 @@ const obj = {
         firstname: "Glen",
         shirtNumber: "18",
         birthdate: "1989-09-17",
-        cloudinaryID:
-          "spelers/heren/1e-provinciale/2018-2019/decock-glen_p8fmsi"
+        backgroundPosition: "center top 22%",
+        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5956_abrhz2"
       },
       {
         position: "AANVALLER",
@@ -62,8 +62,7 @@ const obj = {
         firstname: "Victor",
         shirtNumber: "17",
         birthdate: "1995-09-17",
-        cloudinaryID:
-          "spelers/heren/1e-provinciale/2018-2019/decock-victor_a4ppjg"
+        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5967_yu5jmm"
       },
       {
         position: "MIDDENVELDER",
@@ -80,8 +79,8 @@ const obj = {
         firstname: "Andreas",
         shirtNumber: "21",
         birthdate: "1998-05-07",
-        cloudinaryID:
-          "spelers/heren/1e-provinciale/2018-2019/tindemans-andreas_veuuu3"
+        backgroundPosition: "center top 40%",
+        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5941_jwoc2g"
       },
       {
         position: "DOELMAN",
@@ -89,8 +88,7 @@ const obj = {
         firstname: "Maarten",
         shirtNumber: "27",
         birthdate: "1999-05-12",
-        cloudinaryID:
-          "spelers/heren/1e-provinciale/2018-2019/cop-maarten_v747sy"
+        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5937_xr2ohu"
       },
       {
         position: "AANVALLER",
@@ -98,8 +96,7 @@ const obj = {
         firstname: "Jordi",
         shirtNumber: "9",
         birthdate: "1997-02-04",
-        cloudinaryID:
-          "spelers/heren/1e-provinciale/2018-2019/kreydt-jordi_c05smz"
+        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5958_zoro5t"
       },
       {
         position: "AANVALLER",
@@ -107,8 +104,7 @@ const obj = {
         firstname: "Indyana",
         shirtNumber: "24",
         birthdate: "1998-01-15",
-        cloudinaryID:
-          "spelers/heren/1e-provinciale/2018-2019/van-camp-indyana_hqxld6"
+        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5953_avlkb6"
       },
       {
         position: "VERDEDIGER",
@@ -116,8 +112,7 @@ const obj = {
         firstname: "Remi",
         shirtNumber: "15",
         birthdate: "1998-02-13",
-        cloudinaryID:
-          "spelers/heren/1e-provinciale/2018-2019/van-esser-remi_qilvpf"
+        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5939_scs5n4"
       },
       {
         position: "VERDEDIGER",
