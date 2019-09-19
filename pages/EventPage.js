@@ -94,7 +94,7 @@ class EventPage extends Component {
                 <meta itemProp="name" content="K. Kontich F.C." />
                 <div
                   itemProp="address"
-                  itemitemScopescope
+                  itemScope
                   itemType="http://schema.org/PostalAddress"
                 >
                   <meta
