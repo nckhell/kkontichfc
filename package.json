@@ -7,6 +7,7 @@
     "defaults"
   ],
   "scripts": {
+    "commit": "git-cz",
     "flow": "flow",
     "dev": "npm run build:content && next",
     "build": "npm run build:content && next build",
@@ -67,9 +68,13 @@
   },
   "devDependencies": {
     "@babel/preset-env": "^7.4.5",
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
     "@fullhuman/postcss-purgecss": "^1.2.0",
     "babel-eslint": "^10.0.2",
     "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.3.0",
@@ -78,7 +83,18 @@
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.13.0",
     "flow-bin": "^0.97.0",
+    "husky": "^3.0.5",
     "prettier": "^1.18.2",
     "processmd": "^4.4.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
