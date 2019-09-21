@@ -116,11 +116,14 @@ const Menu = () => {
               </Link>
             </li>
             <li>
-              <Link href="https://www.belgianfootball.be/nl/club/1509/ploegen">
-                <a title="Kalenders" target="_blank">
-                  Kalenders
-                </a>
-              </Link>
+              <a
+                title="Kalenders"
+                target="_blank"
+                href="https://www.belgianfootball.be/nl/club/1509/ploegen"
+                rel="noopener noreferrer"
+              >
+                Kalenders
+              </a>
             </li>
             <li>
               <Link href="/jeugd/lidgeld/">
@@ -219,11 +222,14 @@ const Menu = () => {
               </Link>
             </li>
             <li>
-              <Link href="https://kontich.clubwereld.nl/">
-                <a title="KKFC Webshop" target="_blank">
-                  KKFC Webshop
-                </a>
-              </Link>
+              <a
+                title="KKFC Webshop"
+                target="_blank"
+                href="https://kontich.clubwereld.nl/"
+                rel="noopener noreferrer"
+              >
+                KKFC Webshop
+              </a>
             </li>
           </ul>
         </li>

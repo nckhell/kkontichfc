@@ -8,6 +8,7 @@ const assetPrefix = ghPages ? "/kkontichfc/" : "";
 
 module.exports = withCSS({
   assetPrefix,
+  exportTrailingSlash: true,
   publicRuntimeConfig: {
     assetPrefix
   },

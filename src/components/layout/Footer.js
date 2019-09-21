@@ -72,15 +72,15 @@ const Footer = () => {
                 Paastornooi
               </a>
             </Link>
-            <Link href="https://www.belgianfootball.be/nl/club/1509/ploegen">
-              <a
-                title="Kalenders"
-                target="_blank"
-                className="text-sm text-gray-500 py-1"
-              >
-                Kalenders
-              </a>
-            </Link>
+            <a
+              title="Kalenders"
+              href="https://www.belgianfootball.be/nl/club/1509/ploegen"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="text-sm text-gray-500 py-1"
+            >
+              Kalenders
+            </a>
             <Link href="/jeugd/lidgeld/">
               <a title="Lidgeld" className="text-sm text-gray-500 py-1">
                 Lidgeld
