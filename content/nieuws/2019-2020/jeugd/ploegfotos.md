@@ -2,7 +2,6 @@
 title: Ploegfoto's seizoen 2019-2020
 date: 2019-09-18
 cloudinaryID: 42201321_2420249461326358_3819049121050787840_o_plubzk
-slider: YES
 ---
 
 <p>Zaterdag a.s. nemen we de ploegfoto’s voor het seizoen 2019/2020 en het belooft alvast prachtig weer te worden! Bekijk zeker bijgevoegd tijdsschema voor de planning.</p>
