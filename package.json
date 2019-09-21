@@ -19,7 +19,7 @@
     "export": "next export",
     "start": "next start",
     "deploy:gh-pages": "rm -rf .next out && npm run build:content && APP_ENV=gh-pages next build && APP_ENV=gh-pages next export && git add out/ && git commit -m \"Deploy to gh-pages\" && git subtree push --prefix out origin gh-pages",
-    "deploy": "rm -rf .next out && npm run build:content && APP_ENV=production next build && APP_ENV=production next export && git add out/ && git commit -m \"Deploy to gh-pages\" && git subtree push --prefix out origin gh-pages"
+    "deploy": "rm -rf .next out && npm run build:content && APP_ENV=production next build && APP_ENV=production next export && git add out/ && git commit -m \"chore(gh-pages): deploy to gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
   "repository": {
     "type": "git",
