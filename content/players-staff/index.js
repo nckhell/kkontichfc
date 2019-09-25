@@ -265,19 +265,11 @@ const obj = {
     staff: [
       {
         position: "T1",
-        lastname: "Claudio",
-        firstname: "Palmeri",
+        lastname: "Didi",
+        firstname: "Karim",
         birthdate: "",
-        email: "claudio.palmeri@mail.be",
-        cloudinaryID: ""
-      },
-      {
-        position: "T2",
-        lastname: "Sara",
-        firstname: "Noé",
-        birthdate: "",
-        email: "sara.noe96@gmail.com",
-        cloudinaryID: ""
+        email: "",
+        cloudinaryID: "staff/dames/2019-2020/IMG_9073_jgic2n"
       }
     ]
   },

@@ -1,6 +1,6 @@
 ---
 title: 16de Grote Bingo-avond
-date: 2019-09-27
+date: 2019-09-24
 cloudinaryID: Bingo_et8hns
 ---
 
