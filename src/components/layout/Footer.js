@@ -117,6 +117,11 @@ const Footer = () => {
                 Geschiedenis
               </a>
             </Link>
+            <Link href="/info/clublied">
+              <a title="Clublied" className="text-sm text-gray-500 py-1">
+                Clublied
+              </a>
+            </Link>
             <Link href="/info/bestuur">
               <a title="Bestuur" className="text-sm text-gray-500 py-1">
                 Bestuur

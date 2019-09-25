@@ -169,6 +169,11 @@ const Menu = () => {
               </Link>
             </li>
             <li>
+              <Link href="/info/clublied/">
+                <a title="Clublied">Clublied</a>
+              </Link>
+            </li>
+            <li>
               <Link href="/info/bestuur/">
                 <a title="Bestuur">Bestuur</a>
               </Link>

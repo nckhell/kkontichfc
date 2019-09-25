@@ -69,9 +69,9 @@ const obj = {
         lastname: "Somers",
         firstname: "Jonas",
         shirtNumber: "19",
+        backgroundPosition: "center top 15%",
         birthdate: "1995-02-28",
-        cloudinaryID:
-          "spelers/heren/1e-provinciale/2018-2019/somers-jonas_ozvkhs"
+        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/_MG_1947_hzfsr2"
       },
       {
         position: "MIDDENVELDER",
@@ -104,6 +104,7 @@ const obj = {
         firstname: "Indyana",
         shirtNumber: "24",
         birthdate: "1998-01-15",
+        backgroundPosition: "center top 35%",
         cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5953_avlkb6"
       },
       {
@@ -120,8 +121,8 @@ const obj = {
         firstname: "Tim",
         shirtNumber: "5",
         birthdate: "1987-03-31",
-        cloudinaryID:
-          "spelers/heren/1e-provinciale/2018-2019/vleminckx-tim_zrolaa"
+        backgroundPosition: "center top 10%",
+        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/_MG_1948_wtlqpr"
       },
       {
         position: "AANVALLER",
@@ -130,8 +131,7 @@ const obj = {
         shirtNumber: "7",
         backgroundPosition: "center top 65%",
         birthdate: "",
-        cloudinaryID:
-          "c_scale,q_100,w_800/spelers/heren/1e-provinciale/2019-2020/6L2A5943_xrnswc"
+        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5943_xrnswc"
       },
       {
         position: "AANVALLER",
@@ -140,8 +140,7 @@ const obj = {
         shirtNumber: "14",
         backgroundPosition: "center top 42%",
         birthdate: "",
-        cloudinaryID:
-          "c_scale,q_100,w_800/spelers/heren/1e-provinciale/2019-2020/6L2A5963_lmcpog"
+        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5963_lmcpog"
       },
       {
         position: "VERDEDIGER",
@@ -150,8 +149,7 @@ const obj = {
         shirtNumber: "16",
         backgroundPosition: "center top 38%",
         birthdate: "",
-        cloudinaryID:
-          "c_scale,q_100,w_800/spelers/heren/1e-provinciale/2019-2020/6L2A5931_eqqmke"
+        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5931_eqqmke"
       },
       {
         position: "MIDDENVELDER",
@@ -160,8 +158,7 @@ const obj = {
         shirtNumber: "3",
         backgroundPosition: "center top 20%",
         birthdate: "",
-        cloudinaryID:
-          "c_scale,q_100,w_800/spelers/heren/1e-provinciale/2019-2020/6L2A5949_j34ztm"
+        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5949_j34ztm"
       },
       {
         position: "DOELMAN",
@@ -170,15 +167,15 @@ const obj = {
         shirtNumber: "1",
         backgroundPosition: "center top 68%",
         birthdate: "",
-        cloudinaryID:
-          "c_scale,q_100,w_800/spelers/heren/1e-provinciale/2019-2020/6L2A5933_dppmj9"
+        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5933_dppmj9"
       },
       {
         position: "DOELMAN",
         lastname: "van Oostveldt",
         firstname: "Gian",
         birthdate: "",
-        cloudinaryID: ""
+        backgroundPosition: "center top 20%",
+        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/_MG_1952_pavrxu"
       },
       {
         position: "MIDDENVELDER",
@@ -187,8 +184,7 @@ const obj = {
         shirtNumber: "8",
         birthdate: "",
         backgroundPosition: "center top 59%",
-        cloudinaryID:
-          "c_scale,q_100,w_800/spelers/heren/1e-provinciale/2019-2020/6L2A5935_usiqo9"
+        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5935_usiqo9"
       },
       {
         position: "VERDEDIGER",
@@ -197,8 +193,7 @@ const obj = {
         shirtNumber: "2",
         birthdate: "",
         backgroundPosition: "center top 45%",
-        cloudinaryID:
-          "c_scale,q_100,w_800/spelers/heren/1e-provinciale/2019-2020/6L2A5961_mk5lew"
+        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5961_mk5lew"
       },
       {
         position: "AANVALLER",
@@ -206,8 +201,7 @@ const obj = {
         firstname: "Tibo",
         birthdate: "",
         backgroundPosition: "center top 25%",
-        cloudinaryID:
-          "c_scale,q_100,w_800/spelers/heren/1e-provinciale/2019-2020/6L2A5969_kcsmoz"
+        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5969_kcsmoz"
       },
       {
         position: "VERDEDIGER",
@@ -215,15 +209,15 @@ const obj = {
         firstname: "Jari",
         birthdate: "",
         backgroundPosition: "center top 65%",
-        cloudinaryID:
-          "c_scale,q_100,w_800/spelers/heren/1e-provinciale/2019-2020/6L2A5929_v675wo"
+        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5929_v675wo"
       },
       {
         position: "MIDDENVELDER",
         lastname: "Mondelaers",
         firstname: "Arne",
         birthdate: "",
-        cloudinaryID: ""
+        backgroundPosition: "center top 5%",
+        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/_MG_1951_lzygfi"
       },
       {
         position: "MIDDENVELDER",
@@ -232,8 +226,16 @@ const obj = {
         shirtNumber: "10",
         backgroundPosition: "center top 15%",
         birthdate: "",
-        cloudinaryID:
-          "c_scale,q_100,w_800/spelers/heren/1e-provinciale/2019-2020/6L2A5973_r2l8wj"
+        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5973_r2l8wj"
+      },
+      {
+        position: "MIDDENVELDER",
+        lastname: "Baert",
+        firstname: "Matthias",
+        shirtNumber: "",
+        backgroundPosition: "center top 15%",
+        birthdate: "",
+        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/_MG_1949_eqh7ig"
       }
     ]
   },

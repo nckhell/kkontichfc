@@ -8,7 +8,7 @@ const Profile = props => {
   let imageUrl;
 
   if (data.cloudinaryID) {
-    imageUrl = `https://res.cloudinary.com/kkontichfc/image/upload/${data.cloudinaryID}`;
+    imageUrl = `https://res.cloudinary.com/kkontichfc/image/upload/t_Profile/${data.cloudinaryID}`;
   } else {
     imageUrl =
       "https://res.cloudinary.com/kkontichfc/image/upload/v1563609630/no-profile-image_zkkklb.png";
