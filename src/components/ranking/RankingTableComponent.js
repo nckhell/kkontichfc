@@ -5,6 +5,12 @@ const RankingTableComponent = props => {
   const { listOfTeams, typeOfRanking, limit } = props;
   let rowCount = 0;
 
+  const kontichPositionInRankingArray = listOfTeams.findIndex(
+    rankingEntry => rankingEntry.clubRegistrationNumber === "03029"
+  );
+
+  const kontichPositionInRanking = kontichPositionInRankingArray + 1;
+
   return (
     <div className="overflow-x-auto">
       <table className="ranking-table w-full text-center">
@@ -28,7 +34,12 @@ const RankingTableComponent = props => {
           {listOfTeams &&
             listOfTeams.map(teamRankingEntry => {
               rowCount += 1;
-              if (limit && rowCount <= limit) {
+              if (
+                limit &&
+                (rowCount <= limit ||
+                  (kontichPositionInRanking > limit &&
+                    teamRankingEntry.clubRegistrationNumber === "03029"))
+              ) {
                 return (
                   <tr
                     key={`${typeOfRanking}-${teamRankingEntry.teamId}`}
