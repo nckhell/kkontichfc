@@ -37,10 +37,16 @@ class Layout extends Component {
   }
 
   render() {
-    const { children, showGrassHeader } = this.props;
+    const {
+      children,
+      showGrassHeader,
+      showSpecificImageHeader,
+      specificImgUrl
+    } = this.props;
     const { isMenuOpen, isLoading } = this.state;
 
     const grassHeaderUrl = prefixURL("/static/img/grass-texture.jpg");
+    const specificImgFullUrl = `https://res.cloudinary.com/kkontichfc/image/upload/c_scale,w_1200,q_100/${specificImgUrl}`;
 
     return (
       <div className={`${isLoading ? "preload" : ""}`}>
@@ -79,6 +85,14 @@ class Layout extends Component {
             className="h-40 md:h-48 lg:h-56 xl:h-68 bg-no-repeat bg-cover	bg-center"
             style={{
               backgroundImage: `url('${grassHeaderUrl}')`
+            }}
+          ></div>
+        )}
+        {showSpecificImageHeader && (
+          <div
+            className="h-80 md:h-48 lg:h-56 xl:h-68 bg-no-repeat bg-cover	bg-center"
+            style={{
+              backgroundImage: `url('${specificImgFullUrl}')`
             }}
           ></div>
         )}

@@ -17,11 +17,14 @@ class YouthTeam extends Component {
     const { data } = this.props;
 
     let imageUrl;
+    let thumbnailUrl;
 
     if (data.cloudinaryID) {
-      imageUrl = `https://res.cloudinary.com/kkontichfc/image/upload/v1/teams/2018-2019/${data.cloudinaryID}`;
+      imageUrl = `https://res.cloudinary.com/kkontichfc/image/upload/c_scale,w_1200,q_100/teams/2019-2020/${data.cloudinaryID}`;
+      thumbnailUrl = `https://res.cloudinary.com/kkontichfc/image/upload/c_scale,w_600/teams/2019-2020/${data.cloudinaryID}`;
     } else {
       imageUrl = prefixURL("/static/img/no-news-image.png");
+      thumbnailUrl = imageUrl;
     }
 
     return (
@@ -33,9 +36,9 @@ class YouthTeam extends Component {
           className="border border-gray-200 border-b-4 block hover:border-gray-300 hover:shadow-md no-underline"
         >
           <div
-            className="w-full h-68 bg-cover bg-center relative gradient-b"
+            className="w-full h-68 bg-cover bg-center relative"
             style={{
-              backgroundImage: `url('${imageUrl}')`
+              backgroundImage: `url('${thumbnailUrl}')`
             }}
           >
             <div className="news-category mt-4 ml-6 position">{data.team}</div>

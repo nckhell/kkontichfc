@@ -1,7 +1,7 @@
 const obj = [
   {
     team: "U21",
-    cloudinaryID: "",
+    cloudinaryID: "_MG_1981_v6odus",
     coach: [
       {
         lastname: "Kork",
@@ -19,7 +19,7 @@ const obj = [
   },
   {
     team: "U17 Rood",
-    cloudinaryID: "",
+    cloudinaryID: "_MG_1978_sz4oh7",
     coach: [
       {
         lastname: "Mampaey",
@@ -36,7 +36,7 @@ const obj = [
   },
   {
     team: "U17 Geel",
-    cloudinaryID: "",
+    cloudinaryID: "_MG_1909_p0y8lh",
     coach: [
       {
         lastname: "Van Dessel",
@@ -54,7 +54,7 @@ const obj = [
   },
   {
     team: "U15 Rood",
-    cloudinaryID: "",
+    cloudinaryID: "_MG_1796_pr0hz5",
     coach: [
       {
         lastname: "Cottignie",
@@ -78,7 +78,7 @@ const obj = [
   },
   {
     team: "U15 Geel",
-    cloudinaryID: "",
+    cloudinaryID: "_MG_1802_izm1t8",
     coach: [
       {
         lastname: "Angafor",
@@ -186,7 +186,7 @@ const obj = [
   },
   {
     team: "U11 Rood",
-    cloudinaryID: "",
+    cloudinaryID: "_MG_1877_kcgmnl",
     coach: [
       {
         lastname: "Minart",
@@ -240,7 +240,7 @@ const obj = [
   },
   {
     team: "U9 Geel",
-    cloudinaryID: "",
+    cloudinaryID: "_MG_1847_ot7juc",
     coach: [
       {
         lastname: "Verdoren",
@@ -276,7 +276,7 @@ const obj = [
   },
   {
     team: "U8 Geel",
-    cloudinaryID: "",
+    cloudinaryID: "_MG_1829_wz4wzz",
     coach: [
       {
         lastname: "Taeymans",

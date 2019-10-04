@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { prefixURL } from "next-prefixed";
 import NextSeo from "next-seo";
+import TeamPictures from "../content/teams";
 import kbvbApiUrls from "../src/config/api/kbvb_graphql";
 import Layout from "../src/components/layout/Layout";
 import GameComponent from "../src/components/games/GameComponent";
@@ -39,7 +40,10 @@ class TeamPage extends Component {
       breadcrumbs[1].title.slice(1);
 
     return (
-      <Layout showGrassHeader>
+      <Layout
+        showSpecificImageHeader
+        specificImgUrl={TeamPictures[teamID].cloudinaryID}
+      >
         <NextSeo
           config={{
             title: `${seoTeam} | ${seoMaleOrFemale}`,
@@ -59,7 +63,9 @@ class TeamPage extends Component {
         </div>
         <div className="px-4 mt-8 md:mt-10 container mx-auto">
           <div className="body-content">
-            <h1 className="pb-6 inline-block lg:w-4/6">{pageTitle && pageTitle}</h1>
+            <h1 className="pb-6 inline-block lg:w-4/6">
+              {pageTitle && pageTitle}
+            </h1>
           </div>
           <div className="mt-6 mb-8">
             <ul className="tab-wrapper">
