@@ -3,7 +3,6 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { prefixURL } from "next-prefixed";
 import NextSeo from "next-seo";
-import TeamPictures from "../content/teams";
 import kbvbApiUrls from "../src/config/api/kbvb_graphql";
 import Layout from "../src/components/layout/Layout";
 import GameComponent from "../src/components/games/GameComponent";
@@ -40,10 +39,7 @@ class TeamPage extends Component {
       breadcrumbs[1].title.slice(1);
 
     return (
-      <Layout
-        showSpecificImageHeader
-        specificImgUrl={TeamPictures[teamID].cloudinaryID}
-      >
+      <Layout showSpecificImageHeader teamIdOfImageToShow={teamID}>
         <NextSeo
           config={{
             title: `${seoTeam} | ${seoMaleOrFemale}`,

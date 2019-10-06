@@ -10,10 +10,17 @@ const obj = {
     cloudinaryID: "teams/2019-2020/_MG_1937_z1qad6"
   },
   heren3eProv: {
-    cloudinaryID: "teams/2019-2020/_MG_1988_xzrcyg"
+    cloudinaryID: "teams/2019-2020/_MG_1988_xzrcyg",
+    backgroundPosition: "center top 30%"
   },
-  damesNat: {},
-  dames1eProv: {},
+  damesNat: {
+    cloudinaryID: "teams/2019-2020/_MG_1865_jmno9p.jpg",
+    backgroundPosition: "center top 45%"
+  },
+  dames1eProv: {
+    cloudinaryID: "teams/2019-2020/_MG_1968_f7jfkf",
+    backgroundPosition: "center top 60%"
+  },
   dames3eProv: {}
 };
 

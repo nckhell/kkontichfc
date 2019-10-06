@@ -4,6 +4,7 @@ import Head from "next/head";
 import { prefixURL } from "next-prefixed";
 import Header from "./Header";
 import Footer from "./Footer";
+import TeamPictures from "../../../content/teams";
 import Menu from "./Menu/MenuContent";
 import DesktopMenu from "./Menu/DesktopMenu";
 import { initGA, logPageView } from "../../utils/analytics";
@@ -41,12 +42,17 @@ class Layout extends Component {
       children,
       showGrassHeader,
       showSpecificImageHeader,
-      specificImgUrl
+      teamIdOfImageToShow
     } = this.props;
     const { isMenuOpen, isLoading } = this.state;
+    let specificImgRef;
+
+    if (showSpecificImageHeader) {
+      specificImgRef = TeamPictures[teamIdOfImageToShow].cloudinaryID;
+    }
 
     const grassHeaderUrl = prefixURL("/static/img/grass-texture.jpg");
-    const specificImgFullUrl = `https://res.cloudinary.com/kkontichfc/image/upload/c_scale,w_1200,q_100/${specificImgUrl}`;
+    const specificImgFullUrl = `https://res.cloudinary.com/kkontichfc/image/upload/c_scale,w_1600,q_100/${specificImgRef}`;
 
     return (
       <div className={`${isLoading ? "preload" : ""}`}>
@@ -80,7 +86,7 @@ class Layout extends Component {
           </div>
         </nav>
         <DesktopMenu isMenuOpen={isMenuOpen} />
-        {showGrassHeader && (
+        {(showGrassHeader || (showSpecificImageHeader && !specificImgRef)) && (
           <div
             className="h-40 md:h-48 lg:h-56 xl:h-68 bg-no-repeat bg-cover	bg-center"
             style={{
@@ -88,11 +94,16 @@ class Layout extends Component {
             }}
           ></div>
         )}
-        {showSpecificImageHeader && (
+        {showSpecificImageHeader && specificImgRef && (
           <div
-            className="h-80 md:h-48 lg:h-56 xl:h-68 bg-no-repeat bg-cover	bg-center"
+            className="h-64 xl:h-88 bg-no-repeat bg-cover	bg-center"
             style={{
-              backgroundImage: `url('${specificImgFullUrl}')`
+              backgroundImage: `url('${specificImgFullUrl}')`,
+              backgroundPosition: `${
+                TeamPictures[teamIdOfImageToShow].backgroundPosition
+                  ? TeamPictures[teamIdOfImageToShow].backgroundPosition
+                  : "center"
+              }`
             }}
           ></div>
         )}
