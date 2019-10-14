@@ -22,7 +22,7 @@ class GameReportHeader extends Component {
           backgroundImage: `url('${grassHeaderUrl}')`
         }}
       >
-        <div className="py-16 md:py-24 lg:py-32 xl:py-40 z-50 px-4 container mx-auto text-left relative">
+        <div className="py-16 md:py-24 z-50 px-4 container mx-auto text-left relative">
           <div className="w-full mx-auto lg:w-5/6">
             <div className="news-category text-white mb-8 game-type position">
               {gameDetails.type}
