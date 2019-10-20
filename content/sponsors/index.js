@@ -867,5 +867,14 @@ export default [
     type: "CLUBSPONSOR",
     highlight: "NO",
     cloudinaryID: "ganzenpoel_l7vtcw"
+  },
+  {
+    url: "http://www.vinotilus.be/nl",
+    name: "Vinotilus",
+    headsponsor: "NO",
+    order: "8",
+    type: "CLUBSPONSOR",
+    highlight: "NO",
+    cloudinaryID: "logo_vinotilus_transparant_mbcwgd"
   }
 ];
