@@ -9,7 +9,7 @@ import SUMMARY_JSON_NEWS from "../../../content/build/nieuws/summary.json";
 import SUMMARY_JSON_REPORTS from "../../../content/build/wedstrijdverslagen/summary.json";
 
 const CarouselSlider = () => {
-  const amountOfSliderItems = 4;
+  const amountOfSliderItems = 3;
 
   const arrNews = Object.entries(SUMMARY_JSON_NEWS.fileMap).map(elem => {
     const obj = elem[1];

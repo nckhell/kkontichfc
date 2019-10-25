@@ -1,7 +1,7 @@
 ---
 title: Antonia Zoersel - KKFC
 date: 2019-10-12
-slider: YES
+slider: NO
 type: Competitie
 homeTeam: Antonia Zoersel
 homeTeamScore: 3
