@@ -21,7 +21,10 @@ const obj = {
     cloudinaryID: "teams/2019-2020/_MG_1968_f7jfkf",
     backgroundPosition: "center top 60%"
   },
-  dames3eProv: {}
+  dames3eProv: {
+    cloudinaryID: "teams/2019-2020/_MG_1954_rbbp2s",
+    backgroundPosition: "center top 65%"
+  }
 };
 
 export default obj;
