@@ -4,9 +4,13 @@ import _ from "lodash";
 import sponsors from "../../../content/sponsors";
 
 function HeadSponsors() {
-  const headSponsors = _.filter(sponsors, sponsor => {
-    return sponsor.headsponsor === "YES";
-  });
+  const headSponsors = _.orderBy(
+    _.filter(sponsors, sponsor => {
+      return sponsor.headsponsor === "YES";
+    }),
+    "name",
+    "asc"
+  );
 
   return (
     <div className="my-8 lg:my-10 lg:my-20 bg-gray-111 w-full">
