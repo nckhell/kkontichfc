@@ -876,5 +876,14 @@ export default [
     type: "CLUBSPONSOR",
     highlight: "NO",
     cloudinaryID: "logo_vinotilus_transparant_mbcwgd"
+  },
+  {
+    url: "https://forumadvocaten.be/",
+    name: "Forum Advocaten",
+    headsponsor: "YES",
+    order: "8",
+    type: "CLUBSPONSOR",
+    highlight: "YES",
+    cloudinaryID: "forum_advocaten"
   }
 ];
