@@ -64,19 +64,19 @@ const obj = [
         cloudinaryID: ""
       },
       {
-        firstname: "Sara",
-        lastname: "Noé",
+        firstname: "Karim",
+        lastname: "Didi",
         function: "T1 - 1e nat.",
-        tel: "0495/61.36.39",
-        email: "sara.noe96@gmail.com",
+        tel: "",
+        email: "",
         cloudinaryID: ""
       },
       {
-        firstname: "Claudio",
-        lastname: "Palmeri",
-        function: "T2 - 1e nat.",
-        tel: "0483/37.19.13",
-        email: "Claudio.palmeri.football@telenet.be",
+        firstname: "Sara",
+        lastname: "Noé",
+        function: "Scouting",
+        tel: "0495/61.36.39",
+        email: "sara.noe96@gmail.com",
         cloudinaryID: ""
       },
       {
