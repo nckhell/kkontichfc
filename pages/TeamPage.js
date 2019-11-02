@@ -9,6 +9,7 @@ import GameComponent from "../src/components/games/GameComponent";
 import RankingComponent from "../src/components/ranking/RankingComponent";
 import CalendarTableComponent from "../src/components/calendar/CalendarTableComponent";
 import PlayersAndStaffOverview from "../src/components/teams/PlayersAndStaffOverview";
+import Topscorers from "../src/components/topscorers/Topscorers";
 import BreadCrumb from "../src/components/breadcrumbs/BreadCrumb";
 import mapUrlToBreadcrumbs from "../src/utils/mapUrlToBreadcrumb";
 
@@ -65,28 +66,34 @@ class TeamPage extends Component {
           </div>
           <div className="mt-6 mb-8">
             <ul className="tab-wrapper">
-              <li>
-                <a
-                  className={activePage === "overzicht" ? "active" : ""}
-                  href="#overzicht"
-                  title="Overzicht en rangschikkking"
-                  onClick={this.filterPage}
-                  id="overzicht"
-                >
-                  Overzicht en rangschikking
-                </a>
-              </li>
-              <li>
-                <a
-                  className={activePage === "kalender" ? "active" : ""}
-                  href="#kalender"
-                  title="Kalender en uitslagen"
-                  onClick={this.filterPage}
-                  id="kalender"
-                >
-                  Kalender en uitslagen
-                </a>
-              </li>
+              {"ranking" in kbvbApiUrls[teamID] &&
+                "latestGame" in kbvbApiUrls[teamID] &&
+                "nextGame" in kbvbApiUrls[teamID] && (
+                  <li>
+                    <a
+                      className={activePage === "overzicht" ? "active" : ""}
+                      href="#overzicht"
+                      title="Overzicht en rangschikkking"
+                      onClick={this.filterPage}
+                      id="overzicht"
+                    >
+                      Overzicht en rangschikking
+                    </a>
+                  </li>
+                )}
+              {"calendar" in kbvbApiUrls[teamID] && (
+                <li>
+                  <a
+                    className={activePage === "kalender" ? "active" : ""}
+                    href="#kalender"
+                    title="Kalender en uitslagen"
+                    onClick={this.filterPage}
+                    id="kalender"
+                  >
+                    Kalender en uitslagen
+                  </a>
+                </li>
+              )}
               <li>
                 <a
                   className={activePage === "spelers-staff" ? "active" : ""}
@@ -98,6 +105,19 @@ class TeamPage extends Component {
                   Spelers en staf
                 </a>
               </li>
+              {"topscorers" in kbvbApiUrls[teamID] && (
+                <li>
+                  <a
+                    className={activePage === "topschutters" ? "active" : ""}
+                    href="#topschutters"
+                    title="Topschutters"
+                    onClick={this.filterPage}
+                    id="topschutters"
+                  >
+                    Topschutters
+                  </a>
+                </li>
+              )}
             </ul>
           </div>
           {activePage === "overzicht" && (
@@ -148,6 +168,11 @@ class TeamPage extends Component {
           {activePage === "spelers-staff" && (
             <div>
               <PlayersAndStaffOverview teamID={teamID} />
+            </div>
+          )}
+          {activePage === "topschutters" && (
+            <div>
+              <Topscorers teamID={teamID} />
             </div>
           )}
         </div>

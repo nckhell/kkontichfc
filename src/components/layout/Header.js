@@ -37,7 +37,7 @@ class Header extends Component {
     const { fading, msg } = this.state;
 
     return (
-      <header className="z-20">
+      <header className="bg-white">
         <div className="flex flex-row justify-between items-center px-4 py-12 border-b border-gray-200 sm:px-6 md:py-16 md:px-8 xl:px-16">
           <div className="relative z-500">
             <button
