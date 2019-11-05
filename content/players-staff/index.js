@@ -10,11 +10,12 @@ const obj = {
     staff: [
       {
         position: "T1",
-        lastname: "De Ceuster",
-        firstname: "Wes",
+        lastname: "Schrauwen",
+        firstname: "Peter",
         birthdate: "",
-        email: "wes.deceuster@telenet.be",
-        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5944_hzvlkj"
+        email: "",
+        cloudinaryID:
+          "spelers/heren/1e-provinciale/2019-2020/Peter_Schrauwen_T1_aviaxs"
       },
       {
         position: "T2",
