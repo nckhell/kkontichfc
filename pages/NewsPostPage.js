@@ -120,38 +120,39 @@ class NewsPostPage extends Component {
               >
                 {date}
               </div>
-              {NewsPostJson.cloudinaryID && (
-                <figure
-                  className="mb-8"
-                  itemProp="image"
-                  itemScope
-                  itemType="http://schema.org/ImageObject"
-                >
-                  <CloudinaryContext cloudName="kkontichfc">
-                    <Image
-                      className="w-full h-auto"
-                      publicId={`nieuws/${NewsPostJson.cloudinaryID}`}
-                      alt={NewsPostJson.title}
-                      secure
-                    >
-                      <Transformation width="800" height="600" crop="fill" />
-                    </Image>
-                  </CloudinaryContext>
-                  <meta itemProp="height" content="630" />
-                  <meta itemProp="width" content="1200" />
-                  <meta
-                    itemProp="url"
-                    content={
-                      NewsPostJson.cloudinaryID
-                        ? imageSeo[0].url
-                        : prefixURL("/static/img/no-news-image.png")
-                    }
-                  />
-                  <figcaption className="italic text-base text-gray-300">
-                    {NewsPostJson.figCaption}
-                  </figcaption>
-                </figure>
-              )}
+              {NewsPostJson.cloudinaryID &&
+                NewsPostJson.showImageInArticle !== "NO" && (
+                  <figure
+                    className="mb-8"
+                    itemProp="image"
+                    itemScope
+                    itemType="http://schema.org/ImageObject"
+                  >
+                    <CloudinaryContext cloudName="kkontichfc">
+                      <Image
+                        className="w-full h-auto"
+                        publicId={`nieuws/${NewsPostJson.cloudinaryID}`}
+                        alt={NewsPostJson.title}
+                        secure
+                      >
+                        <Transformation width="800" height="600" crop="fill" />
+                      </Image>
+                    </CloudinaryContext>
+                    <meta itemProp="height" content="630" />
+                    <meta itemProp="width" content="1200" />
+                    <meta
+                      itemProp="url"
+                      content={
+                        NewsPostJson.cloudinaryID
+                          ? imageSeo[0].url
+                          : prefixURL("/static/img/no-news-image.png")
+                      }
+                    />
+                    <figcaption className="italic text-base text-gray-300">
+                      {NewsPostJson.figCaption}
+                    </figcaption>
+                  </figure>
+                )}
               {/* eslint-disable-next-line react/no-danger */}
               <div
                 dangerouslySetInnerHTML={{ __html: NewsPostJson.bodyHtml }}
