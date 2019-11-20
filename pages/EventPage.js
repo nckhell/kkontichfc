@@ -103,8 +103,7 @@ class EventPage extends Component {
                   />
                 </div>
               </div>
-              {EventJson.cloudinaryID &&
-                EventJson.showImageInArticle !== "NO" && (
+              {EventJson.cloudinaryID && EventJson.showImageInArticle !== "NO" && (
                 <figure
                   className="mb-8"
                   itemProp="image"
