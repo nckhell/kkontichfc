@@ -80,6 +80,20 @@ class PaastornooiRegistrationPage extends Component {
                   (namiddag)
                 </li>
               </ul>
+              <p>
+                Indien u problemen ondervindt met het online inschrijven ligt
+                dit wellicht aan uw browser. Voor de beste online ervaring
+                bezoekt u onze website het best via de{" "}
+                <a
+                  href="https://browsehappy.com/"
+                  title="Google Chrome & Firefox"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  laatste versies van Google Chrome of FireFox
+                </a>
+                .
+              </p>
             </div>
             <Formik
               initialValues={{
