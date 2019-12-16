@@ -1,7 +1,7 @@
 ---
 title: Talentdetectie meisjes
 date: 2019-12-13
-backgroundPosition: top 15% center
+backgroundPosition: top 65% center
 cloudinaryID: IMG-20191207-WA0000_le99sr
 showImageInArticle: NO
 ---
