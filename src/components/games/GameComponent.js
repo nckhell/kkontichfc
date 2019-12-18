@@ -1,11 +1,28 @@
 import React, { Component } from "react";
+import * as R from "ramda";
 import PropTypes from "prop-types";
 import ReactPlaceholder from "react-placeholder";
 import { formatDate, formatTime } from "../../utils/dateTimeFormat";
 import fetch from "../../services/api/fetch";
-import kbvbApiUrls from "../../config/api/kbvb_graphql";
+import kbvbApiUrls from "../../imports/api/kbvb/graphql/api_endpoints";
 import GameComponentPlaceholder from "./GameComponentPlaceholder";
 import NoGameToShow from "./NoGameToShow";
+import { latestGameApiUrlLens } from "../../imports/api/kbvb/graphql/lenses/sub-types/latest-game";
+import { nextGameApiUrlLens } from "../../imports/api/kbvb/graphql/lenses/sub-types/next-game";
+import {
+  startDateLens,
+  upcomingMatchLens,
+  lastPlayedMatchLens,
+  homeTeamLens,
+  awayTeamLens,
+  teamNameLens,
+  teamLogoLens,
+  seriesNameLens
+} from "../../imports/api/kbvb/matches/lenses";
+import {
+  homeTeamGoalsLens,
+  awayTeamGoalsLens
+} from "../../imports/api/kbvb/matches/lenses/sub-types/last-played-match";
 
 class GameComponent extends Component {
   state = {
@@ -33,10 +50,15 @@ class GameComponent extends Component {
     const { teamID, type } = this.props;
 
     if (type === "latest-game") {
-      fetch(kbvbApiUrls[teamID].latestGame.url)
+      fetch(
+        R.compose(
+          R.view(latestGameApiUrlLens),
+          R.view(R.lensProp(teamID))
+        )(kbvbApiUrls)
+      )
         .then(data =>
           this.setState({
-            game: data.data.lastPlayedMatch,
+            game: R.view(lastPlayedMatchLens, data),
             type: "latest-game",
             isLoading: false
           })
@@ -45,10 +67,15 @@ class GameComponent extends Component {
     }
 
     if (type === "next-game") {
-      fetch(kbvbApiUrls[teamID].nextGame.url)
+      fetch(
+        R.compose(
+          R.view(nextGameApiUrlLens),
+          R.view(R.lensProp(teamID))
+        )(kbvbApiUrls)
+      )
         .then(data =>
           this.setState({
-            game: data.data.upcomingMatch,
+            game: R.view(upcomingMatchLens, data),
             type: "next-game",
             isLoading: false
           })
@@ -66,8 +93,15 @@ class GameComponent extends Component {
       let time;
 
       if (!isLoading) {
-        date = formatDate(game.startDate);
-        time = formatTime(game.startDate);
+        date = R.compose(
+          formatDate,
+          R.view(startDateLens)
+        )(game);
+
+        time = R.compose(
+          formatTime,
+          R.view(startDateLens)
+        )(game);
       }
 
       return (
@@ -90,35 +124,53 @@ class GameComponent extends Component {
                   <div className="w-1/2 py-6 border-gray-200 border-r flex flex-col justify-center items-center text-center">
                     <div className="flex items-center">
                       <img
-                        src={game.homeTeam.logo}
+                        src={R.compose(
+                          R.view(teamLogoLens),
+                          R.view(homeTeamLens)
+                        )(game)}
                         className="h-16 inline-block"
-                        alt={game.homeTeam.name}
+                        alt={R.compose(
+                          R.view(teamNameLens),
+                          R.view(homeTeamLens)
+                        )(game)}
                       />{" "}
                       {type === "latest-game" && (
                         <span className="pl-4 font-semibold text-4xl text-gray-900">
-                          {game.outcome.homeTeamGoals}
+                          {R.view(homeTeamGoalsLens, game)}
                         </span>
                       )}
                     </div>
                     <span className="uppercase pt-4 text-gray-400 font-semibold">
-                      {game.homeTeam.name}
+                      {R.compose(
+                        R.view(teamNameLens),
+                        R.view(homeTeamLens)
+                      )(game)}
                     </span>
                   </div>
                   <div className="w-1/2 py-6 flex justify-center flex-col items-center text-center">
                     <div className="flex items-center">
                       {type === "latest-game" && (
                         <span className="pr-4 font-semibold text-4xl text-gray-900">
-                          {game.outcome.awayTeamGoals}
+                          {R.view(awayTeamGoalsLens, game)}
                         </span>
                       )}
                       <img
-                        src={game.awayTeam.logo}
+                        src={R.compose(
+                          R.view(teamLogoLens),
+                          R.view(awayTeamLens)
+                        )(game)}
                         className="h-16 inline-block"
-                        alt={game.awayTeam.name}
+                        alt={R.compose(
+                          R.view(teamNameLens),
+                          R.view(awayTeamLens)
+                        )(game)}
                       />{" "}
                     </div>
                     <span className="uppercase text-gray-400 pt-4 font-semibold">
-                      {game.awayTeam.name}
+                      {R.compose(
+                        R.view(teamNameLens),
+                        R.view(awayTeamLens)
+                      )(game)}
                     </span>
                   </div>
                 </div>
@@ -132,7 +184,9 @@ class GameComponent extends Component {
                       : "Wordt gespeeld om"}{" "}
                     {time}
                   </div>
-                  <span className="italic pt-2">{game.series.name}</span>
+                  <span className="italic pt-2">
+                    {R.view(seriesNameLens, game)}
+                  </span>
                 </div>
               </div>
             ) : (

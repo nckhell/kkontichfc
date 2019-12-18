@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/prefer-default-export
 export const getReadableRankingType = (type: string): string => {
   const dictionary = {
     generalRanking: "Algemeen",
@@ -7,8 +8,4 @@ export const getReadableRankingType = (type: string): string => {
   };
 
   return dictionary[type];
-};
-
-export const anotherFunction = () => {
-  return "test";
 };

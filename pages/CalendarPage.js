@@ -1,7 +1,11 @@
 import React, { Component } from "react";
+import * as R from "ramda";
 import PropTypes from "prop-types";
 import fetch from "../src/services/api/fetch";
-import kbvbApiUrls from "../src/config/api/kbvb_graphql";
+import kbvbApiUrls from "../src/imports/api/kbvb/graphql/api_endpoints";
+import { calendarApiUrlLens } from "../src/imports/api/kbvb/graphql/lenses/sub-types/calendar";
+import { readableTitleLens } from "../src/imports/api/kbvb/graphql/lenses/sub-types/routing-info";
+import { calendarLens } from "../src/imports/api/kbvb/calendar/lenses";
 import CalendarTableComponent from "../src/components/calendar/CalendarTableComponent";
 import Layout from "../src/components/layout/Layout";
 
@@ -19,10 +23,15 @@ class CalendarPage extends Component {
   fetchCalendar() {
     const { teamID } = this.props;
 
-    fetch(kbvbApiUrls[teamID].calendar.url)
+    fetch(
+      R.compose(
+        R.view(calendarApiUrlLens),
+        R.view(R.lensProp(teamID))
+      )(kbvbApiUrls)
+    )
       .then(data =>
         this.setState({
-          calendar: data.data.teamCalendar,
+          calendar: R.view(calendarLens, data),
           isLoading: false
         })
       )
@@ -32,7 +41,10 @@ class CalendarPage extends Component {
   render() {
     const { isLoading, calendar, error } = this.state;
     const { teamID } = this.props;
-    const pageTitle = kbvbApiUrls[teamID].staticRoutingInfo.readableTitle;
+    const pageTitle = R.compose(
+      R.view(readableTitleLens),
+      R.view(R.lensProp(teamID))
+    )(kbvbApiUrls);
 
     return (
       <Layout>

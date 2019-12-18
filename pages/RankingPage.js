@@ -1,7 +1,10 @@
 import React, { Component } from "react";
+import * as R from "ramda";
 import PropTypes from "prop-types";
 import fetch from "../src/services/api/fetch";
-import kbvbApiUrls from "../src/config/api/kbvb_graphql";
+import kbvbApiUrls from "../src/imports/api/kbvb/graphql/api_endpoints";
+import { rankingApiUrlLens } from "../src/imports/api/kbvb/graphql/lenses/sub-types/ranking";
+import { readableTitleLens } from "../src/imports/api/kbvb/graphql/lenses/sub-types/routing-info";
 import RankingComponent from "../src/components/ranking/RankingComponent";
 import Layout from "../src/components/layout/Layout";
 
@@ -19,7 +22,12 @@ class RankingPage extends Component {
   fetchRanking() {
     const { teamID } = this.props;
 
-    fetch(kbvbApiUrls[teamID].ranking.url)
+    fetch(
+      R.compose(
+        R.view(rankingApiUrlLens),
+        R.view(R.lensProp(teamID))
+      )(kbvbApiUrls)
+    )
       .then(data =>
         this.setState({
           rankings: data.data.seriesRankings.rankings,
@@ -32,7 +40,10 @@ class RankingPage extends Component {
   render() {
     const { isLoading, rankings, error } = this.state;
     const { teamID } = this.props;
-    const pageTitle = kbvbApiUrls[teamID].staticRoutingInfo.readableTitle;
+    const pageTitle = R.compose(
+      R.view(readableTitleLens),
+      R.view(R.lensProp(teamID))
+    )(kbvbApiUrls);
 
     return (
       <Layout>

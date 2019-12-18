@@ -1,9 +1,22 @@
 import React, { Component } from "react";
+import * as R from "ramda";
 import PropTypes from "prop-types";
 import ReactPlaceholder from "react-placeholder";
 import fetch from "../../services/api/fetch";
 import CalendarTablePlaceholder from "./CalendarTablePlaceholder";
-import kbvbApiUrls from "../../config/api/kbvb_graphql";
+import kbvbApiUrls from "../../imports/api/kbvb/graphql/api_endpoints";
+import { calendarApiUrlLens } from "../../imports/api/kbvb/graphql/lenses/sub-types/calendar";
+import {
+  calendarLens,
+  startDateLens,
+  seriesNameLens,
+  homeTeamLens,
+  awayTeamLens,
+  teamNameLens,
+  teamLogoLens,
+  homeTeamGoalsLens,
+  awayTeamGoalsLens
+} from "../../imports/api/kbvb/calendar/lenses";
 import { formatDateShort, formatTime } from "../../utils/dateTimeFormat";
 
 class CalendarTableComponent extends Component {
@@ -20,10 +33,15 @@ class CalendarTableComponent extends Component {
   fetchCalendar() {
     const { teamID } = this.props;
 
-    fetch(kbvbApiUrls[teamID].calendar.url)
+    fetch(
+      R.compose(
+        R.view(calendarApiUrlLens),
+        R.view(R.lensProp(teamID))
+      )(kbvbApiUrls)
+    )
       .then(data =>
         this.setState({
-          calendar: data.data.teamCalendar,
+          calendar: R.view(calendarLens, data),
           isLoading: false
         })
       )
@@ -56,41 +74,67 @@ class CalendarTableComponent extends Component {
               {calendar &&
                 calendar.map(calendarEntry => {
                   return (
-                    <tr key={calendarEntry.id}>
-                      <td>{formatDateShort(calendarEntry.startDate)}</td>
-                      <td className="text-center">
-                        {formatTime(calendarEntry.startDate)}
+                    <tr key={R.view(R.lensProp("id"), calendarEntry)}>
+                      <td>
+                        {R.compose(
+                          formatDateShort,
+                          R.view(startDateLens)
+                        )(calendarEntry)}
                       </td>
-                      <td>{calendarEntry.series.name}</td>
+                      <td className="text-center">
+                        {R.compose(
+                          formatTime,
+                          R.view(startDateLens)
+                        )(calendarEntry)}
+                      </td>
+                      <td>{R.view(seriesNameLens, calendarEntry)}</td>
                       <td className="text-center">
                         <span
                           className="block w-10 h-10 bg-contain bg-no-repeat bg-no-repeat bg-center"
                           style={{
-                            backgroundImage: `url('${calendarEntry.homeTeam.logo}')`
+                            backgroundImage: `url('${R.compose(
+                              R.view(teamLogoLens),
+                              R.view(homeTeamLens)
+                            )(calendarEntry)}')`
                           }}
                         ></span>
                       </td>
                       <td>
-                        {calendarEntry.homeTeam.id === "128030"
+                        {R.compose(
+                          R.lensProp("id"),
+                          R.view(homeTeamLens)
+                        )(calendarEntry) === "128030"
                           ? "KKFC"
-                          : calendarEntry.homeTeam.name}
+                          : R.compose(
+                              R.view(teamNameLens),
+                              R.view(homeTeamLens)
+                            )(calendarEntry)}
                       </td>
                       <td className="text-center">
                         <span
                           className="block w-10 h-10 bg-contain bg-no-repeat bg-no-repeat bg-center"
                           style={{
-                            backgroundImage: `url('${calendarEntry.awayTeam.logo}')`
+                            backgroundImage: `url('${R.compose(
+                              R.view(teamLogoLens),
+                              R.view(awayTeamLens)
+                            )(calendarEntry)}')`
                           }}
                         ></span>
                       </td>
                       <td>
-                        {calendarEntry.awayTeam.id === "128030"
+                        {R.compose(
+                          R.lensProp("id"),
+                          R.view(awayTeamLens)
+                        )(calendarEntry) === "128030"
                           ? "KKFC"
-                          : calendarEntry.awayTeam.name}
+                          : R.compose(
+                              R.view(teamNameLens),
+                              R.view(awayTeamLens)
+                            )(calendarEntry)}
                       </td>
                       <td className="text-center font-semibold">
-                        {calendarEntry.outcome.homeTeamGoals}-
-                        {calendarEntry.outcome.awayTeamGoals}
+                        {R.view(homeTeamGoalsLens, calendarEntry)}-
+                        {R.view(awayTeamGoalsLens, calendarEntry)}
                       </td>
                     </tr>
                   );

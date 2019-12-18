@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import GameComponent from "../games/GameComponent";
 import RankingComponent from "../ranking/RankingComponent";
 import ButtonWithLine from "../buttons/ButtonWithLine";
-import kbvbApiUrls from "../../config/api/kbvb_graphql";
+import kbvbApiUrls from "../../imports/api/kbvb/graphql/api_endpoints";
 
 class MatchCenter extends Component {
   state = {

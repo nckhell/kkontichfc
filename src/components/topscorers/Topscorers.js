@@ -1,12 +1,20 @@
 /* eslint-disable prefer-destructuring */
 /* eslint-disable no-undef-init */
 import React, { Component } from "react";
-import _ from "lodash";
+import * as R from "ramda";
 import PropTypes from "prop-types";
 import ReactPlaceholder from "react-placeholder";
 import TopscorersPlaceholder from "./TopscorersPlaceholder";
 import fetch from "../../services/api/fetch";
-import kbvbApiUrls from "../../config/api/kbvb_graphql";
+import kbvbApiUrls from "../../imports/api/kbvb/graphql/api_endpoints";
+import { topscorersApiUrlLens } from "../../imports/api/kbvb/graphql/lenses/sub-types/topscorers";
+import {
+  topscorersLens,
+  playerFirstNameLens,
+  playerLastNameLens,
+  numberOfGoalsLens,
+  numberOfMatchesLens
+} from "../../imports/api/kbvb/topscorers/lenses";
 
 class Topscorers extends Component {
   state = {
@@ -32,10 +40,15 @@ class Topscorers extends Component {
   fetchTopscorers() {
     const { teamID } = this.props;
 
-    fetch(kbvbApiUrls[teamID].topscorers.url)
+    fetch(
+      R.compose(
+        R.view(topscorersApiUrlLens),
+        R.view(R.lensProp(teamID))
+      )(kbvbApiUrls)
+    )
       .then(data =>
         this.setState({
-          topscorers: data.data.teamMembers.players,
+          topscorers: R.view(topscorersLens, data),
           isLoading: false
         })
       )
@@ -47,16 +60,18 @@ class Topscorers extends Component {
     let rowCount = 0;
 
     if (topscorers) {
-      const playersThatScored = _.filter(
-        topscorers,
-        player => player.statistics.numberOfGoals > 0
-      );
+      const playersThatScored = arr =>
+        arr.filter(player => R.view(numberOfGoalsLens, player) > 0);
 
-      const orderFromHighToLow = _.orderBy(
-        playersThatScored,
-        "statistics.numberOfGoals",
-        "desc"
-      );
+      const sortTopscorers = listOfPlayersThatScored =>
+        listOfPlayersThatScored.sort((a, b) =>
+          R.view(numberOfGoalsLens, a) > R.view(numberOfGoalsLens, b) ? -1 : 1
+        );
+
+      const playersThatScoredInOrder = R.compose(
+        sortTopscorers,
+        playersThatScored
+      )(topscorers);
 
       return (
         <ReactPlaceholder
@@ -66,7 +81,7 @@ class Topscorers extends Component {
         >
           <div>
             {error ? <p>{error.message}</p> : null}
-            {!isLoading && orderFromHighToLow.length > 0 ? (
+            {!isLoading && playersThatScoredInOrder.length > 0 ? (
               <div className="overflow-x-auto">
                 <table className="ranking-table w-full text-center">
                   <thead>
@@ -77,25 +92,32 @@ class Topscorers extends Component {
                     </tr>
                   </thead>
                   <tbody>
-                    {orderFromHighToLow &&
-                      orderFromHighToLow.map(player => {
+                    {playersThatScoredInOrder &&
+                      playersThatScoredInOrder.map(player => {
                         rowCount += 1;
                         return (
-                          <tr key={`${player.firstName}-${player.lastName}`}>
+                          <tr
+                            key={`${R.view(
+                              playerFirstNameLens,
+                              player
+                            )}-${R.view(playerLastNameLens, player)}`}
+                          >
                             <td className="font-semibold no-padding">
                               {rowCount}
                             </td>
                             <td className="text-left">
-                              {player.firstName} {player.lastName}
+                              {R.view(playerFirstNameLens, player)}{" "}
+                              {R.view(playerLastNameLens, player)}
                             </td>
                             <td className="text-left">
                               <span className="font-semibold">
-                                {player.statistics.numberOfGoals}{" "}
-                                {player.statistics.numberOfGoals > 1
+                                {R.view(numberOfGoalsLens, player)}{" "}
+                                {R.view(numberOfGoalsLens, player) > 1
                                   ? "doelpunten"
                                   : "doelpunt"}
                               </span>{" "}
-                              in {player.statistics.numberOfMatches} wedstrijden
+                              in {R.view(numberOfMatchesLens, player)}{" "}
+                              wedstrijden
                             </td>
                           </tr>
                         );

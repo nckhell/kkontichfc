@@ -1,9 +1,11 @@
 /* eslint-disable global-require */
 import React, { Component } from "react";
+import * as R from "ramda";
 import PropTypes from "prop-types";
 import { prefixURL } from "next-prefixed";
 import NextSeo from "next-seo";
-import kbvbApiUrls from "../src/config/api/kbvb_graphql";
+import kbvbApiUrls from "../src/imports/api/kbvb/graphql/api_endpoints";
+import { readableTitleLens } from "../src/imports/api/kbvb/graphql/lenses/sub-types/routing-info";
 import Layout from "../src/components/layout/Layout";
 import GameComponent from "../src/components/games/GameComponent";
 import RankingComponent from "../src/components/ranking/RankingComponent";
@@ -29,7 +31,10 @@ class TeamPage extends Component {
   render() {
     const { activePage } = this.state;
     const { teamID, fullUrl } = this.props;
-    const pageTitle = kbvbApiUrls[teamID].staticRoutingInfo.readableTitle;
+    const pageTitle = R.compose(
+      R.view(readableTitleLens),
+      R.view(R.lensProp(teamID))
+    )(kbvbApiUrls);
 
     const breadcrumbs = mapUrlToBreadcrumbs(fullUrl);
     const seoMaleOrFemale =
@@ -66,9 +71,9 @@ class TeamPage extends Component {
           </div>
           <div className="mt-6 mb-8">
             <ul className="tab-wrapper">
-              {"ranking" in kbvbApiUrls[teamID] &&
-                "latestGame" in kbvbApiUrls[teamID] &&
-                "nextGame" in kbvbApiUrls[teamID] && (
+              {"ranking" in R.view(R.lensProp(teamID), kbvbApiUrls) &&
+                "latestGame" in R.view(R.lensProp(teamID), kbvbApiUrls) &&
+                "nextGame" in R.view(R.lensProp(teamID), kbvbApiUrls) && (
                   <li>
                     <a
                       className={activePage === "overzicht" ? "active" : ""}
@@ -81,7 +86,7 @@ class TeamPage extends Component {
                     </a>
                   </li>
                 )}
-              {"calendar" in kbvbApiUrls[teamID] && (
+              {"calendar" in R.view(R.lensProp(teamID), kbvbApiUrls) && (
                 <li>
                   <a
                     className={activePage === "kalender" ? "active" : ""}
@@ -105,7 +110,7 @@ class TeamPage extends Component {
                   Spelers en staf
                 </a>
               </li>
-              {"topscorers" in kbvbApiUrls[teamID] && (
+              {"topscorers" in R.view(R.lensProp(teamID), kbvbApiUrls) && (
                 <li>
                   <a
                     className={activePage === "topschutters" ? "active" : ""}

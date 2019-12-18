@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import * as R from "ramda";
 import PropTypes from "prop-types";
 import ReactPlaceholder from "react-placeholder";
 import RankingTableComponent from "./RankingTableComponent";
@@ -6,7 +7,13 @@ import RankingPlaceholder from "./RankingPlaceholder";
 import NoRankingToShow from "./NoRankingToShow";
 import Tabs from "../tabs/Tabs";
 import fetch from "../../services/api/fetch";
-import kbvbApiUrls from "../../config/api/kbvb_graphql";
+import kbvbApiUrls from "../../imports/api/kbvb/graphql/api_endpoints";
+import { rankingApiUrlLens } from "../../imports/api/kbvb/graphql/lenses/sub-types/ranking";
+import {
+  rankingsLens,
+  rankingTypeLens,
+  teamsInRankingLens
+} from "../../imports/api/kbvb/rankings/lenses";
 import { getReadableRankingType } from "../../utils/ranking";
 
 class RankingComponent extends Component {
@@ -33,13 +40,18 @@ class RankingComponent extends Component {
   fetchRanking() {
     const { teamID } = this.props;
 
-    fetch(kbvbApiUrls[teamID].ranking.url)
-      .then(data =>
+    fetch(
+      R.compose(
+        R.view(rankingApiUrlLens),
+        R.view(R.lensProp(teamID))
+      )(kbvbApiUrls)
+    )
+      .then(data => {
         this.setState({
-          rankings: data.data.seriesRankings,
+          rankings: R.view(rankingsLens, data),
           isLoading: false
-        })
-      )
+        });
+      })
       .catch(error => this.setState({ error, isLoading: false }));
   }
 
@@ -56,22 +68,25 @@ class RankingComponent extends Component {
         >
           <div>
             {error ? <p>{error.message}</p> : null}
-            {!isLoading && rankings.rankings.length > 0 ? (
+            {!isLoading && rankings.length > 0 ? (
               <Tabs
                 wrapperClassName="ranking-wrapper"
                 tabListClassName="ranking-tabs"
                 tabContentClassName="ranking-table"
               >
-                {rankings.rankings.map(ranking => {
+                {rankings.map(ranking => {
                   return (
                     <div
-                      key={ranking.type}
-                      label={getReadableRankingType(ranking.type)}
+                      key={R.view(rankingTypeLens, ranking)}
+                      label={R.compose(
+                        getReadableRankingType,
+                        R.view(rankingTypeLens)
+                      )(ranking)}
                     >
                       <RankingTableComponent
-                        key={ranking.type}
-                        typeOfRanking={ranking.type}
-                        listOfTeams={ranking.teams}
+                        key={R.view(rankingTypeLens, ranking)}
+                        typeOfRanking={R.view(rankingTypeLens, ranking)}
+                        listOfTeams={R.view(teamsInRankingLens, ranking)}
                         limit={limit}
                       />
                     </div>

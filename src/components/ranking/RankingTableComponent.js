@@ -1,15 +1,34 @@
 import React from "react";
+import * as R from "ramda";
 import PropTypes from "prop-types";
+import {
+  clubRegistrationNumberLens,
+  teamIdLens,
+  positionLens,
+  goalDifferenceLens,
+  goalsAgainstLens,
+  goalsForLens,
+  matchesDrawnLens,
+  matchesLostLens,
+  matchesPlayedLens,
+  matchesWonLens,
+  teamLogoLens,
+  teamNameLens,
+  pointsLens
+} from "../../imports/api/kbvb/rankings/lenses";
 
 const RankingTableComponent = props => {
   const { listOfTeams, typeOfRanking, limit } = props;
   let rowCount = 0;
 
-  const kontichPositionInRankingArray = listOfTeams.findIndex(
-    rankingEntry => rankingEntry.clubRegistrationNumber === "03029"
-  );
-
-  const kontichPositionInRanking = kontichPositionInRankingArray + 1;
+  const positionOfKontichInRanking = R.compose(
+    position => position + 1,
+    arr =>
+      arr.findIndex(
+        rankingEntry =>
+          R.view(clubRegistrationNumberLens, rankingEntry) === "03029"
+      )
+  )(listOfTeams);
 
   return (
     <div className="overflow-x-auto">
@@ -37,41 +56,51 @@ const RankingTableComponent = props => {
               if (
                 limit &&
                 (rowCount <= limit ||
-                  (kontichPositionInRanking > limit &&
-                    teamRankingEntry.clubRegistrationNumber === "03029"))
+                  (positionOfKontichInRanking > limit &&
+                    R.view(clubRegistrationNumberLens, teamRankingEntry) ===
+                      "03029"))
               ) {
                 return (
                   <tr
-                    key={`${typeOfRanking}-${teamRankingEntry.teamId}`}
+                    key={`${typeOfRanking}-${R.view(
+                      teamIdLens,
+                      teamRankingEntry
+                    )}`}
                     className={
-                      teamRankingEntry.clubRegistrationNumber === "03029"
+                      R.view(clubRegistrationNumberLens, teamRankingEntry) ===
+                      "03029"
                         ? "bg-yellow-100"
                         : ""
                     }
                   >
                     <td className="font-semibold no-padding">
-                      {teamRankingEntry.position}
+                      {R.view(positionLens, teamRankingEntry)}
                     </td>
                     <td className="text-center no-padding">
                       <img
-                        src={teamRankingEntry.logo}
+                        src={R.view(teamLogoLens, teamRankingEntry)}
                         className="h-8 inline-block"
-                        alt={`Clublogo ${teamRankingEntry.name}`}
+                        alt={`Clublogo ${R.view(
+                          teamNameLens,
+                          teamRankingEntry
+                        )}`}
                       />
                     </td>
-                    <td className="text-left">{teamRankingEntry.name}</td>
-                    <td className="lg:hidden font-semibold">
-                      {teamRankingEntry.points}
+                    <td className="text-left">
+                      {R.view(teamNameLens, teamRankingEntry)}
                     </td>
-                    <td>{teamRankingEntry.matchesPlayed}</td>
-                    <td>{teamRankingEntry.matchesWon}</td>
-                    <td>{teamRankingEntry.matchesLost}</td>
-                    <td>{teamRankingEntry.matchesDrawn}</td>
-                    <td>{teamRankingEntry.goalsFor}</td>
-                    <td>{teamRankingEntry.goalsAgainst}</td>
-                    <td>{teamRankingEntry.goalDifference}</td>
+                    <td className="lg:hidden font-semibold">
+                      {R.view(pointsLens, teamRankingEntry)}
+                    </td>
+                    <td>{R.view(matchesPlayedLens, teamRankingEntry)}</td>
+                    <td>{R.view(matchesWonLens, teamRankingEntry)}</td>
+                    <td>{R.view(matchesLostLens, teamRankingEntry)}</td>
+                    <td>{R.view(matchesDrawnLens, teamRankingEntry)}</td>
+                    <td>{R.view(goalsForLens, teamRankingEntry)}</td>
+                    <td>{R.view(goalsAgainstLens, teamRankingEntry)}</td>
+                    <td>{R.view(goalDifferenceLens, teamRankingEntry)}</td>
                     <td className="hidden lg:block font-semibold">
-                      {teamRankingEntry.points}
+                      {R.view(pointsLens, teamRankingEntry)}
                     </td>
                   </tr>
                 );
