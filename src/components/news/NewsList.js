@@ -1,6 +1,8 @@
 import React from "react";
+import * as R from "ramda";
 import PropTypes from "prop-types";
 import NewsItem from "./NewsItem";
+import { dirLens, filenameLens } from "../../imports/api/shared/lenses";
 
 const NewsList = props => {
   const { data } = props;
@@ -9,7 +11,15 @@ const NewsList = props => {
     <div className="mt-6 md:flex md:-mx-2 flex-wrap">
       {data &&
         data.map(newsArticle => {
-          return <NewsItem data={newsArticle} key={newsArticle.base} />;
+          return (
+            <NewsItem
+              data={newsArticle}
+              key={R.compose(
+                str => str + R.view(filenameLens, newsArticle),
+                R.view(dirLens)
+              )(newsArticle)}
+            />
+          );
         })}
     </div>
   );

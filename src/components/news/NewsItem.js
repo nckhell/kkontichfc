@@ -1,31 +1,44 @@
 /* eslint-disable react/no-danger */
 import React from "react";
+import * as R from "ramda";
 import PropTypes from "prop-types";
 import { prefixURL } from "next-prefixed";
 import { FacebookProvider, Like } from "react-facebook";
 import ReactSVG from "react-svg";
 import { makeUrl, getCategoryFromNewsPost } from "../../utils/news";
 import { formatDate } from "../../utils/dateTimeFormat";
+import {
+  dateLens,
+  titleLens,
+  backgroundPositionLens
+} from "../../imports/api/news/lenses";
+import {
+  dirLens,
+  cloudinaryIdLens,
+  previewLens
+} from "../../imports/api/shared/lenses";
 
 const NewsItem = props => {
   const { data } = props;
 
   const href = makeUrl(data);
-  const date = formatDate(data.date);
-  const category = getCategoryFromNewsPost(data.dir);
-  let imageUrl;
+  const date = formatDate(R.view(dateLens, data));
+  const category = getCategoryFromNewsPost(R.view(dirLens, data));
 
-  if (data.cloudinaryID) {
-    imageUrl = `https://res.cloudinary.com/kkontichfc/image/upload/c_fit,h_391,q_90,w_632/nieuws/${data.cloudinaryID}`;
-  } else {
-    imageUrl = prefixURL("/static/img/no-news-image.png");
-  }
+  const composeImageUrl = cloudinaryId => {
+    if (cloudinaryId) {
+      return `https://res.cloudinary.com/kkontichfc/image/upload/c_fit,h_391,q_90,w_632/nieuws/${cloudinaryId}`;
+    }
+    return prefixURL("/static/img/no-news-image.png");
+  };
+
+  const imageUrl = composeImageUrl(R.view(cloudinaryIdLens, data));
 
   return (
     <article className="mb-4 w-full md:w-1/2 lg:w-1/3 md:px-2">
       <a
         href={prefixURL(href)}
-        title={data.title}
+        title={R.view(titleLens, data)}
         className="border border-gray-200 border-b-4 block hover:border-gray-300 hover:shadow-md"
       >
         <div
@@ -33,7 +46,9 @@ const NewsItem = props => {
           style={{
             backgroundImage: `url('${imageUrl}')`,
             backgroundPosition: `${
-              data.backgroundPosition ? data.backgroundPosition : "center"
+              R.view(backgroundPositionLens, data)
+                ? R.view(backgroundPositionLens, data)
+                : "center"
             }`
           }}
         >
@@ -43,15 +58,17 @@ const NewsItem = props => {
         </div>
         <div className="h-56 overlow-y-hidden px-6">
           <div className="text-xl leading-relaxed pt-6 font-montserrat font-medium tracking-tighter">
-            {data.title}
+            {R.view(titleLens, data)}
           </div>
           <div
             className="text-sm leading-loose pt-2 text-gray-600 overflow-y-hidden"
-            dangerouslySetInnerHTML={{ __html: `${data.preview} ...` }}
+            dangerouslySetInnerHTML={{
+              __html: `${R.view(previewLens, data)} ...`
+            }}
           />
         </div>
         <div className="pb-4 px-6 flex text-xs text-gray-600 justify-between">
-          <div content={data.date}>
+          <div content={R.view(dateLens, data)}>
             <ReactSVG
               className="inline-block align-middle pr-2"
               beforeInjection={svg => {

@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/label-has-for */
 import React, { Component } from "react";
-import _ from "lodash";
+import * as R from "ramda";
 import NextSeo from "next-seo";
 import Layout from "../src/components/layout/Layout";
 import SUMMARY_JSON from "../content/build/nieuws/summary.json";
@@ -11,17 +11,16 @@ import {
   sortNewsSummaryJsonOnDate,
   getCategoryFromNewsPost
 } from "../src/utils/news";
-import HeadSponsors from "../src/components/sponsors/HeadSponsors";
 import NewsList from "../src/components/news/NewsList";
 import BreadCrumb from "../src/components/breadcrumbs/BreadCrumb";
 import Settings from "../settings";
+import { dirLens } from "../src/imports/api/shared/lenses";
 
 class NewsListPage extends Component {
   state = {
     newsCategoriesInFilter: getAllNewsCategories(SUMMARY_JSON),
     seasonInFilter: Settings.currentSeason,
-    newsList: sortNewsSummaryJsonOnDate(SUMMARY_JSON),
-    filteredNewsList: sortNewsSummaryJsonOnDate(SUMMARY_JSON)
+    newsList: sortNewsSummaryJsonOnDate(SUMMARY_JSON)
   };
 
   constructor() {
@@ -61,25 +60,21 @@ class NewsListPage extends Component {
 
   render() {
     const { newsCategoriesInFilter, seasonInFilter, newsList } = this.state;
-
-    let { filteredNewsList } = this.state;
-
-    // Filter on season
-    filteredNewsList = _.filter(newsList, item => {
-      return getSeasonFromNewsPost(item.dir) === seasonInFilter;
-    });
-
-    // Filter on newscategory
-    filteredNewsList = _.filter(filteredNewsList, item => {
-      const categoryExists = newsCategoriesInFilter.indexOf(
-        getCategoryFromNewsPost(item.dir)
-      );
-
-      return categoryExists !== -1;
-    });
-
     const newsCategories = getAllNewsCategories(SUMMARY_JSON);
     const seasons = getAllSeasonsWithNews(SUMMARY_JSON);
+
+    const compareSeason = newsItem =>
+      getSeasonFromNewsPost(R.view(dirLens, newsItem)) === seasonInFilter;
+
+    const compareNewsCategories = newsItem =>
+      newsCategoriesInFilter.indexOf(
+        getCategoryFromNewsPost(R.view(dirLens, newsItem))
+      ) !== -1;
+
+    const filteredNewsList = R.compose(
+      R.filter(compareNewsCategories),
+      R.filter(compareSeason)
+    )(newsList);
 
     return (
       <Layout showGrassHeader>
@@ -128,9 +123,6 @@ class NewsListPage extends Component {
               </ul>
             </div>
             <div className="bg-gray-111 border border-gray-100 pt-6 pb-4 px-6 my-8">
-              {/* <div className="font-semibold text-lg text-gray-700">
-                Filteren
-              </div> */}
               <div className="-mx-2">
                 {newsCategories &&
                   newsCategories.map(category => {

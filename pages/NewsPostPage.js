@@ -1,5 +1,6 @@
 /* eslint-disable global-require */
 import React, { Component } from "react";
+import * as R from "ramda";
 import { CloudinaryContext, Image, Transformation } from "cloudinary-react";
 import { prefixURL } from "next-prefixed";
 import NextSeo from "next-seo";
@@ -9,8 +10,20 @@ import ButtonWithLine from "../src/components/buttons/ButtonWithLine";
 import { getCategoryFromNewsPost, makeUrl } from "../src/utils/news";
 import { formatDate } from "../src/utils/dateTimeFormat";
 import Layout from "../src/components/layout/Layout";
-import HeadSponsors from "../src/components/sponsors/HeadSponsors";
 import BreadCrumb from "../src/components/breadcrumbs/BreadCrumb";
+import {
+  dateLens,
+  titleLens,
+  showImageInArticleLens,
+  figCaptionLens
+} from "../src/imports/api/news/lenses";
+import {
+  cloudinaryIdLens,
+  filenameLens,
+  dirLens,
+  previewLens,
+  bodyLens
+} from "../src/imports/api/shared/lenses";
 
 class NewsPostPage extends Component {
   state = {};
@@ -20,38 +33,46 @@ class NewsPostPage extends Component {
   render() {
     /* eslint-disable react/prop-types */
     const { NewsPostJson } = this.props;
-    const date = formatDate(NewsPostJson.date);
-    const category = getCategoryFromNewsPost(NewsPostJson.dir);
+    const date = formatDate(R.view(dateLens, NewsPostJson));
+    const category = getCategoryFromNewsPost(R.view(dirLens, NewsPostJson));
     const href = makeUrl(NewsPostJson);
 
     const categoryUpperCaseSeo =
       category.charAt(0).toUpperCase() + category.slice(1);
 
-    let imageSeo = [];
-    if (NewsPostJson.cloudinaryID) {
-      imageSeo = [
-        {
-          url: `https://res.cloudinary.com/kkontichfc/image/upload/c_fill,h_630,w_1200/nieuws/${NewsPostJson.cloudinaryID}`,
-          width: "1200",
-          height: "630",
-          alt: `${NewsPostJson.title}`
-        }
-      ];
-    }
+    const composeImageSeo = cloudinaryId =>
+      cloudinaryId
+        ? [
+            {
+              url: `https://res.cloudinary.com/kkontichfc/image/upload/c_fill,h_630,w_1200/nieuws/${cloudinaryId}`,
+              width: "1200",
+              height: "630",
+              alt: `${R.view(titleLens, NewsPostJson)}`
+            }
+          ]
+        : [];
+
+    const imageSeo = composeImageSeo(R.view(cloudinaryIdLens, NewsPostJson));
 
     return (
       <Layout showGrassHeader>
         <NextSeo
           config={{
-            title: `${NewsPostJson.title} | ${categoryUpperCaseSeo}`,
-            description: `${NewsPostJson.preview}...`,
+            title: `${R.view(
+              titleLens,
+              NewsPostJson
+            )} | ${categoryUpperCaseSeo}`,
+            description: `${R.view(previewLens, NewsPostJson)}...`,
             canonical: `https://www.kkontichfc.be${href}`,
             openGraph: {
               type: "article",
               locale: "nl_BE",
               url: `https://www.kkontichfc.be${href}`,
-              title: `${NewsPostJson.title} | ${categoryUpperCaseSeo} | K. Kontich F.C.`,
-              description: `${NewsPostJson.preview}...`,
+              title: `${R.view(
+                titleLens,
+                NewsPostJson
+              )} | ${categoryUpperCaseSeo} | K. Kontich F.C.`,
+              description: `${R.view(previewLens, NewsPostJson)}...`,
               images: imageSeo
             }
           }}
@@ -67,7 +88,7 @@ class NewsPostPage extends Component {
                     url: "#"
                   },
                   {
-                    title: NewsPostJson.title,
+                    title: R.view(titleLens, NewsPostJson),
                     url: `https://www.kkontichfc.be${href}`
                   }
                 ]}
@@ -111,17 +132,17 @@ class NewsPostPage extends Component {
                 </div>
               </div>
               <h1 className="my-6 inline-block lg:w-5/6" itemProp="headline">
-                {NewsPostJson.title}
+                {R.view(titleLens, NewsPostJson)}
               </h1>
               <div
                 className="mb-8 text-gray-900 font-semibold"
                 itemProp="datePublished"
-                content={NewsPostJson.date}
+                content={R.view(dateLens, NewsPostJson)}
               >
                 {date}
               </div>
-              {NewsPostJson.cloudinaryID &&
-                NewsPostJson.showImageInArticle !== "NO" && (
+              {R.view(cloudinaryIdLens, NewsPostJson) &&
+                R.view(showImageInArticleLens, NewsPostJson) !== "NO" && (
                   <figure
                     className="mb-8"
                     itemProp="image"
@@ -131,8 +152,11 @@ class NewsPostPage extends Component {
                     <CloudinaryContext cloudName="kkontichfc">
                       <Image
                         className="w-full h-auto"
-                        publicId={`nieuws/${NewsPostJson.cloudinaryID}`}
-                        alt={NewsPostJson.title}
+                        publicId={`nieuws/${R.view(
+                          cloudinaryIdLens,
+                          NewsPostJson
+                        )}`}
+                        alt={R.view(titleLens, NewsPostJson)}
                         secure
                       >
                         <Transformation width="800" height="600" crop="fill" />
@@ -143,19 +167,21 @@ class NewsPostPage extends Component {
                     <meta
                       itemProp="url"
                       content={
-                        NewsPostJson.cloudinaryID
-                          ? imageSeo[0].url
+                        R.view(cloudinaryIdLens, NewsPostJson)
+                          ? R.head(imageSeo).url
                           : prefixURL("/static/img/no-news-image.png")
                       }
                     />
                     <figcaption className="italic text-base text-gray-300">
-                      {NewsPostJson.figCaption}
+                      {R.view(figCaptionLens, NewsPostJson)}
                     </figcaption>
                   </figure>
                 )}
               {/* eslint-disable-next-line react/no-danger */}
               <div
-                dangerouslySetInnerHTML={{ __html: NewsPostJson.bodyHtml }}
+                dangerouslySetInnerHTML={{
+                  __html: R.view(bodyLens, NewsPostJson)
+                }}
                 itemProp="articleBody"
               />
               <FacebookProvider appId="346435965433483">
@@ -185,7 +211,10 @@ class NewsPostPage extends Component {
         <div className="my-16 h-1 w-full border-t border-gray-200" />
         <section className="container mx-auto px-4">
           <h1>Andere recente artikels</h1>
-          <LatestNews nbrOfItems={3} excludeWithSlug={NewsPostJson.base} />
+          <LatestNews
+            nbrOfItems={3}
+            excludeWithSlug={R.view(filenameLens, NewsPostJson)}
+          />
           <ButtonWithLine text="Meer nieuws" url="/nieuws/overzicht" />
         </section>
         <div className="spacer mb-16 md:mb-24"></div>
