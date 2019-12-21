@@ -39,12 +39,18 @@ export const getSeasonFromEvent = EventDir => {
   return EventDir.split("/").slice(-1)[0];
 };
 
-export const sortEventsOnOnlyEventsInTheFuture = arrayWithEventObjects => {
-  const currentDate = new Date();
+export const sortEventsOnOnlyEventsInTheFuture = (
+  arrayWithEventObjects,
+  includeToday = false
+) => {
+  const currentDate = new Date().setHours(0, 0, 0, 0);
 
   return arrayWithEventObjects.filter(event => {
     const eventDate = Date.parse(event.date);
-    return currentDate < eventDate;
+    if (includeToday) {
+      return eventDate >= currentDate;
+    }
+    return eventDate > currentDate;
   });
 };
 
@@ -62,10 +68,6 @@ export const getMonthFromDate = (dateString: string): string => {
   };
 
   return new Date(dateString).toLocaleDateString("nl-NL", options);
-};
-
-export const limit = (arrayWithEventObjects, amountOfArticles) => {
-  return arrayWithEventObjects.slice(0, amountOfArticles);
 };
 
 export const makeUrl = event => {

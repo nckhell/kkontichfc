@@ -1,7 +1,15 @@
 import React from "react";
+import * as R from "ramda";
 import PropTypes from "prop-types";
 import { prefixURL } from "next-prefixed";
 import ReactSVG from "react-svg";
+import {
+  firstnameLens,
+  lastnameLens,
+  functionLens,
+  telLens,
+  emailLens
+} from "../../imports/api/board/lenses/members";
 
 const BoardList = props => {
   const { members, name } = props;
@@ -23,17 +31,18 @@ const BoardList = props => {
             {members &&
               members.map(member => {
                 return (
-                  <tr key={member.email}>
+                  <tr key={R.view(emailLens, member)}>
                     <td className="py-6 font-semibold">
-                      {member.firstname} {member.lastname}
+                      {R.view(firstnameLens, member)}{" "}
+                      {R.view(lastnameLens, member)}
                     </td>
-                    <td className="py-6">{member.function}</td>
-                    <td className="py-6">{member.tel}</td>
+                    <td className="py-6">{R.view(functionLens, member)}</td>
+                    <td className="py-6">{R.view(telLens, member)}</td>
                     <td className="py-6 text-center">
                       <a
                         className="inline-block"
-                        href={`mailto:${member.email}`}
-                        title={member.email}
+                        href={`mailto:${R.view(emailLens, member)}`}
+                        title={R.view(emailLens, member)}
                       >
                         <ReactSVG
                           className="inline-block align-middle pr-2 w-8"

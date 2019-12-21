@@ -1,25 +1,30 @@
 import React from "react";
+import * as R from "ramda";
 import PropTypes from "prop-types";
 import UpcomingEventItem from "./UpcomingEventItem";
 import SUMMARY_JSON from "../../../content/build/evenementen/summary.json";
 import {
   sortEventsSummaryJsonOnDate,
-  sortEventsOnOnlyEventsInTheFuture,
-  limit
+  sortEventsOnOnlyEventsInTheFuture
 } from "../../utils/events";
+import { filenameLens } from "../../imports/api/shared/lenses";
 
 const UpcomingEvents = props => {
   const { nbrOfItems } = props;
-  let upcomingEvents = sortEventsOnOnlyEventsInTheFuture(
-    sortEventsSummaryJsonOnDate(SUMMARY_JSON, "asc")
-  );
-  upcomingEvents = limit(upcomingEvents, nbrOfItems);
+
+  const upcomingEvents = R.compose(
+    R.take(nbrOfItems),
+    events => sortEventsOnOnlyEventsInTheFuture(events, true),
+    events => sortEventsSummaryJsonOnDate(events, "asc")
+  )(SUMMARY_JSON);
 
   return (
     <div className="mt-6 lg:flex lg:-mx-2 flex-wrap">
       {upcomingEvents &&
         upcomingEvents.map(event => {
-          return <UpcomingEventItem data={event} key={event.base} />;
+          return (
+            <UpcomingEventItem data={event} key={R.view(filenameLens, event)} />
+          );
         })}
       {!upcomingEvents ||
         (upcomingEvents.length === 0 && (

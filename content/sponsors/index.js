@@ -1,10 +1,3 @@
-/**
-   Headsponsor: YES | NO
-   Type: CLUBSPONSOR | KANTINESPONSOR | DAMESSPONSOR 
-   Highlight: YES | NO
-   CloudinaryID: Image name on cloudinary
- */
-
 export default [
   {
     url: "http://www.claesadvocaten.be/index.aspx",
@@ -12,7 +5,6 @@ export default [
     headsponsor: "YES",
     order: "2",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "claes-advocaten"
   },
   {
@@ -21,7 +13,6 @@ export default [
     headsponsor: "YES",
     order: "4",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "dakwerken-van-elshocht"
   },
   {
@@ -30,7 +21,6 @@ export default [
     headsponsor: "YES",
     order: "4",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "dca_logo_yuil6i"
   },
   {
@@ -39,7 +29,6 @@ export default [
     headsponsor: "YES",
     order: "2",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "frans-de-vocht"
   },
   {
@@ -48,7 +37,6 @@ export default [
     headsponsor: "NO",
     order: "8",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "hairplace"
   },
   {
@@ -57,7 +45,6 @@ export default [
     headsponsor: "NO",
     order: "10",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "laeremans"
   },
   {
@@ -66,7 +53,6 @@ export default [
     headsponsor: "NO",
     order: "11",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "t-ventiel"
   },
   {
@@ -75,7 +61,6 @@ export default [
     headsponsor: "NO",
     order: "13",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "reizen-boone"
   },
   {
@@ -84,7 +69,6 @@ export default [
     headsponsor: "NO",
     order: "17",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "klare-wijn"
   },
   {
@@ -93,7 +77,6 @@ export default [
     headsponsor: "NO",
     order: "18",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "alectro"
   },
   {
@@ -102,7 +85,6 @@ export default [
     headsponsor: "NO",
     order: "21",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "autovak"
   },
   {
@@ -111,7 +93,6 @@ export default [
     headsponsor: "NO",
     order: "23",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "centea"
   },
   {
@@ -120,7 +101,6 @@ export default [
     headsponsor: "NO",
     order: "24",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "chicken-service-wolfs"
   },
   {
@@ -129,7 +109,6 @@ export default [
     headsponsor: "NO",
     order: "26",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "gebroeders-nijs"
   },
   {
@@ -138,7 +117,6 @@ export default [
     headsponsor: "NO",
     order: "33",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "peugeot"
   },
   {
@@ -147,7 +125,6 @@ export default [
     headsponsor: "NO",
     order: "34",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "shoepoint"
   },
   {
@@ -156,7 +133,6 @@ export default [
     headsponsor: "NO",
     order: "35",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "tech-solutions"
   },
   {
@@ -165,7 +141,6 @@ export default [
     headsponsor: "YES",
     order: "1",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "tuinhoutcentrum"
   },
   {
@@ -174,7 +149,6 @@ export default [
     headsponsor: "NO",
     order: "38",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "van-den-wijngaert"
   },
   {
@@ -183,7 +157,6 @@ export default [
     headsponsor: "NO",
     order: "40",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "van-put"
   },
   {
@@ -192,7 +165,6 @@ export default [
     headsponsor: "NO",
     order: "41",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "van-haute-bvba"
   },
   {
@@ -201,7 +173,6 @@ export default [
     headsponsor: "NO",
     order: "42",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "camelia"
   },
   {
@@ -211,7 +182,6 @@ export default [
     headsponsor: "YES",
     order: "10",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "guy-huygelen"
   },
   {
@@ -220,7 +190,6 @@ export default [
     headsponsor: "YES",
     order: "9",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "jako"
   },
   {
@@ -229,7 +198,6 @@ export default [
     headsponsor: "YES",
     order: "9",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "nick-sport"
   },
   {
@@ -238,7 +206,6 @@ export default [
     headsponsor: "YES",
     order: "4",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "bronwyn-lanvin"
   },
   {
@@ -248,7 +215,6 @@ export default [
     headsponsor: "YES",
     order: "11",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "immo-helbee"
   },
   {
@@ -257,7 +223,6 @@ export default [
     headsponsor: "NO",
     order: "19",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "garage-thuy"
   },
   {
@@ -266,7 +231,6 @@ export default [
     headsponsor: "NO",
     order: "21",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "autos-van-looveren"
   },
   {
@@ -275,7 +239,6 @@ export default [
     headsponsor: "NO",
     order: "20",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "traqo"
   },
   {
@@ -284,7 +247,6 @@ export default [
     headsponsor: "YES",
     order: "9",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "klimaplan"
   },
   {
@@ -293,7 +255,6 @@ export default [
     headsponsor: "NO",
     order: "9",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "seghers"
   },
   {
@@ -301,8 +262,7 @@ export default [
     name: "TRAVOTTO BVBA",
     headsponsor: "NO",
     order: "50",
-    type: "CLUBSPONSOR",
-    highlight: "NO"
+    type: "CLUBSPONSOR"
   },
   {
     url: "http://www.hubo.be",
@@ -310,7 +270,6 @@ export default [
     headsponsor: "NO",
     order: "10",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "hubo"
   },
   {
@@ -319,7 +278,6 @@ export default [
     headsponsor: "NO",
     order: "10",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "joly-audi"
   },
   {
@@ -328,7 +286,6 @@ export default [
     headsponsor: "NO",
     order: "10",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "joly-vw"
   },
   {
@@ -337,7 +294,6 @@ export default [
     headsponsor: "NO",
     order: "7",
     type: "DAMESSPONSOR",
-    highlight: "NO",
     cloudinaryID: "wasserij-gilberte_m0ytr6"
   },
   {
@@ -346,7 +302,6 @@ export default [
     headsponsor: "YES",
     order: "1",
     type: "DAMESSPONSOR",
-    highlight: "NO",
     cloudinaryID: "ulp"
   },
   {
@@ -356,7 +311,6 @@ export default [
     headsponsor: "NO",
     order: "7",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "huybrighs-en-zn"
   },
   {
@@ -365,7 +319,6 @@ export default [
     headsponsor: "NO",
     order: "2",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "trouilliez"
   },
   {
@@ -374,7 +327,6 @@ export default [
     headsponsor: "YES",
     order: "2",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "cronos"
   },
   {
@@ -383,7 +335,6 @@ export default [
     headsponsor: "NO",
     order: "7",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "van-den-bergh"
   },
   {
@@ -392,7 +343,6 @@ export default [
     headsponsor: "NO",
     order: "7",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "gozar"
   },
   {
@@ -401,7 +351,6 @@ export default [
     headsponsor: "NO",
     order: "6",
     type: "DAMESSPONSOR",
-    highlight: "NO",
     cloudinaryID: "depot-noord"
   },
   {
@@ -410,7 +359,6 @@ export default [
     headsponsor: "NO",
     order: "10",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "apotheek-vranken"
   },
   {
@@ -419,7 +367,6 @@ export default [
     headsponsor: "NO",
     order: "10",
     type: "DAMESSPONSOR",
-    highlight: "NO",
     cloudinaryID: "meco"
   },
   {
@@ -427,8 +374,7 @@ export default [
     name: "Garage Van Roosenbroek",
     headsponsor: "NO",
     order: "10",
-    type: "CLUBSPONSOR",
-    highlight: "NO"
+    type: "CLUBSPONSOR"
   },
   {
     url: "http://www.top-salon.be/",
@@ -436,7 +382,6 @@ export default [
     headsponsor: "NO",
     order: "7",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "top-salon"
   },
   {
@@ -445,7 +390,6 @@ export default [
     headsponsor: "NO",
     order: "7",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "t-of-in-hove"
   },
   {
@@ -454,7 +398,6 @@ export default [
     headsponsor: "NO",
     order: "12",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "dcm"
   },
   {
@@ -463,7 +406,6 @@ export default [
     headsponsor: "NO",
     order: "7",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "gemo-parketvloeren"
   },
   {
@@ -471,7 +413,6 @@ export default [
     headsponsor: "NO",
     order: "15",
     type: "DAMESSPONSOR",
-    highlight: "NO",
     cloudinaryID: "dc4-group"
   },
   {
@@ -480,7 +421,6 @@ export default [
     headsponsor: "NO",
     order: "15",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "barbershop-changes"
   },
   {
@@ -488,8 +428,7 @@ export default [
     name: "Pizza Napoli",
     headsponsor: "NO",
     order: "16",
-    type: "CLUBSPONSOR",
-    highlight: "NO"
+    type: "CLUBSPONSOR"
   },
   {
     url: "http://swaab.portas.be/",
@@ -497,7 +436,6 @@ export default [
     headsponsor: "NO",
     order: "0",
     type: "KANTINESPONSOR",
-    highlight: "NO",
     cloudinaryID: "portas"
   },
   {
@@ -506,7 +444,6 @@ export default [
     headsponsor: "NO",
     order: "0",
     type: "KANTINESPONSOR",
-    highlight: "NO",
     cloudinaryID: "carrosserie-waumans"
   },
   {
@@ -515,7 +452,6 @@ export default [
     headsponsor: "NO",
     order: "0",
     type: "KANTINESPONSOR",
-    highlight: "NO",
     cloudinaryID: "bv-jobs"
   },
   {
@@ -524,7 +460,6 @@ export default [
     headsponsor: "NO",
     order: "0",
     type: "KANTINESPONSOR",
-    highlight: "NO",
     cloudinaryID: "ts-tim-demaere"
   },
   {
@@ -533,7 +468,6 @@ export default [
     headsponsor: "NO",
     order: "0",
     type: "KANTINESPONSOR",
-    highlight: "NO",
     cloudinaryID: "springkasteel-antwerpen"
   },
   {
@@ -542,7 +476,6 @@ export default [
     headsponsor: "NO",
     order: "0",
     type: "KANTINESPONSOR",
-    highlight: "NO",
     cloudinaryID: "cafe-chapo"
   },
   {
@@ -551,7 +484,6 @@ export default [
     headsponsor: "NO",
     order: "0",
     type: "KANTINESPONSOR",
-    highlight: "NO",
     cloudinaryID: "het-bazarke"
   },
   {
@@ -560,7 +492,6 @@ export default [
     headsponsor: "NO",
     order: "0",
     type: "KANTINESPONSOR",
-    highlight: "NO",
     cloudinaryID: "ardilla"
   },
   {
@@ -569,7 +500,6 @@ export default [
     headsponsor: "NO",
     order: "0",
     type: "KANTINESPONSOR",
-    highlight: "NO",
     cloudinaryID: "boekjes-en-zo"
   },
   {
@@ -578,7 +508,6 @@ export default [
     headsponsor: "NO",
     order: "0",
     type: "KANTINESPONSOR",
-    highlight: "NO",
     cloudinaryID: "party-ride"
   },
   {
@@ -587,7 +516,6 @@ export default [
     headsponsor: "NO",
     order: "0",
     type: "KANTINESPONSOR",
-    highlight: "NO",
     cloudinaryID: "jmw-printing"
   },
   {
@@ -596,7 +524,6 @@ export default [
     headsponsor: "NO",
     order: "0",
     type: "KANTINESPONSOR",
-    highlight: "NO",
     cloudinaryID: "wasserij-gilberte"
   },
   {
@@ -604,8 +531,7 @@ export default [
     name: "Café De Zwaluw",
     headsponsor: "NO",
     order: "10",
-    type: "CLUBSPONSOR",
-    highlight: "NO"
+    type: "CLUBSPONSOR"
   },
   {
     url: "http://www.goudengids.be/het-belegde-broodje-kontich-2550/",
@@ -613,7 +539,6 @@ export default [
     headsponsor: "NO",
     order: "0",
     type: "KANTINESPONSOR",
-    highlight: "NO",
     cloudinaryID: "belegde-broodje"
   },
   {
@@ -622,7 +547,6 @@ export default [
     headsponsor: "NO",
     order: "5",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "vipvervoer-spruyt"
   },
   {
@@ -631,7 +555,6 @@ export default [
     headsponsor: "YES",
     order: "1",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "lunch-garden-edegem"
   },
   {
@@ -640,7 +563,6 @@ export default [
     headsponsor: "NO",
     order: "10",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "verheyen"
   },
   {
@@ -649,7 +571,6 @@ export default [
     headsponsor: "YES",
     order: "5",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "zowizoo"
   },
   {
@@ -658,7 +579,6 @@ export default [
     headsponsor: "YES",
     order: "2",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "kwadro"
   },
   {
@@ -667,7 +587,6 @@ export default [
     headsponsor: "NO",
     order: "5",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "group-f"
   },
   {
@@ -676,7 +595,6 @@ export default [
     headsponsor: "NO",
     order: "0",
     type: "KANTINESPONSOR",
-    highlight: "NO",
     cloudinaryID: "tcict"
   },
   {
@@ -685,7 +603,6 @@ export default [
     headsponsor: "YES",
     order: "10",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "footline"
   },
   {
@@ -694,7 +611,6 @@ export default [
     headsponsor: "NO",
     order: "10",
     type: "DAMESSPONSOR",
-    highlight: "NO",
     cloudinaryID: "kinderdagverblijf-babypaleis"
   },
   {
@@ -703,7 +619,6 @@ export default [
     headsponsor: "YES",
     order: "5",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "beobank"
   },
   {
@@ -712,7 +627,6 @@ export default [
     headsponsor: "NO",
     order: "15",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "de-linde"
   },
   {
@@ -721,7 +635,6 @@ export default [
     headsponsor: "YES",
     order: "5",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "transfert"
   },
   {
@@ -730,7 +643,6 @@ export default [
     headsponsor: "NO",
     order: "5",
     type: "KANTINESPONSOR",
-    highlight: "NO",
     cloudinaryID: "copycenter"
   },
   {
@@ -739,7 +651,6 @@ export default [
     headsponsor: "YES",
     order: "5",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "boonen"
   },
   {
@@ -748,7 +659,6 @@ export default [
     headsponsor: "YES",
     order: "3",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "vlaams-neutraal-ziekenfonds"
   },
   {
@@ -757,7 +667,6 @@ export default [
     headsponsor: "YES",
     order: "2",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "volvo-vermant"
   },
   {
@@ -766,7 +675,6 @@ export default [
     headsponsor: "YES",
     order: "2",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "KIA-vermant-zilver-blok_xxy8kw"
   },
   {
@@ -775,7 +683,6 @@ export default [
     headsponsor: "NO",
     order: "10",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "saniheat"
   },
   {
@@ -784,7 +691,6 @@ export default [
     headsponsor: "NO",
     order: "5",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "aquarius"
   },
   {
@@ -793,7 +699,6 @@ export default [
     headsponsor: "NO",
     order: "5",
     type: "DAMESSPONSOR",
-    highlight: "NO",
     cloudinaryID: "ten-hove"
   },
   {
@@ -802,7 +707,6 @@ export default [
     headsponsor: "YES",
     order: "8",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "stijn-bevers"
   },
   {
@@ -811,7 +715,6 @@ export default [
     headsponsor: "YES",
     order: "8",
     type: "DAMESSPONSOR",
-    highlight: "NO",
     cloudinaryID: "straalstudio"
   },
   {
@@ -820,7 +723,6 @@ export default [
     headsponsor: "YES",
     order: "8",
     type: "DAMESSPONSOR",
-    highlight: "NO",
     cloudinaryID: "logo-schilderstudio-schilder-schilderwerken_v0pujr"
   },
   {
@@ -829,7 +731,6 @@ export default [
     headsponsor: "NO",
     order: "8",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "velodi_tjhaw9"
   },
   {
@@ -838,7 +739,6 @@ export default [
     headsponsor: "NO",
     order: "8",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "gosto_y7fqnd"
   },
   {
@@ -847,7 +747,6 @@ export default [
     headsponsor: "NO",
     order: "8",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "OcchiPuri-logo_odiaka"
   },
   {
@@ -856,7 +755,6 @@ export default [
     headsponsor: "YES",
     order: "8",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "airzone_jng0yv"
   },
   {
@@ -865,7 +763,6 @@ export default [
     headsponsor: "NO",
     order: "8",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "ganzenpoel_l7vtcw"
   },
   {
@@ -874,7 +771,6 @@ export default [
     headsponsor: "NO",
     order: "8",
     type: "CLUBSPONSOR",
-    highlight: "NO",
     cloudinaryID: "logo_vinotilus_transparant_mbcwgd"
   },
   {
@@ -883,7 +779,6 @@ export default [
     headsponsor: "YES",
     order: "8",
     type: "CLUBSPONSOR",
-    highlight: "YES",
     cloudinaryID: "forum_advocaten"
   }
 ];

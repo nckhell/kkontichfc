@@ -1,6 +1,6 @@
 /* eslint-disable global-require */
 import React, { Component } from "react";
-import _ from "lodash";
+import * as R from "ramda";
 import NextSeo from "next-seo";
 import Layout from "../src/components/layout/Layout";
 import SUMMARY_JSON from "../content/build/evenementen/summary.json";
@@ -13,11 +13,11 @@ import {
   getSeasonFromEvent
 } from "../src/utils/events";
 import Settings from "../settings";
+import { dirLens } from "../src/imports/api/shared/lenses";
 
 class EventsListPage extends Component {
   state = {
     eventsList: sortEventsSummaryJsonOnDate(SUMMARY_JSON, "asc"),
-    filteredEventsList: sortEventsSummaryJsonOnDate(SUMMARY_JSON, "asc"),
     seasonInFilter: Settings.currentSeason,
     showPastEventsFilter: true
   };
@@ -44,21 +44,20 @@ class EventsListPage extends Component {
 
   render() {
     const { showPastEventsFilter, seasonInFilter, eventsList } = this.state;
-    let { filteredEventsList } = this.state;
-
     const seasons = getAllSeasonsWithEvents(SUMMARY_JSON);
 
-    // Filter on season
-    filteredEventsList = _.filter(eventsList, item => {
-      return getSeasonFromEvent(item.dir) === seasonInFilter;
-    });
+    const compareSeason = eventItem =>
+      getSeasonFromEvent(R.view(dirLens, eventItem)) === seasonInFilter;
 
-    // Filter on past
-    if (!showPastEventsFilter) {
-      filteredEventsList = sortEventsOnOnlyEventsInTheFuture(
-        filteredEventsList
-      );
-    }
+    const filterOnPastOrFuture = showPastEventsBool => events =>
+      showPastEventsBool
+        ? events
+        : sortEventsOnOnlyEventsInTheFuture(events, true);
+
+    const filteredEventsList = R.compose(
+      filterOnPastOrFuture(showPastEventsFilter),
+      R.filter(compareSeason)
+    )(eventsList);
 
     return (
       <Layout showGrassHeader>
@@ -131,7 +130,6 @@ class EventsListPage extends Component {
             </div>
             <EventList data={filteredEventsList} />
           </section>
-          {/* <HeadSponsors /> */}
         </main>
         <div className="spacer mb-16 md:mb-24"></div>
       </Layout>

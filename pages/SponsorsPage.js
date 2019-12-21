@@ -1,24 +1,29 @@
 import React from "react";
-import _ from "lodash";
+import * as R from "ramda";
 import { prefixURL } from "next-prefixed";
 import NextSeo from "next-seo";
 import Layout from "../src/components/layout/Layout";
 import sponsorsJson from "../content/sponsors";
 import BreadCrumb from "../src/components/breadcrumbs/BreadCrumb";
 import SponsorList from "../src/components/sponsors/SponsorList";
+import { typeLens, nameLens } from "../src/imports/api/sponsors/lenses";
 
 function SponsorsPage() {
-  const sponsors = _.orderBy(sponsorsJson, "name", "asc");
+  const sponsors = R.sortBy(
+    R.compose(
+      R.toLower,
+      R.view(nameLens)
+    ),
+    sponsorsJson
+  );
 
-  const damesSponsors = _.filter(sponsors, sponsor => {
-    return sponsor.type === "DAMESSPONSOR";
-  });
-  const kantineSponsors = _.filter(sponsors, sponsor => {
-    return sponsor.type === "KANTINESPONSOR";
-  });
-  const clubSponsors = _.filter(sponsors, sponsor => {
-    return sponsor.type === "CLUBSPONSOR";
-  });
+  const isTypeOfSponsor = type => sponsor => R.view(typeLens, sponsor) === type;
+
+  const damesSponsors = R.filter(isTypeOfSponsor("DAMESSPONSOR"), sponsors);
+
+  const kantineSponsors = R.filter(isTypeOfSponsor("KANTINESPONSOR"), sponsors);
+
+  const clubSponsors = R.filter(isTypeOfSponsor("CLUBSPONSOR"), sponsors);
 
   return (
     <Layout showGrassHeader>

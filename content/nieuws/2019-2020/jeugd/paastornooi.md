@@ -1,6 +1,6 @@
 ---
 title: Paastornooi / Vermant-Cup 2020
-date: 2019-10-10
+date: 2019-12-21
 slider: YES
 cloudinaryID: 35_akqo8w
 ---

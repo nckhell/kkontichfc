@@ -1,10 +1,12 @@
 import React, { Component } from "react";
+import * as R from "ramda";
 import { prefixURL } from "next-prefixed";
 import NextSeo from "next-seo";
 import Layout from "../src/components/layout/Layout";
 import BreadCrumb from "../src/components/breadcrumbs/BreadCrumb";
 import BoardList from "../src/components/board/BoardList";
 import BoardContent from "../content/bestuur";
+import { membersLens, nameLens } from "../src/imports/api/board/lenses";
 
 // eslint-disable-next-line react/prefer-stateless-function
 class BoardPage extends Component {
@@ -45,9 +47,9 @@ class BoardPage extends Component {
                 BoardContent.map(board => {
                   return (
                     <BoardList
-                      name={board.name}
-                      members={board.members}
-                      key={board.name}
+                      name={R.view(nameLens, board)}
+                      members={R.view(membersLens, board)}
+                      key={R.view(nameLens, board)}
                     />
                   );
                 })}

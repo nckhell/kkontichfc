@@ -1,6 +1,8 @@
 import React from "react";
+import * as R from "ramda";
 import PropTypes from "prop-types";
 import SponsorItem from "./SponsorItem";
+import { nameLens } from "../../imports/api/sponsors/lenses";
 
 const SponsorList = props => {
   const { data } = props;
@@ -10,8 +12,11 @@ const SponsorList = props => {
       {data &&
         data.map((sponsor, key) => {
           return (
-            // eslint-disable-next-line react/no-array-index-key
-            <SponsorItem sponsor={sponsor} key={`${sponsor.name}-${key}`} />
+            <SponsorItem
+              sponsor={sponsor}
+              // eslint-disable-next-line react/no-array-index-key
+              key={`${R.view(nameLens, sponsor)}-${key}`}
+            />
           );
         })}
     </div>
