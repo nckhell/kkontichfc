@@ -7,15 +7,12 @@ import { FacebookProvider, Like } from "react-facebook";
 import ReactSVG from "react-svg";
 import { makeUrl, getCategoryFromNewsPost } from "../../utils/news";
 import { formatDate } from "../../utils/dateTimeFormat";
-import {
-  dateLens,
-  titleLens,
-  backgroundPositionLens
-} from "../../imports/api/news/lenses";
+import { dateLens, titleLens } from "../../imports/api/news/lenses";
 import {
   dirLens,
   cloudinaryIdLens,
-  previewLens
+  previewLens,
+  backgroundPositionLens
 } from "../../imports/api/shared/lenses";
 
 const NewsItem = props => {

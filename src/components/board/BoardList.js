@@ -3,13 +3,13 @@ import * as R from "ramda";
 import PropTypes from "prop-types";
 import { prefixURL } from "next-prefixed";
 import ReactSVG from "react-svg";
+import { functionLens } from "../../imports/api/board/lenses/members";
 import {
   firstnameLens,
   lastnameLens,
-  functionLens,
-  telLens,
-  emailLens
-} from "../../imports/api/board/lenses/members";
+  emailLens,
+  telLens
+} from "../../imports/api/profiles/lenses";
 
 const BoardList = props => {
   const { members, name } = props;

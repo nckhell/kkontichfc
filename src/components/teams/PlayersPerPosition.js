@@ -1,12 +1,23 @@
 import React from "react";
+import * as R from "ramda";
 import PropTypes from "prop-types";
-import _ from "lodash";
 import Profile from "./Profile";
+import {
+  firstnameLens,
+  lastnameLens,
+  positionLens
+} from "../../imports/api/profiles/lenses";
 
 const PlayersPerPosition = props => {
   const { data, type, title } = props;
 
-  const players = _.orderBy(data, "lastname", "asc");
+  const players = R.sortBy(
+    R.compose(
+      R.toLower,
+      R.view(lastnameLens)
+    ),
+    data
+  );
 
   return (
     <div>
@@ -15,14 +26,17 @@ const PlayersPerPosition = props => {
         {players &&
           players
             .filter(player => {
-              return player.position === type;
+              return R.view(positionLens, player) === type;
             })
             .map(player => {
               return (
                 <Profile
                   data={player}
                   type="player"
-                  key={`${player.firstname}${player.lastname}`}
+                  key={`${R.view(firstnameLens, player)}${R.view(
+                    lastnameLens,
+                    player
+                  )}`}
                 />
               );
             })}

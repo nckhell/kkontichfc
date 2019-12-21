@@ -1,10 +1,12 @@
 /* eslint-disable prefer-destructuring */
 /* eslint-disable no-undef-init */
 import React, { Component } from "react";
+import * as R from "ramda";
 import PropTypes from "prop-types";
 import PlayersAndStaffContent from "../../../content/players-staff";
 import Profile from "./Profile";
 import PlayersPerPosition from "./PlayersPerPosition";
+import { firstnameLens, lastnameLens } from "../../imports/api/profiles/lenses";
 
 class PlayersAndStaffOverview extends Component {
   componentDidMount() {}
@@ -12,13 +14,20 @@ class PlayersAndStaffOverview extends Component {
   render() {
     const { teamID } = this.props;
 
-    const doesExist = PlayersAndStaffContent[teamID];
+    const doesExist = R.view(R.lensProp(teamID));
     let staff = undefined;
     let players = undefined;
 
     if (doesExist) {
-      staff = PlayersAndStaffContent[teamID].staff;
-      players = PlayersAndStaffContent[teamID].players;
+      staff = R.compose(
+        R.view(R.lensProp("staff")),
+        R.view(R.lensProp(teamID))
+      )(PlayersAndStaffContent);
+
+      players = R.compose(
+        R.view(R.lensProp("players")),
+        R.view(R.lensProp(teamID))
+      )(PlayersAndStaffContent);
     }
 
     return (
@@ -32,7 +41,10 @@ class PlayersAndStaffOverview extends Component {
                   <Profile
                     data={staffMember}
                     type="staff"
-                    key={`${staffMember.firstname}${staffMember.lastname}`}
+                    key={`${R.view(firstnameLens, staffMember)}${R.view(
+                      lastnameLens,
+                      staffMember
+                    )}`}
                   />
                 );
               })}

@@ -1,7 +1,4 @@
 // @create-index
 
-export { emailLens } from "./emailLens";
-export { firstnameLens } from "./firstnameLens";
-export { lastnameLens } from "./lastnameLens";
+// eslint-disable-next-line import/prefer-default-export
 export { functionLens } from "./functionLens";
-export { telLens } from "./telLens";
