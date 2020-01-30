@@ -1,7 +1,7 @@
 ---
 title: "Gezocht: Vrijwilligers ijspiste"
 date: 2019-11-20
-slider: YES
+slider: NO
 cloudinaryID: 8688_savdpo
 figCaption: Kontich schaatst!
 ---
