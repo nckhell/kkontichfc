@@ -2,7 +2,7 @@
 title: Alexander Bell naar KKFC!
 figCaption: Alexander Bell
 date: 2020-02-20
-backgroundPosition: top 25% center
+backgroundPosition: top 35% center
 slider: YES
 cloudinaryID: IMG_1862_hmh4or
 ---
