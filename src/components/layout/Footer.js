@@ -149,7 +149,7 @@ const Footer = () => {
             </Link>
           </div>
           <div className="md:w-1/4 flex flex-col mb-12 md:mb-0">
-            <h4 className="text-base pb-4 text-gray-800">Geschiedenis</h4>
+            <h4 className="text-base pb-4 text-gray-800">Commercieel</h4>
             <Link href="/commercieel/sponsors">
               <a title="Sponsors" className="text-sm text-gray-500 py-1">
                 Sponsors
