@@ -1,9 +1,10 @@
 ---
-title: Paastornooi / Vermant-Cup 2020
+title: (AFGELAST) Paastornooi / Vermant-Cup 2020
 date: 2020-04-10
 cloudinaryID: 35_akqo8w_npkwpy
 ---
 
+<p><strong>UPUDATE:</strong> Omwille van het Coronavirus zal ons Paastornooi dit jaar helaas niet kunnen doorgaan.</p>
 <p><strong>Beste sportvriend,</strong></p>
 <p>K. Kontich F.C. nodigt u uit op haar 51ste Paastornooi - dit jaar ook de Vermant-Cup genoemd -, een tornooi dat heel wat waardering geniet van clubs die reeds meegedaan hebben tijdens de vorige uitgaven.</p>
 <div class="lg:flex lg:flex-wrap lg:-mx-8 items-center mb-6">

@@ -81,9 +81,9 @@ class Header extends Component {
           <div className="hidden xl:block">
             <ul className="font-semibold text-gray-900 uppercase font-montserrat tracking-tight">
               <li className="inline-block pr-10">
-                <Link href="/jeugd/paastornooi/">
-                  <a title="Paastornooi" className="hover:text-yellow-500">
-                    Paastornooi
+                <Link href="/nieuws/">
+                  <a title="Nieuws" className="hover:text-yellow-500">
+                    Nieuws
                   </a>
                 </Link>
               </li>
