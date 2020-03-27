@@ -5,7 +5,7 @@ date: 2020-03-20
 slider: YES
 ---
 
-<p>Terwijl het Coronavirus door ons land raast en de regering drastische (maar levensnoodzakelijke) maatregelen neemt, moeten we ook aanvaarden dat het beoefenen van onze favoriete sport (en alle sportactiviteiten tout cours) onmogelijk is. De laatste week zijn er tal van updates geweest, we zetten ze hieronder graag nog eens op een rijtje.</p>
+<p>Terwijl het Coronavirus door ons land raast en de regering drastische (maar levensnoodzakelijke) maatregelen neemt, moeten we ook aanvaarden dat het beoefenen van onze favoriete sport (en alle sportactiviteiten tout court) onmogelijk is. De laatste week zijn er tal van updates geweest, we zetten ze hieronder graag nog eens op een rijtje.</p>
 <ul>
 <li><b>Ons jaarlijkse Paastornooi / Volvo Vermant Cup</b>, dat dit jaar op 10, 11 en 13 april zou plaatsvinden, gaat niet door. Alle ingeschreven clubs zullen hier een e-mail voor ontvangen.</li>
 <li><b>Geen officiële wedstrijden</b> (jeugd, seniors, recreatief, futsal en minivoetbal) tot en met minstens 30 april. Indien je er graag de officiële communicatie van de KBVB op naleest, kan je dat <a href="https://www.voetbalvlaanderen.be/nieuws/update-coronavirus-covid-19-19032020
