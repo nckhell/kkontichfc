@@ -11,4 +11,4 @@ Het tornooi gaat door op **vrijdag 10, zaterdag 11 en maandag 13 april 2020**. V
 
 U kan alvast inschrijven voor dit evenement via onderstaande link, **dit kan tot 31 januari 2020**.
 
-[Klik hier om je team in te schrijven](https://www.kkontichfc.be/jeugd/paastornooi/online-registratie/ "Klik hier om je team in te schrijven") !
+[Klik hier om je team in te schrijven](https://www.kkontichfc.be/jeugd/vermant-cup/online-registratie/ "Klik hier om je team in te schrijven") !

@@ -27,7 +27,7 @@ class PaastornooiRegistrationPage extends Component {
     const requiredMessage = "Verplicht veld";
     const { success } = this.state;
 
-    const showInscription = false;
+    const showInscription = true;
 
     return (
       <Layout showGrassHeader>
@@ -35,16 +35,15 @@ class PaastornooiRegistrationPage extends Component {
           config={{
             title: "Online registratie | Paastornooi Vermant-Cup | Jeugd",
             description: `Online registratie voor het Paastornooi (Vermant-Cup) van K. Kontich F.C.`,
-            canonical: `https://www.kkontichfc.be/jeugd/paastornooi/online-registratie/`,
+            canonical: `https://www.kkontichfc.be/jeugd/vermant-cup/online-registratie/`,
             openGraph: {
               type: "website",
               locale: "nl_BE",
               url:
-                "https://www.kkontichfc.be/jeugd/paastornooi/online-registratie/",
-              title:
-                "Online registratie Paastornooi / Vermant-Cup | K. Kontich F.C.",
+                "https://www.kkontichfc.be/jeugd/vermant-cup/online-registratie/",
+              title: "Online registratie Vermant-Cup | K. Kontich F.C.",
               description:
-                "Online registratie voor het Paastornooi (Vermant-Cup) van K. Kontich F.C."
+                "Online registratie voor de Vermant-Cup van K. Kontich F.C."
             }
           }}
         />
@@ -54,10 +53,10 @@ class PaastornooiRegistrationPage extends Component {
               <BreadCrumb
                 data={[
                   { title: "Jeugd", url: "#" },
-                  { title: "Paastornooi", url: "jeugd/paastornooi" },
+                  { title: "Vermant-Cup", url: "jeugd/vermant-cup" },
                   {
                     title: "Online registratie",
-                    url: "jeugd/paastornooi/online-registratie"
+                    url: "jeugd/vermant-cup/online-registratie"
                   }
                 ]}
               />
@@ -67,33 +66,36 @@ class PaastornooiRegistrationPage extends Component {
             <div className="px-4 mt-4 md:mt-5 lg:mt-8 container mx-auto text-left">
               <div className="body-content w-full">
                 <h1 className="leading-snug font-normal text-5xl normal-case pb-6 inline-block mb-8">
-                  Online registratie voor ons 51ste Paastornooi / Vermant-Cup
+                  Online registratie voor onze 51ste Vermant-Cup
                 </h1>
-                Het tornooi vindt plaats gespreid over 3 dagen:
-                <ul>
-                  <li>
-                    <u>Vrijdagavond 10 april 2020:</u> meisjes U13 en U16
-                  </li>
-                  <li>
-                    <u>Zaterdag 11 april 2020:</u> U12 & U13 (voormiddag), U10 &
-                    U11 (namiddag)
-                  </li>
-                  <li>
-                    <u>Maandag 13 april 2020:</u> U8 & U9 (voormiddag), U6 & U7
-                    (namiddag)
-                  </li>
-                </ul>
+                <div>
+                  Het tornooi vindt plaats gespreid over 3 dagen:
+                  <ul>
+                    <li>
+                      <u>Zondag 24 augustus 2020:</u> <b>U12</b> (in de
+                      voormiddag) & <b>U11</b> (in de namiddag);
+                    </li>
+                    <li>
+                      <u>Zaterdag 30 augustus 2020:</u> <b>U10</b> (in de
+                      voormiddag) & <b>U9</b> (in de namiddag);
+                    </li>
+                    <li>
+                      <u>Zondag 31 augustus 2020:</u> <b>U8</b> (in de
+                      voormiddag) & <b>U7</b> (in de namiddag);
+                    </li>
+                  </ul>
+                </div>
                 <p>
-                  Indien u problemen ondervindt met het online inschrijven ligt
-                  dit wellicht aan uw browser. Voor de beste online ervaring
-                  bezoekt u onze website het best via de{" "}
+                  Indien u problemen ondervindt met het online inschrijven raden
+                  we u aan opnieuw te proberen met een moderne browser. Voor de
+                  beste online ervaring bezoekt u onze website het best via de{" "}
                   <a
                     href="https://browsehappy.com/"
                     title="Google Chrome & Firefox"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    laatste versies van Google Chrome of FireFox
+                    laatste versies van Google Chrome, Safari of FireFox
                   </a>
                   .
                 </p>
@@ -478,7 +480,7 @@ class PaastornooiRegistrationPage extends Component {
             <div className="px-4 mt-4 md:mt-5 lg:mt-8 container mx-auto text-left">
               <div className="body-content w-full">
                 <h1 className="leading-snug font-normal text-5xl normal-case pb-6 inline-block mb-8">
-                  Online registratie voor ons 51ste Paastornooi / Vermant-Cup
+                  Online registratie voor onze 51ste Vermant-Cup
                 </h1>
                 <p>
                   Omwille van het Coronavirus zal ons 51se Paastornooi dit jaar

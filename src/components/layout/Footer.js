@@ -67,11 +67,11 @@ const Footer = () => {
                 Trainers
               </a>
             </Link>
-            {/* <Link href="/jeugd/paastornooi/">
-              <a title="Paastornooi" className="text-sm text-gray-500 py-1">
-                Paastornooi
+            <Link href="/jeugd/vermant-cup/">
+              <a title="Vermant-Cup" className="text-sm text-gray-500 py-1">
+                Vermant-Cup
               </a>
-            </Link> */}
+            </Link>
             <a
               title="Kalenders"
               href="https://www.belgianfootball.be/nl/club/1509/ploegen"
