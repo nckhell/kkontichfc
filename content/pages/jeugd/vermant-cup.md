@@ -21,9 +21,9 @@ title: Vermant-Cup
 
 <p style="margin-botttom: 0.8em;">Omdat de ‘voetbalmicrobe’ in ons lichaam actief blijft, zouden wij het tornooi voor de jongste voetballertjes willen uitstellen naar einde augustus 2020:</p>
 <ul>
-<li><u>Zondag 24 augustus 2020:</u> <b>U12</b> (in de voormiddag) & <b>U11</b> (in de namiddag);</li>
-<li><u>Zaterdag 30 augustus 2020:</u> <b>U10</b> (in de voormiddag) & <b>U9</b> (in de namiddag);</li>
-<li><u>Zondag 31 augustus 2020:</u> <b>U8</b> (in de voormiddag) & <b>U7</b> (in de namiddag);</li>
+<li><u>Zondag 23 augustus 2020:</u> <b>U12</b> (in de voormiddag) & <b>U11</b> (in de namiddag);</li>
+<li><u>Zaterdag 29 augustus 2020:</u> <b>U10</b> (in de voormiddag) & <b>U9</b> (in de namiddag);</li>
+<li><u>Zondag 30 augustus 2020:</u> <b>U8</b> (in de voormiddag) & <b>U7</b> (in de namiddag);</li>
 </ul>
 
 <p>Clubs die ingeschreven waren voor de editie van april 2020 worden opnieuw gevraagd om hun deelname te bevestigen via ons <b>online registratieformulier</b>. Ook clubs die niet ingeschreven waren voor de editie van april 2020 zijn vanzelfsprekend meer dan welkom!</p>

@@ -72,15 +72,15 @@ class PaastornooiRegistrationPage extends Component {
                   Het tornooi vindt plaats gespreid over 3 dagen:
                   <ul>
                     <li>
-                      <u>Zondag 24 augustus 2020:</u> <b>U12</b> (in de
+                      <u>Zondag 23 augustus 2020:</u> <b>U12</b> (in de
                       voormiddag) & <b>U11</b> (in de namiddag);
                     </li>
                     <li>
-                      <u>Zaterdag 30 augustus 2020:</u> <b>U10</b> (in de
+                      <u>Zaterdag 29 augustus 2020:</u> <b>U10</b> (in de
                       voormiddag) & <b>U9</b> (in de namiddag);
                     </li>
                     <li>
-                      <u>Zondag 31 augustus 2020:</u> <b>U8</b> (in de
+                      <u>Zondag 30 augustus 2020:</u> <b>U8</b> (in de
                       voormiddag) & <b>U7</b> (in de namiddag);
                     </li>
                   </ul>
