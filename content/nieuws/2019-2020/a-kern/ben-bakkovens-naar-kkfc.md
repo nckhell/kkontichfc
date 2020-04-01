@@ -7,7 +7,7 @@ cloudinaryID: Bakkovens_KKFC_bxjntq
 
 Nu het behoud in 1e provinciale zeker is, maakt het bestuur van K. Kontich F.C. opnieuw werk van de voorbereiding op het nieuwe seizoen 2020-2021.
 
-Het bestuur en de sportieve staf van de club is dan ook verheugd u de komst van Ben Bakkovens te kunnen melden.
+Het bestuur en de sportieve staf van de club zijn dan ook verheugd u de komst van Ben Bakkovens te kunnen melden.
 Deze 27-jarige verdediger komt over van eersteprovincialer Berg & Dal, waar hij dit seizoen actief was.
 
 Ben doorliep de jeugdreeksen van SK Lierse en Beerschot, alvorens hij debuteerde in het eerste elftal van Berchem Sport.
