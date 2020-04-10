@@ -742,14 +742,6 @@ export default [
     cloudinaryID: "gosto_y7fqnd"
   },
   {
-    url: "https://www.occhipurifotografie.be/",
-    name: "Fotografie Occhipuri",
-    headsponsor: "NO",
-    order: "8",
-    type: "CLUBSPONSOR",
-    cloudinaryID: "OcchiPuri-logo_odiaka"
-  },
-  {
     url: "https://airzone.be/",
     name: "Airzone",
     headsponsor: "YES",
