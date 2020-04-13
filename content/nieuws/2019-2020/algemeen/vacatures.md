@@ -56,6 +56,6 @@ date: 2020-04-13
 <h2 style="margin-top:1.3em;">EVENEMENTEN-TEAM</h2>
 <p>Met het oog op volgend seizoen zouden we graag een evenementen-team opstarten, nl. medewerkers die – in samenspraak met het bestuur – de organisatie van één of meerdere evenementen op zich nemen. Organiseer je graag zaken zoals een spaghettiweekend, mosselweekend, carnavalsfeestjes, e.d., dan ben je steeds welkom!</p>
  
-<p>Geïnteresseerden kunnen ons bereiken via <a href="info@kkontichfc.be" title="info@kkontichfc.be">info@kkontichfc.be</a>. We spreken dan graag verder met jou af.</p>
+<p>Geïnteresseerden kunnen ons bereiken via <a href="mailto:info@kkontichfc.be" title="info@kkontichfc.be">info@kkontichfc.be</a>. We spreken dan graag verder met jou af.</p>
 
 <p><i>Vind je je gading niet tussen bovenvermelde vacatures én denk je toch een bijdrage te kunnen leveren aan onze clubwerking? Prima, stuur dan als de bliksem een e-mailtje en we contacteren je snel!</i></p>
