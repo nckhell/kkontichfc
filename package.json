@@ -89,7 +89,7 @@
     "flow-bin": "^0.97.0",
     "husky": "^3.0.5",
     "prettier": "^1.18.2",
-    "processmd": "^4.4.2"
+    "processmd": "^4.5.0"
   },
   "config": {
     "commitizen": {
