@@ -23,12 +23,12 @@ title: Downloads
       <td><a target="_blank" title="Download Panathlonverklaring" href="https://res.cloudinary.com/kkontichfc/image/upload/v1561490096/downloads/panathlon_trybsl.pdf">Download</a></td>
     </tr>
     <tr>
-      <td>Trainingen 2010-2020</td>
+      <td>Trainingen 2019-2020</td>
       <td><a target="_blank" title="Download Trainingen 2010-2020" href="https://res.cloudinary.com/kkontichfc/image/upload/v1563868636/downloads/trainingen-2019-2020_u8ntlk.pdf">Download</a></td>
     </tr>
     <tr>
-      <td>Lidgeld en informatie 2019-2020</td>
-      <td><a target="_blank" title="Download Lidgeld en informatie 2019-2020" href="https://res.cloudinary.com/kkontichfc/image/upload/v1561490168/downloads/lidgelden-2019-2020_jvciof.pdf">Download</a></td>
+      <td>Lidgeld en informatie 2020-2021</td>
+      <td><a target="_blank" title="Download Lidgeld en informatie 2019-2020" href="https://res.cloudinary.com/kkontichfc/image/upload/v1588615988/downloads/K_Kontich_FC_brief_lidgelden_2020_-_2021_dwnwre.pdf">Download</a></td>
     </tr>
     <tr>
       <td>Dames - Lidgeld en informatie 2019-2020</td>
