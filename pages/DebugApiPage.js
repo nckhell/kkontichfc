@@ -27,24 +27,13 @@ class PaastornooiRegistrationPage extends Component {
     const requiredMessage = "Verplicht veld";
     const { success } = this.state;
 
-    const showInscription = false;
+    const showInscription = true;
 
     return (
       <Layout showGrassHeader>
         <NextSeo
           config={{
-            title: "Online registratie | Paastornooi Vermant-Cup | Jeugd",
-            description: `Online registratie voor het Paastornooi (Vermant-Cup) van K. Kontich F.C.`,
-            canonical: `https://www.kkontichfc.be/jeugd/vermant-cup/online-registratie/`,
-            openGraph: {
-              type: "website",
-              locale: "nl_BE",
-              url:
-                "https://www.kkontichfc.be/jeugd/vermant-cup/online-registratie/",
-              title: "Online registratie Vermant-Cup | K. Kontich F.C.",
-              description:
-                "Online registratie voor de Vermant-Cup van K. Kontich F.C."
-            }
+            title: "Debug Api"
           }}
         />
         <div id="kkfc-background-logo">
@@ -52,11 +41,9 @@ class PaastornooiRegistrationPage extends Component {
             <div className="w-full">
               <BreadCrumb
                 data={[
-                  { title: "Jeugd", url: "#" },
-                  { title: "Vermant-Cup", url: "jeugd/vermant-cup" },
                   {
-                    title: "Online registratie",
-                    url: "jeugd/vermant-cup/online-registratie"
+                    title: "Debug api",
+                    url: "#"
                   }
                 ]}
               />
@@ -66,29 +53,29 @@ class PaastornooiRegistrationPage extends Component {
             <div className="px-4 mt-4 md:mt-5 lg:mt-8 container mx-auto text-left">
               <div className="body-content w-full">
                 <h1 className="leading-snug font-normal text-5xl normal-case pb-6 inline-block mb-8">
-                  Online registratie voor onze 51ste Vermant-Cup
+                  Online registratie voor onze 51 ste Vermant - Cup
                 </h1>
                 <div>
                   Het tornooi vindt plaats gespreid over 3 dagen:
                   <ul>
                     <li>
-                      <u>Zondag 23 augustus 2020:</u> <b>U12</b> (in de
-                      voormiddag) & <b>U11</b> (in de namiddag);
+                      <u> Zondag 23 augustus 2020: </u> <b>U12</b> ( in de
+                      voormiddag) & <b> U11 </b> (in de namiddag);
                     </li>
                     <li>
-                      <u>Zaterdag 29 augustus 2020:</u> <b>U10</b> (in de
-                      voormiddag) & <b>U9</b> (in de namiddag);
+                      <u> Zaterdag 29 augustus 2020: </u> <b>U10</b> ( in de
+                      voormiddag) & <b> U9 </b> (in de namiddag);
                     </li>
                     <li>
-                      <u>Zondag 30 augustus 2020:</u> <b>U8</b> (in de
-                      voormiddag) & <b>U7</b> (in de namiddag);
+                      <u> Zondag 30 augustus 2020: </u> <b>U8</b> ( in de
+                      voormiddag) & <b> U7 </b> (in de namiddag);
                     </li>
                   </ul>
                 </div>
                 <p>
                   Indien u problemen ondervindt met het online inschrijven raden
-                  we u aan opnieuw te proberen met een moderne browser. Voor de
-                  beste online ervaring bezoekt u onze website het best via de{" "}
+                  we u aan opnieuw te proberen met een moderne browser.Voor de
+                  beste online ervaring bezoekt u onze website het best via de
                   <a
                     href="https://browsehappy.com/"
                     title="Google Chrome & Firefox"
@@ -121,7 +108,9 @@ class PaastornooiRegistrationPage extends Component {
                       values
                     )
                       .then(() => {
-                        this.setState({ success: true });
+                        this.setState({
+                          success: true
+                        });
                         setSubmitting(false);
                       })
                       .catch(error => {
@@ -181,7 +170,7 @@ class PaastornooiRegistrationPage extends Component {
                       {success && <PaastornooiInscriptionSucces />}
                       <div className="lg:flex">
                         <div className="lg:w-4/12">
-                          <h2 className="lg:text-2xl">Clubinformatie</h2>
+                          <h2 className="lg:text-2xl"> Clubinformatie </h2>
                         </div>
                         <div className="input__fields lg:w-8/12 lg:flex lg:justify-between flex-wrap">
                           <div>
@@ -205,7 +194,7 @@ class PaastornooiRegistrationPage extends Component {
                             )}
                           </div>
                           <div>
-                            <label htmlFor="club">Club</label>
+                            <label htmlFor="club"> Club </label>
                             <input
                               disabled={success}
                               id="club"
@@ -227,7 +216,7 @@ class PaastornooiRegistrationPage extends Component {
                             )}
                           </div>
                           <div>
-                            <label htmlFor="stamnummer">Stamnummer</label>
+                            <label htmlFor="stamnummer"> Stamnummer </label>
                             <input
                               disabled={success}
                               id="stamnummer"
@@ -249,7 +238,7 @@ class PaastornooiRegistrationPage extends Component {
                             )}
                           </div>
                           <div>
-                            <label htmlFor="shirtColor">Kleur shirts</label>
+                            <label htmlFor="shirtColor"> Kleur shirts </label>
                             <input
                               disabled={success}
                               id="shirtColor"
@@ -271,7 +260,7 @@ class PaastornooiRegistrationPage extends Component {
                             )}
                           </div>
                           <div>
-                            <label htmlFor="pantsColor">Kleur broeken</label>
+                            <label htmlFor="pantsColor"> Kleur broeken </label>
                             <input
                               disabled={success}
                               id="pantsColor"
@@ -293,7 +282,7 @@ class PaastornooiRegistrationPage extends Component {
                             )}
                           </div>
                           <div>
-                            <label htmlFor="team">Team</label>
+                            <label htmlFor="team"> Team </label>
                             <select
                               name="team"
                               value={values.team}
@@ -327,7 +316,7 @@ class PaastornooiRegistrationPage extends Component {
                       </div>
                       <div className="mt-6 md:mt-8 lg:mt-12 lg:flex">
                         <div className="lg:w-4/12">
-                          <h2 className="lg:text-2xl">Contactinformatie</h2>
+                          <h2 className="lg:text-2xl"> Contactinformatie </h2>
                         </div>
                         <div className="input__fields lg:w-8/12 lg:flex lg:justify-between flex-wrap">
                           <div>
@@ -480,12 +469,12 @@ class PaastornooiRegistrationPage extends Component {
             <div className="px-4 mt-4 md:mt-5 lg:mt-8 container mx-auto text-left">
               <div className="body-content w-full">
                 <h1 className="leading-snug font-normal text-5xl normal-case pb-6 inline-block mb-8">
-                  Online registratie voor onze 51ste Vermant-Cup
+                  Online registratie voor onze 51 ste Vermant - Cup
                 </h1>
                 <p>
-                  <b>5 mei 2020:</b> We doen momenteel onderhoud aan onze server
-                  waardoor inschrijven momenteel niet mogelijk is. Probeer later
-                  deze week opniew.
+                  <b> 5 mei 2020: </b> We doen momenteel onderhoud aan onze
+                  server waardoor inschrijven momenteel niet mogelijk is.Probeer
+                  later deze week opniew.
                 </p>
               </div>
             </div>
@@ -496,7 +485,7 @@ class PaastornooiRegistrationPage extends Component {
             alt="K. Kontich F.C."
           />
         </div>
-        <div className="spacer mb-16 md:mb-24"></div>
+        <div className="spacer mb-16 md:mb-24"> </div>
       </Layout>
     );
   }

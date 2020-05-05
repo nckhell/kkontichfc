@@ -64,6 +64,11 @@ class OnlineRegistrationPage extends Component {
                 Online registratie
               </h1>
               <p>
+                <b>5 mei 2020:</b> We doen momenteel onderhoud aan onze server
+                waardoor inschrijven momenteel niet mogelijk is. Probeer later
+                deze week opniew.
+              </p>
+              <p>
                 Vul onderstaande gegevens in om een registratieprocedure in gang
                 te zetten. Wanneer wij alle gegevens correct ontvangen hebben en
                 na ontvangst van het lidgeld, moeten we enkel nog kort afspreken
