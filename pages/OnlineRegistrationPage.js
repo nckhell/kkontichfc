@@ -738,7 +738,6 @@ class OnlineRegistrationPage extends Component {
                 );
               }}
             </Formik>
-            )
           </div>
           <img
             className="logo-kkfc-in-background"
