@@ -27,7 +27,7 @@ class PaastornooiRegistrationPage extends Component {
     const requiredMessage = "Verplicht veld";
     const { success } = this.state;
 
-    const showInscription = false;
+    const showInscription = true;
 
     return (
       <Layout showGrassHeader>
