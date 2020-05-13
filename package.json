@@ -46,7 +46,7 @@
     "formik": "^1.5.8",
     "google-maps-react": "^2.0.2",
     "lodash": "^4.17.14",
-    "next": "^8.1.0",
+    "next": "^9.3.2",
     "next-prefixed": "0.0.9",
     "next-seo": "^1.12.0",
     "postcss-easy-import": "^3.0.0",
