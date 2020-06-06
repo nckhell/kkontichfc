@@ -23,7 +23,7 @@ cloudinaryID: 178_1_yvpado
       <td class="dark" rowspan="2">Vanaf U7</td>
       <td><u>Huidige leden:</u><br /><b>315 EUR</b></td>
       <td>
-        Voetbalkousen<br />Voetbalshort<br />Sweater<br />Trainingsvest
+        Voetbalkousen<br />Voetbalshort<br />Sweater<br />Trainingsshirt
       </td>
     </tr>
     <tr>
