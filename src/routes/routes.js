@@ -18,6 +18,7 @@ module.exports = Object.assign(
     "/jeugd/online-registratie": { page: "/OnlineRegistrationPage" },
     "/info/contact": { page: "/ContactPage" },
     "/debug-api": { page: "/DebugApiPage" },
+    "/kleding": { page: "/RedirectKledingPage" },
     "/jeugd/vermant-cup/online-registratie": {
       page: "/PaastornooiRegistrationPage"
     }
