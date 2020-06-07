@@ -2,7 +2,7 @@
 title: Kleding seizoen 20-21 (online invulformulier)
 slider: YES 
 cloudinaryID: img-block-jako-champ2_wiz55r
-backgroundPosition: top 40%
+backgroundPosition: top 40% center
 figCaption: Nick Sport & Jako
 showImageInArticle: NO
 date: 2020-06-07
