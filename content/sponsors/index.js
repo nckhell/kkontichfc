@@ -772,5 +772,21 @@ export default [
     order: "8",
     type: "CLUBSPONSOR",
     cloudinaryID: "forum_advocaten"
+  },
+  {
+    url: "https://www.avenue-optics.be/",
+    name: "Avenue Optics",
+    headsponsor: "NO",
+    order: "8",
+    type: "CLUBSPONSOR",
+    cloudinaryID: "avenue-optics1_pzkdap"
+  },
+  {
+    url: "https://www.disprimo.be/",
+    name: "Disprimo IT",
+    headsponsor: "NO",
+    order: "8",
+    type: "CLUBSPONSOR",
+    cloudinaryID: "disprimo_kjhwcf"
   }
 ];
