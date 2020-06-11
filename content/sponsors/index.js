@@ -779,7 +779,8 @@ export default [
     headsponsor: "NO",
     order: "8",
     type: "CLUBSPONSOR",
-    cloudinaryID: "avenue-optics1_pzkdap"
+    cloudinaryID: "avenue-optics1_pzkdap",
+    highlight: true
   },
   {
     url: "https://www.disprimo.be/",
@@ -787,6 +788,7 @@ export default [
     headsponsor: "NO",
     order: "8",
     type: "CLUBSPONSOR",
-    cloudinaryID: "disprimo_kjhwcf"
+    cloudinaryID: "disprimo_kjhwcf",
+    highlight: true
   }
 ];
