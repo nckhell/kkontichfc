@@ -227,7 +227,7 @@ export default [
   },
   {
     url: "http://www.autosvanlooveren.be",
-    name: "Autoäó»s Jos Van Looveren",
+    name: "Auto's Jos Van Looveren",
     headsponsor: "NO",
     order: "21",
     type: "CLUBSPONSOR",
