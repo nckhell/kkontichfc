@@ -1,9 +1,8 @@
 ---
 title: Voorbereiding 1e provinciale Heren (2020-2021)
 slider: YES 
-cloudinaryID: _MG_1937_z1qad6_kcvtsm
-backgroundPosition: top 40% center
-figCaption: 1e provinciale Heren seizoen 2019-2020
+cloudinaryID: IMG-20200208-WA0000_s4w0t7
+backgroundPosition: top 50% center
 date: 2020-06-27
 ---
 <p>Het Covid19-virus zette de hele wereld op zijn kop. Ook het voetbalseizoen werd abrupt beëindigd. De voorbije maanden telden we af naar de terugkeer van ons ‘normale leventje’ mét sociale contacten, mét voetbal, mét K. Kontich F.C.</p>
