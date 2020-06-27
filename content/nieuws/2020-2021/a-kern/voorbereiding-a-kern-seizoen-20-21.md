@@ -35,4 +35,5 @@ date: 2020-06-27
     <li><u>Dinsdag 25 augustus a.s. om 19u30:</u> SK Reet – K. Kontich F.C. B</li>
     <li><u>Zaterdag 29 augustus a.s. om 19u30:</u> St-Amands – K. Kontich F.C. B (Beker van Antwerpen)</li>
 </ul>
+<p><b>Supporters op post!</b></p>
 
