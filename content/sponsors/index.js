@@ -24,14 +24,6 @@ export default [
     cloudinaryID: "dca_logo_yuil6i"
   },
   {
-    url: "http://www.fransdevocht.be/",
-    name: "Frans De Vocht",
-    headsponsor: "YES",
-    order: "2",
-    type: "CLUBSPONSOR",
-    cloudinaryID: "frans-de-vocht"
-  },
-  {
     url: "http://www.hairplace.be",
     name: "Hair Place BVBA",
     headsponsor: "NO",
@@ -70,22 +62,6 @@ export default [
     order: "17",
     type: "CLUBSPONSOR",
     cloudinaryID: "klare-wijn"
-  },
-  {
-    url: "http://www.alectro.be",
-    name: "Alectro Bvba",
-    headsponsor: "NO",
-    order: "18",
-    type: "CLUBSPONSOR",
-    cloudinaryID: "alectro"
-  },
-  {
-    url: "http://www.autovak.be",
-    name: "Autovak NV",
-    headsponsor: "NO",
-    order: "21",
-    type: "CLUBSPONSOR",
-    cloudinaryID: "autovak"
   },
   {
     url: "http://www.goudengids.be/centea-kontich-kontich-2550/",
@@ -385,14 +361,6 @@ export default [
     cloudinaryID: "top-salon"
   },
   {
-    url: "http://www.tofinhove.be/",
-    name: "'t Of in Hove",
-    headsponsor: "NO",
-    order: "7",
-    type: "CLUBSPONSOR",
-    cloudinaryID: "t-of-in-hove"
-  },
-  {
     url: "http://dcm-info.com/",
     name: "DCM",
     headsponsor: "NO",
@@ -414,21 +382,6 @@ export default [
     order: "15",
     type: "DAMESSPONSOR",
     cloudinaryID: "dc4-group"
-  },
-  {
-    url: "http://www.changesibg.com",
-    name: "Changes / barbershop",
-    headsponsor: "NO",
-    order: "15",
-    type: "CLUBSPONSOR",
-    cloudinaryID: "barbershop-changes"
-  },
-  {
-    url: "http://www.napolikontich.be/",
-    name: "Pizza Napoli",
-    headsponsor: "NO",
-    order: "16",
-    type: "CLUBSPONSOR"
   },
   {
     url: "http://swaab.portas.be/",
@@ -574,14 +527,6 @@ export default [
     cloudinaryID: "zowizoo"
   },
   {
-    url: "http://www.kwadro.be/nl/",
-    name: "Kwadro",
-    headsponsor: "YES",
-    order: "2",
-    type: "CLUBSPONSOR",
-    cloudinaryID: "kwadro"
-  },
-  {
     url: "http://www.group-f.be/",
     name: "Groep-f",
     headsponsor: "NO",
@@ -678,14 +623,6 @@ export default [
     cloudinaryID: "KIA-vermant-zilver-blok_xxy8kw"
   },
   {
-    url: "https://www.facebook.com/SaniHeat-1565257860450173/",
-    name: "SaniHeat",
-    headsponsor: "NO",
-    order: "10",
-    type: "CLUBSPONSOR",
-    cloudinaryID: "saniheat"
-  },
-  {
     url: "https://www.aquarius.be/nl",
     name: "Aquarius",
     headsponsor: "NO",
@@ -779,8 +716,7 @@ export default [
     headsponsor: "NO",
     order: "8",
     type: "CLUBSPONSOR",
-    cloudinaryID: "avenue-optics1_pzkdap",
-    highlight: true
+    cloudinaryID: "avenue-optics1_pzkdap"
   },
   {
     url: "https://www.disprimo.be/",
@@ -788,7 +724,15 @@ export default [
     headsponsor: "NO",
     order: "8",
     type: "CLUBSPONSOR",
-    cloudinaryID: "disprimo_kjhwcf",
+    cloudinaryID: "disprimo_kjhwcf"
+  },
+  {
+    url: "https://www.profile.be/vestigingen/kontich/neerveld-4",
+    name: "VR Profile Kontich",
+    headsponsor: "YES",
+    order: "8",
+    type: "CLUBSPONSOR",
+    cloudinaryID: "vr_profile_kontich",
     highlight: true
   }
 ];
