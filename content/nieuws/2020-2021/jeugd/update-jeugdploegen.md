@@ -8,4 +8,4 @@ Om onze jeugdelftallen te vervolledigen voor het seizoen 20-21 zijn wij nog op z
 - U9, geboortejaar 2012
 - U7, geboortejaar 2014
 
-Bent je geboren in één van deze jaartallen en heb je zin om onze mooie club te vervoegen? Geef ons dan een seintje via [jeugd@kkontichfc.be](mailto:jeugd@kkontichfc.be "jeugd@kkontichfc.be").
+Ben je geboren in één van deze jaartallen en heb je zin om onze mooie club te vervoegen? Geef ons dan een seintje via [jeugd@kkontichfc.be](mailto:jeugd@kkontichfc.be "jeugd@kkontichfc.be").
