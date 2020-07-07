@@ -1,6 +1,6 @@
 ---
 title: Vermant-Cup zomer 2020!
-date: 2020-06-02
+date: 2020-07-07
 slider: YES
 cloudinaryID: 5b903ee3469a1.image_oiy383
 ---
