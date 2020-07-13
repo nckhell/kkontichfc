@@ -78,8 +78,8 @@ const Menu = () => {
               </Link>
             </li>
             <li>
-              <Link href="/dames/3e-provinciale/">
-                <a title="Dames 3e provinciale">3e Provinciale</a>
+              <Link href="/dames/2e-provinciale/">
+                <a title="Dames 2e provinciale">2e Provinciale</a>
               </Link>
             </li>
           </ul>

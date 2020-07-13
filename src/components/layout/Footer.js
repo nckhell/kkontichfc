@@ -41,12 +41,12 @@ const Footer = () => {
                 Dames 1e Prov.
               </a>
             </Link>
-            <Link href="/dames/3e-provinciale/">
+            <Link href="/dames/2e-provinciale/">
               <a
-                title="Dames 3e Provinciale"
+                title="Dames 2e Provinciale"
                 className="text-sm text-gray-500 py-1"
               >
-                Dames 3e Prov.
+                Dames 2e Prov.
               </a>
             </Link>
           </div>
