@@ -2,7 +2,8 @@
 title: Koop een abonnement!
 figCaption: Koop een abonnement voor het nieuwe voetbalseizoen 20-21.
 cloudinaryID: abonnementen_2017_2018_n1ewui
-date: 2019-07-28
+slider: YES
+date: 2020-07-16
 ---
 <p>Beste supporters,</p>
 <p>Trouwe supporters van K. Kontich F.C. zijn altijd op post en doen dan ook (financieel) voordeel bij het aankopen van een abonnement.<br /><br />De club biedt verschillende formules aan:</p>
