@@ -733,6 +733,15 @@ export default [
     order: "8",
     type: "CLUBSPONSOR",
     cloudinaryID: "vr_profile_kontich",
+    highlight: false
+  },
+  {
+    url: "https://www.argenta.be/nl/kantoren/vukon-bvba-3635.html",
+    name: "Argenta Kontich",
+    headsponsor: "NO",
+    order: "8",
+    type: "CLUBSPONSOR",
+    cloudinaryID: "website_m77xsf",
     highlight: true
   }
 ];
