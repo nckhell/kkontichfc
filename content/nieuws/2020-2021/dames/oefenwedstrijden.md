@@ -15,6 +15,7 @@ date: 2020-07-16
 - 22/08 - 17u00: Genk A - K. Kontich F.C.
 
 ## Dames B
+- 26/07 - 15u00: K. Kontich F.C. - Anderlecht B
 - 02/08 - 14u00: K. Kontich F.C. - Club Brugge B
 - 05/08 - 20u00: Tildonk - K. Kontich F.C.
 - 09/08 - 14u00: K. Kontich F.C. - KSK Beveren
