@@ -742,6 +742,15 @@ export default [
     order: "8",
     type: "CLUBSPONSOR",
     cloudinaryID: "website_m77xsf",
+    highlight: false
+  },
+  {
+    url: "https://www.radiozuidrand.be/",
+    name: "Radio Zuidrand",
+    headsponsor: "YES",
+    order: "8",
+    type: "CLUBSPONSOR",
+    cloudinaryID: "logozuidrand-e1555859193516_lmnqan",
     highlight: true
   }
 ];
