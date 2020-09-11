@@ -15,14 +15,14 @@ const obj = {
         birthdate: "",
         email: "",
         cloudinaryID:
-          "spelers/heren/1e-provinciale/2019-2020/Peter_Schrauwen_T1_aviaxs"
+          "spelers/heren/1e-provinciale/2020-2021/peter_schrauwen_gezzzy"
       },
       {
         position: "T2",
-        lastname: "Sabhaoui",
-        firstname: "Mo",
+        lastname: "De Peuter",
+        firstname: "Peter",
         birthdate: "",
-        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5948_evbugw"
+        cloudinaryID: "spelers/heren/1e-provinciale/2020-2021/peter_de_peuter_rd9di6"
       },
       {
         position: "Afgv.",
@@ -30,21 +30,21 @@ const obj = {
         firstname: "Danny",
         birthdate: "",
         email: "danny.roothans@hotmail.be",
-        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5964_mkibb2"
+        cloudinaryID: "staff/heren/1e-provinciale/2018-2019/roothans-danny"
       },
       {
         position: "Keeperstrainer",
         lastname: "Van Der Veer",
         firstname: "Jan",
         birthdate: "",
-        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5951_k4hcvb"
+        cloudinaryID: "spelers/heren/1e-provinciale/2020-2021/jan_van_der_veer_dl0lc6"
       },
       {
         position: "Kiné/verzorger",
         lastname: "Hellemans",
         firstname: "Nick",
         birthdate: "1993-11-30",
-        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5970_zridtx"
+        cloudinaryID: "staff/heren/1e-provinciale/2018-2019/hellemans-nick"
       }
     ],
     players: [
@@ -54,8 +54,8 @@ const obj = {
         firstname: "Jef",
         shirtNumber: "",
         birthdate: "1991-01-21",
-        // backgroundPosition: "center top 22%",
-        cloudinaryID: ""
+        backgroundPosition: "center top 22%",
+        cloudinaryID: "spelers/heren/1e-provinciale/2020-2021/jef_sneyders_a2szng"
       },
       {
         position: "DOELMAN",
@@ -63,8 +63,8 @@ const obj = {
         firstname: "Giann",
         shirtNumber: "",
         birthdate: "2001-08-21",
-        // backgroundPosition: "center top 22%",
-        cloudinaryID: ""
+        backgroundPosition: "center top 22%",
+        cloudinaryID: "spelers/heren/1e-provinciale/2020-2021/giann_van_oostveldt_ltfptq"
       },
       {
         position: "VERDEDIGER",
@@ -72,8 +72,8 @@ const obj = {
         firstname: "Nils",
         shirtNumber: "",
         birthdate: "",
-        // backgroundPosition: "center top 22%",
-        cloudinaryID: ""
+        backgroundPosition: "center top 28%",
+        cloudinaryID: "spelers/heren/1e-provinciale/2020-2021/nils_wosky_hi5bj0"
       },
       {
         position: "VERDEDIGER",
@@ -81,31 +81,31 @@ const obj = {
         firstname: "Jari",
         birthdate: "1996-05-17",
         backgroundPosition: "center top 65%",
-        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5929_v675wo"
+        cloudinaryID: "spelers/heren/1e-provinciale/2020-2021/jari_verdoren_tym6ic"
       },
       {
         position: "VERDEDIGER",
         lastname: "Raeymaekers",
         firstname: "Bram",
         birthdate: "1994-07-18",
-        // backgroundPosition: "center top 65%",
-        cloudinaryID: ""
+        backgroundPosition: "center top 75%",
+        cloudinaryID: "spelers/heren/1e-provinciale/2020-2021/bram_raeymaekers_ciqlci"
       },
       {
         position: "VERDEDIGER",
         lastname: "Bakkovens",
         firstname: "Ben",
         birthdate: "1992-10-04",
-        // backgroundPosition: "center top 65%",
-        cloudinaryID: ""
+        backgroundPosition: "center top 65%",
+        cloudinaryID: "spelers/heren/1e-provinciale/2020-2021/ben_bakkovens_rm9glo"
       },
       {
         position: "VERDEDIGER",
         lastname: "Kwik",
         firstname: "Yarrith",
         birthdate: "1990-08-27",
-        // backgroundPosition: "center top 65%",
-        cloudinaryID: ""
+        backgroundPosition: "center top 65%",
+        cloudinaryID: "spelers/heren/1e-provinciale/2020-2021/yarrith_kiwk_bux8zt"
       },
       {
         position: "VERDEDIGER",
@@ -113,7 +113,7 @@ const obj = {
         firstname: "Remi",
         shirtNumber: "",
         birthdate: "1998-02-23",
-        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5939_scs5n4"
+        cloudinaryID: "spelers/heren/1e-provinciale/2020-2021/remi_van_esser_zztvzg"
       },
       {
         position: "VERDEDIGER",
@@ -121,7 +121,7 @@ const obj = {
         firstname: "Lars",
         shirtNumber: "",
         birthdate: "",
-        cloudinaryID: ""
+        cloudinaryID: "spelers/heren/1e-provinciale/2020-2021/lars_vandenhoeck_wlevsw"
       },
       {
         position: "MIDDENVELDER",
@@ -130,7 +130,7 @@ const obj = {
         shirtNumber: "",
         backgroundPosition: "center top 20%",
         birthdate: "",
-        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5949_j34ztm"
+        cloudinaryID: "spelers/heren/1e-provinciale/2020-2021/tivi_huygen_idylb3"
       },
       {
         position: "MIDDENVELDER",
@@ -139,7 +139,7 @@ const obj = {
         shirtNumber: "",
         backgroundPosition: "center top 20%",
         birthdate: "1999-04-14",
-        cloudinaryID: ""
+        cloudinaryID: "spelers/heren/1e-provinciale/2020-2021/jasper_vervoort_p5osuj"
       },
       {
         position: "MIDDENVELDER",
@@ -149,14 +149,14 @@ const obj = {
         backgroundPosition: "center top 20%",
         birthdate: "1992-12-28",
         cloudinaryID:
-          "spelers/heren/1e-provinciale/2018-2019/sucu-ozan-arman_hyglxs.jpg"
+          "spelers/heren/1e-provinciale/2020-2021/arman_sucu_xzwky9"
       },
       {
         position: "MIDDENVELDER",
         lastname: "Baert",
         firstname: "Matthias",
         shirtNumber: "",
-        backgroundPosition: "center top 15%",
+        backgroundPosition: "center top 10%",
         birthdate: "1994-08-08",
         cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/_MG_1949_eqh7ig"
       },
@@ -167,7 +167,7 @@ const obj = {
         shirtNumber: "",
         birthdate: "1998-07-12",
         backgroundPosition: "center top 59%",
-        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5935_usiqo9"
+        cloudinaryID: "spelers/heren/1e-provinciale/2020-2021/arnout_koeck_bbkrzi"
       },
       {
         position: "MIDDENVELDER",
@@ -175,17 +175,17 @@ const obj = {
         firstname: "Gilles",
         shirtNumber: "",
         birthdate: "",
-        // backgroundPosition: "center top 59%",
-        cloudinaryID: ""
+        backgroundPosition: "center top 65%",
+        cloudinaryID: "spelers/heren/1e-provinciale/2020-2021/gilles_van_remoortere_vb1ark"
       },
       {
         position: "AANVALLER",
         lastname: "Bell",
         firstname: "Alexander",
         shirtNumber: "",
-        // backgroundPosition: "center top 15%",
+        backgroundPosition: "center top 15%",
         birthdate: "1993-11-29",
-        cloudinaryID: ""
+        cloudinaryID: "spelers/heren/1e-provinciale/2020-2021/alexander_bell_ma1xqg"
       },
       {
         position: "AANVALLER",
@@ -193,7 +193,7 @@ const obj = {
         firstname: "Victor",
         shirtNumber: "",
         birthdate: "1995-10-16",
-        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5967_yu5jmm"
+        cloudinaryID: "spelers/heren/1e-provinciale/2020-2021/victor_de_cock_rqvcsz"
       },
       {
         position: "AANVALLER",
@@ -201,7 +201,7 @@ const obj = {
         firstname: "Jordi",
         shirtNumber: "",
         birthdate: "1997-02-04",
-        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/6L2A5958_zoro5t"
+        cloudinaryID: "spelers/heren/1e-provinciale/2020-2021/jordy_kreydt_hw4w0x"
       },
       {
         position: "AANVALLER",
@@ -209,7 +209,7 @@ const obj = {
         firstname: "Bjorn",
         shirtNumber: "",
         birthdate: "1988-04-27",
-        cloudinaryID: ""
+        cloudinaryID: "spelers/heren/1e-provinciale/2020-2021/bjorn_van_oerle_fmhttj"
       },
       {
         position: "AANVALLER",
@@ -217,8 +217,8 @@ const obj = {
         firstname: "Laurens",
         shirtNumber: "",
         birthdate: "1992-06-24",
-        // backgroundPosition: "center top 15%",
-        cloudinaryID: ""
+        backgroundPosition: "center top 15%",
+        cloudinaryID: "spelers/heren/1e-provinciale/2020-2021/laurens_de_bakker_qggtr9"
       }
     ]
   },

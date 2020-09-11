@@ -7,7 +7,7 @@
 
 const obj = {
   heren1eProv: {
-    cloudinaryID: "teams/2019-2020/_MG_1937_z1qad6"
+    cloudinaryID: "teams/2020-2021/_C2A8125_ktoots"
   },
   heren3eProv: {
     cloudinaryID: "teams/2019-2020/_MG_1988_xzrcyg",
