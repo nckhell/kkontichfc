@@ -64,7 +64,16 @@ const obj = {
         shirtNumber: "",
         birthdate: "2001-08-21",
         backgroundPosition: "center top 22%",
-        cloudinaryID: "spelers/heren/1e-provinciale/2020-2021/giann_van_oostveldt_ltfptq"
+        cloudinaryID: "spelers/heren/1e-provinciale/2019-2020/_MG_1952_pavrxu"
+      },
+      {
+        position: "DOELMAN",
+        lastname: "Van Minnebruggen",
+        firstname: "Rens",
+        shirtNumber: "",
+        birthdate: "",
+        backgroundPosition: "center top 22%",
+        cloudinaryID: "spelers/heren/1e-provinciale/2020-2021/rens"
       },
       {
         position: "VERDEDIGER",

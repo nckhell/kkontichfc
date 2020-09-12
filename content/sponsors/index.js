@@ -751,6 +751,15 @@ export default [
     order: "8",
     type: "CLUBSPONSOR",
     cloudinaryID: "logozuidrand-e1555859193516_lmnqan",
+    highlight: false
+  },
+  {
+    url: "http://www.dirkbroes.be/familieberichten.html",
+    name: "Dirk Broes Uitvaartverzorging",
+    headsponsor: "YES",
+    order: "8",
+    type: "CLUBSPONSOR",
+    cloudinaryID: "1a02813962b6c_mg1yx9",
     highlight: true
   }
 ];
