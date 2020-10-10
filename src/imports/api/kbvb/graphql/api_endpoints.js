@@ -6,7 +6,7 @@ const obj = {
       shortHandTitle: "Heren 1e Prov."
     },
     ranking: {
-      url: "https://datalake-prod2018.rbfa.be/graphql?operationName=getSeriesAndRankingsQuery&variables=%7B%22teamId%22%3A%22186453%22%2C%22language%22%3A%22nl%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22ac1d225e713827feea3013deb89bff2740c3c623079807f36374212eb92ea285%22%7D%7D"
+      url: "https://datalake-prod2018.rbfa.be/graphql?operationName=GetSeriesRankings&variables=%7B%22seriesId%22%3A%22CHP_95182%22%2C%22language%22%3A%22nl%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22c4d908193e39b4f896426a22afb5d4de51b7c2da555c82b77bc53d24e5b282c5%22%7D%7D"
     },
     calendar: {
       url:
@@ -31,7 +31,7 @@ const obj = {
       shortHandTitle: "Heren 3e Prov."
     },
     ranking: {
-      url: ""
+      url: "https://datalake-prod2018.rbfa.be/graphql?operationName=GetSeriesRankings&variables=%7B%22seriesId%22%3A%22CHP_94481%22%2C%22language%22%3A%22nl%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22c4d908193e39b4f896426a22afb5d4de51b7c2da555c82b77bc53d24e5b282c5%22%7D%7D"
     },
     calendar: {
       url:
@@ -56,7 +56,7 @@ const obj = {
       shortHandTitle: "Dames Nat."
     },
     ranking: {
-      url: ""
+      url: "https://datalake-prod2018.rbfa.be/graphql?operationName=GetSeriesRankings&variables=%7B%22seriesId%22%3A%22CHP_94035%22%2C%22language%22%3A%22nl%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22c4d908193e39b4f896426a22afb5d4de51b7c2da555c82b77bc53d24e5b282c5%22%7D%7D"
     },
     calendar: {
       url:
@@ -81,7 +81,7 @@ const obj = {
       shortHandTitle: "Dames 1e Prov."
     },
     ranking: {
-      url: ""
+      url: "https://datalake-prod2018.rbfa.be/graphql?operationName=GetSeriesRankings&variables=%7B%22seriesId%22%3A%22CHP_94487%22%2C%22language%22%3A%22nl%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22c4d908193e39b4f896426a22afb5d4de51b7c2da555c82b77bc53d24e5b282c5%22%7D%7D"
     },
     calendar: {
       url:
@@ -106,7 +106,7 @@ const obj = {
       shortHandTitle: "Dames 2e Prov."
     },
     ranking: {
-      url: ""
+      url: "https://datalake-prod2018.rbfa.be/graphql?operationName=GetSeriesRankings&variables=%7B%22seriesId%22%3A%22CHP_93632%22%2C%22language%22%3A%22nl%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22c4d908193e39b4f896426a22afb5d4de51b7c2da555c82b77bc53d24e5b282c5%22%7D%7D"
     },
     calendar: {
       url:

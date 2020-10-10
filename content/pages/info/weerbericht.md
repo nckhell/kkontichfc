@@ -4,7 +4,7 @@ title: Weerbericht
 <div class="md:flex md:-mx-2 flex-wrap justify-center items-center">
 	<div class="flex justify-center mb-4 w-full md:w-1/2 lg:w-1/3 md:px-2">
 		<iframe class="calendar" 
-        scrolling="no" width="300" height ="175" frameborder="0" marginwidth="0" marginheight="0" src="https://www.meteo.be/services/widget/.?postcode=2550&nbDay=2&type=10&lang=nl&bgImageId=11&bgColor=567cd2&scrolChoice=0&colorTempMax=ffffff&colorTempMin=a6cff2"></iframe>
+        scrolling="no" width="300" height ="175" frameborder="0" marginWidth="0" marginHeight="0" src="https://www.meteo.be/services/widget/.?postcode=2550&nbDay=2&type=10&lang=nl&bgImageId=11&bgColor=567cd2&scrolChoice=0&colorTempMax=ffffff&colorTempMin=a6cff2"></iframe>
 	</div>
 	<div class="flex justify-center mb-4 w-full md:w-1/2 lg:w-1/3 md:px-2">
 		<div style="font-family: Arial;background-color: #fbfbfb;border: 1px solid #e7e7e7;width: 320px;height: 405px;-moz-box-shadow: 0 0 2px 1px #e7e7e7;-webkit-box-shadow: 0 0 2px 1px #e7e7e7;box-shadow: 0 0 2px 1px #e7e7e7;overflow: hidden; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;">
