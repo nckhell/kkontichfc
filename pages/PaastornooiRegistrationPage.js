@@ -66,22 +66,18 @@ class PaastornooiRegistrationPage extends Component {
             <div className="px-4 mt-4 md:mt-5 lg:mt-8 container mx-auto text-left">
               <div className="body-content w-full">
                 <h1 className="leading-snug font-normal text-5xl normal-case pb-6 inline-block mb-8">
-                  Online registratie voor onze 51ste Vermant-Cup
+                  Online registratie voor onze 52ste Vermant-Cup (Paastornooi)
                 </h1>
                 <div>
-                  Het tornooi vindt plaats gespreid over 3 dagen:
+                  Het tornooi vindt plaats gespreid over 2 dagen:
                   <ul>
                     <li>
-                      <u>Zondag 23 augustus 2020:</u> <b>U12</b> (in de
-                      voormiddag) & <b>U11</b> (in de namiddag);
+                      <u>Zaterdag 3 april 2021:</u> <b>U12 & U13</b> (in de
+                      voormiddag) & <b>U10 & U11</b> (in de namiddag);
                     </li>
                     <li>
-                      <u>Zaterdag 29 augustus 2020:</u> <b>U10</b> (in de
-                      voormiddag) & <b>U9</b> (in de namiddag);
-                    </li>
-                    <li>
-                      <u>Zondag 30 augustus 2020:</u> <b>U8</b> (in de
-                      voormiddag) & <b>U7</b> (in de namiddag);
+                      <u>Maandag 5 april 2021:</u> <b>U8 & U9</b> (in de
+                      voormiddag) & <b>U6 & U7</b> (in de namiddag);
                     </li>
                   </ul>
                 </div>
@@ -306,14 +302,14 @@ class PaastornooiRegistrationPage extends Component {
                               }
                             >
                               <option value="" label="Selecteer team" />
-                              {/* <option value="U6" label="U6" /> */}
+                              <option value="U6" label="U6" />
                               <option value="U7" label="U7" />
                               <option value="U8" label="U8" />
                               <option value="U9" label="U9" />
-                              {/* <option value="U10" label="U10" /> */}
+                              <option value="U10" label="U10" />
                               <option value="U11" label="U11" />
                               <option value="U12" label="U12" />
-                              {/* <option value="U13" label="U13" /> */}
+                              <option value="U13" label="U13" />
                               {/* <option value="U13_dames" label="Meisjes U13" /> */}
                               {/* <option value="U16_dames" label="Meisjes U16" /> */}
                             </select>
