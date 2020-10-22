@@ -69,7 +69,7 @@ Het tornooi gaat door op <strong>zaterdag 3 en maandag 5 april april 2021</stron
 <div>
     <h2>Inschrijven</h2>
     <p>
-        <a href="https://www.kkontichfc.be/jeugd/paastornooi/online-registratie/" title="Inschrijven Paastornooi / Vermant-Cup" class="btn-block">Klik hier om in te schrijven.</a></p>
+        <a href="https://www.kkontichfc.be/jeugd/vermant-cup/online-registratie/" title="Inschrijven Paastornooi / Vermant-Cup" class="btn-block">Klik hier om in te schrijven.</a></p>
     <p>Uiteraard zullen wij bij een inschrijving zelf aanwezig zijn op uw tornooi met 1 of meerdere ploegen.</p>
     <p>Met dank voor jullie belangstelling en eventuele inschrijving.
         <br><strong>Sportieve groeten namens het Jeugdbestuur van K. Kontich FC</strong>
