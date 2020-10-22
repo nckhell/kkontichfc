@@ -761,5 +761,14 @@ export default [
     type: "CLUBSPONSOR",
     cloudinaryID: "1a02813962b6c_mg1yx9",
     highlight: true
+  },
+  {
+    url: "https://www.elmos.be/nl",
+    name: "Elmos",
+    headsponsor: "NO",
+    order: "8",
+    type: "CLUBSPONSOR",
+    cloudinaryID: "elmos_zirwol",
+    highlight: true
   }
 ];
