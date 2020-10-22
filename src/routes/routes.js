@@ -20,6 +20,7 @@ module.exports = Object.assign(
     "/debug-api": { page: "/DebugApiPage" },
     "/kleding": { page: "/RedirectKledingPage" },
     "/covid": { page: "/RedirectCovidPage" },
+    "/take-away-pasta-weekend": { page: "/RedirectBestellingPage" },
     "/jeugd/vermant-cup/online-registratie": {
       page: "/PaastornooiRegistrationPage"
     }
