@@ -7,7 +7,7 @@ class RedirectBestellingPage extends Component {
   state = {};
 
   componentDidMount() {
-    window.location.replace("https://api.kkontichfc.be/pasta-take-away");
+    window.location.replace("http://api.kkontichfc.be/take-away-stoofpotjes");
   }
 
   render() {
