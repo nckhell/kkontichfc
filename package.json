@@ -39,7 +39,7 @@
     "@mdi/font": "^3.8.95",
     "@zeit/next-css": "^1.0.1",
     "autoprefixer": "^9.6.0",
-    "axios": ">=0.18.1",
+    "axios": ">=0.21.1",
     "cloudinary": "^1.14.0",
     "cloudinary-react": "^1.1.1",
     "cssnano": "^4.1.10",
