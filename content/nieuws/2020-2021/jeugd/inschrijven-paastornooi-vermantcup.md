@@ -7,7 +7,7 @@ cloudinaryID: 35_akqo8w
 De inschrijvingen voor ons 52ste Paastornooi / Vermant-Cup zijn geopend! Het tornooi gaat door op **zaterdag 3 en maandag 5 april 2021**.
 
 **Nota:**
-Indien het tornooi in april afgelast zou moeten worden o.w.v. corona bent u met uw ploegje automatisch ingeschreven voor het tornooi dat in de plaats zal doorgaan einde augustus 2021 (de exacte data zullen nog gecommuniceerd worden).
+Indien het tornooi in april afgelast zou moeten worden o.w.v. corona bent u met uw ploegje automatisch ingeschreven voor het tornooi dat in de plaats zal doorgaan einde augustus 2021. Voor de U6-7-8 en 9 zal het tornooi dan doorgaan op 29 augustus 2021 en voor de U10-11-12 en 13 naar 22 augustus 2021.
 
 | Ploeg | Datum                 | Tijdstip   |
 |-------|-----------------------|------------|
