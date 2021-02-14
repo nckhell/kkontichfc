@@ -150,6 +150,21 @@ const Menu = () => {
                 <a title="Blessures">Blessures</a>
               </Link>
             </li>
+            <li>
+              <Link href="/jeugd/ombudsdienst/">
+                <a title="Ombudsdienst">Ombudsdienst</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/jeugd/gezondheidspreventie/">
+                <a title="Gezondheidspreventie">Gezondheidspreventie</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/jeugd/mentaal-welzijn/">
+                <a title="Mentaal welzijn">Mentaal welzijn</a>
+              </Link>
+            </li>
           </ul>
         </li>
         <li className="has-submenu">
