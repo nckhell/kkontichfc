@@ -37,7 +37,7 @@ const obj = [
     ]
   },
   {
-    name: "Aanvullende bestuurdsleden",
+    name: "Aanvullende bestuursleden",
     members: [
       {
         firstname: "Johan",
