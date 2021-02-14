@@ -11,6 +11,10 @@ title: Downloads
   </thead>
   <tbody>
     <tr>
+      <td>Cluborganigram</td>
+      <td><a target="_blank" title="Download Cluborganigram" href="https://res.cloudinary.com/kkontichfc/raw/upload/v1613315117/downloads/cluborganigram_iddrb0.xlsx">Cluborganigram</a></td>
+    </tr>
+    <tr>
       <td>Aangifte van ongeval</td>
       <td><a target="_blank" title="Download Aangifte van ongeval" href="https://res.cloudinary.com/kkontichfc/image/upload/v1561490099/downloads/aangifteformulier_ongeval_2019_azoccl.pdf">Download</a></td>
     </tr>
@@ -22,18 +26,10 @@ title: Downloads
       <td>Panathlonverklaring</td>
       <td><a target="_blank" title="Download Panathlonverklaring" href="https://res.cloudinary.com/kkontichfc/image/upload/v1561490096/downloads/panathlon_trybsl.pdf">Download</a></td>
     </tr>
-    <!-- <tr>
-      <td>Trainingen 2019-2020</td>
-      <td><a target="_blank" title="Download Trainingen 2010-2020" href="https://res.cloudinary.com/kkontichfc/image/upload/v1563868636/downloads/trainingen-2019-2020_u8ntlk.pdf">Download</a></td>
-    </tr> -->
     <tr>
       <td>Lidgeld en informatie 2020-2021</td>
       <td><a target="_blank" title="Download Lidgeld en informatie 2019-2020" href="https://res.cloudinary.com/kkontichfc/image/upload/v1588615988/downloads/K_Kontich_FC_brief_lidgelden_2020_-_2021_dwnwre.pdf">Download</a></td>
     </tr>
-    <!-- <tr>
-      <td>Dames - Lidgeld en informatie 2019-2020</td>
-      <td><a target="_blank" title="Download Dames - Lidgeld en informatie 2019-2020" href="https://res.cloudinary.com/kkontichfc/image/upload/v1561490164/downloads/lidgeld-dames-2019-2020_f6szmr.pdf">Download</a></td>
-    </tr> -->
     <tr>
       <td>Veldindeling klassieke trainingsweek 2020-2021</td>
       <td><a target="_blank" title="Veldindeling klassieke trainingsweek 2020-2021" href="https://res.cloudinary.com/kkontichfc/image/upload/v1591639823/downloads/Veldindeling_klassieke_trainingsweek_2020-2021_fazsrb.pdf">Download</a></td>

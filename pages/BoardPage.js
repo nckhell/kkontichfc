@@ -43,6 +43,7 @@ class BoardPage extends Component {
               <div className="body-content">
                 <h1 className="pb-6 inline-block lg:w-4/6">Bestuur</h1>
               </div>
+              <p><a target="_blank" title="Download Cluborganigram" href="https://res.cloudinary.com/kkontichfc/raw/upload/v1613315117/downloads/cluborganigram_iddrb0.xlsx">Klik hier om het volledige cluborganigram te bekijken.</a></p>
               {BoardContent &&
                 BoardContent.map(board => {
                   return (

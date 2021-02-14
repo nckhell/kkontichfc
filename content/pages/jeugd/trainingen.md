@@ -1,5 +1,4 @@
 ---
 title: Trainingen
 ---
-
-<a href="https://res.cloudinary.com/kkontichfc/image/upload/v1563868636/downloads/trainingen-2019-2020_u8ntlk.pdf" target="_blank" title="Vergroten"><img src="https://res.cloudinary.com/kkontichfc/image/upload/v1563868737/nieuws/Screenshot_2019-09-04_18.46.35_jeh1td" alt="Trainingen 2019-2020" /></a>
+<a href="https://res.cloudinary.com/kkontichfc/image/upload/v1613313890/downloads/Veldindeling_klassieke_trainingsweek_2020-2021_fazsrb.pdf" target="_blank" title="Vergroten"><img src="Screenshot_2021-02-14_at_15.45.54_xbhlwu" alt="Trainingen 2020-2021" /></a>

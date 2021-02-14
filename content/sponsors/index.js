@@ -32,12 +32,12 @@ export default [
     cloudinaryID: "hairplace"
   },
   {
-    url: "http://www.drankenlaeremans.be/",
-    name: "Laeremans Drankenhandel",
+    url: "https://www.devalk.be/",
+    name: "Brouwerij De Valk",
     headsponsor: "NO",
     order: "10",
     type: "CLUBSPONSOR",
-    cloudinaryID: "laeremans"
+    cloudinaryID: "de_valk"
   },
   {
     url: "http://www.tventiel.be/",
@@ -64,20 +64,12 @@ export default [
     cloudinaryID: "klare-wijn"
   },
   {
-    url: "http://www.goudengids.be/centea-kontich-kontich-2550/",
-    name: "Centea - Kontich BVBA",
+    url: "https://www.crelan.be/nl/particulieren/kantoor/kantoor-jan-van-den-wijngaert",
+    name: "Crelan - Kantoor Jan Van den Wijngaert",
     headsponsor: "NO",
     order: "23",
     type: "CLUBSPONSOR",
-    cloudinaryID: "centea"
-  },
-  {
-    url: "http://www.chickenservicewolfs.be/",
-    name: "Chicken Service Wolfs",
-    headsponsor: "NO",
-    order: "24",
-    type: "CLUBSPONSOR",
-    cloudinaryID: "chicken-service-wolfs"
+    cloudinaryID: "crelan_e4wiot"
   },
   {
     url: "http://www.gebroedersnijs.be",
@@ -104,14 +96,6 @@ export default [
     cloudinaryID: "shoepoint"
   },
   {
-    url: "http://www.goudengids.be/siebens-gcv-reet-2840/",
-    name: "TECH SOLUTIONS",
-    headsponsor: "NO",
-    order: "35",
-    type: "CLUBSPONSOR",
-    cloudinaryID: "tech-solutions"
-  },
-  {
     url: "http://www.tuinhoutcentrum.be/",
     name: "Tuinhoutcentrum Kontich",
     headsponsor: "YES",
@@ -128,28 +112,12 @@ export default [
     cloudinaryID: "van-den-wijngaert"
   },
   {
-    url: "http://www.fvp.be",
-    name: "Van Put F NV",
-    headsponsor: "NO",
-    order: "40",
-    type: "CLUBSPONSOR",
-    cloudinaryID: "van-put"
-  },
-  {
     url: "http://www.groepvanhaute.be/",
     name: "Groep Van Haute N.V",
     headsponsor: "NO",
     order: "41",
     type: "CLUBSPONSOR",
     cloudinaryID: "van-haute-bvba"
-  },
-  {
-    url: "http://www.handelsgids.be/kontich/camelia/",
-    name: "Wasserij Camelia BVBA",
-    headsponsor: "NO",
-    order: "42",
-    type: "CLUBSPONSOR",
-    cloudinaryID: "camelia"
   },
   {
     url:
@@ -241,28 +209,12 @@ export default [
     type: "CLUBSPONSOR"
   },
   {
-    url: "http://www.hubo.be",
-    name: "Hubo",
+    url: "https://www.autonatiegroup.be/audi/kontich/ack",
+    name: "ACK",
     headsponsor: "NO",
     order: "10",
     type: "CLUBSPONSOR",
-    cloudinaryID: "hubo"
-  },
-  {
-    url: "http://garagejoly.be/",
-    name: "JOLY",
-    headsponsor: "NO",
-    order: "10",
-    type: "CLUBSPONSOR",
-    cloudinaryID: "joly-audi"
-  },
-  {
-    url: "http://garagejoly.be/",
-    name: "JOLY",
-    headsponsor: "NO",
-    order: "10",
-    type: "CLUBSPONSOR",
-    cloudinaryID: "joly-vw"
+    cloudinaryID: "ack_kontich_ycnxho"
   },
   {
     url: "http://www.gilberte.be/",
@@ -338,14 +290,6 @@ export default [
     cloudinaryID: "apotheek-vranken"
   },
   {
-    url: "http://www.meco.be",
-    name: "MECO",
-    headsponsor: "NO",
-    order: "10",
-    type: "DAMESSPONSOR",
-    cloudinaryID: "meco"
-  },
-  {
     url: "http://garagevanroosenbroek.be/",
     name: "Garage Van Roosenbroek",
     headsponsor: "NO",
@@ -369,14 +313,6 @@ export default [
     cloudinaryID: "dcm"
   },
   {
-    url: "http://www.gemoparketvloeren.be/",
-    name: "Gemo Parketvloeren",
-    headsponsor: "NO",
-    order: "7",
-    type: "CLUBSPONSOR",
-    cloudinaryID: "gemo-parketvloeren"
-  },
-  {
     name: "DC4GROUP",
     headsponsor: "NO",
     order: "15",
@@ -398,14 +334,6 @@ export default [
     order: "0",
     type: "KANTINESPONSOR",
     cloudinaryID: "carrosserie-waumans"
-  },
-  {
-    url: "",
-    name: "BV JOBS",
-    headsponsor: "NO",
-    order: "0",
-    type: "KANTINESPONSOR",
-    cloudinaryID: "bv-jobs"
   },
   {
     url: "",
@@ -438,14 +366,6 @@ export default [
     order: "0",
     type: "KANTINESPONSOR",
     cloudinaryID: "het-bazarke"
-  },
-  {
-    url: "http://www.ardillafloorswebshop.be/",
-    name: "Ardilla",
-    headsponsor: "NO",
-    order: "0",
-    type: "KANTINESPONSOR",
-    cloudinaryID: "ardilla"
   },
   {
     url: "http://www.boekjesenzo.be/",
@@ -525,14 +445,6 @@ export default [
     order: "5",
     type: "CLUBSPONSOR",
     cloudinaryID: "zowizoo"
-  },
-  {
-    url: "http://www.group-f.be/",
-    name: "Groep-f",
-    headsponsor: "NO",
-    order: "5",
-    type: "CLUBSPONSOR",
-    cloudinaryID: "group-f"
   },
   {
     url: "http://www.tcict.be/",

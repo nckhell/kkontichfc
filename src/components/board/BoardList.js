@@ -39,7 +39,7 @@ const BoardList = props => {
                     <td className="py-6">{R.view(functionLens, member)}</td>
                     <td className="py-6">{R.view(telLens, member)}</td>
                     <td className="py-6 text-center">
-                      <a
+                    {R.view(emailLens, member) && <a
                         className="inline-block"
                         href={`mailto:${R.view(emailLens, member)}`}
                         title={R.view(emailLens, member)}
@@ -51,7 +51,7 @@ const BoardList = props => {
                           }}
                           src={prefixURL("/static/img/email.svg")}
                         />
-                      </a>
+                      </a>}
                     </td>
                   </tr>
                 );

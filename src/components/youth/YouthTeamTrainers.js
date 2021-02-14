@@ -12,7 +12,7 @@ const YouthTeamTrainers = props => {
       {coordinator && (
         <div className="mb-4">
           <b>Coördinator:</b> {coordinator}
-          <a
+          {coordinatorEmail && <a
             className="inline-block align-middle ml-2 w-6"
             href={`mailto:${coordinatorEmail}`}
             title={coordinatorEmail}
@@ -23,7 +23,7 @@ const YouthTeamTrainers = props => {
               }}
               src={prefixURL("/static/img/email.svg")}
             />
-          </a>
+          </a>}
         </div>
       )}
       <div className="overflow-x-auto">
@@ -56,23 +56,25 @@ const YouthTeamTrainers = props => {
                     <td className="py-6 text-center">
                       {entry.coach &&
                         entry.coach.map(coach => {
-                          return (
-                            <div key={coach.lastname}>
-                              <a
-                                className="inline-block"
-                                href={`mailto:${coach.email}`}
-                                title={coach.email}
-                              >
-                                <ReactSVG
-                                  className="inline-block align-middle pr-2 w-8"
-                                  beforeInjection={svg => {
-                                    svg.setAttribute("style", "fill: #3E4C59");
-                                  }}
-                                  src={prefixURL("/static/img/email.svg")}
-                                />
-                              </a>
-                            </div>
-                          );
+                          if(coach.email) {
+                            return (
+                              <div key={coach.lastname}>
+                                <a
+                                  className="inline-block"
+                                  href={`mailto:${coach.email}`}
+                                  title={coach.email}
+                                >
+                                  <ReactSVG
+                                    className="inline-block align-middle pr-2 w-8"
+                                    beforeInjection={svg => {
+                                      svg.setAttribute("style", "fill: #3E4C59");
+                                    }}
+                                    src={prefixURL("/static/img/email.svg")}
+                                  />
+                                </a>
+                              </div>
+                            );
+                          }
                         })}
                     </td>
                   </tr>

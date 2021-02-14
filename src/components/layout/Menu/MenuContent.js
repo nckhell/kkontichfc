@@ -241,16 +241,6 @@ const Menu = () => {
                 <a title="Evenementen">Evenementen</a>
               </Link>
             </li>
-            <li>
-              <a
-                title="KKFC Webshop"
-                target="_blank"
-                href="https://kontich.clubwereld.nl/"
-                rel="noopener noreferrer"
-              >
-                KKFC Webshop
-              </a>
-            </li>
           </ul>
         </li>
         <li className="facebook hidden xl:block">

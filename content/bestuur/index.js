@@ -1,6 +1,6 @@
 const obj = [
   {
-    name: "Raad van Bestuur",
+    name: "Raad van Bestuur (blauwe kaart)",
     members: [
       {
         firstname: "Wim",
@@ -13,7 +13,7 @@ const obj = [
       {
         firstname: "Willy",
         lastname: "Patteet",
-        function: "Bestuurslid",
+        function: "Penningmeester",
         tel: "0495/31.31.97",
         email: "willy.patteet@telenet.be",
         cloudinaryID: ""
@@ -29,78 +29,54 @@ const obj = [
       {
         firstname: "Glenn",
         lastname: "Mariën",
-        function: "Leden - Communicatie",
+        function: "Lid RVB",
         tel: "0476/80.83.66",
         email: "jeugd@kkontichfc.be",
-        cloudinaryID: ""
-      },
-      {
-        firstname: "Nick",
-        lastname: "Laenens",
-        function: "Commercieel en logistiek",
-        tel: "0478/84.25.99",
-        email: "laenens.nick@hotmail.com",
         cloudinaryID: ""
       }
     ]
   },
   {
-    name: "Bestuur Damesafdeling",
+    name: "Aanvullende bestuurdsleden",
     members: [
       {
-        firstname: "Wim",
+        firstname: "Johan",
         lastname: "Claes",
-        function: "Voorzitter",
-        tel: "0479/69.48.49",
-        email: "commercieel@kkontichfc.be",
-        cloudinaryID: ""
-      },
-      {
-        firstname: "Glenn",
-        lastname: "Mariën",
-        function: "Administratie",
-        tel: "0476/80.83.66",
-        email: "jeugd@kkontichfc.be",
-        cloudinaryID: ""
-      },
-      {
-        firstname: "Karim",
-        lastname: "Didi",
-        function: "T1 - 1e nat.",
+        function: "(Juridisch) advies",
         tel: "",
         email: "",
         cloudinaryID: ""
       },
       {
-        firstname: "Sara",
-        lastname: "Noé",
-        function: "Scouting",
-        tel: "0495/61.36.39",
-        email: "sara.noe96@gmail.com",
+        firstname: "Mo",
+        lastname: "Sabhaoui",
+        function: "A-kern",
+        tel: "",
+        email: "",
         cloudinaryID: ""
       },
       {
-        firstname: "Indyana",
-        lastname: "Van Camp",
-        function: "Trainer 1e en 3e prov.",
-        tel: "0468/20.48.05",
-        email: "Dretha98@gmail.com",
+        firstname: "Kevin",
+        lastname: "Hannes",
+        function: "Jeugd",
+        tel: "",
+        email: "",
         cloudinaryID: ""
       },
       {
-        firstname: "Pascale",
-        lastname: "Dams",
-        function: "Trainster U16",
-        tel: "0495/42.74.09",
-        email: "Pascale.dams@hotmail.com",
+        firstname: "Cedric",
+        lastname: "Cottignie",
+        function: "Jeugd",
+        tel: "",
+        email: "",
         cloudinaryID: ""
       },
       {
-        firstname: "Katrijn",
-        lastname: "Liefooghe",
-        function: "Trainster U13",
-        tel: "0476/44.71.59",
-        email: "Katrijn_liefooghe@hotmail.be",
+        firstname: "Nick",
+        lastname: "Laenens",
+        function: "Commercieel / logistiek",
+        tel: "0478/84.25.99",
+        email: "laenens.nick@hotmail.com",
         cloudinaryID: ""
       },
       {
@@ -110,58 +86,42 @@ const obj = [
         tel: "0499/90.79.91",
         email: "ldecorte@hotmail.com",
         cloudinaryID: ""
+      }
+    ]
+  },
+  {
+    name: "Bestuur Damesafdeling",
+    members: [
+      {
+        firstname: "Luc",
+        lastname: "De Corte",
+        function: "Bestuur, administratie & verantwoordelijke jeugd",
+        tel: "0499/90.79.91",
+        email: "ldecorte@hotmail.com",
+        cloudinaryID: ""
+      },
+      {
+        firstname: "Glenn",
+        lastname: "Mariën",
+        function: "Dames nationaal",
+        tel: "0476/80.83.66",
+        email: "jeugd@kkontichfc.be",
+        cloudinaryID: ""
       },
       {
         firstname: "Peter",
         lastname: "Boons",
-        function: "Bestuur - Dames",
+        function: "Kledij-en communicatieverantwoordelijke",
         tel: "0494/85.48.97",
         email: "b-v@telenet.be",
         cloudinaryID: ""
       },
       {
-        firstname: "Jefry",
-        lastname: "Kesters",
-        function: "Bestuur - Dames",
-        tel: "0470/21.58.33",
-        email: "Jefry.kesters@gmail.com",
-        cloudinaryID: ""
-      },
-      {
-        firstname: "Luc",
-        lastname: "Bosmans",
-        function: "Sportief adviseur",
-        tel: "0477/61.75.77",
-        email: "progresso@live.ve",
-        cloudinaryID: ""
-      }
-    ]
-  },
-  {
-    name: "Medewerkers bestuur",
-    members: [
-      {
-        firstname: "Wim",
-        lastname: "Knegtel",
-        function: "Organisatie Paastornooi",
-        tel: "0486/95.60.91",
-        email: "wimknegtel@hotmail.com",
-        cloudinaryID: ""
-      },
-      {
-        firstname: "Bart",
-        lastname: "Roggeman",
-        function: "Pers",
-        tel: "0477/36.53.67",
-        email: "bart.roggeman1@telenet.be",
-        cloudinaryID: ""
-      },
-      {
-        firstname: "Mathias",
-        lastname: "Van Herck",
-        function: "Logistiek & evenementen",
-        tel: "0468/02.62.30",
-        email: "Herck@Q8.com",
+        firstname: "Dave",
+        lastname: "De Causemaeker",
+        function: "",
+        tel: "",
+        email: "",
         cloudinaryID: ""
       }
     ]

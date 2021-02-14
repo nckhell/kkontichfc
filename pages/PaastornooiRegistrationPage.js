@@ -68,6 +68,8 @@ class PaastornooiRegistrationPage extends Component {
                 <h1 className="leading-snug font-normal text-5xl normal-case pb-6 inline-block mb-8">
                   Online registratie voor onze 52ste Vermant-Cup (Paastornooi)
                 </h1>
+                <p><b>Nota:</b><br/>
+Indien het tornooi in april afgelast zou moeten worden o.w.v. corona bent u met uw ploegje automatisch ingeschreven voor het tornooi dat in de plaats zal doorgaan einde augustus 2021 (de exacte data zullen nog gecommuniceerd worden).</p>
                 <div>
                   Het tornooi vindt plaats gespreid over 2 dagen:
                   <ul>

@@ -165,15 +165,6 @@ const Footer = () => {
                 Evenementen
               </a>
             </Link>
-            <a
-              title="KKFC Webshop"
-              href="https://kontich.clubwereld.nl/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm text-gray-500 py-1"
-            >
-              KKFC Webshop
-            </a>
           </div>
         </div>
         <div className="flex md:flex-row items-start flex-col-reverse">

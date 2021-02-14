@@ -13,27 +13,27 @@ class YouthTrainersPage extends Component {
   render() {
     const bovenbouwTeams = [
       "U21",
-      "U17 Rood",
-      "U17 Geel",
-      "U15 Rood",
-      "U15 Geel"
+      "U17 A",
+      "U17 B",
+      "Dames U16",
+      "U15"
     ];
+
     const middenbouwTeams = [
       "Dames U13",
-      "U13 Rood",
-      "U13 Geel",
+      "U13 A",
+      "U13 B",
       "U12",
-      "U11 Rood",
       "U10"
     ];
+
     const onderbouwTeams = [
-      "U9 Rood",
-      "U9 Geel",
-      "U8 Rood",
-      "U8 Geel",
-      "U7 Rood",
-      "U7 Geel",
-      "U6"
+      "U9 A",
+      "U9 B",
+      "U8 A",
+      "U7",
+      "U6 A",
+      "U6 B"
     ];
 
     const bovenbouw = _.filter(YouthTeamsList, item => {
@@ -80,6 +80,7 @@ class YouthTrainersPage extends Component {
               <div className="body-content">
                 <h1 className="pb-6 inline-block lg:w-4/6">Trainers</h1>
               </div>
+              <p><a target="_blank" title="Download Cluborganigram" href="https://res.cloudinary.com/kkontichfc/raw/upload/v1613315117/downloads/cluborganigram_iddrb0.xlsx">Klik hier om het volledige cluborganigram te bekijken.</a></p>
               <YouthTeamTrainers
                 title="Bovenbouw"
                 coordinator="Kris Mampaey"
@@ -92,7 +93,7 @@ class YouthTrainersPage extends Component {
                 coordinatorEmail="sven.eeeraerts@telenet.be"
                 data={middenbouw}
               />
-              <YouthTeamTrainers title="Onderbouw" data={onderbouw} />
+              <YouthTeamTrainers title="Onderbouw" coordinator="Mike Stevens" data={onderbouw} />
               <FacebookProvider appId="346435965433483">
                 <div className="my-6">
                   <Like

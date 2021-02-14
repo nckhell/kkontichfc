@@ -1,10 +1,13 @@
 ---
 title: Inschrijven Paastornooi / Vermant-Cup 2021
-date: 2020-10-22
+date: 2021-02-14
 slider: YES
 cloudinaryID: 35_akqo8w
 ---
 De inschrijvingen voor ons 52ste Paastornooi / Vermant-Cup zijn geopend! Het tornooi gaat door op **zaterdag 3 en maandag 5 april 2021**.
+
+**Nota:**
+Indien het tornooi in april afgelast zou moeten worden o.w.v. corona bent u met uw ploegje automatisch ingeschreven voor het tornooi dat in de plaats zal doorgaan einde augustus 2021 (de exacte data zullen nog gecommuniceerd worden).
 
 | Ploeg | Datum                 | Tijdstip   |
 |-------|-----------------------|------------|
@@ -17,7 +20,7 @@ De inschrijvingen voor ons 52ste Paastornooi / Vermant-Cup zijn geopend! Het tor
 | U8    | maandag 5 april 2021  | Voormiddag |
 | U9    | maandag 5 april 2021  | Voormiddag |
 
-Inschrijven kan enkel online via onze website, **dit kan tot en met 31 januari 2021**.
+Inschrijven kan enkel online via onze website.
 
 [Klik hier om je team in te schrijven](https://www.kkontichfc.be/jeugd/vermant-cup/online-registratie/ "Klik hier om je team in te schrijven")!
 
