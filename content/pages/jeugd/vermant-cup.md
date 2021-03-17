@@ -2,7 +2,7 @@
 title: Vermant-Cup
 ---
 <p><strong>Beste sportvrienden,</strong></p>
-<p>K. Kontich F.C. nodigt u uit op haar 52ste Paastornooi (Vermant-Cup), een tornooi dat heel wat waardering geniet van clubs die reeds meegedaan hebben tijdens de vorige uitgaven. Onze 51ste uitgave is helaas niet kunnen doorgaan vanwege de COVID-19 pandemie, maar we hopen dat we in het voorjaar van 2021 opnieuw ons tornooi kunnen organiseren.</p>
+<p>K. Kontich F.C. nodigt u uit op haar 52ste Vermant-Cup ("Summer Edition") , een tornooi dat heel wat waardering geniet van clubs die reeds meegedaan hebben tijdens de vorige uitgaven.</p>
 <div class="lg:flex lg:flex-wrap lg:-mx-8 items-center mb-6">
     <div class="mb-4 w-full lg:w-1/2 lg:mb-0 lg:px-8">
         <img src="https://www.link2fleet.be/wp-content/uploads/2018/04/Logo-Vermant-Groep.png" style="max-width: 90%; height: auto;" alt="Volvo Vermant" />
@@ -13,7 +13,7 @@ title: Vermant-Cup
 
 </div>
 <p>
-Het tornooi gaat door op <strong>zaterdag 3 en maandag 5 april april 2021</strong>. Het Paastornooi vindt plaats op de terreinen van K. Kontich F.C., hetgeen u de mogelijkheid geeft om o.a. op kunstgras te voetballen.
+Het tornooi gaat door op <strong>zondag 22 en zondag 29 augustus 2021</strong>. Het tornooi vindt plaats op de terreinen van K. Kontich F.C., hetgeen u de mogelijkheid geeft om o.a. op kunstgras te voetballen.
 </p>
 <table style="width: 100%;">
 <thead>
@@ -26,50 +26,48 @@ Het tornooi gaat door op <strong>zaterdag 3 en maandag 5 april april 2021</stron
 <tbody>
 <tr>
 <td>U10</td>
-<td>Zaterdag 3 april 2021</td>
+<td>Zondag 22 augustus 2021</td>
 <td>Namiddag</td>
 </tr>
 <tr>
 <td>U11</td>
-<td>Zaterdag 3 april 2021</td>
+<td>Zondag 22 augustus 2021</td>
 <td>Namiddag</td>
 </tr>
 <tr>
 <td>U12</td>
-<td>Zaterdag 3 april 2021</td>
+<td>Zondag 22 augustus 2021</td>
 <td>Voormiddag</td>
 </tr>
 <tr>
 <td>U13</td>
-<td>Zaterdag 3 april 2021</td>
+<td>Zondag 22 augustus 2021</td>
 <td>Voormiddag</td>
 </tr>
 <tr>
 <td>U6</td>
-<td>maandag 5 april 2021</td>
+<td>Zondag 27 augustus 2021</td>
 <td>Namiddag</td>
 </tr>
 <tr>
 <td>U7</td>
-<td>maandag 5 april 2021</td>
+<td>Zondag 27 augustus 2021</td>
 <td>Namiddag</td>
 </tr>
 <tr>
 <td>U8</td>
-<td>maandag 5 april 2021</td>
+<td>Zondag 27 augustus 2021</td>
 <td>Voormiddag</td>
 </tr>
 <tr>
 <td>U9</td>
-<td>maandag 5 april 2021</td>
+<td>Zondag 27 augustus 2021</td>
 <td>Voormiddag</td>
 </tr>
 </tbody>
 </table>
 <div>
     <h2>Inschrijven</h2>
-    <p><b>Nota:</b><br/>
-Indien het tornooi in april afgelast zou moeten worden o.w.v. corona bent u met uw ploegje automatisch ingeschreven voor het tornooi dat in de plaats zal doorgaan einde augustus 2021. Voor de U6-7-8 en 9 zal het tornooi dan doorgaan op 29 augustus 2021 en voor de U10-11-12 en 13 naar 22 augustus 2021.</p>
     <p>
         <a href="https://www.kkontichfc.be/jeugd/vermant-cup/online-registratie/" title="Inschrijven Paastornooi / Vermant-Cup" class="btn-block">Klik hier om in te schrijven.</a></p>
     <p>Uiteraard zullen wij bij een inschrijving zelf aanwezig zijn op uw tornooi met 1 of meerdere ploegen.</p>

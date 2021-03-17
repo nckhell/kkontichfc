@@ -33,8 +33,8 @@ class PaastornooiRegistrationPage extends Component {
       <Layout showGrassHeader>
         <NextSeo
           config={{
-            title: "Online registratie | Paastornooi Vermant-Cup | Jeugd",
-            description: `Online registratie voor het Paastornooi (Vermant-Cup) van K. Kontich F.C.`,
+            title: "Online registratie | Vermant-Cup | Jeugd",
+            description: `Online registratie voor de Vermant-Cup van K. Kontich F.C.`,
             canonical: `https://www.kkontichfc.be/jeugd/vermant-cup/online-registratie/`,
             openGraph: {
               type: "website",
@@ -66,19 +66,17 @@ class PaastornooiRegistrationPage extends Component {
             <div className="px-4 mt-4 md:mt-5 lg:mt-8 container mx-auto text-left">
               <div className="body-content w-full">
                 <h1 className="leading-snug font-normal text-5xl normal-case pb-6 inline-block mb-8">
-                  Online registratie voor onze 52ste Vermant-Cup (Paastornooi)
+                  Online registratie voor onze 52ste Vermant-Cup ("Summer Edition")
                 </h1>
-                <p><b>Nota:</b><br/>
-Indien het tornooi in april afgelast zou moeten worden o.w.v. corona bent u met uw ploegje automatisch ingeschreven voor het tornooi dat in de plaats zal doorgaan einde augustus 2021. Voor de U6-7-8 en 9 zal het tornooi dan doorgaan op 29 augustus 2021 en voor de U10-11-12 en 13 naar 22 augustus 2021.</p>
                 <div>
                   Het tornooi vindt plaats gespreid over 2 dagen:
                   <ul>
                     <li>
-                      <u>Zaterdag 3 april 2021:</u> <b>U12 & U13</b> (in de
+                      <u>Zondag 22 augustus 2021:</u> <b>U12 & U13</b> (in de
                       voormiddag) & <b>U10 & U11</b> (in de namiddag);
                     </li>
                     <li>
-                      <u>Maandag 5 april 2021:</u> <b>U8 & U9</b> (in de
+                      <u>Zondag 29 augustus 2021:</u> <b>U8 & U9</b> (in de
                       voormiddag) & <b>U6 & U7</b> (in de namiddag);
                     </li>
                   </ul>
