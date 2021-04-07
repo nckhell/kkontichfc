@@ -2,6 +2,7 @@
 title: Afgelasting Vermant Cup - Verplaatst naar augustus 2021 ("Summer Edition")
 slider: YES 
 cloudinaryID: 5b903ee3469a1.image_oiy383
+showImageInArticle: NO
 date: 2021-03-17
 ---
 Geachte Heer, Mevrouw,
