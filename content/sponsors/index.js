@@ -672,7 +672,7 @@ export default [
     order: "8",
     type: "CLUBSPONSOR",
     cloudinaryID: "1a02813962b6c_mg1yx9",
-    highlight: true
+    highlight: false
   },
   {
     url: "https://www.elmos.be/nl",
@@ -681,6 +681,15 @@ export default [
     order: "8",
     type: "CLUBSPONSOR",
     cloudinaryID: "elmos_zirwol",
+    highlight: false
+  },
+  {
+    url: "http://www.garageverlinden.be/",
+    name: "Verlinden Duffel",
+    headsponsor: "NO",
+    order: "8",
+    type: "CLUBSPONSOR",
+    cloudinaryID: "Logo_Verlinden_Renault_wxjypm",
     highlight: true
   }
 ];
