@@ -1,5 +1,5 @@
 ---
-title: Voorbereiding 2021-2020
+title: Voorbereiding 2021-2022
 slider: YES 
 cloudinaryID: _C2A8125_ktoots_f02p7b
 backgroundPosition: top 50% center
