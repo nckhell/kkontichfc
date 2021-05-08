@@ -27,8 +27,8 @@ title: Downloads
       <td><a target="_blank" title="Download Panathlonverklaring" href="https://res.cloudinary.com/kkontichfc/image/upload/v1561490096/downloads/panathlon_trybsl.pdf">Download</a></td>
     </tr>
     <tr>
-      <td>Lidgeld en informatie 2020-2021</td>
-      <td><a target="_blank" title="Download Lidgeld en informatie 2019-2020" href="https://res.cloudinary.com/kkontichfc/image/upload/v1588615988/downloads/K_Kontich_FC_brief_lidgelden_2020_-_2021_dwnwre.pdf">Download</a></td>
+      <td>Lidgeld en informatie 2021-2022</td>
+      <td><a target="_blank" title="Download Lidgeld en informatie 2021-2022" href="https://res.cloudinary.com/kkontichfc/image/upload/v1620490890/downloads/K_Kontich_FC_brief_lidgelden_2021_-_2022_1_o8zj4t.pdf">Download</a></td>
     </tr>
     <tr>
       <td>Veldindeling klassieke trainingsweek 2020-2021</td>
