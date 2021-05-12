@@ -1,5 +1,5 @@
 const settings = {
-  currentSeason: "2020-2021"
+  currentSeason: "2021-2022"
 };
 
 module.exports = settings;
