@@ -46,22 +46,22 @@ Het tornooi gaat door op <strong>zondag 22 en zondag 29 augustus 2021</strong>. 
 </tr>
 <tr>
 <td>U6</td>
-<td>Zondag 27 augustus 2021</td>
+<td>Zondag 29 augustus 2021</td>
 <td>Namiddag</td>
 </tr>
 <tr>
 <td>U7</td>
-<td>Zondag 27 augustus 2021</td>
+<td>Zondag 29 augustus 2021</td>
 <td>Namiddag</td>
 </tr>
 <tr>
 <td>U8</td>
-<td>Zondag 27 augustus 2021</td>
+<td>Zondag 29 augustus 2021</td>
 <td>Voormiddag</td>
 </tr>
 <tr>
 <td>U9</td>
-<td>Zondag 27 augustus 2021</td>
+<td>Zondag 29 augustus 2021</td>
 <td>Voormiddag</td>
 </tr>
 </tbody>
