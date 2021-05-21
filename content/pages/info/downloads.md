@@ -31,6 +31,10 @@ title: Downloads
       <td><a target="_blank" title="Download Lidgeld en informatie 2021-2022" href="https://res.cloudinary.com/kkontichfc/image/upload/v1620490890/downloads/K_Kontich_FC_brief_lidgelden_2021_-_2022_1_o8zj4t.pdf">Download</a></td>
     </tr>
     <tr>
+      <td>Lidgeld en informatie dames 2021-2022</td>
+      <td><a target="_blank" title="Download Lidgeld en informatie dames 2021-2022" href="https://res.cloudinary.com/kkontichfc/image/upload/v1621595875/downloads/Dames___lidgeld_en_informatie_2021_2022__def_ridywn.pdf">Download</a></td>
+    </tr>
+    <tr>
       <td>Veldindeling klassieke trainingsweek 2020-2021</td>
       <td><a target="_blank" title="Veldindeling klassieke trainingsweek 2020-2021" href="https://res.cloudinary.com/kkontichfc/image/upload/v1591639823/downloads/Veldindeling_klassieke_trainingsweek_2020-2021_fazsrb.pdf">Download</a></td>
     </tr>
