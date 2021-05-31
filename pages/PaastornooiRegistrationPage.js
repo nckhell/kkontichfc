@@ -309,7 +309,7 @@ class PaastornooiRegistrationPage extends Component {
                               <option value="U10" label="U10" />
                               <option value="U11" label="U11" />
                               <option value="U12" label="U12" />
-                              <option value="U13" label="U13" />
+                              {/* <option value="U13" label="U13" /> */}
                               {/* <option value="U13_dames" label="Meisjes U13" /> */}
                               {/* <option value="U16_dames" label="Meisjes U16" /> */}
                             </select>
