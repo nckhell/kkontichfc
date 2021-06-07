@@ -304,7 +304,7 @@ class PaastornooiRegistrationPage extends Component {
                               <option value="" label="Selecteer team" />
                               <option value="U6" label="U6" />
                               <option value="U7" label="U7" />
-                              <option value="U8" label="U8" />
+                              {/* <option value="U8" label="U8" /> */}
                               {/* <option value="U9" label="U9" /> */}
                               <option value="U10" label="U10" />
                               <option value="U11" label="U11" />
