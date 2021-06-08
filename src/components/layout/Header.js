@@ -81,6 +81,11 @@ class Header extends Component {
           <div className="hidden xl:block">
             <ul className="font-semibold text-gray-900 uppercase font-montserrat tracking-tight">
               <li className="inline-block pr-10">
+                <a title="ProSoccerData" href="https://kkontichfc.prosoccerdata.com/signup.php?q=%2F" target="_blank" className="hover:text-yellow-500">
+                  ProSoccerData
+                </a>
+              </li>
+              <li className="inline-block pr-10">
                 <Link href="/jeugd/vermant-cup">
                   <a title="Vermant-Cup" className="hover:text-yellow-500">
                     Vermant-Cup

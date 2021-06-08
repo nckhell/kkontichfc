@@ -5,6 +5,14 @@
     z-index: 300;
 }
 
+@media (min-width: 1280px) {
+    .prosoccerdata {
+        display: none !important;
+        width: 0 !important;
+        margin: 0 !important;
+    }
+}
+
 #full-page-nav-wrapper.open {
     opacity: 1;
     z-index: 400;

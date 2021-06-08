@@ -33,6 +33,11 @@ const Menu = () => {
             <a title="Nieuws">Nieuws</a>
           </Link>
         </li>
+        <li>
+          <a title="ProSoccerData" href="https://kkontichfc.prosoccerdata.com/signup.php?q=%2F" target="_blank" className="hover:text-yellow-500">
+            ProSoccerData
+          </a>
+        </li>
         <li className="has-submenu">
           <a
             href="#"
