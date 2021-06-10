@@ -5,7 +5,7 @@ cloudinaryID: K._Kontich_F.C._Beerschot_2021_zp5llt
 backgroundPosition: top 25% center
 date: 2021-06-10
 ---
-**Vrijdag 18 juni 2021 om 21u00 oefent K. Kontich F.C. vriendschappelijk tegen 1A-club Beerschot.** Voor het eerst sinds lang kan er opnieuw gevoetbald worden mét publiek. We rekenen hierbij op eenieders voorzichtigheid om dit op een covid-veilige manier door te laten gaan.
+**Vrijdag 18 juni 2021 om 19u00 oefent K. Kontich F.C. vriendschappelijk tegen 1A-club Beerschot.** Voor het eerst sinds lang kan er opnieuw gevoetbald worden mét publiek. We rekenen hierbij op eenieders voorzichtigheid om dit op een covid-veilige manier door te laten gaan.
 
 **Praktisch:**
 - Gelet op de huidige covid-maatregelen zal er slechts een publiek van **400 personen staand/zittend** toegelaten zijn;
