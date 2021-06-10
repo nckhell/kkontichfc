@@ -20,7 +20,7 @@ cloudinaryID: 171_immzew
     <tr>
       <td class="dark">Nieuwe leden<br/>(jeugd én senioren)</td>
       <td>350 EUR</td>
-      <td>Trainingspak<br />Trainingsshirt<br />Voetbalkousen<br />Voetbalshort<br/>Waardebon JAKO/Nick Sport t.b.v. 60 EUR incl. BTW catalogusprijs</td>
+      <td>Trainingspak<br />Trainingsshirt<br />Voetbalkousen<br />Voetbalshort</td>
     </tr>
     <tr>
       <td class="dark">Huidige leden<br/>(jeugd én senioren)</td>
