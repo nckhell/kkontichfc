@@ -66,7 +66,8 @@ class PaastornooiRegistrationPage extends Component {
             <div className="px-4 mt-4 md:mt-5 lg:mt-8 container mx-auto text-left">
               <div className="body-content w-full">
                 <h1 className="leading-snug font-normal text-5xl normal-case pb-6 inline-block mb-8">
-                  Online registratie voor onze 52ste Vermant-Cup ("Summer Edition")
+                  Online registratie voor onze 52ste Vermant-Cup ("Summer
+                  Edition")
                 </h1>
                 <div>
                   Het tornooi vindt plaats gespreid over 2 dagen:
@@ -308,7 +309,7 @@ class PaastornooiRegistrationPage extends Component {
                               {/* <option value="U9" label="U9" /> */}
                               {/* <option value="U10" label="U10" /> */}
                               {/* <option value="U11" label="U11" /> */}
-                              <option value="U12" label="U12" />
+                              {/* <option value="U12" label="U12" /> */}
                               {/* <option value="U13" label="U13" /> */}
                               {/* <option value="U13_dames" label="Meisjes U13" /> */}
                               {/* <option value="U16_dames" label="Meisjes U16" /> */}
