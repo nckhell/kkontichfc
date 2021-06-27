@@ -32,14 +32,6 @@ export default [
     cloudinaryID: "hairplace"
   },
   {
-    url: "https://www.devalk.be/",
-    name: "Brouwerij De Valk",
-    headsponsor: "NO",
-    order: "10",
-    type: "CLUBSPONSOR",
-    cloudinaryID: "de_valk"
-  },
-  {
     url: "http://www.tventiel.be/",
     name: "t Ventiel",
     headsponsor: "NO",
@@ -64,7 +56,8 @@ export default [
     cloudinaryID: "klare-wijn"
   },
   {
-    url: "https://www.crelan.be/nl/particulieren/kantoor/kantoor-jan-van-den-wijngaert",
+    url:
+      "https://www.crelan.be/nl/particulieren/kantoor/kantoor-jan-van-den-wijngaert",
     name: "Crelan - Kantoor Jan Van den Wijngaert",
     headsponsor: "NO",
     order: "23",
@@ -690,6 +683,15 @@ export default [
     order: "8",
     type: "CLUBSPONSOR",
     cloudinaryID: "Logo_Verlinden_Renault_wxjypm",
+    highlight: false
+  },
+  {
+    url: "https://www.volkswelvaart.be/",
+    name: "Volkswelvaart",
+    headsponsor: "NO",
+    order: "8",
+    type: "CLUBSPONSOR",
+    cloudinaryID: "logo_volkswelvaart_website_xigz3y",
     highlight: true
   }
 ];
