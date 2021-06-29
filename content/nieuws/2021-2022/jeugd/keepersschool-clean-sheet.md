@@ -3,7 +3,7 @@ title: Keepersschool "Clean Sheet" seizoen 21-22!
 figCaption: Keepersschool Clean Sheet van Jan Van Der Veer en Kris Mampaey
 slider: YES 
 cloudinaryID: 139_crvf4n
-date: 2021-05-12
+date: 2021-06-29
 ---
 <p>Tijdens de terugronde van het seizoen 2017-2018 organiseerden <strong>Kris Mampaey &amp; Jan Van der Veer</strong> verschillende try-outs voor de opstart van een keepersschool. Op basis van de positieve reacties &eacute;n de duidelijk waarneembare evolutie van de deelnemende keepers, werd beslist om keepersschool &lsquo;Clean Sheet&rsquo; boven het doopvont te houden.</p>
 <h3>Wat is &lsquo;Clean Sheet&rsquo;?</h3>
