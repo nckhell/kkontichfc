@@ -692,6 +692,15 @@ export default [
     order: "8",
     type: "CLUBSPONSOR",
     cloudinaryID: "logo_volkswelvaart_website_xigz3y",
+    highlight: false
+  },
+  {
+    url: "https://www.ing.be/nl/retail",
+    name: "ING Hove-Kontich",
+    headsponsor: "NO",
+    order: "8",
+    type: "CLUBSPONSOR",
+    cloudinaryID: "16x12_Logos_Partners_ING_fqpsof",
     highlight: true
   }
 ];
