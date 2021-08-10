@@ -72,14 +72,6 @@ const obj = [
         cloudinaryID: ""
       },
       {
-        firstname: "Nick",
-        lastname: "Laenens",
-        function: "Commercieel / logistiek",
-        tel: "0478/84.25.99",
-        email: "laenens.nick@hotmail.com",
-        cloudinaryID: ""
-      },
-      {
         firstname: "Luc",
         lastname: "De Corte",
         function: "Bestuur - Dames",
@@ -106,14 +98,6 @@ const obj = [
         function: "Dames nationaal",
         tel: "0476/80.83.66",
         email: "jeugd@kkontichfc.be",
-        cloudinaryID: ""
-      },
-      {
-        firstname: "Peter",
-        lastname: "Boons",
-        function: "Kledij-en communicatieverantwoordelijke",
-        tel: "0494/85.48.97",
-        email: "b-v@telenet.be",
         cloudinaryID: ""
       },
       {
