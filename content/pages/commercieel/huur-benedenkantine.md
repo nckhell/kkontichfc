@@ -10,14 +10,14 @@ title: Huur benedenkatine
 <ul>
     <li>Huurprijs benedenkantine: 100 EUR;</li>
     <li>Opkuis benedenkantine: 50 EUR;</li>
-    <li>Mogelijkheid tot gebruik van eigen drank (voorkeur: Drankenhandel Laeremans &amp; Klare Wijn);</li>
+    <li>Mogelijkheid tot gebruik van eigen drank (voorkeur: Drankenhandel De Volkswelvaart &amp; Klare Wijn);</li>
 </ul>
 <p>Indien <u>méér dan 40 aanwezigen:</u></p>
 <ul>
     <li><strong>Optie 1:</strong>
         <br> Huurprijs benedenkantine: 100 EUR;
         <br> Opkuis benedenkantine: 50 EUR;
-        <br> Mogelijkheid tot gebruik van eigen drank (voorkeur: Drankenhandel Laeremans &amp; Klare Wijn).
+        <br> Mogelijkheid tot gebruik van eigen drank (voorkeur: Drankenhandel De Volkswelvaart &amp; Klare Wijn).
     </li>
     <li><strong>Optie 2:</strong>
         <br> Huurprijs benedenkantine: /;
@@ -37,3 +37,9 @@ title: Huur benedenkatine
     <li>Reservatie via <a href="mailto:commercieel@kkontichfc.be" title="commercieel@kkontichfc.be">commercieel@kkontichfc.be</a>.
     </li>
 </ul>
+
+<h2>Samenwerking EVENTA RENT</h2>
+<div class="center mb-4"><a href="https://www.eventarent.be/" title="EVENTA RENT"><img src="https://res.cloudinary.com/kkontichfc/image/upload/v1629137186/sponsors/logo_2_wnvhpc.png" alt="EVENTA RENT" style="max-width: 250px;"/></a></div>
+<p>Eventa Rent is een modern verhuurbedrijf van feestmateriaal, gevestigd op de grens van Kontich & Aartselaar. Zij voorzien tafels, stoelen, springkastelen, tenten, verwarmingen, partyfood, originele spelen, koeling, en zoveel meer.</p>
+<p>Wil je een springkasteel plaatsen op jouw feestje? Dat mag uiteraard, maar wél eentje uit het uitgebreide aanbod van Eventa Rent. Supporters van K. Kontich F.C. krijgen daarenboven ook nog een mooie korting op de verhuurprijs!</p>
+</div>

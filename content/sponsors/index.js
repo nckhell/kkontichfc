@@ -701,6 +701,24 @@ export default [
     order: "8",
     type: "CLUBSPONSOR",
     cloudinaryID: "16x12_Logos_Partners_ING_fqpsof",
+    highlight: false
+  },
+  {
+    url: "https://www.trentimmo.be/",
+    name: "Trent Immo",
+    headsponsor: "NO",
+    order: "8",
+    type: "CLUBSPONSOR",
+    cloudinaryID: "368849323_trent_immo_logo_egehym",
+    highlight: true
+  },
+  {
+    url: "https://www.eventarent.be/",
+    name: "eventarant",
+    headsponsor: "NO",
+    order: "8",
+    type: "CLUBSPONSOR",
+    cloudinaryID: "logo_2_wnvhpc",
     highlight: true
   }
 ];
