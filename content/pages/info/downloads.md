@@ -35,8 +35,8 @@ title: Downloads
       <td><a target="_blank" title="Download Lidgeld en informatie dames 2021-2022" href="https://res.cloudinary.com/kkontichfc/image/upload/v1621595875/downloads/Dames___lidgeld_en_informatie_2021_2022__def_ridywn.pdf">Download</a></td>
     </tr>
     <tr>
-      <td>Veldindeling klassieke trainingsweek 2020-2021</td>
-      <td><a target="_blank" title="Veldindeling klassieke trainingsweek 2020-2021" href="https://res.cloudinary.com/kkontichfc/image/upload/v1591639823/downloads/Veldindeling_klassieke_trainingsweek_2020-2021_fazsrb.pdf">Download</a></td>
+      <td>Trainingsschema 2021-2022</td>
+      <td><a target="_blank" title="Trainingsschema 2021-2022" href="https://res.cloudinary.com/kkontichfc/image/upload/v1629136497/downloads/Trainingsschema-2021-2022_dobuzl.pdf">Download</a></td>
     </tr>
     <tr>
       <td>Opleidingsvisie en leerplan</td>
