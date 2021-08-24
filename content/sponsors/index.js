@@ -710,7 +710,7 @@ export default [
     order: "8",
     type: "CLUBSPONSOR",
     cloudinaryID: "368849323_trent_immo_logo_egehym",
-    highlight: true
+    highlight: false
   },
   {
     url: "https://www.eventarent.be/",
@@ -719,6 +719,15 @@ export default [
     order: "8",
     type: "CLUBSPONSOR",
     cloudinaryID: "logo_2_wnvhpc",
+    highlight: false
+  },
+  {
+    url: "http://qualitychape.be/",
+    name: "Quality Chape",
+    headsponsor: "YES",
+    order: "8",
+    type: "CLUBSPONSOR",
+    cloudinaryID: "Reclamebord_FC_Kontich_zx4zrf",
     highlight: true
   }
 ];
