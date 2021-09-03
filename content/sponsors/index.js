@@ -1,6 +1,6 @@
 export default [
   {
-    url: "http://www.claesadvocaten.be/index.aspx",
+    url: "https://www.claesadvocaten.be/",
     name: "Claes Advocaten",
     headsponsor: "YES",
     order: "2",
