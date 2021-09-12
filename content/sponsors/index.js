@@ -728,6 +728,34 @@ export default [
     order: "8",
     type: "CLUBSPONSOR",
     cloudinaryID: "Reclamebord_FC_Kontich_zx4zrf",
+    highlight: false
+  },
+  {
+    url:
+      "https://www.ongedierteexperts.be/?%2Frattaplan&gclid=CjwKCAjw1JeJBhB9EiwAV612y2w7IDzc9-UMxu7HPhn70jCT-roRQ6wPyFlDy_8Sp8uGSz9B4Qlw0xoCgzwQAvD_BwE",
+    name: "Rattaplan",
+    headsponsor: "YES",
+    order: "8",
+    type: "CLUBSPONSOR",
+    cloudinaryID: "Rattaplan_bord_244x122cm_v4_sp3geo",
+    highlight: true
+  },
+  {
+    url: "http://www.vastgoedplus.be/",
+    name: "Vastgoed Plus",
+    headsponsor: "NO",
+    order: "8",
+    type: "CLUBSPONSOR",
+    cloudinaryID: "logo_dmidm2",
+    highlight: true
+  },
+  {
+    url: "https://smsmetaalenpompenservice.nl/",
+    name: "Metaal & Pompen Service",
+    headsponsor: "NO",
+    order: "8",
+    type: "CLUBSPONSOR",
+    cloudinaryID: "Metaal_Pompen_service_innssc",
     highlight: true
   }
 ];
