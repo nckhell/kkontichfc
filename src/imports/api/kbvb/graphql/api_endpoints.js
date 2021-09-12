@@ -6,7 +6,8 @@ const obj = {
       shortHandTitle: "Heren 1e Prov."
     },
     ranking: {
-      url: ""
+      url:
+        "https://datalake-prod2018.rbfa.be/graphql?operationName=GetSeriesRankings&variables=%7B%22seriesId%22%3A%22CHP_98511%22%2C%22language%22%3A%22nl%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22c4d908193e39b4f896426a22afb5d4de51b7c2da555c82b77bc53d24e5b282c5%22%7D%7D"
     },
     calendar: {
       url:
@@ -31,7 +32,8 @@ const obj = {
       shortHandTitle: "Heren 3e Prov."
     },
     ranking: {
-      url: ""
+      url:
+        "https://datalake-prod2018.rbfa.be/graphql?operationName=GetSeriesRankings&variables=%7B%22seriesId%22%3A%22CHP_98712%22%2C%22language%22%3A%22nl%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22c4d908193e39b4f896426a22afb5d4de51b7c2da555c82b77bc53d24e5b282c5%22%7D%7D"
     },
     calendar: {
       url:
@@ -56,7 +58,8 @@ const obj = {
       shortHandTitle: "Dames Nat."
     },
     ranking: {
-      url: ""
+      url:
+        "https://datalake-prod2018.rbfa.be/graphql?operationName=GetSeriesRankings&variables=%7B%22seriesId%22%3A%22CHP_97540%22%2C%22language%22%3A%22nl%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22c4d908193e39b4f896426a22afb5d4de51b7c2da555c82b77bc53d24e5b282c5%22%7D%7D"
     },
     calendar: {
       url:
@@ -81,7 +84,8 @@ const obj = {
       shortHandTitle: "Dames 1e Prov."
     },
     ranking: {
-      url: ""
+      url:
+        "https://datalake-prod2018.rbfa.be/graphql?operationName=GetSeriesRankings&variables=%7B%22seriesId%22%3A%22CHP_98718%22%2C%22language%22%3A%22nl%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22c4d908193e39b4f896426a22afb5d4de51b7c2da555c82b77bc53d24e5b282c5%22%7D%7D"
     },
     calendar: {
       url:
@@ -106,7 +110,8 @@ const obj = {
       shortHandTitle: "Dames 2e Prov."
     },
     ranking: {
-      url: ""
+      url:
+        "https://datalake-prod2018.rbfa.be/graphql?operationName=GetSeriesRankings&variables=%7B%22seriesId%22%3A%22CHP_101318%22%2C%22language%22%3A%22nl%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22c4d908193e39b4f896426a22afb5d4de51b7c2da555c82b77bc53d24e5b282c5%22%7D%7D"
     },
     calendar: {
       url:
