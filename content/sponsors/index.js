@@ -155,14 +155,6 @@ export default [
     cloudinaryID: "immo-helbee"
   },
   {
-    url: "http://www.garagethuy.be/nl/page/116/welkom-kontich",
-    name: "Skoda Thuy",
-    headsponsor: "NO",
-    order: "19",
-    type: "CLUBSPONSOR",
-    cloudinaryID: "garage-thuy"
-  },
-  {
     url: "http://www.autosvanlooveren.be",
     name: "Auto's Jos Van Looveren",
     headsponsor: "NO",
@@ -200,14 +192,6 @@ export default [
     headsponsor: "NO",
     order: "50",
     type: "CLUBSPONSOR"
-  },
-  {
-    url: "https://www.autonatiegroup.be/audi/kontich/ack",
-    name: "ACK",
-    headsponsor: "NO",
-    order: "10",
-    type: "CLUBSPONSOR",
-    cloudinaryID: "ack_kontich_ycnxho"
   },
   {
     url: "http://www.gilberte.be/",
@@ -738,7 +722,7 @@ export default [
     order: "8",
     type: "CLUBSPONSOR",
     cloudinaryID: "Rattaplan_bord_244x122cm_v4_sp3geo",
-    highlight: true
+    highlight: false
   },
   {
     url: "http://www.vastgoedplus.be/",
@@ -747,15 +731,24 @@ export default [
     order: "8",
     type: "CLUBSPONSOR",
     cloudinaryID: "logo_dmidm2",
-    highlight: true
+    highlight: false
   },
   {
-    url: "https://smsmetaalenpompenservice.nl/",
-    name: "Metaal & Pompen Service",
+    url: "https://www.brico.be/nl/storedetail/3446/kontich",
+    name: "Brico",
     headsponsor: "NO",
     order: "8",
     type: "CLUBSPONSOR",
-    cloudinaryID: "Metaal_Pompen_service_innssc",
+    cloudinaryID: "Screenshot_2021-10-16_at_16.43.39_rxlicp",
+    highlight: true
+  },
+  {
+    url: "https://www.brico.be/nl/storedetail/3446/kontich",
+    name: "autonatie groep",
+    headsponsor: "NO",
+    order: "8",
+    type: "CLUBSPONSOR",
+    cloudinaryID: "unnamed_2_kcccnh",
     highlight: true
   }
 ];
