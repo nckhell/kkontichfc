@@ -743,7 +743,7 @@ export default [
     highlight: true
   },
   {
-    url: "https://www.brico.be/nl/storedetail/3446/kontich",
+    url: "https://www.autonatiegroup.be/",
     name: "autonatie groep",
     headsponsor: "NO",
     order: "8",
