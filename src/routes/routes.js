@@ -20,10 +20,7 @@ module.exports = Object.assign(
     "/debug-api": { page: "/DebugApiPage" },
     "/kleding": { page: "/RedirectKledingPage" },
     "/covid": { page: "/RedirectCovidPage" },
-    "/take-away-stoofpotjes-weekend": { page: "/RedirectBestellingPage" },
-    "/jeugd/vermant-cup/online-registratie": {
-      page: "/PaastornooiRegistrationPage"
-    }
+    "/take-away-stoofpotjes-weekend": { page: "/RedirectBestellingPage" }
   },
   newsRoutes,
   pageRoutes,

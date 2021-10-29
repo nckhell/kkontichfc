@@ -740,7 +740,7 @@ export default [
     order: "8",
     type: "CLUBSPONSOR",
     cloudinaryID: "Screenshot_2021-10-16_at_16.43.39_rxlicp",
-    highlight: true
+    highlight: false
   },
   {
     url: "https://www.autonatiegroup.be/",
@@ -749,6 +749,15 @@ export default [
     order: "8",
     type: "CLUBSPONSOR",
     cloudinaryID: "unnamed_2_kcccnh",
+    highlight: false
+  },
+  {
+    url: "https://www.procondi.com/",
+    name: "Procondi",
+    headsponsor: "YES",
+    order: "8",
+    type: "CLUBSPONSOR",
+    cloudinaryID: "unnamed_1_vt2jdi",
     highlight: true
   }
 ];
