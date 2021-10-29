@@ -3,8 +3,12 @@ title: Inschrijven Paastornooi / Vermant-Cup 2022
 date: 2022-10-29
 slider: YES
 cloudinaryID: 35_akqo8w
+showImageInArticle: NO
 ---
-De inschrijvingen voor ons 53ste Paastornooi / Vermant-Cup zijn geopend! Het tornooi gaat door op **zaterdag 16 en maandag 18 april 2022**.
+<div class="mb-6">
+<img style="max-width: 100%; height: auto;" src="https://res.cloudinary.com/kkontichfc/image/upload/v1/nieuws/35_akqo8w" alt="Vermant-Cup 2022" />
+</div>
+De inschrijvingen voor ons 53ste Paastornooi / Vermant-Cup zijn geopend! Het tornooi gaat door op <strong>zaterdag 16 en maandag 18 april 2022</strong>.
 
 | Ploeg | Datum                 | Tijdstip   |
 |-------|-----------------------|------------|
