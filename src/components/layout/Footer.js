@@ -86,14 +86,15 @@ const Footer = () => {
                 Lidgeld
               </a>
             </Link>
-            <Link href="/jeugd/online-registratie/">
-              <a
-                title="Online registratie"
-                className="text-sm text-gray-500 py-1"
-              >
-                Online registratie
-              </a>
-            </Link>
+            <a
+              title="Online registratie"
+              className="text-sm text-gray-500 py-1"
+              href="https://forms.gle/5q5Nn2paueNb1S5w7"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Online registratie
+            </a>
             <Link href="/jeugd/mutualiteit/">
               <a title="Mutualiteit" className="text-sm text-gray-500 py-1">
                 Mutualiteit

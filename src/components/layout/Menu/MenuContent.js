@@ -34,7 +34,12 @@ const Menu = () => {
           </Link>
         </li>
         <li>
-          <a title="ProSoccerData" href="https://kkontichfc.prosoccerdata.com/signup.php?q=%2F" target="_blank" className="hover:text-yellow-500">
+          <a
+            title="ProSoccerData"
+            href="https://kkontichfc.prosoccerdata.com/signup.php?q=%2F"
+            target="_blank"
+            className="hover:text-yellow-500"
+          >
             ProSoccerData
           </a>
         </li>
@@ -136,9 +141,14 @@ const Menu = () => {
               </Link>
             </li>
             <li>
-              <Link href="/jeugd/online-registratie/">
-                <a title="Online registratie">Online registratie</a>
-              </Link>
+              <a
+                title="Online registratie"
+                href="https://forms.gle/5q5Nn2paueNb1S5w7"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Online registratie
+              </a>
             </li>
             <li>
               <Link href="/jeugd/mutualiteit/">

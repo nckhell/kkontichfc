@@ -485,7 +485,7 @@ export default [
     headsponsor: "YES",
     order: "5",
     type: "CLUBSPONSOR",
-    cloudinaryID: "boonen"
+    cloudinaryID: "Screenshot_2021-12-03_at_20.56.41_gcpaqt"
   },
   {
     url: "https://www.vnz.be/",
