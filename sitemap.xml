@@ -76,11 +76,6 @@
       <priority>0.6</priority>
    </url>
    <url>
-      <loc>https://www.kkontichfc.be/jeugd/online-registratie/</loc>
-      <changefreq>yearly</changefreq>
-      <priority>0.6</priority>
-   </url>
-   <url>
       <loc>https://www.kkontichfc.be/jeugd/mutualiteit/</loc>
       <changefreq>yearly</changefreq>
       <priority>0.6</priority>
