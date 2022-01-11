@@ -1,17 +1,17 @@
 const obj = [
   {
     team: "U21",
-    cloudinaryID: "",
+    cloudinaryID: "U21_jqfwvu",
     coach: [
       {
-        lastname: "Cottignie",
-        firstname: "Cedric",
+        lastname: "",
+        firstname: "",
         email: "",
         tel: ""
       },
       {
-        lastname: "Hannes",
-        firstname: "Kevin",
+        lastname: "",
+        firstname: "",
         email: "",
         tel: ""
       }
@@ -19,47 +19,35 @@ const obj = [
     afgv: {}
   },
   {
-    team: "U17 A",
-    cloudinaryID: "",
+    team: "U17",
+    cloudinaryID: "U17_zxyyzj",
     coach: [
       {
-        lastname: "Angafor",
-        firstname: "Bunow",
+        lastname: "",
+        firstname: "",
+        email: "",
+        tel: ""
+      },
+      {
+        lastname: "",
+        firstname: "",
         email: "",
         tel: ""
       }
     ],
     afgv: {
       lastname: "",
-      email: "",
-      tel: ""
-    }
-  },
-  {
-    team: "U17 B",
-    cloudinaryID: "",
-    coach: [
-      {
-        lastname: "Van Dessel",
-        firstname: "Eric",
-        email: "",
-        tel: ""
-      }
-    ],
-    afgv: {
-      lastname: "",
-      firstname: "",
       email: "",
       tel: ""
     }
   },
   {
     team: "Dames U16",
-    cloudinaryID: "",
+    cloudinaryID: "dames_u16_utexxv",
     coach: [
       {
-        lastname: "Van Beethoven",
-        firstname: "Stéphane",
+        lastname: "",
+        firstname: "",
         email: "",
         tel: ""
       }
@@ -73,11 +61,11 @@ const obj = [
   },
   {
     team: "U15",
-    cloudinaryID: "",
+    cloudinaryID: "U15_rsqeud",
     coach: [
       {
-        lastname: "Van Krunkelsven",
-        firstname: "Jorn",
+        lastname: "",
+        firstname: "",
         email: "",
         tel: ""
       }
@@ -90,12 +78,12 @@ const obj = [
     }
   },
   {
-    team: "Dames U13",
-    cloudinaryID: "",
+    team: "U13",
+    cloudinaryID: "U13_nnxzdy",
     coach: [
       {
-        lastname: "Noë",
-        firstname: "Sarah",
+        lastname: "",
+        firstname: "",
         email: "",
         tel: ""
       }
@@ -108,48 +96,12 @@ const obj = [
     }
   },
   {
-    team: "U13 A",
-    cloudinaryID: "",
+    team: "U11",
+    cloudinaryID: "U11_lki6yx",
     coach: [
       {
-        lastname: "Van Echelpoel",
-        firstname: "Johan",
-        email: "",
-        tel: ""
-      }
-    ],
-    afgv: {
-      lastname: "",
-      firstname: "",
-      email: "",
-      tel: ""
-    }
-  },
-  {
-    team: "U13 B",
-    cloudinaryID: "",
-    coach: [
-      {
-        lastname: "Daniëls",
-        firstname: "Glenn",
-        email: "",
-        tel: ""
-      }
-    ],
-    afgv: {
-      lastname: "",
-      firstname: "",
-      email: "",
-      tel: ""
-    }
-  },
-  {
-    team: "U12",
-    cloudinaryID: "",
-    coach: [
-      {
-        lastname: "Minart",
-        firstname: "Rudy",
+        lastname: "",
+        firstname: "",
         email: "",
         tel: ""
       }
@@ -163,11 +115,11 @@ const obj = [
   },
   {
     team: "U10",
-    cloudinaryID: "",
+    cloudinaryID: "U10_zrenol",
     coach: [
       {
-        lastname: "Stevens",
-        firstname: "Mike",
+        lastname: "",
+        firstname: "",
         email: "",
         tel: ""
       }
@@ -180,12 +132,12 @@ const obj = [
     }
   },
   {
-    team: "U9 A",
-    cloudinaryID: "",
+    team: "U9",
+    cloudinaryID: "U9_zslijv",
     coach: [
       {
-        lastname: "Van Soom",
-        firstname: "Thomas",
+        lastname: "",
+        firstname: "",
         email: "",
         tel: ""
       }
@@ -198,30 +150,12 @@ const obj = [
     }
   },
   {
-    team: "U9 B",
-    cloudinaryID: "",
+    team: "U8",
+    cloudinaryID: "U8_iyyijt",
     coach: [
       {
-        lastname: "Taeymans",
-        firstname: "Matthew",
-        email: "",
-        tel: ""
-      }
-    ],
-    afgv: {
-      lastname: "",
-      firstname: "",
-      email: "",
-      tel: ""
-    }
-  },
-  {
-    team: "U8 A",
-    cloudinaryID: "",
-    coach: [
-      {
-        lastname: "Smet",
-        firstname: "Kevin",
+        lastname: "",
+        firstname: "",
         email: "",
         tel: ""
       }
@@ -235,11 +169,11 @@ const obj = [
   },
   {
     team: "U7",
-    cloudinaryID: "",
+    cloudinaryID: "U7_xfkirl",
     coach: [
       {
-        lastname: "Taverniers",
-        firstname: "Nick",
+        lastname: "",
+        firstname: "",
         email: "",
         tel: ""
       }
@@ -252,30 +186,12 @@ const obj = [
     }
   },
   {
-    team: "U6 A",
-    cloudinaryID: "",
+    team: "U6",
+    cloudinaryID: "U6_niqjmv",
     coach: [
       {
-        lastname: "Taeymeans",
-        firstname: "Matthew",
-        email: "",
-        tel: ""
-      }
-    ],
-    afgv: {
-      lastname: "",
-      firstname: "",
-      email: "",
-      tel: ""
-    }
-  },
-  {
-    team: "U6 B",
-    cloudinaryID: "",
-    coach: [
-      {
-        lastname: "Van Den Abeele",
-        firstname: "Jan",
+        lastname: "",
+        firstname: "",
         email: "",
         tel: ""
       }

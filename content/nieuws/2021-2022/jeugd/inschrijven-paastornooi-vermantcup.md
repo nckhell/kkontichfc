@@ -1,6 +1,6 @@
 ---
 title: Inschrijven Paastornooi / Vermant-Cup 2022
-date: 2022-10-29
+date: 2021-10-29
 slider: YES
 cloudinaryID: 35_akqo8w
 showImageInArticle: NO
