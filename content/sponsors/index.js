@@ -758,6 +758,24 @@ export default [
     order: "8",
     type: "CLUBSPONSOR",
     cloudinaryID: "unnamed_1_vt2jdi",
+    highlight: false
+  },
+  {
+    url: "https://www.bjornies.be/",
+    name: "Bjornies Ijs",
+    headsponsor: "no",
+    order: "8",
+    type: "CLUBSPONSOR",
+    cloudinaryID: "Logo_Bjornies_1_kk0uub",
+    highlight: true
+  },
+  {
+    url: "https://fietsenjacobs.be/",
+    name: "Fietsen Jacobs",
+    headsponsor: "no",
+    order: "8",
+    type: "CLUBSPONSOR",
+    cloudinaryID: "fietsen_jacobs_ssjskz",
     highlight: true
   }
 ];

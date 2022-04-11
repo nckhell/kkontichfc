@@ -36,6 +36,21 @@ function HomePage() {
                 Beste-Bookmakers.com
               </a>
             </span>
+            <br />
+            <span className="text-base normal-case font-medium md:text-xl">
+              WK 2022 in Qatar en{" "}
+              <a
+                href="https://www.wedden-op-wk-ek.com/wk-2022/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="wedden-op-wk-ek.com"
+                id="wedden-op-wk-ek.com"
+                className="text-red-500"
+              >
+                http://wedden-op-wk-ek.com/
+              </a>
+              .
+            </span>
           </h1>
           <MatchCenter />
         </section>
@@ -60,8 +75,17 @@ function HomePage() {
               </FacebookProvider>
             </div>
             <div className="mb-4 w-full md:w-1/2 lg:w-1/3 md:px-2 text-center relative">
-            <iframe style={{margin: '0 auto'}} src="https://player.radioforge.com/v2/shoutcast.html?radiotype=shoutcast&amp;radiolink=https://shoutcast2.wirelessbelgie.be/zuidrand/&amp;rand=261985712&amp;bcolor=000000&amp;image=https://www.radiozuidrand.be/wp-content/uploads/2020/01/zuid.png&amp;facebook=https://www.facebook.com/radiozuidrand/&amp;twitter=&amp;title=Regioradio voor de zuidrand van Antwerpen en de Rupelstreek&amp;artist=Radio Zuidrand" frameborder="0" marginHeight="0" marginWidth="0" scrolling="no" width="367" height="227"></iframe>
-          </div>
+              <iframe
+                style={{ margin: "0 auto" }}
+                src="https://player.radioforge.com/v2/shoutcast.html?radiotype=shoutcast&amp;radiolink=https://shoutcast2.wirelessbelgie.be/zuidrand/&amp;rand=261985712&amp;bcolor=000000&amp;image=https://www.radiozuidrand.be/wp-content/uploads/2020/01/zuid.png&amp;facebook=https://www.facebook.com/radiozuidrand/&amp;twitter=&amp;title=Regioradio voor de zuidrand van Antwerpen en de Rupelstreek&amp;artist=Radio Zuidrand"
+                frameBorder="0"
+                marginHeight="0"
+                marginWidth="0"
+                scrolling="no"
+                width="367"
+                height="227"
+              ></iframe>
+            </div>
           </div>
         </section>
       </main>
