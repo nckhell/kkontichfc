@@ -47,7 +47,7 @@ function HomePage() {
                 id="wedden-op-wk-ek.com"
                 className="text-red-500"
               >
-                http://wedden-op-wk-ek.com/
+                wedden-op-wk-ek.com
               </a>
               .
             </span>
