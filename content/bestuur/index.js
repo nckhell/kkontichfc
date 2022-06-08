@@ -32,14 +32,6 @@ const obj = [
     name: "Aanvullende bestuursleden",
     members: [
       {
-        firstname: "Johan",
-        lastname: "Claes",
-        function: "(Juridisch) advies",
-        tel: "",
-        email: "",
-        cloudinaryID: ""
-      },
-      {
         firstname: "Mo",
         lastname: "Sabhaoui",
         function: "A-kern",
