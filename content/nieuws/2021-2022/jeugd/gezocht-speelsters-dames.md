@@ -5,4 +5,4 @@ slider: NO
 ---
 Voor het seizoen 2022-2023 zijn wij nog op zoek naar enkele speelsters en keepsters om onze provinciale ploegen te versterken. Onze voorkeur gaat uit naar dames die reeds ervaring hebben in het provinciaal voetbal of hoger.
 
-Indien interesse graag seintje via [dames@kkontichfc.be](mailto:dames@kkontichfc.be) of bericht aan Glenn Mariën (0476 80 83 66 ), verantwoordelijke damesvoetbal K Kontich FC.
+Indien interesse graag seintje via [dames@kkontichfc.be](mailto:dames@kkontichfc.be), verantwoordelijke damesvoetbal K Kontich FC.

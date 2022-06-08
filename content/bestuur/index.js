@@ -25,14 +25,6 @@ const obj = [
         tel: "0495/90.33.00",
         email: "gc@kkontichfc.be",
         cloudinaryID: ""
-      },
-      {
-        firstname: "Glenn",
-        lastname: "Mariën",
-        function: "Lid RVB",
-        tel: "0476/80.83.66",
-        email: "jeugd@kkontichfc.be",
-        cloudinaryID: ""
       }
     ]
   },
@@ -90,14 +82,6 @@ const obj = [
         function: "Bestuur, administratie & verantwoordelijke jeugd",
         tel: "0499/90.79.91",
         email: "ldecorte@hotmail.com",
-        cloudinaryID: ""
-      },
-      {
-        firstname: "Glenn",
-        lastname: "Mariën",
-        function: "Dames nationaal",
-        tel: "0476/80.83.66",
-        email: "jeugd@kkontichfc.be",
         cloudinaryID: ""
       },
       {
