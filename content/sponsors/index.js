@@ -767,7 +767,7 @@ export default [
     order: "8",
     type: "CLUBSPONSOR",
     cloudinaryID: "Logo_Bjornies_1_kk0uub",
-    highlight: true
+    highlight: false
   },
   {
     url: "https://fietsenjacobs.be/",
@@ -776,6 +776,15 @@ export default [
     order: "8",
     type: "CLUBSPONSOR",
     cloudinaryID: "fietsen_jacobs_ssjskz",
+    highlight: false
+  },
+  {
+    url: "https://thiebautclaesadvocaten.be/",
+    name: "Thiebaut Claes advocaten",
+    headsponsor: "no",
+    order: "8",
+    type: "CLUBSPONSOR",
+    cloudinaryID: "Logo_02_psybe4",
     highlight: true
   }
 ];
