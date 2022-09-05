@@ -785,6 +785,15 @@ export default [
     order: "8",
     type: "CLUBSPONSOR",
     cloudinaryID: "Logo_02_psybe4",
+    highlight: false
+  },
+  {
+    url: "http://www.denjoe-renovaties.be/",
+    name: "DEN JOE RENOVATIES",
+    headsponsor: "no",
+    order: "8",
+    type: "CLUBSPONSOR",
+    cloudinaryID: "logo_nxvw0h",
     highlight: true
   }
 ];

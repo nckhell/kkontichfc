@@ -60,8 +60,8 @@ const Menu = () => {
               </Link>
             </li>
             <li>
-              <Link href="/heren/3e-provinciale/">
-                <a title="Heren 3e Provinciale">3e Provinciale</a>
+              <Link href="/heren/4e-provinciale/">
+                <a title="Heren 4e Provinciale">4e Provinciale</a>
               </Link>
             </li>
           </ul>

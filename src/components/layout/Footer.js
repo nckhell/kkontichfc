@@ -17,12 +17,12 @@ const Footer = () => {
                 Heren 1e Prov.
               </a>
             </Link>
-            <Link href="/heren/3e-provinciale/">
+            <Link href="/heren/4e-provinciale/">
               <a
-                title="Heren 3e Provinciale"
+                title="Heren 4e Provinciale"
                 className="text-sm text-gray-500 py-1"
               >
-                Heren 3e Prov.
+                Heren 4e Prov.
               </a>
             </Link>
             <Link href="/dames/1e-nationale/">
