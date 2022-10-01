@@ -16,7 +16,7 @@ title: Downloads
     </tr>
     <tr>
       <td>Aangifte van ongeval</td>
-      <td><a target="_blank" title="Download Aangifte van ongeval" href="https://res.cloudinary.com/kkontichfc/image/upload/v1561490099/downloads/aangifteformulier_ongeval_2019_azoccl.pdf">Download</a></td>
+      <td><a target="_blank" title="Download Aangifte van ongeval" href="https://res.cloudinary.com/kkontichfc/raw/upload/v1664623527/downloads/ongevallen-2022/Aangifte_ongeval_liky3w.docx">Download</a></td>
     </tr>
     <tr>
       <td>Reglement</td>
