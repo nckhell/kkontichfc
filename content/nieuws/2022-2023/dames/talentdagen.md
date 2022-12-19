@@ -3,7 +3,7 @@ title: Meisjes-Talent dagen
 cloudinaryID: kontich_dames_27_gd4iu9
 slider: YES
 showImageInArticle: NO
-date: 2023-12-19
+date: 2022-12-19
 backgroundPosition: top 20% center
 ---
 

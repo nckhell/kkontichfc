@@ -13,9 +13,9 @@ title: Vermant-Cup
 
 </div>
 <p>
-Het tornooi gaat door op <strong>zaterdag 16 en maandag 18 april 2022</strong>. Het tornooi vindt plaats op de terreinen van K. Kontich F.C., hetgeen u de mogelijkheid geeft om o.a. op kunstgras te voetballen.
+Het tornooi gaat door op <strong>zaterdag 8 april en maandag 10 april 2023</strong>. Het tornooi vindt plaats op de terreinen van K. Kontich F.C., hetgeen u de mogelijkheid geeft om o.a. op kunstgras te voetballen.
 </p>
-<table style="width: 100%;">
+<!-- <table style="width: 100%;">
 <thead>
 <tr>
 <th>Ploeg</th>
@@ -26,50 +26,50 @@ Het tornooi gaat door op <strong>zaterdag 16 en maandag 18 april 2022</strong>. 
 <tbody>
 <tr>
 <td>U12</td>
-<td>Zaterdag 16 april 2022</td>
+<td>Zaterdag 16 april 2023</td>
 <td>Voormiddag</td>
 </tr>
 <tr>
 <td>U13</td>
-<td>Zaterdag 16 april 2022</td>
+<td>Zaterdag 16 april 2023</td>
 <td>Voormiddag</td>
 </tr>
 <tr>
 <td>U10</td>
-<td>Zaterdag 16 april 2022</td>
+<td>Zaterdag 16 april 2023</td>
 <td>Namiddag</td>
 </tr>
 <tr>
 <td>U11</td>
-<td>Zaterdag 16 april 2022</td>
+<td>Zaterdag 16 april 2023</td>
 <td>Namiddag</td>
 </tr>
 <tr>
 <tr>
 <td>U8</td>
-<td>Maandag 18 april 2022</td>
+<td>Maandag 18 april 2023</td>
 <td>Voormiddag</td>
 </tr>
 <tr>
 <td>U9</td>
-<td>Maandag 18 april 2022</td>
+<td>Maandag 18 april 2023</td>
 <td>Voormiddag</td>
 </tr>
 <td>U6</td>
-<td>Maandag 18 april 2022</td>
+<td>Maandag 18 april 2023</td>
 <td>Namiddag</td>
 </tr>
 <tr>
 <td>U7</td>
-<td>Maandag 18 april 2022</td>
+<td>Maandag 18 april 2023</td>
 <td>Namiddag</td>
 </tr>
 </tbody>
-</table>
+</table> -->
 <div>
     <h2>Inschrijven</h2>
     <p>
-        <a href="https://forms.gle/Xj9cfvq1Rq5twGKd7" title="Inschrijven Paastornooi / Vermant-Cup" class="btn-block">Klik hier om in te schrijven.</a></p>
+        <a href="https://www.tournify.nl/live/volvovermantcup2023/" title="Inschrijven Paastornooi / Vermant-Cup" class="btn-block">Klik hier om in te schrijven.</a></p>
     <p>Uiteraard zullen wij bij een inschrijving zelf aanwezig zijn op uw tornooi met 1 of meerdere ploegen.</p>
     <p>Met dank voor jullie belangstelling en eventuele inschrijving.
         <br><strong>Sportieve groeten namens het Jeugdbestuur van K. Kontich FC</strong>
