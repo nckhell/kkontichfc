@@ -616,12 +616,12 @@ export default [
     cloudinaryID: "disprimo_kjhwcf"
   },
   {
-    url: "https://www.profile.be/vestigingen/kontich/neerveld-4",
-    name: "VR Profile Kontich",
+    url: "https://www.premio.be/vestigingen/premio-vr-kontich/",
+    name: "Premio VR Kontich",
     headsponsor: "YES",
     order: "8",
     type: "CLUBSPONSOR",
-    cloudinaryID: "vr_profile_kontich",
+    cloudinaryID: "vr_profile_kontich", // logo aanpassen
     highlight: false
   },
   {

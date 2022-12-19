@@ -1,0 +1,20 @@
+---
+title: Testing provinciale U13-U16
+---
+
+Schrijf je in, wij nemen contact met jou.
+
+<div> <a class="btn-block" href="https://forms.gle/9KPozcy5YU3fQMBu8" target="_blank" title="Klik hier om je in te schrijven.">Klik hier om je in te schrijven.</a></div><br>
+
+<h2>Wat we zoeken</h2>
+<p>Je hebt al wat voetbalervaring en je hebt zin om op een gezonde manier aan sport te blijven doen, met een verbeterambitie.</p>
+
+<p><strong>FC Kontich is dé ploeg voor jou, als jij je vindt in deze kernwaarden:</strong></p>
+<ul>
+    <li>Het traject voor jezelf is belangrijker dan het resultaat.</li>
+    <li>Gezonde ambitie is <strong>goed willen spelen</strong>, beter willen worden, openstaan voor coaching, concentratie, het belang en resultaat van het team altijd vooropstellen</li>
+    <li>Wij hebben altijd een sportieve houding naar de tegenploeg, je team mates en de scheidsrechter.  Je leert ook wat je daarmee voor jezelf kan, en wat dat over jezelf zegt. </li>
+    <li>Oog hebben voor de mentale en fysieke gezondheid van elk individu als randvoorwaarde.</li>
+    <li>Samen en als club blijven werken vanuit positivisme en vooruitgangsgeloof. In elkaar, in voetbal. </li>
+    <li>Meisjes hebben recht op een subcultuur en eigen identiteit binnen de club, een eigen opleiding en gelijkwaardig recht op terreinen ter beschikking.</li>
+</ul>

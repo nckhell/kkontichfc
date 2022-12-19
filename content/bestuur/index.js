@@ -11,14 +11,6 @@ const obj = [
         cloudinaryID: ""
       },
       {
-        firstname: "Willy",
-        lastname: "Patteet",
-        function: "Penningmeester",
-        tel: "0495/31.31.97",
-        email: "willy.patteet@telenet.be",
-        cloudinaryID: ""
-      },
-      {
         firstname: "Theo",
         lastname: "Knegtel",
         function: "GC - Secretaris",
@@ -74,14 +66,6 @@ const obj = [
         function: "Bestuur, administratie & verantwoordelijke jeugd",
         tel: "0499/90.79.91",
         email: "ldecorte@hotmail.com",
-        cloudinaryID: ""
-      },
-      {
-        firstname: "Dave",
-        lastname: "De Causemaeker",
-        function: "",
-        tel: "",
-        email: "",
         cloudinaryID: ""
       }
     ]

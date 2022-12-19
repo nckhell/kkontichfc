@@ -38,6 +38,7 @@ const Menu = () => {
             title="ProSoccerData"
             href="https://kkontichfc.prosoccerdata.com/signup.php?q=%2F"
             target="_blank"
+            rel="noopener noreferrer"
             className="hover:text-yellow-500"
           >
             ProSoccerData
@@ -77,6 +78,11 @@ const Menu = () => {
             Dames
           </a>
           <ul className="submenu">
+            <li>
+              <Link href="/dames/testdagen/">
+                <a title="Meisjes-Talent dagen">Meisjes-Talent dagen</a>
+              </Link>
+            </li>
             <li>
               <Link href="/dames/1e-nationale/">
                 <a title="Dames 1e nationale">1e Nationale</a>
