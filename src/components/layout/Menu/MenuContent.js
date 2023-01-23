@@ -79,8 +79,8 @@ const Menu = () => {
           </a>
           <ul className="submenu">
             <li>
-              <Link href="/dames/testdagen/">
-                <a title="Meisjes-Talent dagen">Meisjes-Talent dagen</a>
+              <Link href="/dames/talentdagen/">
+                <a title="Talentdagen">Talentdagen</a>
               </Link>
             </li>
             <li>
