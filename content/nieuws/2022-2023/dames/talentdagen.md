@@ -27,14 +27,14 @@ backgroundPosition: top 20% center
         <ul style="margin-bottom: 0">
             <li>maandag 16 januari (18u30-20u00)</li>
             <li>maandag 13 februari (18u30-20u00)</li>
-            <li>maandag 13 maart (18u30-20u00)</li>
+            <li>maandag 6 maart (18u30-20u00)</li>
         </ul>
     </li>
     <li><a href='/dames/testing-provinciale-u18-u21' title='Testing provinciale U18-U21'>Testing provinciale U18-U21</a>
         <ul style="margin-bottom: 0">
             <li>maandag 16 januari (18u30-20u00)</li>
             <li>maandag 13 februari (18u30-20u00)</li>
-            <li>maandag 13 maart (18u30-20u00)</li>
+            <li>maandag 6 maart (18u30-20u00)</li>
         </ul>
     </li>
     <li><a href='/dames/testing-super-league' title='Testing Super League dames'>Testing Super League dames</a></li>
