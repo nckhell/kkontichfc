@@ -117,6 +117,11 @@ const Menu = () => {
               </Link>
             </li>
             <li>
+              <Link href="/jeugd/paasstage-2023/">
+                <a>Paasstage 2023</a>
+              </Link>
+            </li>
+            <li>
               <Link href="/jeugd/trainingen/">
                 <a title="Trainingen">Trainingen</a>
               </Link>

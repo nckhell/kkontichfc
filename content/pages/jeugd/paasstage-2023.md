@@ -1,10 +1,5 @@
 ---
 title: Paasstage 2023
-slider: YES 
-cloudinaryID: png_20230118_064230_0000_vysi14
-backgroundPosition: top 40% center
-date: 2023-01-18
-showImageInArticle: NO
 ---
 
 <div class="mb-6">
