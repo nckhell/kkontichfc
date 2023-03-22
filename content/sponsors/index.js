@@ -794,6 +794,15 @@ export default [
     order: "8",
     type: "CLUBSPONSOR",
     cloudinaryID: "logo_nxvw0h",
+    highlight: false
+  },
+  {
+    url: "https://www.u-properties.be/",
+    name: "U-Properties",
+    headsponsor: "no",
+    order: "8",
+    type: "CLUBSPONSOR",
+    cloudinaryID: "Screenshot_2023-03-22_at_19.42.51_at3now",
     highlight: true
   }
 ];

@@ -1,14 +1,14 @@
 ---
 title: Paasstage 2023
 slider: YES 
-cloudinaryID: png_20230118_064230_0000_vysi14
+cloudinaryID: png_20230316_114237_0000_eo5xlf
 backgroundPosition: top 40% center
 date: 2023-01-18
 showImageInArticle: NO
 ---
 
 <div class="mb-6">
-    <img style="max-width: 100%; height: auto;" src="https://res.cloudinary.com/kkontichfc/image/upload/v1/nieuws/png_20230118_064230_0000_vysi14" alt="Paasstage 2023" />
+    <img style="max-width: 100%; height: auto;" src="https://res.cloudinary.com/kkontichfc/image/upload/v1679510262/nieuws/png_20230316_114237_0000_eo5xlf.png" alt="Paasstage 2023" />
 </div>
 
 De paasstage op K. Kontich F.C. is terug van weggeweest!
