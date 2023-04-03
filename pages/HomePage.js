@@ -25,31 +25,32 @@ function HomePage() {
             Match center
             <br />
             <span className="text-base normal-case font-medium md:text-xl">
-              Mede mogelijk gemaakt door:{" "}
+              <span className="text-red-500">Weddenbonus.com</span> presenteert
+              de beste{" "}
               <a
-                href="https://www.beste-bookmakers.com/"
+                href="https://www.weddenbonus.com/beste-bookmakers-belgie/"
                 target="_blank"
                 rel="noopener noreferrer"
-                title="Beste-Bookmakers"
+                title="bookmakers Belgie"
                 className="text-red-500"
               >
-                Beste-Bookmakers.com
+                bookmakers Belgie
               </a>
+              !
             </span>
             <br />
             <span className="text-base normal-case font-medium md:text-xl">
-              WK 2022 in Qatar en{" "}
+              Waar is er een grotere keuze aan{" "}
               <a
-                href="https://www.wedden-op-wk-ek.com/wk-2022/"
+                href="https://www.livetipsportal.com/nl/sport-wedtips/"
+                className="text-red-500"
                 target="_blank"
                 rel="noopener noreferrer"
-                title="wedden-op-wk-ek.com"
-                id="wedden-op-wk-ek.com"
-                className="text-red-500"
+                title="voetbal wedtips vandaag"
               >
-                wedden-op-wk-ek.com
+                voetbal wedtips vandaag
               </a>
-              .
+              ?
             </span>
           </h1>
           <MatchCenter />
