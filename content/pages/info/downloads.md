@@ -19,8 +19,8 @@ title: Downloads
       <td><a target="_blank" title="Download Aangifte van ongeval" href="https://res.cloudinary.com/kkontichfc/raw/upload/v1664623527/downloads/ongevallen-2022/Aangifte_ongeval_liky3w.docx">Download</a></td>
     </tr>
     <tr>
-      <td>Reglement</td>
-      <td><a target="_blank" title="Download Reglement" href="https://res.cloudinary.com/kkontichfc/image/upload/v1561490098/downloads/reglement_v6c4vb.pdf">Download</a></td>
+      <td>Reglement van inwendige orde</td>
+      <td><a target="_blank" title="Download Reglement" href="https://res.cloudinary.com/kkontichfc/image/upload/v1685559214/downloads/K._Kontich_F.C._Reglement_van_Inwendige_Orde___2023_lnilmo.pdf">Download</a></td>
     </tr>
     <tr>
       <td>Panathlonverklaring</td>
