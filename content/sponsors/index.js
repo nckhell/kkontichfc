@@ -743,7 +743,7 @@ export default [
     headsponsor: "no",
     order: "8",
     type: "CLUBSPONSOR",
-    cloudinaryID: "logo_r5brim",
+    cloudinaryID: "logo_king_pizza_evk4q2",
     highlight: false,
   },
   {
@@ -761,7 +761,7 @@ export default [
     headsponsor: "no",
     order: "8",
     type: "CLUBSPONSOR",
-    cloudinaryID: "logo_r5brim",
+    cloudinaryID: "logo-1_h8lwxs",
     highlight: false,
   },
   {
@@ -770,7 +770,7 @@ export default [
     headsponsor: "no",
     order: "8",
     type: "CLUBSPONSOR",
-    cloudinaryID: "logo_r5brim",
+    cloudinaryID: "Logo_Lipton_Ice_Tea_lxenhd",
     highlight: false,
   },
   {
@@ -788,7 +788,7 @@ export default [
     headsponsor: "no",
     order: "8",
     type: "CLUBSPONSOR",
-    cloudinaryID: "logo_r5brim",
+    cloudinaryID: "Logo_Cola_xeepjr",
     highlight: false,
   },
   {
@@ -806,7 +806,7 @@ export default [
     headsponsor: "no",
     order: "8",
     type: "CLUBSPONSOR",
-    cloudinaryID: "logo_r5brim",
+    cloudinaryID: "Logo_Volders_Bieren_dbkdll",
     highlight: false,
   },
   {
@@ -815,7 +815,7 @@ export default [
     headsponsor: "no",
     order: "8",
     type: "CLUBSPONSOR",
-    cloudinaryID: "logo_r5brim",
+    cloudinaryID: "logo_1_kikzch",
     highlight: false,
   },
 ];
