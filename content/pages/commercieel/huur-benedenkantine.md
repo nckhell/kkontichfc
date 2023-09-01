@@ -1,6 +1,7 @@
 ---
 title: Huur benedenkatine
 ---
+
 <div class="center mb-6"><img src="https://res.cloudinary.com/kkontichfc/image/upload/v1561492152/kantine/spotlight_kantine_nffgqg.png" alt="Huur onze kantine" />
 </div>
 <p>Een communicant in de familie? Je ziet het niet zitten om de jaarlijkse BBQ-familie dit jaar bij jou in de tuin te organiseren? De benedenkantine van K. Kontich F.C. biedt dan zeker een oplossing! Je kan onze benedenkantine huren tegen erg democratische voorwaarden. Ontdek ze hier!</p>
@@ -37,9 +38,4 @@ title: Huur benedenkatine
     <li>Reservatie via <a href="mailto:commercieel@kkontichfc.be" title="commercieel@kkontichfc.be">commercieel@kkontichfc.be</a>.
     </li>
 </ul>
-
-<h2>Samenwerking EVENTA RENT</h2>
-<div class="center mb-4"><a href="https://www.eventarent.be/" title="EVENTA RENT"><img src="https://res.cloudinary.com/kkontichfc/image/upload/v1629137186/sponsors/logo_2_wnvhpc.png" alt="EVENTA RENT" style="max-width: 250px;"/></a></div>
-<p>Eventa Rent is een modern verhuurbedrijf van feestmateriaal, gevestigd op de grens van Kontich & Aartselaar. Zij voorzien tafels, stoelen, springkastelen, tenten, verwarmingen, partyfood, originele spelen, koeling, en zoveel meer.</p>
-<p>Wil je een springkasteel plaatsen op jouw feestje? Dat mag uiteraard, maar wél eentje uit het uitgebreide aanbod van Eventa Rent. Supporters van K. Kontich F.C. krijgen daarenboven ook nog een mooie korting op de verhuurprijs!</p>
 </div>

@@ -20,23 +20,19 @@ title: Downloads
     </tr>
     <tr>
       <td>Reglement van inwendige orde</td>
-      <td><a target="_blank" title="Download Reglement" href="https://res.cloudinary.com/kkontichfc/image/upload/v1685559214/downloads/K._Kontich_F.C._Reglement_van_Inwendige_Orde___2023_lnilmo.pdf">Download</a></td>
+      <td><a target="_blank" title="Download Reglement" href="https://res.cloudinary.com/kkontichfc/image/upload/v1693595555/downloads/K._Kontich_F.C._Reglement_van_Inwendige_Orde___2023_mqbgvy.pdf">Download</a></td>
     </tr>
     <tr>
       <td>Panathlonverklaring</td>
       <td><a target="_blank" title="Download Panathlonverklaring" href="https://res.cloudinary.com/kkontichfc/image/upload/v1561490096/downloads/panathlon_trybsl.pdf">Download</a></td>
     </tr>
     <tr>
-      <td>Lidgeld en informatie 2022-2023</td>
-      <td><a target="_blank" title="Download Lidgeld en informatie 2022-2023" href="https://res.cloudinary.com/kkontichfc/image/upload/v1620490890/downloads/K_Kontich_FC_brief_lidgelden_2022_-_2023_khqqqi.pdf">Download</a></td>
+      <td>Lidgeld en informatie 2023-2024</td>
+      <td><a target="_blank" title="Download Lidgeld en informatie 2023-2024" href="https://res.cloudinary.com/kkontichfc/image/upload/v1693595555/downloads/K_Kontich_FC_brief_lidgelden_2023-2024_of2wmc.pdf">Download</a></td>
     </tr>
     <tr>
-      <td>Lidgeld en informatie dames 2021-2022</td>
-      <td><a target="_blank" title="Download Lidgeld en informatie dames 2021-2022" href="https://res.cloudinary.com/kkontichfc/image/upload/v1621595875/downloads/Dames___lidgeld_en_informatie_2021_2022__def_ridywn.pdf">Download</a></td>
-    </tr>
-    <tr>
-      <td>Trainingsschema 2021-2022</td>
-      <td><a target="_blank" title="Trainingsschema 2021-2022" href="https://res.cloudinary.com/kkontichfc/image/upload/v1629136497/downloads/Trainingsschema-2021-2022_dobuzl.pdf">Download</a></td>
+      <td>Lidgeld en informatie dames 2023-2024</td>
+      <td><a target="_blank" title="Download Lidgeld en informatie dames 2023-2024" href="https://res.cloudinary.com/kkontichfc/image/upload/v1693595555/downloads/Dames___lidgeld_en_informatie_2023-2024_ig6s2j.pdf">Download</a></td>
     </tr>
     <tr>
       <td>Opleidingsvisie en leerplan</td>
@@ -53,6 +49,10 @@ title: Downloads
     <tr>
       <td>Charter afspraken U6-U13</td>
       <td><a target="_blank" title="Download Charter afspraken U6-U13" href="https://res.cloudinary.com/kkontichfc/image/upload/v1563028599/downloads/charter-u6-u13_clzhzj.pdf">Download</a></td>
+    </tr>
+    <tr>
+      <td>Archief: Trainingsschema 2021-2022</td>
+      <td><a target="_blank" title="Trainingsschema 2021-2022" href="https://res.cloudinary.com/kkontichfc/image/upload/v1629136497/downloads/Trainingsschema-2021-2022_dobuzl.pdf">Download</a></td>
     </tr>
     <tr>
       <td>Archief: Trainersorganigram 2017 - 2018</td>
