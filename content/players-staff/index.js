@@ -10,13 +10,12 @@ const obj = {
     staff: [
       {
         position: "T1",
-        lastname: "Schrauwen",
-        firstname: "Peter",
+        lastname: "De Ceuster",
+        firstname: "Wes",
         birthdate: "",
         email: "",
         backgroundPosition: "center top 25%",
-        cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Peter_Schrauwen_dexyvk"
+        cloudinaryID: "staff/heren/1e-provinciale/2018-2019/de-ceuster-wes",
       },
       {
         position: "T2",
@@ -25,7 +24,7 @@ const obj = {
         birthdate: "",
         backgroundPosition: "center top 25%",
         cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Peter_De_Peuter_azf8yd"
+          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Peter_De_Peuter_azf8yd",
       },
       {
         position: "Keeperstrainer",
@@ -34,7 +33,7 @@ const obj = {
         birthdate: "",
         backgroundPosition: "center top 25%",
         cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Jan_Van_Der_Veer_o8qzx2"
+          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Jan_Van_Der_Veer_o8qzx2",
       },
       {
         position: "Verzorger",
@@ -43,8 +42,8 @@ const obj = {
         birthdate: "",
         backgroundPosition: "center top 25%",
         cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Pascale_Vervoort_pqjc40"
-      }
+          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Pascale_Vervoort_pqjc40",
+      },
     ],
     players: [
       {
@@ -55,7 +54,7 @@ const obj = {
         birthdate: "1991-01-21",
         backgroundPosition: "center top 25%",
         cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Jef_Snyders_vchnxa"
+          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Jef_Snyders_vchnxa",
       },
       {
         position: "VERDEDIGER",
@@ -64,7 +63,7 @@ const obj = {
         birthdate: "1994-07-18",
         backgroundPosition: "center top 25%",
         cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Bram_Raeymaekers_o5acua"
+          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Bram_Raeymaekers_o5acua",
       },
       {
         position: "VERDEDIGER",
@@ -73,7 +72,7 @@ const obj = {
         birthdate: "1990-08-27",
         backgroundPosition: "center top 25%",
         cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Yarrith_Kwik_ngjcko"
+          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Yarrith_Kwik_ngjcko",
       },
       {
         position: "VERDEDIGER",
@@ -83,7 +82,7 @@ const obj = {
         birthdate: "1998-02-23",
         backgroundPosition: "center top 25%",
         cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Remi_Van_Esser_hxqsih"
+          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Remi_Van_Esser_hxqsih",
       },
       {
         position: "MIDDENVELDER",
@@ -93,7 +92,7 @@ const obj = {
         backgroundPosition: "center top 25%",
         birthdate: "1999-04-14",
         cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Jasper_Vervoort_tyi9rl"
+          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Jasper_Vervoort_tyi9rl",
       },
       {
         position: "MIDDENVELDER",
@@ -103,7 +102,7 @@ const obj = {
         backgroundPosition: "center top 25%",
         birthdate: "1994-08-08",
         cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Matthias_Baert_lm4iev"
+          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Matthias_Baert_lm4iev",
       },
       {
         position: "MIDDENVELDER",
@@ -113,7 +112,7 @@ const obj = {
         birthdate: "1998-07-12",
         backgroundPosition: "center top 25%",
         cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Arnout_Koeck_oqtwya"
+          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Arnout_Koeck_oqtwya",
       },
       {
         position: "MIDDENVELDER",
@@ -123,7 +122,7 @@ const obj = {
         birthdate: "",
         backgroundPosition: "center top 25%",
         cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Gilles_Van_Remoortere_lizjix"
+          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Gilles_Van_Remoortere_lizjix",
       },
       {
         position: "AANVALLER",
@@ -133,7 +132,7 @@ const obj = {
         backgroundPosition: "center top 25%",
         birthdate: "1993-11-29",
         cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Alexander_Bell_v7qhn5"
+          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Alexander_Bell_v7qhn5",
       },
       {
         position: "AANVALLER",
@@ -143,7 +142,7 @@ const obj = {
         birthdate: "1988-04-27",
         backgroundPosition: "center top 25%",
         cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Bjorn_Van_Oerle_zpc4an"
+          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Bjorn_Van_Oerle_zpc4an",
       },
       {
         position: "VERDEDIGER",
@@ -153,7 +152,7 @@ const obj = {
         birthdate: "",
         backgroundPosition: "center top 25%",
         cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Yens_Servaes_urluyq"
+          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Yens_Servaes_urluyq",
       },
       {
         position: "VERDEDIGER",
@@ -163,7 +162,7 @@ const obj = {
         birthdate: "",
         backgroundPosition: "center top 25%",
         cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Yaro_Lambrechts_e36rty"
+          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Yaro_Lambrechts_e36rty",
       },
       {
         position: "AANVALLER",
@@ -173,7 +172,7 @@ const obj = {
         birthdate: "",
         backgroundPosition: "center top 25%",
         cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Renzo_Flebus_gvvae6"
+          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Renzo_Flebus_gvvae6",
       },
       {
         position: "MIDDENVELDER",
@@ -183,7 +182,7 @@ const obj = {
         birthdate: "",
         backgroundPosition: "center top 25%",
         cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Tim_Peleman_v8rxmj"
+          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Tim_Peleman_v8rxmj",
       },
       {
         position: "DOELMAN",
@@ -193,7 +192,7 @@ const obj = {
         birthdate: "",
         backgroundPosition: "center top 25%",
         cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Senne_Geerts_tro6yp"
+          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Senne_Geerts_tro6yp",
       },
       {
         position: "AANVALLER",
@@ -203,7 +202,7 @@ const obj = {
         birthdate: "",
         backgroundPosition: "center top 25%",
         cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_didier_cabumi_l5os4z"
+          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_didier_cabumi_l5os4z",
       },
       {
         position: "VERDEDIGER",
@@ -213,7 +212,7 @@ const obj = {
         birthdate: "",
         backgroundPosition: "center top 25%",
         cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Mats_Marnef_uvuhfb"
+          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Mats_Marnef_uvuhfb",
       },
       {
         position: "MIDDENVELDER",
@@ -223,7 +222,7 @@ const obj = {
         birthdate: "",
         backgroundPosition: "center top 25%",
         cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Kaan_Demet_ypqhp7"
+          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Kaan_Demet_ypqhp7",
       },
       {
         position: "AANVALLER",
@@ -233,7 +232,7 @@ const obj = {
         birthdate: "",
         backgroundPosition: "center top 25%",
         cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Bram_Kerckhofs_cmzkq9"
+          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Bram_Kerckhofs_cmzkq9",
       },
       {
         position: "AANVALLER",
@@ -243,7 +242,7 @@ const obj = {
         birthdate: "",
         backgroundPosition: "center top 25%",
         cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Arthur_Devondel_wfu56x"
+          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Arthur_Devondel_wfu56x",
       },
       {
         position: "AANVALLER",
@@ -253,9 +252,9 @@ const obj = {
         birthdate: "",
         backgroundPosition: "center top 25%",
         cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Anas_Assoufi_mq0cxm"
-      }
-    ]
+          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Anas_Assoufi_mq0cxm",
+      },
+    ],
   },
   heren4eProv: {
     staff: [
@@ -266,7 +265,7 @@ const obj = {
         birthdate: "",
         email: "vdlward@telenet.be",
         cloudinaryID:
-          "staff/heren/3e-provinciale/69086919_1082388208818653_1855479000617451520_n_rir9lv"
+          "staff/heren/3e-provinciale/69086919_1082388208818653_1855479000617451520_n_rir9lv",
       },
       {
         position: "Afgv.",
@@ -275,9 +274,9 @@ const obj = {
         birthdate: "",
         email: "kderoeck@hotmail.com",
         cloudinaryID:
-          "staff/heren/3e-provinciale/68629165_392403718081016_7447594976277430272_n_uioo3e"
-      }
-    ]
+          "staff/heren/3e-provinciale/68629165_392403718081016_7447594976277430272_n_uioo3e",
+      },
+    ],
   },
   damesNat: {
     staff: [
@@ -287,9 +286,9 @@ const obj = {
         firstname: "Karim",
         birthdate: "",
         email: "",
-        cloudinaryID: "staff/dames/2019-2020/IMG_9073_jgic2n"
-      }
-    ]
+        cloudinaryID: "staff/dames/2019-2020/IMG_9073_jgic2n",
+      },
+    ],
   },
   dames1eProv: {
     staff: [
@@ -300,7 +299,7 @@ const obj = {
         birthdate: "",
         email: "dretha98@gmail.com",
         cloudinaryID:
-          "spelers/heren/1e-provinciale/2018-2019/van-camp-indyana_hqxld6"
+          "spelers/heren/1e-provinciale/2018-2019/van-camp-indyana_hqxld6",
       },
       {
         position: "Afgv.",
@@ -308,9 +307,9 @@ const obj = {
         firstname: "Jefry",
         birthdate: "",
         email: "jefrykesters@gmail.com",
-        cloudinaryID: ""
-      }
-    ]
+        cloudinaryID: "",
+      },
+    ],
   },
   dames2eProv: {
     staff: [
@@ -320,10 +319,10 @@ const obj = {
         firstname: "Pascale",
         birthdate: "",
         email: "pascale.dams@hotmail.com",
-        cloudinaryID: ""
-      }
-    ]
-  }
+        cloudinaryID: "",
+      },
+    ],
+  },
 };
 
 export default obj;

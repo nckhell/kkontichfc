@@ -818,4 +818,14 @@ export default [
     cloudinaryID: "logo_1_kikzch",
     highlight: false,
   },
+  {
+    url:
+      "https://www.google.com/search?q=apotheek+augustus&rlz=1C5CHFA_enBE1064BE1064&oq=Apotheek+Augustus&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyDQgBEC4YrwEYxwEYgAQyCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB4yCggFEAAYDxgWGB4yBggGEEUYPdIBBzEyMWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8",
+    name: "Apotheek Augustus",
+    headsponsor: "no",
+    order: "8",
+    type: "CLUBSPONSOR",
+    cloudinaryID: "logo-kleur_ajan4n",
+    highlight: false,
+  },
 ];
