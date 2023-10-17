@@ -1,6 +1,7 @@
 ---
 title: Ongevallen
 ---
+
 <p>Nuttige informatie teneinde maximaal te kunnen genieten van de tussenkomst van het Departement Ongevallen van de KBVB.</p>
 <h2>1. Principe</h2>
 <p>Er kan beroep gedaan worden op een tussenkomst van het Departement Ongevallen indien het ongeval zich voordoet:</p>
@@ -23,7 +24,7 @@ title: Ongevallen
 6. Indien de bond het ongeval aanvaardt, dan krijgt men via mail een bevestiging van de bond.
 
 <p><strong>Clubsecretaris K. Kontich FC</strong>
-    <br> Theo Knegtel - 0495/90.33.00 - <a href="mailto:gc@kkontichfc.be" title="Mail clubsecretaris K. Kontich FC">gc@kkontichfc.be</a>
+    <br> Luc De Corte - 0499/90.79.91 - <a href="mailto:gc@kkontichfc.be" title="Mail clubsecretaris K. Kontich FC">gc@kkontichfc.be</a>
 </p>
 
 <div id="aangifte-formulier">

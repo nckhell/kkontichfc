@@ -3,6 +3,7 @@ title: Nieuwe procedure aangifte ongeval
 date: 2022-10-01
 cloudinaryID: Injury_f3hvxg
 ---
+
 **Gelieve de volgende procedure te volgen voor de aangifte van een ongeval:**
 
 1. Men vult het formulier “Aangifte ongeval club” in en bezorgt dit <strong>VIA MAIL</strong> aan de GC TEN LAATSTE 48 uur na het ongeval. Het document is in WORD, zo kan men het gemakkelijk invullen.
@@ -13,7 +14,7 @@ cloudinaryID: Injury_f3hvxg
 6. Indien de bond het ongeval aanvaardt, dan krijgt men via mail een bevestiging van de bond.
 
 <p><strong>Clubsecretaris K. Kontich FC</strong>
-    <br> Theo Knegtel - 0495/90.33.00 - <a href="mailto:gc@kkontichfc.be" title="Mail clubsecretaris K. Kontich FC">gc@kkontichfc.be</a>
+    <br> Luc De Corte - 0499/90.79.91 - <a href="mailto:gc@kkontichfc.be" title="Mail clubsecretaris K. Kontich FC">gc@kkontichfc.be</a>
 </p>
 
 <div id="aangifte-formulier">

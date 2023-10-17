@@ -3,17 +3,13 @@ import React, { Component } from "react";
 import { prefixURL } from "next-prefixed";
 import NextSeo from "next-seo";
 import { FacebookProvider, Like } from "react-facebook";
-import Recaptcha from "react-recaptcha";
-import { Formik } from "formik";
-import * as Yup from "yup";
-import post from "../src/services/api/post";
 import Layout from "../src/components/layout/Layout";
 import BreadCrumb from "../src/components/breadcrumbs/BreadCrumb";
 import Map from "../src/components/google-maps/Map";
 
 class ContactPage extends Component {
   state = {
-    success: false
+    success: false,
   };
 
   componentDidMount() {
@@ -28,7 +24,7 @@ class ContactPage extends Component {
     const { success } = this.state;
 
     const mapStyle = {
-      height: "450px"
+      height: "450px",
     };
 
     const requiredMessage = "Verplicht veld";
@@ -45,8 +41,8 @@ class ContactPage extends Component {
               locale: "nl_BE",
               url: `https://www.kkontichfc.be/info/contact/`,
               title: `Contact | Info | K. Kontich F.C.`,
-              description: `Al de nodige contactgegevens en details over K. Kontich F.C.`
-            }
+              description: `Al de nodige contactgegevens en details over K. Kontich F.C.`,
+            },
           }}
         />
         <div id="kkfc-background-logo">
@@ -55,7 +51,7 @@ class ContactPage extends Component {
               <BreadCrumb
                 data={[
                   { title: "info", url: "#" },
-                  { title: "contact & ligging", url: "info/contact" }
+                  { title: "contact & ligging", url: "info/contact" },
                 ]}
               />
             </div>
@@ -78,15 +74,14 @@ class ContactPage extends Component {
                     <strong>Terreinen/maatschappelijke zetel:</strong>{" "}
                     Duffelsesteenweg 73, 2550 Kontich
                     <br />
-                    <strong>Correspondentieadres:</strong> Helenaveldstraat 26,
-                    2550 Kontich (Adres GC Knegtel theo)
+                    <strong>Correspondentieadres:</strong> Transvaalstraat 66,
+                    2550 Kontich (Adres GC Luc De Corte)
                     <br />
                     <strong>Telefoon kantine:</strong> 03/457 10 09
                   </p>
                   <p>
                     <strong>Gerechtigd Correspondent:</strong>
-                    <br /> 0475/81 18 80
-                    <br /> 0495/90 33 00
+                    <br /> 0499/90.79.91
                   </p>
                   <h2>Op de kaart</h2>
                   <div

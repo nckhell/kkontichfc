@@ -3,6 +3,7 @@ title: Ongevalsaangiftes en verdere procedure
 date: 2019-08-01
 cloudinaryID: Injury_f3hvxg
 ---
+
 <p>Allen,</p>
 <p style="margin-bottom: 0.5rem !important;"><strong>Het seizoen is nog jong, toch even ter herinnering hoe de procedure is van een aangifte ongeval:</strong></p>
 <ol>
@@ -25,7 +26,7 @@ cloudinaryID: Injury_f3hvxg
 </ol>
 <p style="margin-bottom: 0.5rem !important;"><strong>Bijlagen:</strong></p>
 <ul>
-  <li><a title="ngevallen formulier KBVB" href="https://res.cloudinary.com/kkontichfc/image/upload/v1564682144/downloads/aangifteformulier_ongeval_2019_azoccl.pdf">Ongevallen formulier KBVB</a></li>
+  <li><a title="ngevallen formulier KBVB" href="https://res.cloudinary.com/kkontichfc/raw/upload/v1697570193/downloads/Aangifte_ongeval_nieuwe_versie.._sear9a.docx">Ongevallen formulier KBVB</a></li>
   <li><a title="Ongevallen formulier Kontich" href="https://res.cloudinary.com/kkontichfc/image/upload/v1564682145/nieuws/ongevallen/ongeval-formulier-kontich_1_imdkbe.pdf">Ongevallen formulier Kontich</a></li>
   <li><a title="Medisch attest" href="https://res.cloudinary.com/kkontichfc/image/upload/v1564682143/nieuws/ongevallen/medisch_attest_vmwwcl.pdf">Medisch attest</a></li>
   <li><a title="Voorbeeld aangifteformulier" href="https://res.cloudinary.com/kkontichfc/image/upload/v1564682143/nieuws/ongevallen/Voorbeeld_aangifteformulier_bond_ithcyx.pdf">Voorbeeld aangifteformulier</a></li>
