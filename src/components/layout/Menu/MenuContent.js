@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable no-undef */
 import { Link, prefixURL } from "next-prefixed";
@@ -47,7 +48,7 @@ const Menu = () => {
         <li className="has-submenu">
           <a
             href="#"
-            onClick={e => {
+            onClick={(e) => {
               e.preventDefault();
             }}
             title="Heren"
@@ -71,7 +72,7 @@ const Menu = () => {
           <a
             href="#"
             title="Dames"
-            onClick={e => {
+            onClick={(e) => {
               e.preventDefault();
             }}
           >
@@ -84,18 +85,18 @@ const Menu = () => {
               </Link>
             </li>
             <li>
-              <Link href="/dames/1e-nationale/">
-                <a title="Dames 1e nationale">1e Nationale</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/dames/1e-provinciale/">
-                <a title="Dames 1e pronviciale">1e Provinciale</a>
+              <Link href="/dames/interprovinciale-b/">
+                <a title="Dames interprovinciale B">Interprovinciale B</a>
               </Link>
             </li>
             <li>
               <Link href="/dames/2e-provinciale/">
-                <a title="Dames 2e provinciale">2e Provinciale</a>
+                <a title="Dames 2e pronviciale">2e Provinciale</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/dames/3e-provinciale/">
+                <a title="Dames 3e provinciale">3e Provinciale</a>
               </Link>
             </li>
           </ul>
@@ -103,7 +104,7 @@ const Menu = () => {
         <li className="has-submenu">
           <a
             href="#"
-            onClick={e => {
+            onClick={(e) => {
               e.preventDefault();
             }}
             title="Jeugd"
@@ -196,7 +197,7 @@ const Menu = () => {
         <li className="has-submenu">
           <a
             href="#"
-            onClick={e => {
+            onClick={(e) => {
               e.preventDefault();
             }}
             title="Info"
@@ -244,7 +245,7 @@ const Menu = () => {
         <li className="has-submenu">
           <a
             href="#"
-            onClick={e => {
+            onClick={(e) => {
               e.preventDefault();
             }}
             title="Commercieel"

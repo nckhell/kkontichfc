@@ -25,20 +25,12 @@ const Footer = () => {
                 Heren 4e Prov.
               </a>
             </Link>
-            <Link href="/dames/1e-nationale/">
+            <Link href="/dames/interprovinciale-b/">
               <a
-                title="Dames 1e Nationale"
+                title="Dames interprovinciale B"
                 className="text-sm text-gray-500 py-1"
               >
-                Dames 1e Nat.
-              </a>
-            </Link>
-            <Link href="/dames/1e-provinciale/">
-              <a
-                title="Dames 1e Provinciale"
-                className="text-sm text-gray-500 py-1"
-              >
-                Dames 1e Prov.
+                Dames interprov. B
               </a>
             </Link>
             <Link href="/dames/2e-provinciale/">
@@ -47,6 +39,14 @@ const Footer = () => {
                 className="text-sm text-gray-500 py-1"
               >
                 Dames 2e Prov.
+              </a>
+            </Link>
+            <Link href="/dames/3e-provinciale/">
+              <a
+                title="Dames 3e Provinciale"
+                className="text-sm text-gray-500 py-1"
+              >
+                Dames 3e Prov.
               </a>
             </Link>
           </div>

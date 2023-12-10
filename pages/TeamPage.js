@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /* eslint-disable global-require */
 import React, { Component } from "react";
 import * as R from "ramda";
@@ -17,12 +18,12 @@ import mapUrlToBreadcrumbs from "../src/utils/mapUrlToBreadcrumb";
 
 class TeamPage extends Component {
   state = {
-    activePage: "spelers-staff"
+    activePage: "spelers-staff",
   };
 
   componentDidMount() {}
 
-  filterPage = e => {
+  filterPage = (e) => {
     e.preventDefault();
     const pageFilter = e.target.id;
     this.setState({ activePage: pageFilter });
@@ -56,8 +57,8 @@ class TeamPage extends Component {
               locale: "nl_BE",
               url: `https://www.kkontichfc.be${fullUrl}`,
               title: `${seoTeam} | ${seoMaleOrFemale} | K. Kontich F.C.`,
-              description: `Rangschikking, kalender, staff en spelers van onze ${pageTitle}`
-            }
+              description: `Rangschikking, kalender, staff en spelers van onze ${pageTitle}`,
+            },
           }}
         />
         <div className="px-4 mt-8 md:mt-10 lg:mt-16 container mx-auto text-left">
@@ -110,19 +111,6 @@ class TeamPage extends Component {
                   Spelers en staf
                 </a>
               </li>
-              {"topscorers" in R.view(R.lensProp(teamID), kbvbApiUrls) && (
-                <li>
-                  <a
-                    className={activePage === "topschutters" ? "active" : ""}
-                    href="#topschutters"
-                    title="Topschutters"
-                    onClick={this.filterPage}
-                    id="topschutters"
-                  >
-                    Topschutters
-                  </a>
-                </li>
-              )}
             </ul>
           </div>
           {activePage === "overzicht" && (
@@ -189,7 +177,7 @@ class TeamPage extends Component {
 
 TeamPage.propTypes = {
   teamID: PropTypes.string.isRequired,
-  fullUrl: PropTypes.string.isRequired
+  fullUrl: PropTypes.string.isRequired,
 };
 
 TeamPage.getInitialProps = ({ query }) => {

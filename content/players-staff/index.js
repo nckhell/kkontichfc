@@ -279,7 +279,7 @@ const obj = {
       },
     ],
   },
-  damesNat: {
+  interprovincialeB: {
     staff: [
       {
         position: "T1",
@@ -291,7 +291,7 @@ const obj = {
       },
     ],
   },
-  dames1eProv: {
+  dames2eProv: {
     staff: [
       {
         position: "T1",
@@ -312,7 +312,7 @@ const obj = {
       },
     ],
   },
-  dames2eProv: {
+  dames3eProv: {
     staff: [
       {
         position: "T1",

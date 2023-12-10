@@ -1,5 +1,5 @@
 import * as R from "ramda";
 
-export const Path = ["startDate"];
+export const Path = ["startTime"];
 
 export const startDateLens = R.lensPath(Path);
