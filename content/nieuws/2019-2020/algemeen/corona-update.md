@@ -2,7 +2,7 @@
 title: Update Coronavirus (COVID-19) en Paastornooi
 cloudinaryID: 637194345629530000_qvapbn
 date: 2020-03-20
-slider: YES
+slider: NO
 ---
 
 <p>Terwijl het Coronavirus door ons land raast en de regering drastische (maar levensnoodzakelijke) maatregelen neemt, moeten we ook aanvaarden dat het beoefenen van onze favoriete sport (en alle sportactiviteiten tout court) onmogelijk is. De laatste week zijn er tal van updates geweest, we zetten ze hieronder graag nog eens op een rijtje.</p>

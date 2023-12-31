@@ -1,10 +1,11 @@
 ---
 title: Ontbijt moederkesdag (15/8)
 cloudinaryID: Ontbijt_moederkesdag_2022_lx5rdm
-slider: YES
+slider: NO
 showImageInArticle: NO
 date: 2022-07-04
 ---
+
 <div class="mb-6">
 <img style="max-width: 100%; height: auto;" src="https://res.cloudinary.com/kkontichfc/image/upload/v1/nieuws/Ontbijt_moederkesdag_2022_lx5rdm" alt="Ontbijt moederkesdag (15/8)" />
 </div>

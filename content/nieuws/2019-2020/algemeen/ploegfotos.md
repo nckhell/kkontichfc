@@ -2,7 +2,7 @@
 title: Bekijk de ploegfoto's!
 date: 2019-10-05
 cloudinaryID: _MG_19261_v7rrlh
-slider: YES
+slider: NO
 figCaption: Groepsfoto jeugd en al onze volwassen ploegen.
 ---
 

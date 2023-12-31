@@ -1,7 +1,7 @@
 ---
 title: Thalia De Roovere naar KKFC
 date: 2019-09-03
-slider: YES
+slider: NO
 cloudinaryID: image1_ntuh28
 figCaption: Thalia De Roovere is o.a. actief geweest bij Maria-Ter-Heide
 backgroundPosition: top 30% center

@@ -1,9 +1,10 @@
 ---
 title: Afgelasting Vermant Cup - Editie augustus 2020 wegens Covid 19
-slider: YES 
+slider: NO
 cloudinaryID: 5b903ee3469a1.image_oiy383
 date: 2020-08-03
 ---
+
 Beste sportvrienden,
 
 Overeenkomstig de verstrengde maatregelen die de gouverneur recent uitvaardigde, ziet de club zich opnieuw genoodzaakt om de zomereditie van haar Vermant Cup 2020 uit te stellen. Na de afgelasting van onze paaseditie werd een vervangeditie voorzien voor einde augustus.

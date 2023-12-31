@@ -1,10 +1,11 @@
 ---
 title: Afgelasting Vermant Cup - Verplaatst naar augustus 2021 ("Summer Edition")
-slider: YES 
+slider: NO
 cloudinaryID: 5b903ee3469a1.image_oiy383
 showImageInArticle: NO
 date: 2021-03-17
 ---
+
 Geachte Heer, Mevrouw,
 
 Met spijt in het hart dienen wij te melden dat we ons voor het 2e jaar op rij genoodzaakt zien om onze Vermant-Cup, die traditioneel tijdens het paasweekend plaats vindt, uit te stellen. De aangekondigde versoepelingen laten het voorlopig niet toe om een aangenaam tornooi mét kleedkamers, publiek en kantine te organiseren.
@@ -19,7 +20,7 @@ Wij hopen opnieuw op uw inschrijving te mogen rekenen en verzekeren u dat wij la
 Ploegen die zich reeds hadden ingeschreven voor onze editie met Pasen worden automatisch ingeschreven voor de editie van komende zomer. Zij worden dus verwacht op 22 augustus voor U10-11-12 en 13 en op 29 augustus voor U6-7-8 en 9.
 
 | Ploeg | Datum                   | Tijdstip   |
-|-------|-------------------------|------------|
+| ----- | ----------------------- | ---------- |
 | U10   | Zondag 22 augustus 2021 | Namiddag   |
 | U11   | Zondag 22 augustus 2021 | Namiddag   |
 | U12   | Zondag 22 augustus 2021 | Voormiddag |

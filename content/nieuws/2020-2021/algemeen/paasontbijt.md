@@ -1,10 +1,11 @@
 ---
 title: Paasontbijt!
 cloudinaryID: Paasontbijt_K_Kontich_F.C._rmg8fp
-slider: YES
+slider: NO
 showImageInArticle: NO
 date: 2021-03-05
 ---
+
 <div class="mb-6">
 <img style="max-width: 100%; height: auto;" src="https://res.cloudinary.com/kkontichfc/image/upload/v1/nieuws/Paasontbijt_K_Kontich_F.C._rmg8fp" alt="Take Away Stoofpotjes Weekend!" />
 </div>

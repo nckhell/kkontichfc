@@ -1,10 +1,11 @@
 ---
 title: Ontbijt moederkesdag (15/8)
 cloudinaryID: Ontbijmand_Moederkesdag_2021_x9exz0
-slider: YES
+slider: NO
 showImageInArticle: NO
 date: 2021-07-08
 ---
+
 <div class="mb-6">
 <img style="max-width: 100%; height: auto;" src="https://res.cloudinary.com/kkontichfc/image/upload/v1/nieuws/Ontbijmand_Moederkesdag_2021_x9exz0" alt="Ontbijt moederkesdag (15/8)" />
 </div>

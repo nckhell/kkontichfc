@@ -1,10 +1,11 @@
 ---
 title: Voorbereiding 1e provinciale Heren (2020-2021)
-slider: YES 
+slider: NO
 cloudinaryID: IMG-20200208-WA0000_s4w0t7
 backgroundPosition: top 50% center
 date: 2020-06-27
 ---
+
 <p>Het Covid19-virus zette de hele wereld op zijn kop. Ook het voetbalseizoen werd abrupt beëindigd. De voorbije maanden telden we af naar de terugkeer van ons ‘normale leventje’ mét sociale contacten, mét voetbal, mét K. Kontich F.C.</p>
 
 <p>Onze seniorenploegen treden ook volgend seizoen aan in resp. 1e en 3e provinciale. Om zich voor te bereiden op een succesvol seizoen oefenen zij in de aanloop naar de competitie tegen volgende tegenstanders:</p>
@@ -35,4 +36,3 @@ date: 2020-06-27
     <li><u>Zaterdag 29 augustus a.s. om 19u30:</u> St-Amands – K. Kontich F.C. B (Beker van Antwerpen)</li>
 </ul>
 <p><b>Supporters op post!</b></p>
-

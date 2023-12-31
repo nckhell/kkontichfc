@@ -1,7 +1,7 @@
 ---
 title: Welkom thuis, Laurens & Bram!
 date: 2020-02-03
-slider: YES
+slider: NO
 backgroundPosition: top 35% center
 cloudinaryID: IMG_1569_xwqj58
 ---

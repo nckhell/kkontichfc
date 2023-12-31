@@ -1,10 +1,11 @@
 ---
 title: Diner @ K. Kontich F.C. - seizoen 2021-2022
 cloudinaryID: 53071374_2758361527515148_582122459797389312_n_n7guk3
-slider: YES
+slider: NO
 showImageInArticle: YES
 date: 2021-07-26
 ---
+
 <p>Beste,</p>
 <p>Traditiegetrouw organiseert K. Kontich F.C. voor enkele thuiswedstrijden van haar eerste elftal een lekker en gezellig
 etentje. Onze huistraiteur (en tevens trouwe supporter) ‘Den Danny’ verrast ons elke keer weer met een lekker menu.</p>

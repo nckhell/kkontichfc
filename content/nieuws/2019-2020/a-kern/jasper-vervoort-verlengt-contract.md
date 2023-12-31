@@ -3,7 +3,7 @@ title: Jasper Vervoort verlengt contract!
 figCaption: Jasper Vervoort
 date: 2020-04-13
 backgroundPosition: top 30% center
-slider: YES
+slider: NO
 cloudinaryID: Vervoort_raif9s
 ---
 

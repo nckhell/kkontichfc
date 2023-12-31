@@ -7,7 +7,6 @@ title: Huur benedenkatine
 <p>Een communicant in de familie? Je ziet het niet zitten om de jaarlijkse BBQ-familie dit jaar bij jou in de tuin te organiseren? De benedenkantine van K. Kontich F.C. biedt dan zeker een oplossing! Je kan onze benedenkantine huren tegen erg democratische voorwaarden. Ontdek ze hier!</p>
 
 <h2>Financiële voorwaarden</h2>
-<p>Indien <u>minder dan 40 aanwezigen:</u></p>
 <ul>
     <li>Huurprijs benedenkantine: 150 EUR;</li>
     <li>Opkuis benedenkantine: 50 EUR;</li>
@@ -19,7 +18,7 @@ title: Huur benedenkatine
 <ul>
     <li>De eventuele huurprijs en kostprijs van de opkuis worden voor aanvang van de activiteit betaald;</li>
     <li>De zaal wordt netjes achtergelaten (meubilair wordt teruggeplaatst, versiering wordt verwijderd, enz.);</li>
-    <li>Reservatie via <a href="mailto:commercieel@kkontichfc.be" title="commercieel@kkontichfc.be">commercieel@kkontichfc.be</a>.
+    <li>Reservatie via <a href="mailto:commercieel@kkontichfc.be" title="commercieel@kkontichfc.be">commercieel@kkontichfc.be</a> en <a href="mailto:daisyvandeputte@outlook.com" title="daisyvandeputte@outlook.com">daisyvandeputte@outlook.com</a>.
     </li>
 </ul>
 </div>

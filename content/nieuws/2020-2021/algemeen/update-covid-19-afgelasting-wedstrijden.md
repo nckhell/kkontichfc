@@ -1,9 +1,10 @@
 ---
 title: Afgelasting wedstrijden door COVID-19
-slider: YES 
+slider: NO
 cloudinaryID: 5b903ee3469a1.image_oiy383
 date: 2020-10-23
 ---
+
 Beste spelers, ouders en medewerkers,
 
 Gezien de recente ontwikkelingen en cijfers m.b.t. de corona pandemie in België, heeft de club besloten om met onmiddellijke ingang alle wedstrijden stop te zetten. Ondanks alle inspanningen die we doen, kunnen we de veiligheid van onze spelers, supporters en medewerkers op wedstrijden niet meer garanderen en kiezen wij er voor om voorlopig binnen onze eigen club verder te werken.
@@ -15,6 +16,7 @@ Het bestuur van de club zal dit wekelijks – op basis van de evolutie van de pa
 De trainingen van de jeugd zullen wel door gaan volgens het gekende schema.
 
 **Wat de aanwezigheid van ouders betreft, geldt volgend verzoek:**
+
 - graag slechts 1 ouder per voetballer/voetbalster aanwezig op training;
 - verplicht mondmasker dragen;
 - verplicht social distance bewaren;

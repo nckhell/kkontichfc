@@ -1,9 +1,10 @@
 ---
 title: Richtlijnen wedstrijd KRC Mechelen - Kontich FC (3-4!)
-slider: YES
+slider: NO
 date: 2019-09-14
 cloudinaryID: 69441276_3558071470885255_5841342705824694272_o_wvucwq
 ---
+
 <p>Richtlijnen m.b.t. de wedstrijd KRC Mechelen - Kontich FC.</p>
 <p class="mb-0"><strong>Spelersbus of persoonlijke vervoer spelers en trainers:</strong></p>
 <ul>

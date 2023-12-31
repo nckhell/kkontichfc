@@ -1,10 +1,11 @@
 ---
 title: Voorbereiding 2021-2022
-slider: YES 
+slider: NO
 cloudinaryID: _C2A8125_ktoots_f02p7b
 backgroundPosition: top 50% center
 date: 2021-05-07
 ---
+
 <p>Beste supporters,<br /><br />Het huidige seizoen werd er eentje om snel te vergeten: na een goede start van onze club werd het seizoen reeds na de 5<sup>e</sup>&nbsp;speeldag definitief stopgezet.<br /><br />Omwille van de goede sportieve prestaties enerzijds en de onzekerheid die de covid-pandemie met zich mee brengt anderzijds, werd beslist om het vertrouwen in de huidige kern te behouden. Ben Bakkovens (FC De Kempen), Laurens de Bakker (Sporting Tisselt), Giann Van Oostveldt en Lars Vandenhoeck (?) verlaten de club, terwijl youngsters Senne Geerts (doelman, Beerschot) en Mats Marnef (K. Rupel Boom F.C.) onze A-kern zullen versterken.</p>
 <p><strong>Onze T1 Peter Schrauwen stelde volgend oefenschema samen in aanloop naar het nieuwe seizoen 2021-2022:</strong></p>
 <ul>

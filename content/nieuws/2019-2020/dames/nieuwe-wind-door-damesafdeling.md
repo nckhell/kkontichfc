@@ -1,9 +1,10 @@
 ---
 title: Nieuwe wind door damesafdeling!
 date: 2019-03-28
-slider: YES
+slider: NO
 cloudinaryID: 181_j8sxbb
 ---
+
 <p>Het bestuur van K. Kontich F.C. blaast met het oog op seizoen 2019-2020 een nieuwe wind door de damesafdeling van de club, die intussen 5 teams telt.</p>
 <p>K. Kontich F.C. wenst meer dan ooit in te zetten op de jeugdopleiding van voetballende meisjes: <strong>&eacute;lk meisje dat graag voetbalt &eacute;n in de regio tussen Lier, Mechelen en Antwerpen woont, moet weten dat K. Kontich F.C. een jeugdopleiding heeft waarbij men haar de kans geeft om haar talenten te ontdekken en te verbeteren</strong>.</p>
 <p>Met ploegen op verschillende niveaus (1<sup>e</sup> nationale, 1<sup>e</sup> of 2 provinciale, 3<sup>e</sup> of 4<sup>e</sup> provinciale, U15 en U13) moet elk meisje in staat zijn om kansen te krijgen op het niveau dat past bij haar kunnen en ambities. Op middellange termijn moet het perfect mogelijk zijn om enkele meisjes door te laten stromen naar ons eerste elftal.</p>

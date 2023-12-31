@@ -1,7 +1,7 @@
 ---
 title: Extra spelers gezocht!
 date: 2019-11-14
-slider: YES
+slider: NO
 cloudinaryID: 42201321_2420249461326358_3819049121050787840_o_plubzk
 ---
 

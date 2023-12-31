@@ -2,7 +2,7 @@
 title: Uit de oude doos... Het KKFC Clublied!
 cloudinaryID: 12823435_1169241093093874_7425774194998410845_o_qwtbss_vdrzet
 date: 2019-09-25
-slider: YES
+slider: NO
 ---
 
 <p><strong>Op de gekende melodie:</strong> HEIDEWITSKA</br><strong>Tekst: </strong>Leonard Van Deyck, Humorist-Conferencier.</p>

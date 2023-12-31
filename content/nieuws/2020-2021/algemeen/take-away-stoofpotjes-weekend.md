@@ -1,10 +1,11 @@
 ---
 title: Take Away Stoofpotjes Weekend!
 cloudinaryID: TAKE_AWAY_STOOFPOTJES_gy2y93
-slider: YES
+slider: NO
 showImageInArticle: NO
 date: 2021-01-03
 ---
+
 <div class="mb-6">
 <img style="max-width: 100%; height: auto;" src="https://res.cloudinary.com/kkontichfc/image/upload/v1/nieuws/TAKE_AWAY_STOOFPOTJES_gy2y93" alt="Take Away Stoofpotjes Weekend!" />
 </div>

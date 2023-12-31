@@ -1,7 +1,7 @@
 ---
 title: Welkom, Yarrith Kwik & Bjorn Van Oerle
 date: 2020-02-01
-slider: YES
+slider: NO
 backgroundPosition: top 15% center
 cloudinaryID: IMG_1456_ggbnx5
 ---

@@ -1,10 +1,11 @@
 ---
 title: Peter Schrauwen trekt naar Helmond Sport
 cloudinaryID: 274137843_10227572806204517_8647865228148893396_n_eus75f
-slider: YES
+slider: NO
 showImageInArticle: NO
 date: 2022-02-20
 ---
+
 <div class="mb-6">
 <img style="max-width: 100%; height: auto;" src="https://res.cloudinary.com/kkontichfc/image/upload/v1/nieuws/274137843_10227572806204517_8647865228148893396_n_eus75f" alt="Ontbijt moederkesdag (15/8)" />
 </div>

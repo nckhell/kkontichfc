@@ -1,9 +1,10 @@
 ---
 title: Lidgelden en informatie 2021-2022
 date: 2021-05-08
-slider: YES
+slider: NO
 cloudinaryID: 42201321_2420249461326358_3819049121050787840_o_plubzk
 ---
+
 <p>Beste spelers,<br />Beste ouders,</p>
 <p>De <u>lidgelden</u> voor het seizoen 2021-2022 werden als volgt vastgesteld:</p>
 <table width="100%" cellspacing="0">

@@ -1,12 +1,13 @@
 ---
 title: Kleding seizoen 20-21 (online invulformulier)
-slider: YES 
+slider: NO
 cloudinaryID: img-block-jako-champ2_wiz55r
 backgroundPosition: top 40% center
 figCaption: Nick Sport & Jako
 showImageInArticle: NO
 date: 2020-06-07
 ---
+
 <p>De voorbije weken ontving u van ons een uitnodiging tot betaling van het lidgeld van jouw zoon en/of dochter. Deze uitnodiging werd door het overgrote deel van onze leden prima opgevolgd, waarvoor dank.</p>
 
 <p>In tegenstelling tot de voorbije seizoenen is het – wegens de gekende coronaproblematiek – niet mogelijk om pasmaten van de trainingskledij te voorzien bij onze kledingleverancier Nick Sport.</p>

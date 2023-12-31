@@ -1,6 +1,6 @@
 ---
 title: Paasstage 2023
-slider: YES 
+slider: NO
 cloudinaryID: png_20230316_114237_0000_eo5xlf
 backgroundPosition: top 40% center
 date: 2023-01-18
@@ -44,5 +44,6 @@ Iedere dag van 9u tot 16u. Voorbewaking vanaf 8u, nabewaking tot 17u.
 Iedereen krijgt een bal en leuk aandenken op het einde van de stage
 
 ## Inschrijving?
+
 Via onderstaande link:
 [https://forms.gle/eQaNwr5fgFoPKE8R7](https://forms.gle/eQaNwr5fgFoPKE8R7)

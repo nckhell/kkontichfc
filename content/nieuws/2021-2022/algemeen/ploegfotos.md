@@ -1,10 +1,11 @@
 ---
 title: Ploegfotos
 cloudinaryID: 1e_elftal_x71gje
-slider: YES
+slider: NO
 showImageInArticle: NO
 date: 2022-01-11
 ---
+
 <div class="mb-6">
 <h2>1e elftal</h2>
 <img style="max-width: 100%; height: auto;" src="https://res.cloudinary.com/kkontichfc/image/upload/v1/teams/2021-2022/1e_elftal_ibvody" /></div>

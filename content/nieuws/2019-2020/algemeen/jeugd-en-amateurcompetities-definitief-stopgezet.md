@@ -2,7 +2,7 @@
 title: Jeugd- en amateurcompetities definitief stopgezet
 cloudinaryID: 750_s0opdn
 date: 2020-03-27
-slider: YES
+slider: NO
 ---
 
 <p>De corona crisiscel van Voetbal Vlaanderen heeft beslist dat alle jeugd- en amateurcompetities van het seizoen 2019-2020 definitief worden stopgezet. </p>

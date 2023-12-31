@@ -1,9 +1,10 @@
 ---
 title: Update - Hernemen voetbaltrainingen vanaf 18 mei 2020
 date: 2020-05-15
-slider: YES
+slider: NO
 cloudinaryID: sport-corona_ody6hf
 ---
+
 <p>Onze jeugdafdeling is de laatste dagen druk in de weer geweest om, naar aanleiding van de belissing van de nationale veiligheidsraad dat trainingen in openlucht mét begeleider terug mogelijk zijn vanaf 18 mei 2020, een schema op te stellen voor het hervatten van de trainingen op onze club.</p>
 
 <p>We willen u graag vragen om onderstaande richtlijnen aandachtig te lezen, u kan de volledige communicatie omtrent de maatregelen <a href="https://res.cloudinary.com/kkontichfc/image/upload/v1589557708/nieuws/herneming_trainingen_te_volgen_maatregelen_mkmtt1.pdf">hier</a> nalezen. U kan verder ook het trainingsschema terugvinden.</p>
@@ -39,4 +40,3 @@ cloudinaryID: sport-corona_ody6hf
 <p><strong>De club houdt zich aan de richtlijnen, maar is op geen enkele manier verantwoordelijk voor eventuele besmettingen.</strong>&nbsp;Deelname aan de trainingen gebeurt dus steeds op eigen risico.<br />We trachten door deze extra trainingen kinderen wat spelplezier te geven in deze &ndash; zeker ook voor hen &ndash; moeilijke tijden;</p>
 
 <p>Sportieve groeten,<br>Het bestuur van KKFC</p>
-
