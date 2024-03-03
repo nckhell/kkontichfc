@@ -8,7 +8,7 @@
 
 const obj = {
   heren1eProv: {
-    cloudinaryID: "teams/2022-2023/Eerste_Elftal_A_fp9n1d",
+    cloudinaryID: "teams/2023-2024/Eerste_Elftal_A_u2xjyd.jpg",
     backgroundPosition: "center top 32%",
   },
   heren4eProv: {

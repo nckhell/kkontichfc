@@ -126,26 +126,6 @@ const obj = {
           "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Gilles_Van_Remoortere_lizjix",
       },
       {
-        position: "AANVALLER",
-        lastname: "Bell",
-        firstname: "Alexander",
-        shirtNumber: "",
-        backgroundPosition: "center top 25%",
-        birthdate: "1993-11-29",
-        cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Alexander_Bell_v7qhn5",
-      },
-      {
-        position: "AANVALLER",
-        lastname: "Van Oerle",
-        firstname: "Bjorn",
-        shirtNumber: "",
-        birthdate: "1988-04-27",
-        backgroundPosition: "center top 25%",
-        cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Bjorn_Van_Oerle_zpc4an",
-      },
-      {
         position: "VERDEDIGER",
         lastname: "Servaes",
         firstname: "Yens",
@@ -176,36 +156,6 @@ const obj = {
           "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Renzo_Flebus_gvvae6",
       },
       {
-        position: "MIDDENVELDER",
-        lastname: "Peleman",
-        firstname: "Tim",
-        shirtNumber: "",
-        birthdate: "",
-        backgroundPosition: "center top 25%",
-        cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Tim_Peleman_v8rxmj",
-      },
-      {
-        position: "DOELMAN",
-        lastname: "Geerts",
-        firstname: "Senne",
-        shirtNumber: "",
-        birthdate: "",
-        backgroundPosition: "center top 25%",
-        cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Senne_Geerts_tro6yp",
-      },
-      {
-        position: "AANVALLER",
-        lastname: "Cabumi",
-        firstname: "Didier",
-        shirtNumber: "",
-        birthdate: "",
-        backgroundPosition: "center top 25%",
-        cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_didier_cabumi_l5os4z",
-      },
-      {
         position: "VERDEDIGER",
         lastname: "Marnef",
         firstname: "Mats",
@@ -226,7 +176,7 @@ const obj = {
           "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Kaan_Demet_ypqhp7",
       },
       {
-        position: "AANVALLER",
+        position: "VERDEDIGER",
         lastname: "Kerckhofs",
         firstname: "Bram",
         shirtNumber: "",
@@ -236,24 +186,74 @@ const obj = {
           "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Bram_Kerckhofs_cmzkq9",
       },
       {
+        position: "VERDEDIGER",
+        lastname: "Lauwerys",
+        firstname: "Bent",
+        shirtNumber: "",
+        birthdate: "",
+        backgroundPosition: "center top 10%",
+        cloudinaryID:
+          "spelers/heren/1e-provinciale/2023-2024/Eerste_Elftal_A_-_Bent_Lauwerys_chqnel.jpg",
+      },
+      {
         position: "AANVALLER",
+        lastname: "Weuts",
+        firstname: "Kurt",
+        shirtNumber: "",
+        birthdate: "",
+        backgroundPosition: "center top 25%",
+        cloudinaryID:
+          "spelers/heren/1e-provinciale/2023-2024/Eerste_Elftal_A_-_Kurt_Weuts_aiaydv.jpg",
+      },
+      {
+        position: "AANVALLER",
+        lastname: "Lotfi",
+        firstname: "Hajjab",
+        shirtNumber: "",
+        birthdate: "",
+        backgroundPosition: "center top 25%",
+        cloudinaryID:
+          "spelers/heren/1e-provinciale/2023-2024/Eerste_Elftal_A_-_Lotfi_Hajjab_t1bplc.jpg",
+      },
+      {
+        position: "MIDDENVELDER",
+        lastname: "Saelemaekers",
+        firstname: "Max",
+        shirtNumber: "",
+        birthdate: "",
+        backgroundPosition: "center top 25%",
+        cloudinaryID:
+          "spelers/heren/1e-provinciale/2023-2024/Eerste_Elftal_A_-_Max_Saelemaekers_j4clrg.jpg",
+      },
+      {
+        position: "MIDDENVELDER",
+        lastname: "Strubbe",
+        firstname: "Tiebe",
+        shirtNumber: "",
+        birthdate: "",
+        backgroundPosition: "center top 25%",
+        cloudinaryID:
+          "spelers/heren/1e-provinciale/2023-2024/Eerste_Elftal_A_-_Tiebe_Strubbe_cwnyep.jpg",
+      },
+      {
+        position: "DOELMAN",
+        lastname: "Engelborghs",
+        firstname: "Zeno",
+        shirtNumber: "",
+        birthdate: "",
+        backgroundPosition: "center top 15%",
+        cloudinaryID:
+          "spelers/heren/1e-provinciale/2023-2024/Eerste_Elftal_A_-_Zeno_Engelborghs_tspdbu.jpg",
+      },
+      {
+        position: "VERDEDIGER",
         lastname: "Devondel",
         firstname: "Arthur",
         shirtNumber: "",
         birthdate: "",
-        backgroundPosition: "center top 25%",
+        backgroundPosition: "center top 10%",
         cloudinaryID:
           "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Arthur_Devondel_wfu56x",
-      },
-      {
-        position: "AANVALLER",
-        lastname: "Assoufi",
-        firstname: "Anas",
-        shirtNumber: "",
-        birthdate: "",
-        backgroundPosition: "center top 25%",
-        cloudinaryID:
-          "spelers/heren/1e-provinciale/2022-2023/Eerste_Elftal_A_-_Anas_Assoufi_mq0cxm",
       },
     ],
   },
