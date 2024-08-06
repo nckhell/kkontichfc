@@ -98,15 +98,6 @@ export default [
     cloudinaryID: "van-haute-bvba",
   },
   {
-    url:
-      "http://www.infobel.com/nl/belgium/guy_huygelen/kontich/BE100564696-034572246/businessdetails.aspx",
-    name: "Marktslagerij Guy Huygelen",
-    headsponsor: "YES",
-    order: "10",
-    type: "CLUBSPONSOR",
-    cloudinaryID: "guy-huygelen",
-  },
-  {
     url: "http://www.jakosportshop.be/",
     name: "JAKO",
     headsponsor: "YES",
@@ -827,5 +818,23 @@ export default [
     type: "CLUBSPONSOR",
     cloudinaryID: "logo-kleur_ajan4n",
     highlight: false,
+  },
+  {
+    url: "https://www.cralux.be/",
+    name: "Cralux",
+    headsponsor: "yes",
+    order: "8",
+    type: "CLUBSPONSOR",
+    cloudinaryID: "logo_transparant_zvrzsc",
+    highlight: true,
+  },
+  {
+    url: "https://www.iscstechnical.com/",
+    name: "ISCS",
+    headsponsor: "yes",
+    order: "8",
+    type: "CLUBSPONSOR",
+    cloudinaryID: "637fa3f0955d31fb8d044e0e_iscs-logo_uckhvk",
+    highlight: true,
   },
 ];
