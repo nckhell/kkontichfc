@@ -47,6 +47,10 @@ title: Downloads
       <td><a target="_blank" title="Download Jeugdwerking - Missie" href="https://res.cloudinary.com/kkontichfc/image/upload/v1561490096/downloads/jeugdwerking-missie_ul0uhk.pdf">Download</a></td>
     </tr>
     <tr>
+      <td>Brochure Sponsormogelijkheden</td>
+      <td><a target="_blank" title="Download Brochure Sponsormogelijkheden" href="https://res.cloudinary.com/kkontichfc/image/upload/v1724786321/downloads/Folder-KKFC-2024-2025_pmwv9z.pdf">Download</a></td>
+    </tr>
+    <tr>
       <td>Charter afspraken U6-U13</td>
       <td><a target="_blank" title="Download Charter afspraken U6-U13" href="https://res.cloudinary.com/kkontichfc/image/upload/v1563028599/downloads/charter-u6-u13_clzhzj.pdf">Download</a></td>
     </tr>
