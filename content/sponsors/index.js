@@ -843,4 +843,14 @@ export default [
     cloudinaryID: "318869389_961414698166334_4046970272445476376_n_jncu1q",
     highlight: false,
   },
+  {
+    url: "https://www.textieldeboeck.be/",
+    name: "Textiel De Boeck",
+    headsponsor: "no",
+    order: "8",
+    type: "CLUBSPONSOR",
+    cloudinaryID:
+      "https://res.cloudinary.com/kkontichfc/image/upload/v1736796023/sponsors/Logo_Textiel_De_Boeck_Adres_en_Website_2020_kamxfy.png",
+    highlight: true,
+  },
 ];
