@@ -849,8 +849,7 @@ export default [
     headsponsor: "no",
     order: "8",
     type: "CLUBSPONSOR",
-    cloudinaryID:
-      "https://res.cloudinary.com/kkontichfc/image/upload/v1736796023/sponsors/Logo_Textiel_De_Boeck_Adres_en_Website_2020_kamxfy.png",
+    cloudinaryID: "Logo_Textiel_De_Boeck_Adres_en_Website_2020_kamxfy.png",
     highlight: true,
   },
 ];
