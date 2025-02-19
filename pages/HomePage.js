@@ -17,7 +17,7 @@ function HomePage() {
         <HighLightedSponsors />
         <section className="container my-10 mx-auto px-4 lg:mt-6 lg:mb-16">
           <h1>Laatste nieuws</h1>
-          <LatestNews nbrOfItems={3} excludeSliderItems />
+          <LatestNews nbrOfItems={1} excludeSliderItems={false} />
           <ButtonWithLine text="Meer nieuws" url="/nieuws/overzicht/" />
         </section>
         <section className="container my-10 mx-auto px-4 lg:my-16">

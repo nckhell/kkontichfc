@@ -3,7 +3,7 @@ title: Wes De Ceuster stopt op het einde van het seizoen
 date: 2023-12-31
 cloudinaryID: IMG_9629_ctopsj
 figCaption: Wes De Ceuster
-slider: YES
+slider: NO
 backgroundPosition: top 15% center
 ---
 

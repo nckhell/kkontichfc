@@ -1,7 +1,7 @@
 ---
 title: Ontbijtmanden 15 augustus
 cloudinaryID: Ontbijt_moederkesdag_2022_lx5rdm_1_svrpfw
-slider: YES
+slider: NO
 showImageInArticle: NO
 date: 2024-08-06
 ---
