@@ -20,8 +20,8 @@ class YouthTeam extends Component {
     let thumbnailUrl;
 
     if (data.cloudinaryID) {
-      imageUrl = `https://res.cloudinary.com/kkontichfc/image/upload/c_scale,w_1200,q_100/teams/2021-2022/${data.cloudinaryID}`;
-      thumbnailUrl = `https://res.cloudinary.com/kkontichfc/image/upload/c_scale,w_600/teams/2021-2022/${data.cloudinaryID}`;
+      imageUrl = `https://res.cloudinary.com/kkontichfc/image/upload/c_scale,w_1200,q_100/teams/2024-2025/${data.cloudinaryID}`;
+      thumbnailUrl = `https://res.cloudinary.com/kkontichfc/image/upload/c_scale,w_600/teams/2024-2025/${data.cloudinaryID}`;
     } else {
       imageUrl = prefixURL("/static/img/no-news-image.png");
       thumbnailUrl = imageUrl;
@@ -38,7 +38,7 @@ class YouthTeam extends Component {
           <div
             className="w-full h-68 bg-cover bg-center relative"
             style={{
-              backgroundImage: `url('${thumbnailUrl}')`
+              backgroundImage: `url('${thumbnailUrl}')`,
             }}
           >
             <div className="news-category mt-4 ml-6 position">{data.team}</div>
@@ -58,7 +58,7 @@ class YouthTeam extends Component {
 YouthTeam.propTypes = {
   // eslint-disable-next-line react/forbid-prop-types
   data: PropTypes.object.isRequired,
-  openLightboxWithImage: PropTypes.func.isRequired
+  openLightboxWithImage: PropTypes.func.isRequired,
 };
 
 export default YouthTeam;

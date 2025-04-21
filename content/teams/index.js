@@ -8,23 +8,23 @@
 
 const obj = {
   heren1eProv: {
-    cloudinaryID: "teams/2023-2024/Eerste_Elftal_A_u2xjyd.jpg",
-    backgroundPosition: "center top 32%",
+    cloudinaryID: "teams/2024-2025/1e_prov_roayko.jpg",
+    backgroundPosition: "center top 20%",
   },
   heren4eProv: {
-    cloudinaryID: "teams/2021-2022/3e_prov_lxkpg8",
-    backgroundPosition: "center top 30%",
+    cloudinaryID: "teams/2024-2025/4de_Provinciale_uya3tw.jpg",
+    backgroundPosition: "center top 45%",
   },
   interprovincialeB: {
-    cloudinaryID: "teams/2019-2020/_MG_1865_jmno9p.jpg",
+    cloudinaryID: "",
     backgroundPosition: "center top 45%",
   },
   dames2eProv: {
-    cloudinaryID: "teams/2021-2022/dames_1e_prov_fxxvxx",
+    cloudinaryID: "",
     backgroundPosition: "center top 60%",
   },
   dames3eProv: {
-    cloudinaryID: "teams/2021-2022/dames_2e_prov_h57qwg",
+    cloudinaryID: "",
     backgroundPosition: "center top 65%",
   },
 };
