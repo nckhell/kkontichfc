@@ -78,11 +78,11 @@ const obj = {
       url: "",
     },
   },
-  dames2eProv: {
+  dames1eProv: {
     staticRoutingInfo: {
-      url: "/dames/2e-provinciale/",
-      readableTitle: "Dames 2e Provinciale",
-      shortHandTitle: "Dames 2e Prov.",
+      url: "/dames/1e-provinciale/",
+      readableTitle: "Dames 1e Provinciale",
+      shortHandTitle: "Dames 1e Prov.",
     },
     ranking: {
       url:
@@ -104,11 +104,11 @@ const obj = {
       url: "",
     },
   },
-  dames3eProv: {
+  dames2eProv: {
     staticRoutingInfo: {
-      url: "/dames/3e-provinciale/",
-      readableTitle: "Dames 3e Provinciale",
-      shortHandTitle: "Dames 3e Prov.",
+      url: "/dames/2e-provinciale/",
+      readableTitle: "Dames 2e Provinciale",
+      shortHandTitle: "Dames 2e Prov.",
     },
     ranking: {
       url:

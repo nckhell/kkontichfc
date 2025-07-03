@@ -90,13 +90,13 @@ const Menu = () => {
               </Link>
             </li>
             <li>
-              <Link href="/dames/2e-provinciale/">
-                <a title="Dames 2e pronviciale">2e Provinciale</a>
+              <Link href="/dames/1e-provinciale/">
+                <a title="Dames 1e pronviciale">1e Provinciale</a>
               </Link>
             </li>
             <li>
-              <Link href="/dames/3e-provinciale/">
-                <a title="Dames 3e provinciale">3e Provinciale</a>
+              <Link href="/dames/2e-provinciale/">
+                <a title="Dames 2e provinciale">2e Provinciale</a>
               </Link>
             </li>
           </ul>
@@ -118,23 +118,8 @@ const Menu = () => {
               </Link>
             </li>
             <li>
-              <Link href="/jeugd/paasstage-2023/">
-                <a>Paasstage 2023</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/jeugd/trainingen/">
-                <a title="Trainingen">Trainingen</a>
-              </Link>
-            </li>
-            <li>
               <Link href="/jeugd/ploegen/">
                 <a title="Ploegen">Ploegen</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/jeugd/trainers/">
-                <a title="Trainers">Trainers</a>
               </Link>
             </li>
             <li>
@@ -146,11 +131,6 @@ const Menu = () => {
               >
                 Kalenders
               </a>
-            </li>
-            <li>
-              <Link href="/jeugd/lidgeld/">
-                <a title="Lidgeld">Lidgeld</a>
-              </Link>
             </li>
             <li>
               <a

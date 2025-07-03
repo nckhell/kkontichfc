@@ -19,11 +19,11 @@ const obj = {
     cloudinaryID: "",
     backgroundPosition: "center top 45%",
   },
-  dames2eProv: {
+  dames1eProv: {
     cloudinaryID: "",
     backgroundPosition: "center top 60%",
   },
-  dames3eProv: {
+  dames2eProv: {
     cloudinaryID: "",
     backgroundPosition: "center top 65%",
   },

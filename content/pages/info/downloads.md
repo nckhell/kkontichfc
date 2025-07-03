@@ -27,13 +27,13 @@ title: Downloads
       <td><a target="_blank" title="Download Panathlonverklaring" href="https://res.cloudinary.com/kkontichfc/image/upload/v1561490096/downloads/panathlon_trybsl.pdf">Download</a></td>
     </tr>
     <tr>
-      <td>Lidgeld en informatie 2023-2024</td>
-      <td><a target="_blank" title="Download Lidgeld en informatie 2023-2024" href="https://res.cloudinary.com/kkontichfc/image/upload/v1693595555/downloads/K_Kontich_FC_brief_lidgelden_2023-2024_of2wmc.pdf">Download</a></td>
+      <td>Lidgeld en informatie 2025-2026</td>
+      <td><a target="_blank" title="Download Lidgeld en informatie 2025-2026" href="https://res.cloudinary.com/kkontichfc/image/upload/v1751541476/downloads/K_Kontich_FC_brief_lidgelden_2025-2026_hoqunp.pdf">Download</a></td>
     </tr>
-    <tr>
+    <!-- <tr>
       <td>Lidgeld en informatie dames 2023-2024</td>
       <td><a target="_blank" title="Download Lidgeld en informatie dames 2023-2024" href="https://res.cloudinary.com/kkontichfc/image/upload/v1693595555/downloads/Dames___lidgeld_en_informatie_2023-2024_ig6s2j.pdf">Download</a></td>
-    </tr>
+    </tr> -->
     <tr>
       <td>Opleidingsvisie en leerplan</td>
       <td><a target="_blank" title="Download Opleidingsvisie en leerplan" href="https://res.cloudinary.com/kkontichfc/image/upload/v1561490102/downloads/opleidingsvisievfv_tziyzh.pdf">Download</a></td>
@@ -48,31 +48,11 @@ title: Downloads
     </tr>
     <tr>
       <td>Brochure Sponsormogelijkheden</td>
-      <td><a target="_blank" title="Download Brochure Sponsormogelijkheden" href="https://res.cloudinary.com/kkontichfc/image/upload/v1724786321/downloads/Folder-KKFC-2024-2025_pmwv9z.pdf">Download</a></td>
+      <td><a target="_blank" title="Download Brochure Sponsormogelijkheden" href="https://res.cloudinary.com/kkontichfc/image/upload/v1751541540/downloads/Partnership___wedstrijdbal_LED_spandoek_ckl9jf.pdf">Download</a></td>
     </tr>
     <tr>
       <td>Charter afspraken U6-U13</td>
       <td><a target="_blank" title="Download Charter afspraken U6-U13" href="https://res.cloudinary.com/kkontichfc/image/upload/v1563028599/downloads/charter-u6-u13_clzhzj.pdf">Download</a></td>
-    </tr>
-    <tr>
-      <td>Archief: Trainingsschema 2021-2022</td>
-      <td><a target="_blank" title="Trainingsschema 2021-2022" href="https://res.cloudinary.com/kkontichfc/image/upload/v1629136497/downloads/Trainingsschema-2021-2022_dobuzl.pdf">Download</a></td>
-    </tr>
-    <tr>
-      <td>Archief: Trainersorganigram 2017 - 2018</td>
-      <td><a target="_blank" title="Download Archief: Trainersorganigram 2017 - 2018" href="https://res.cloudinary.com/kkontichfc/image/upload/v1563028658/downloads/trainers-afgevaardigden-2017-2018_knsbtl.pdf">Download</a></td>
-    </tr>
-    <tr>
-      <td>Archief: Missie 2015-2016</td>
-      <td><a target="_blank" title="Download Archief: Missie 2015-2016" href="https://res.cloudinary.com/kkontichfc/image/upload/v1561490096/downloads/archief-missie-2015-2016_wpaprx.pdf">Download</a></td>
-    </tr>
-    <tr>
-      <td>Archief: Visie 2015-2016</td>
-      <td><a target="_blank" title="Download Archief: Visie 2015-2016" href="https://res.cloudinary.com/kkontichfc/image/upload/v1561490101/downloads/visie-2015-2016_ohvwcu.pdf">Download</a></td>
-    </tr>
-    <tr>
-      <td>Archief: Trainers 2015-2016</td>
-      <td><a target="_blank" title="Download Archief: Trainers 2015-2016" href="https://res.cloudinary.com/kkontichfc/image/upload/v1563028717/downloads/archief-trainers-2015-2016_gff1yt.pdf">Download</a></td>
     </tr>
   </tbody>
 </table>

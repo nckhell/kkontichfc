@@ -33,6 +33,14 @@ const Footer = () => {
                 Dames interprov. B
               </a>
             </Link>
+            <Link href="/dames/1e-provinciale/">
+              <a
+                title="Dames 1e Provinciale"
+                className="text-sm text-gray-500 py-1"
+              >
+                Dames 1e Prov.
+              </a>
+            </Link>
             <Link href="/dames/2e-provinciale/">
               <a
                 title="Dames 2e Provinciale"
@@ -41,30 +49,12 @@ const Footer = () => {
                 Dames 2e Prov.
               </a>
             </Link>
-            <Link href="/dames/3e-provinciale/">
-              <a
-                title="Dames 3e Provinciale"
-                className="text-sm text-gray-500 py-1"
-              >
-                Dames 3e Prov.
-              </a>
-            </Link>
           </div>
           <div className="md:w-1/4 flex flex-col mb-12 md:mb-0">
             <h4 className="text-base pb-4 text-gray-800">Jeugd</h4>
-            <Link href="/jeugd/trainingen">
-              <a title="Trainingen" className="text-sm text-gray-500 py-1">
-                Trainingen
-              </a>
-            </Link>
             <Link href="/jeugd/ploegen/">
               <a title="Ploegen" className="text-sm text-gray-500 py-1">
                 Ploegen
-              </a>
-            </Link>
-            <Link href="/jeugd/trainers/">
-              <a title="Trainers" className="text-sm text-gray-500 py-1">
-                Trainers
               </a>
             </Link>
             <Link href="/jeugd/vermant-cup/">
@@ -81,11 +71,6 @@ const Footer = () => {
             >
               Kalenders
             </a>
-            <Link href="/jeugd/lidgeld/">
-              <a title="Lidgeld" className="text-sm text-gray-500 py-1">
-                Lidgeld
-              </a>
-            </Link>
             <a
               title="Online registratie"
               className="text-sm text-gray-500 py-1"

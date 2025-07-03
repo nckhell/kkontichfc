@@ -1,7 +1,7 @@
 ---
 title: Kaas en wijnavond (21 februari 2025)
 cloudinaryID: kaas-en-wijn_1_mee3xx
-slider: YES
+slider: NO
 date: 2025-02-13
 ---
 

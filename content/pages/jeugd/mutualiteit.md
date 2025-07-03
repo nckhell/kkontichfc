@@ -1,10 +1,10 @@
 ---
 title: Mutualiteit
 ---
-<img src="https://res.cloudinary.com/kkontichfc/image/upload/v1556376650/sponsors/vlaams-neutraal-ziekenfonds.png" alt="Vlaams & Neutraal Ziekenfonds" />
-<p><strong><span lang="NL">Sommige mutualiteiten betalen een deel van het inschrijvingsgeld voor een sportkamp en/of een deel van het lidgeld van een sportclub terug.</span></strong><span lang="NL"> <br />K. Kontich F.C. heeft een samenwerking opgestart met de mutualiteit die de grootste tussenkomst voorziet in het lidgeld van sportclubs, zijnde het Vlaams &amp; Neutraal Ziekenfonds.</span></p>
-<p><span lang="NL">Het Vlaams &amp; Neutraal Ziekenfonds komt voor maar liefst 30 EUR tussen in het lidgeld &eacute;n voorziet een tussenkomst van 30 EUR voor een sportmedische keuring, daar waar andere ziekenfondsen beduidend minder bijdragen. Schrijf je &eacute;&eacute;n of meerdere kinderen in in een sportclub, dan maakt dat dus al snel een behoorlijk verschil uit.</span></p>
-<p><strong><span lang="NL">We geven je alvast graag een overzichtje mee<em>:</em></span></strong></p>
+
+<p>Sommige mutualiteiten betalen een deel van het inschrijvingsgeld voor een sportkamp en/of een deel van het lidgeld van een sportclub terug.</p>
+
+<p><strong>We geven je alvast graag een overzichtje mee</strong></p>
 <ul>
   <li><span style="text-decoration: underline;">Vlaams &amp; Neutraal Ziekenfonds:</span> &euro; 30 + &euro; 30 voor een sportmedische keuring (<a href="http://www.vnz.be">www.vnz.be</a>)</li>
   <li><span style="text-decoration: underline;"> Liberale Mutualiteit:</span> &euro; 25 (<a href="http://www.lmpa.be">www.lmpa.be</a>)</li>
@@ -48,4 +48,3 @@ title: Mutualiteit
     </tr>
   </tbody>
 </table>
-<p>Ben je geïnteresseerd in de producten van het Vlaams & Neutraal Ziekenfonds, neem dan contact op met Mevr. Ilse Van Mol (ledenadviseur) – GSM. 0494/49.95.69 – E-mail. <a href="mailto:ilse.van.mol@vnz.be" title="ilse.van.mol@vnz.be">ilse.van.mol@vnz.be</a></p>

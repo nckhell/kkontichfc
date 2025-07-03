@@ -15,6 +15,13 @@ const LatestNews = (props) => {
   const filterOutNewsItemWithSpecificSlug = (input) =>
     _.filter(input, (item) => R.view(filenameLens, item) !== excludeWithSlug);
 
+  const isMaxThreeMonthsOld = (newsItem) => {
+    const newsDate = new Date(newsItem.date);
+    const threeMonthsAgo = new Date();
+    threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 3);
+    return newsDate > threeMonthsAgo;
+  };
+
   const isNoSliderItem = (newsItem) => R.view(sliderLens, newsItem) !== "YES";
 
   const latestNewsList = R.compose(
@@ -26,11 +33,12 @@ const LatestNews = (props) => {
       return news;
     },
     filterOutNewsItemWithSpecificSlug,
+    R.filter(isMaxThreeMonthsOld),
     sortNewsSummaryJsonOnDate
   )(SUMMARY_JSON);
 
   return (
-    <div className="mt-6 md:flex md:-mx-2 flex-wrap justify-center">
+    <div className="mt-6 md:flex md:-mx-2 flex-wrap">
       {latestNewsList &&
         latestNewsList.map((newsArticle) => {
           return (

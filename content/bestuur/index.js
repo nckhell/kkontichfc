@@ -12,14 +12,6 @@ const obj = [
         cloudinaryID: "",
       },
       {
-        firstname: "Luc",
-        lastname: "De Corte",
-        function: "GC",
-        tel: "0499/90.79.91",
-        email: "ldecorte@hotmail.com en gc@kkontichfc.be",
-        cloudinaryID: "",
-      },
-      {
         firstname: "Cedric",
         lastname: "Cottignie",
         function: "Houder blauwe kaart",
@@ -38,7 +30,7 @@ const obj = [
       {
         firstname: "Theo",
         lastname: "Knegtel",
-        function: "Houder blauwe kaart",
+        function: "GC",
         tel: "0495/90.33.00",
         email: "knegtel.theos@skynet.be",
         cloudinaryID: "",

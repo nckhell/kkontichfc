@@ -24,7 +24,7 @@ title: Ongevallen
 6. Indien de bond het ongeval aanvaardt, dan krijgt men via mail een bevestiging van de bond.
 
 <p><strong>Clubsecretaris K. Kontich FC</strong>
-    <br> Luc De Corte - 0499/90.79.91 - <a href="mailto:gc@kkontichfc.be" title="Mail clubsecretaris K. Kontich FC">gc@kkontichfc.be</a>
+    <br>Theo Knegtel - 0495 90 33 00 - <a href="mailto:gc@kkontichfc.be" title="Mail clubsecretaris K. Kontich FC">gc@kkontichfc.be</a>
 </p>
 
 <div id="aangifte-formulier">

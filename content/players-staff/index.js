@@ -256,43 +256,50 @@ const obj = {
     staff: [
       {
         position: "T1",
-        lastname: "Didi",
-        firstname: "Karim",
+        lastname: "Ehlen",
+        firstname: "Stephanie",
         birthdate: "",
         email: "",
-        cloudinaryID: "staff/dames/2019-2020/IMG_9073_jgic2n",
+        cloudinaryID: "",
+      },
+    ],
+  },
+  dames1eProv: {
+    staff: [
+      {
+        position: "Coach",
+        lastname: "Stevens",
+        firstname: "Mike",
+        birthdate: "",
+        email: "",
+        cloudinaryID: "",
+      },
+      {
+        position: "Coach",
+        lastname: "Claessens",
+        firstname: "Shauni",
+        birthdate: "",
+        email: "",
+        cloudinaryID: "",
       },
     ],
   },
   dames2eProv: {
     staff: [
       {
-        position: "T1",
-        lastname: "Van Camp",
-        firstname: "Indyana",
+        position: "Coach",
+        lastname: "De Pauw",
+        firstname: "Arno",
         birthdate: "",
-        email: "dretha98@gmail.com",
-        cloudinaryID:
-          "spelers/heren/1e-provinciale/2018-2019/van-camp-indyana_hqxld6",
-      },
-      {
-        position: "Afgv.",
-        lastname: "Kesters",
-        firstname: "Jefry",
-        birthdate: "",
-        email: "jefrykesters@gmail.com",
+        email: "",
         cloudinaryID: "",
       },
-    ],
-  },
-  dames3eProv: {
-    staff: [
       {
-        position: "T1",
-        lastname: "Dams",
-        firstname: "Pascale",
+        position: "Coach",
+        lastname: "Rewers",
+        firstname: "Joël",
         birthdate: "",
-        email: "pascale.dams@hotmail.com",
+        email: "",
         cloudinaryID: "",
       },
     ],
