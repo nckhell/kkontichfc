@@ -2,8 +2,6 @@
 title: Huur benedenkatine
 ---
 
-<div class="center mb-6"><img src="https://res.cloudinary.com/kkontichfc/image/upload/v1561492152/kantine/spotlight_kantine_nffgqg.png" alt="Huur onze kantine" />
-</div>
 <p>Een communicant in de familie? Je ziet het niet zitten om de jaarlijkse BBQ-familie dit jaar bij jou in de tuin te organiseren? De benedenkantine van K. Kontich F.C. biedt dan zeker een oplossing! Je kan onze benedenkantine huren tegen erg democratische voorwaarden. Ontdek ze hier!</p>
 
 <h2>Financiële voorwaarden</h2>
