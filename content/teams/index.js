@@ -8,11 +8,11 @@
 
 const obj = {
   heren1eProv: {
-    cloudinaryID: "teams/2024-2025/1e_prov_roayko.jpg",
+    cloudinaryID: "",
     backgroundPosition: "center top 20%",
   },
   heren4eProv: {
-    cloudinaryID: "teams/2024-2025/4de_Provinciale_uya3tw.jpg",
+    cloudinaryID: "",
     backgroundPosition: "center top 45%",
   },
   interprovincialeB: {
