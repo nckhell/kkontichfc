@@ -11,13 +11,12 @@ const obj = {
     staff: [
       {
         position: "T1",
-        lastname: "Verachtert",
-        firstname: "Jan",
+        lastname: " Spaenhoven ",
+        firstname: "Urbain",
         birthdate: "",
         email: "",
-        backgroundPosition: "center top 25%",
-        cloudinaryID:
-          "spelers/heren/1e-provinciale/2025-2026/Jan_Verachtert_tnwezw",
+        // backgroundPosition: "center top 25%",
+        cloudinaryID: undefined,
       },
       {
         position: "T2",
@@ -150,16 +149,6 @@ const obj = {
       },
       {
         position: "VERDEDIGER",
-        lastname: "Lambrechts",
-        firstname: "Yaro",
-        shirtNumber: "",
-        birthdate: "",
-        backgroundPosition: "center top 25%",
-        cloudinaryID:
-          "spelers/heren/1e-provinciale/2025-2026/Yaro_Lambrechts_V_e8ew74",
-      },
-      {
-        position: "VERDEDIGER",
         lastname: "Loriers",
         firstname: "Niels",
         shirtNumber: "",
@@ -259,6 +248,16 @@ const obj = {
           "spelers/heren/1e-provinciale/2025-2026/Laurens_De_Bakker_A_gl0xrd",
       },
       {
+        position: "VERDEDIGER",
+        lastname: "Dom",
+        firstname: "Joren",
+        shirtNumber: "",
+        birthdate: "",
+        backgroundPosition: "center top 40%",
+        cloudinaryID:
+          "spelers/heren/1e-provinciale/2025-2026/Joren_Dom_V_awyva6",
+      },
+      {
         position: "AANVALLER",
         lastname: "De Cock",
         firstname: "Victor",
@@ -293,6 +292,56 @@ const obj = {
       },
     ],
     players: [
+      {
+        position: "VERDEDIGER",
+        lastname: "Lazopoulus",
+        firstname: "Anna",
+        shirtNumber: "",
+        birthdate: "",
+        backgroundPosition: "center top 10%",
+        cloudinaryID:
+          "spelers/dames/interprovinciale/2025-2026/Anna_Lazopoulus_huyvez",
+      },
+      {
+        position: "MIDDENVELDER",
+        lastname: "Luyten",
+        firstname: "Julie",
+        shirtNumber: "",
+        birthdate: "",
+        backgroundPosition: "center top 10%",
+        cloudinaryID:
+          "spelers/dames/interprovinciale/2025-2026/Julie_Luyten_M_g93a1e",
+      },
+      {
+        position: "AANVALLER",
+        lastname: "Bergen",
+        firstname: "Anouk",
+        shirtNumber: "",
+        birthdate: "",
+        backgroundPosition: "center top 10%",
+        cloudinaryID:
+          "spelers/dames/interprovinciale/2025-2026/Anouk_Bergen_A_i8ycmf",
+      },
+      {
+        position: "AANVALLER",
+        lastname: "Reynaert",
+        firstname: "Maaike",
+        shirtNumber: "",
+        birthdate: "",
+        backgroundPosition: "center top 10%",
+        cloudinaryID:
+          "spelers/dames/interprovinciale/2025-2026/Maaike_Reynaert_A_p34syc",
+      },
+      {
+        position: "AANVALLER",
+        lastname: "Morrens",
+        firstname: "Pauline",
+        shirtNumber: "",
+        birthdate: "",
+        backgroundPosition: "center top 10%",
+        cloudinaryID:
+          "spelers/dames/interprovinciale/2025-2026/Pauline_Morrens_V_kpoeze",
+      },
       {
         position: "AANVALLER",
         lastname: "Fransen",

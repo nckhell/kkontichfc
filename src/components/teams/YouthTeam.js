@@ -20,8 +20,8 @@ class YouthTeam extends Component {
     let thumbnailUrl;
 
     if (data.cloudinaryID) {
-      imageUrl = `https://res.cloudinary.com/kkontichfc/image/upload/c_scale,w_1200,q_100/teams/2024-2025/${data.cloudinaryID}`;
-      thumbnailUrl = `https://res.cloudinary.com/kkontichfc/image/upload/c_scale,w_600/teams/2024-2025/${data.cloudinaryID}`;
+      imageUrl = `https://res.cloudinary.com/kkontichfc/image/upload/c_scale,w_1200,q_100/teams/2025-2026/${data.cloudinaryID}`;
+      thumbnailUrl = `https://res.cloudinary.com/kkontichfc/image/upload/c_scale,w_600/teams/2025-2026/${data.cloudinaryID}`;
     } else {
       imageUrl = prefixURL("/static/img/no-news-image.png");
       thumbnailUrl = imageUrl;
