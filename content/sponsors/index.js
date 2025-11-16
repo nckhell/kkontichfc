@@ -750,7 +750,7 @@ export default [
     highlight: false,
   },
 {
-  url: "https://www.bloemen-carisma.be/",
+  url: "http://www.carisma.be/",
   name: "Bloemen Carisma",
   headsponsor: "no",
   order: "8",
